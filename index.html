@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MaximumTrainer</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --bg-card: #ffffff;
+      --text: #1a1a2e;
+      --text-muted: #555;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --border: #e2e8f0;
+      --tag-bg: #f1f5f9;
+      --tag-text: #475569;
+      --section-bg: #f8fafc;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --bg-card: #1e293b;
+        --text: #e2e8f0;
+        --text-muted: #94a3b8;
+        --accent: #60a5fa;
+        --accent-hover: #93bbfd;
+        --border: #334155;
+        --tag-bg: #334155;
+        --tag-text: #cbd5e1;
+        --section-bg: #1e293b;
+      }
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { color: var(--accent-hover); }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Header */
+    header {
+      padding: 3rem 0 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      max-width: 600px;
+    }
+
+    .header-links {
+      margin-top: 1rem;
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .header-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.95rem;
+    }
+
+    .header-links svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+    }
+
+    /* Sections */
+    section {
+      padding: 2.5rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    section:last-child { border-bottom: none; }
+
+    section h2 {
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-bottom: 1.25rem;
+    }
+
+    /* About */
+    .about-content {
+      color: var(--text-muted);
+      max-width: 680px;
+    }
+
+    .about-content p + p { margin-top: 0.75rem; }
+
+    .lang-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .lang-tag {
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    /* Project cards */
+    .project-group { margin-bottom: 2rem; }
+    .project-group:last-child { margin-bottom: 0; }
+
+    .project-group h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.75rem;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+
+    .project-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      transition: border-color 0.15s;
+    }
+
+    .project-card:hover { border-color: var(--accent); }
+
+    .project-card h4 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.35rem;
+    }
+
+    .project-card h4 a { color: var(--text); }
+    .project-card h4 a:hover { color: var(--accent); }
+
+    .project-card p {
+      color: var(--text-muted);
+      font-size: 0.875rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .project-meta {
+      display: flex;
+      gap: 1rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .project-meta span {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .lang-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    /* Topics */
+    .topics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+
+    .topic-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      transition: border-color 0.15s;
+    }
+
+    .topic-card:hover { border-color: var(--accent); }
+
+    .topic-card h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.35rem;
+      text-transform: none;
+      letter-spacing: normal;
+      color: var(--text);
+    }
+
+    .topic-card p {
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+
+    .topic-placeholder {
+      border-style: dashed;
+    }
+
+    .topic-placeholder p {
+      font-style: italic;
+    }
+
+    /* Footer */
+    footer {
+      padding: 2rem 0;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>MaximumTrainer</h1>
+      <p>Software engineer building tools for athletes, developers, and everything in between.</p>
+      <div class="header-links">
+        <a href="https://github.com/MaximumTrainer">
+          <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+      <h2>About</h2>
+      <div class="about-content">
+        <p>I build software across a range of domains &mdash; from indoor cycling platforms and sprint training tools, to developer productivity infrastructure and data engineering experiments.</p>
+        <p>Most of my work is open source. I enjoy test-driven development, clean architecture, and solving problems that sit at the intersection of fitness and technology.</p>
+        <div class="lang-list">
+          <span class="lang-tag">TypeScript</span>
+          <span class="lang-tag">C#</span>
+          <span class="lang-tag">Kotlin</span>
+          <span class="lang-tag">Go</span>
+          <span class="lang-tag">Java</span>
+          <span class="lang-tag">Python</span>
+          <span class="lang-tag">C++</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project-group">
+        <h3>Training &amp; Fitness</h3>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h4><a href="https://github.com/MaximumTrainer/MaximumTrainer_Redux">MaximumTrainer Redux</a></h4>
+            <p>Cross-platform indoor cycling training solution.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#f34b7d"></span> C++</span>
+              <span>&#9733; 24</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h4><a href="https://github.com/MaximumTrainer/SilverSprint">SilverSprint</a></h4>
+            <p>"Neural-First" training platform for aging sprinters with CNS fatigue detection.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#3178c6"></span> TypeScript</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h4><a href="https://github.com/MaximumTrainer/freelap-intervals">freelap-intervals</a></h4>
+            <p>Freelap to intervals.icu sprint sync &mdash; writes timed sprint sessions as structured intervals.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#3178c6"></span> TypeScript</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h4><a href="https://github.com/MaximumTrainer/sprint-coach">sprint-coach</a></h4>
+            <p>Sprint coaching tooling.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#3178c6"></span> TypeScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-group">
+        <h3>Developer Tools &amp; Engineering</h3>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h4><a href="https://github.com/MaximumTrainer/SdlcKnowledgeGraph">SdlcKnowledgeGraph</a></h4>
+            <p>Unified engineering knowledge graph where each Git repository is a node.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#A97BFF"></span> Kotlin</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h4><a href="https://github.com/MaximumTrainer/Waymark">Waymark</a></h4>
+            <p>Schema-driven journey orchestration engine.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#178600"></span> C#</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h4><a href="https://github.com/MaximumTrainer/gatekeeper">gatekeeper</a></h4>
+            <p>Simple tool to verify if a public dependency repository is accessible.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#00ADD8"></span> Go</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h4><a href="https://github.com/MaximumTrainer/GopherMesh">GopherMesh</a></h4>
+            <p>Go networking project.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#00ADD8"></span> Go</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h4><a href="https://github.com/MaximumTrainer/chorus">chorus</a></h4>
+            <p>Open-source product workspace for teams that build with coding agents.</p>
+          </div>
+          <div class="project-card">
+            <h4><a href="https://github.com/MaximumTrainer/white-papers">white-papers</a></h4>
+            <p>Example white papers explaining engineering practices.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-group">
+        <h3>Data &amp; LLM Experiments</h3>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h4><a href="https://github.com/MaximumTrainer/OpenFactstore">OpenFactstore</a></h4>
+            <p>Experimental black box LLM reimplementation of a data tool.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#A97BFF"></span> Kotlin</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h4><a href="https://github.com/MaximumTrainer/OpenDataMask">OpenDataMask</a></h4>
+            <p>Blackbox experiment data masking tool.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#A97BFF"></span> Kotlin</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h4><a href="https://github.com/MaximumTrainer/synthetic-concoction">synthetic-concoction</a></h4>
+            <p>Experimental synthetic data generation engine.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#178600"></span> C#</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Topics -->
+    <section id="topics">
+      <h2>Topics</h2>
+      <div class="topics-grid">
+        <a href="topics/getting-started.html" class="topic-card">
+          <h3>Getting Started</h3>
+          <p>How this site is set up and how to add new content.</p>
+        </a>
+        <div class="topic-card topic-placeholder">
+          <h3>More coming soon</h3>
+          <p>Add new topics by creating HTML files in the topics/ directory.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 MaximumTrainer</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
