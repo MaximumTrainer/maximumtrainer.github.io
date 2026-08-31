@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - MaximumTrainer</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --bg-card: #ffffff;
+      --text: #1a1a2e;
+      --text-muted: #555;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --border: #e2e8f0;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --bg-card: #1e293b;
+        --text: #e2e8f0;
+        --text-muted: #94a3b8;
+        --accent: #60a5fa;
+        --accent-hover: #93bbfd;
+        --border: #334155;
+      }
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { color: var(--accent-hover); }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    nav {
+      padding: 1.25rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.9rem;
+    }
+
+    section {
+      padding: 2.5rem 0;
+    }
+
+    section h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      margin-bottom: 2.5rem;
+    }
+
+    .project-group { margin-bottom: 2.5rem; }
+    .project-group:last-child { margin-bottom: 0; }
+
+    .project-group h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.75rem;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+
+    .project-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      transition: border-color 0.15s;
+    }
+
+    .project-card:hover { border-color: var(--accent); }
+
+    .project-card h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.35rem;
+    }
+
+    .project-card h3 a { color: var(--text); }
+    .project-card h3 a:hover { color: var(--accent); }
+
+    .project-card p {
+      color: var(--text-muted);
+      font-size: 0.875rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .project-meta {
+      display: flex;
+      gap: 1rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .project-meta span {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .lang-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    footer {
+      padding: 2rem 0;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <nav>
+      <a href="/">&larr; Home</a>
+    </nav>
+
+    <section>
+      <h1>Projects</h1>
+      <p class="subtitle">Open source work on <a href="https://github.com/MaximumTrainer">GitHub</a>.</p>
+
+      <div class="project-group">
+        <h2>Training &amp; Fitness</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3><a href="https://github.com/MaximumTrainer/MaximumTrainer_Redux">MaximumTrainer Redux</a></h3>
+            <p>Cross-platform indoor cycling training solution.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#f34b7d"></span> C++</span>
+              <span>&#9733; 24</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://github.com/MaximumTrainer/SilverSprint">SilverSprint</a></h3>
+            <p>"Neural-First" training platform for aging sprinters with CNS fatigue detection.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#3178c6"></span> TypeScript</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://github.com/MaximumTrainer/freelap-intervals">freelap-intervals</a></h3>
+            <p>Freelap to intervals.icu sprint sync &mdash; writes timed sprint sessions as structured intervals.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#3178c6"></span> TypeScript</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://github.com/MaximumTrainer/sprint-coach">sprint-coach</a></h3>
+            <p>Sprint coaching tooling.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#3178c6"></span> TypeScript</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://github.com/MaximumTrainer/virtualrow">virtualrow</a></h3>
+            <p>Virtual rowing project.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#3178c6"></span> TypeScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-group">
+        <h2>Developer Tools &amp; Engineering</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3><a href="https://github.com/MaximumTrainer/SdlcKnowledgeGraph">SdlcKnowledgeGraph</a></h3>
+            <p>Unified engineering knowledge graph where each Git repository is a node.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#A97BFF"></span> Kotlin</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://github.com/MaximumTrainer/Waymark">Waymark</a></h3>
+            <p>Schema-driven journey orchestration engine.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#178600"></span> C#</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://github.com/MaximumTrainer/gatekeeper">gatekeeper</a></h3>
+            <p>Simple tool to verify if a public dependency repository is accessible.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#00ADD8"></span> Go</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://github.com/MaximumTrainer/GopherMesh">GopherMesh</a></h3>
+            <p>Go networking project.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#00ADD8"></span> Go</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://github.com/MaximumTrainer/Copilot-Jira-Orchestrator">Copilot-Jira-Orchestrator</a></h3>
+            <p>Copilot and Jira integration orchestrator.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#178600"></span> C#</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://github.com/MaximumTrainer/chorus">chorus</a></h3>
+            <p>Open-source product workspace for teams that build with coding agents.</p>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://github.com/MaximumTrainer/white-papers">white-papers</a></h3>
+            <p>Example white papers explaining engineering practices.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-group">
+        <h2>Data &amp; LLM Experiments</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3><a href="https://github.com/MaximumTrainer/OpenFactstore">OpenFactstore</a></h3>
+            <p>Experimental black box LLM reimplementation of a data tool.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#A97BFF"></span> Kotlin</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://github.com/MaximumTrainer/OpenDataMask">OpenDataMask</a></h3>
+            <p>Blackbox experiment data masking tool.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#A97BFF"></span> Kotlin</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://github.com/MaximumTrainer/synthetic-concoction">synthetic-concoction</a></h3>
+            <p>Experimental synthetic data generation engine.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#178600"></span> C#</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://github.com/MaximumTrainer/llm-cad">llm-cad</a></h3>
+            <p>LLM-driven CAD experiment.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#3572A5"></span> Python</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://github.com/MaximumTrainer/shadow-of-the-beast-wasm">shadow-of-the-beast-wasm</a></h3>
+            <p>WASM Rust reimplementation of Amiga Shadow of the Beast game.</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <footer>
+      <p>&copy; 2026 MaximumTrainer</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
