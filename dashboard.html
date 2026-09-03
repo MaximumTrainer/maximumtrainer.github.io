@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Issue Dashboard - MaximumTrainer</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --bg-card: #ffffff;
+      --text: #1a1a2e;
+      --text-muted: #555;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --border: #e2e8f0;
+      --tag-bg: #f1f5f9;
+      --tag-text: #475569;
+      --warn-bg: #fef3c7;
+      --warn-text: #78350f;
+      --warn-border: #fcd34d;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --bg-card: #1e293b;
+        --text: #e2e8f0;
+        --text-muted: #94a3b8;
+        --accent: #60a5fa;
+        --accent-hover: #93bbfd;
+        --border: #334155;
+        --tag-bg: #334155;
+        --tag-text: #cbd5e1;
+        --warn-bg: #422006;
+        --warn-text: #fde68a;
+        --warn-border: #854d0e;
+      }
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { color: var(--accent-hover); }
+
+    :focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    nav {
+      padding: 1.25rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.9rem;
+    }
+
+    section { padding: 2.5rem 0; }
+
+    section h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+    }
+
+    /* Summary strip */
+    .summary {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 2rem;
+      align-items: baseline;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .stat .num {
+      font-size: 1.5rem;
+      font-weight: 700;
+      display: block;
+      line-height: 1.2;
+    }
+
+    .stat .label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .summary-note {
+      flex-basis: 100%;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      padding-top: 0.75rem;
+    }
+
+    .banner {
+      background: var(--warn-bg);
+      color: var(--warn-text);
+      border: 1px solid var(--warn-border);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      font-size: 0.875rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Controls */
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .control { display: flex; flex-direction: column; gap: 0.25rem; flex: 1 1 160px; }
+    .control.wide { flex: 2 1 240px; }
+
+    .control label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .control input, .control select {
+      font: inherit;
+      font-size: 0.9rem;
+      padding: 0.5rem 0.6rem;
+      background: var(--bg-card);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      width: 100%;
+    }
+
+    .filter-status {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+
+    .filter-status button {
+      font: inherit;
+      font-size: 0.85rem;
+      background: none;
+      border: none;
+      color: var(--accent);
+      cursor: pointer;
+      padding: 0;
+      text-decoration: underline;
+    }
+
+    /* Repo groups */
+    .repo-group {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      overflow: hidden;
+    }
+
+    .repo-group > summary {
+      padding: 0.9rem 1.25rem;
+      cursor: pointer;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.5rem 0.75rem;
+      list-style: none;
+      user-select: none;
+    }
+
+    .repo-group > summary::-webkit-details-marker { display: none; }
+
+    .repo-group > summary::before {
+      content: "\25B8";
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      transition: transform 0.15s;
+      display: inline-block;
+    }
+
+    .repo-group[open] > summary::before { transform: rotate(90deg); }
+
+    .repo-name { font-weight: 600; }
+
+    .repo-count {
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      border-radius: 9999px;
+      padding: 0.05rem 0.6rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+
+    .repo-desc {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      flex-basis: 100%;
+      margin-left: 1.25rem;
+    }
+
+    .issue-list { list-style: none; }
+
+    .issue {
+      border-top: 1px solid var(--border);
+      padding: 0.85rem 1.25rem;
+    }
+
+    .issue-title {
+      font-size: 0.95rem;
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    .issue-title:hover { color: var(--accent); }
+
+    .issue-num {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .issue-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.4rem 0.75rem;
+      margin-top: 0.4rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .label-chip {
+      border-radius: 9999px;
+      padding: 0.05rem 0.55rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      white-space: nowrap;
+    }
+
+    .empty, .error {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+      color: var(--text-muted);
+    }
+
+    .empty p, .error p { margin-bottom: 0.5rem; }
+    .empty p:last-child, .error p:last-child { margin-bottom: 0; }
+
+    footer {
+      padding: 2rem 0;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+    }
+
+    @media (max-width: 480px) {
+      .summary { gap: 0.75rem 1.25rem; }
+      .stat .num { font-size: 1.25rem; }
+      .control { flex-basis: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <nav>
+      <a href="/">&larr; Home</a>
+    </nav>
+
+    <section>
+      <h1>Issue Dashboard</h1>
+      <p class="subtitle">Every open issue across the public MaximumTrainer repositories, in one place.</p>
+
+      <div id="banners"></div>
+      <div id="summary"></div>
+      <div id="controls" hidden>
+        <div class="controls">
+          <div class="control wide">
+            <label for="q">Filter</label>
+            <input id="q" type="search" placeholder="Title, repository or label" autocomplete="off">
+          </div>
+          <div class="control">
+            <label for="repo">Repository</label>
+            <select id="repo"><option value="">All repositories</option></select>
+          </div>
+          <div class="control">
+            <label for="label">Label</label>
+            <select id="label"><option value="">All labels</option></select>
+          </div>
+          <div class="control">
+            <label for="sort">Sort</label>
+            <select id="sort">
+              <option value="updated">Recently updated</option>
+              <option value="newest">Newest</option>
+              <option value="oldest">Oldest</option>
+            </select>
+          </div>
+        </div>
+        <p class="filter-status" id="filter-status" hidden></p>
+      </div>
+
+      <div id="results">
+        <div class="empty"><p>Loading issues&hellip;</p></div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 MaximumTrainer</p>
+    </footer>
+
+  </div>
+
+  <script>
+  (function () {
+    'use strict';
+
+    var SEARCH_URL = 'https://github.com/issues?q=' +
+      encodeURIComponent('org:MaximumTrainer is:issue is:open is:public');
+    var STALE_AFTER_MS = 3 * 60 * 60 * 1000;
+
+    var els = {
+      banners: document.getElementById('banners'),
+      summary: document.getElementById('summary'),
+      controls: document.getElementById('controls'),
+      results: document.getElementById('results'),
+      status: document.getElementById('filter-status'),
+      q: document.getElementById('q'),
+      repo: document.getElementById('repo'),
+      label: document.getElementById('label'),
+      sort: document.getElementById('sort')
+    };
+
+    var data = null;
+
+    /* ---------- helpers ---------- */
+
+    function el(tag, className, text) {
+      var node = document.createElement(tag);
+      if (className) node.className = className;
+      if (text != null) node.textContent = text;
+      return node;
+    }
+
+    function plural(n, word) {
+      return n + ' ' + word + (n === 1 ? '' : 's');
+    }
+
+    function relativeTime(iso) {
+      var then = Date.parse(iso);
+      if (isNaN(then)) return 'unknown';
+      var secs = Math.max(0, (Date.now() - then) / 1000);
+      var units = [
+        [31536000, 'year'], [2592000, 'month'], [604800, 'week'],
+        [86400, 'day'], [3600, 'hour'], [60, 'minute']
+      ];
+      for (var i = 0; i < units.length; i++) {
+        var n = Math.floor(secs / units[i][0]);
+        if (n >= 1) return plural(n, units[i][1]) + ' ago';
+      }
+      return 'just now';
+    }
+
+    /* Label chips use the label's own colour, adjusted until the text on it
+       meets WCAG AA (4.5:1) in either theme. */
+    function luminance(rgb) {
+      var c = rgb.map(function (v) {
+        v /= 255;
+        return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+      });
+      return 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2];
+    }
+
+    function contrast(a, b) {
+      var la = luminance(a), lb = luminance(b);
+      return (Math.max(la, lb) + 0.05) / (Math.min(la, lb) + 0.05);
+    }
+
+    function parseHex(hex) {
+      var h = String(hex || '').replace('#', '');
+      if (h.length === 3) h = h[0] + h[0] + h[1] + h[1] + h[2] + h[2];
+      if (!/^[0-9a-fA-F]{6}$/.test(h)) return null;
+      return [parseInt(h.slice(0, 2), 16), parseInt(h.slice(2, 4), 16), parseInt(h.slice(4, 6), 16)];
+    }
+
+    function chipColors(hex) {
+      var bg = parseHex(hex);
+      if (!bg) return null;
+      var black = [0, 0, 0], white = [255, 255, 255];
+      var fg = contrast(bg, black) >= contrast(bg, white) ? black : white;
+      var towardsWhite = fg === black;
+      // Push the background away from the text colour until AA is met.
+      for (var i = 0; i < 24 && contrast(bg, fg) < 4.5; i++) {
+        bg = bg.map(function (v) {
+          return towardsWhite ? Math.min(255, Math.round(v + (255 - v) * 0.12) + 1)
+                              : Math.max(0, Math.round(v * 0.88) - 1);
+        });
+      }
+      return { bg: 'rgb(' + bg.join(',') + ')', fg: 'rgb(' + fg.join(',') + ')' };
+    }
+
+    function banner(text) {
+      els.banners.appendChild(el('div', 'banner', text));
+    }
+
+    function showMessage(container, className, lines) {
+      var box = el('div', className);
+      lines.forEach(function (line) {
+        var p = el('p');
+        if (typeof line === 'string') p.textContent = line;
+        else p.appendChild(line);
+        box.appendChild(p);
+      });
+      container.innerHTML = '';
+      container.appendChild(box);
+    }
+
+    /* ---------- URL state ---------- */
+
+    function readState() {
+      var params = new URLSearchParams(location.search);
+      var sort = params.get('sort');
+      return {
+        q: params.get('q') || '',
+        repo: params.get('repo') || '',
+        label: params.get('label') || '',
+        sort: (sort === 'newest' || sort === 'oldest') ? sort : 'updated'
+      };
+    }
+
+    function writeState(state) {
+      var params = new URLSearchParams();
+      if (state.q) params.set('q', state.q);
+      if (state.repo) params.set('repo', state.repo);
+      if (state.label) params.set('label', state.label);
+      if (state.sort !== 'updated') params.set('sort', state.sort);
+      var qs = params.toString();
+      history.replaceState(null, '', qs ? '?' + qs : location.pathname);
+    }
+
+    /* ---------- rendering ---------- */
+
+    function renderSummary(shown, total, repoCount) {
+      els.summary.innerHTML = '';
+      var strip = el('div', 'summary');
+
+      function stat(num, label) {
+        var s = el('div', 'stat');
+        s.appendChild(el('span', 'num', String(num)));
+        s.appendChild(el('span', 'label', label));
+        strip.appendChild(s);
+      }
+
+      stat(shown === total ? total : shown + ' / ' + total, 'Open issues');
+      stat(repoCount, repoCount === 1 ? 'Repository' : 'Repositories');
+
+      var updated = el('div', 'stat');
+      updated.appendChild(el('span', 'num', relativeTime(data.generated_at)));
+      updated.appendChild(el('span', 'label', 'Updated'));
+      strip.appendChild(updated);
+
+      var note = el('div', 'summary-note');
+      note.appendChild(document.createTextNode('Public repositories only — private work is not shown here. '));
+      var time = el('time', null, 'Data refreshed hourly; generated ' + data.generated_at.replace('T', ' ').replace('Z', ' UTC') + '.');
+      time.setAttribute('datetime', data.generated_at);
+      note.appendChild(time);
+      strip.appendChild(note);
+
+      els.summary.appendChild(strip);
+    }
+
+    function renderIssue(issue) {
+      var li = el('li', 'issue');
+
+      var link = el('a', 'issue-title', issue.title);
+      link.href = issue.url;
+      link.target = '_blank';
+      link.rel = 'noopener';
+      li.appendChild(link);
+      li.appendChild(document.createTextNode(' '));
+      li.appendChild(el('span', 'issue-num', '#' + issue.number));
+
+      var meta = el('div', 'issue-meta');
+      issue.labels.forEach(function (label) {
+        var chip = el('span', 'label-chip', label.name);
+        var colors = chipColors(label.color);
+        if (colors) {
+          chip.style.background = colors.bg;
+          chip.style.color = colors.fg;
+        } else {
+          chip.style.background = 'var(--tag-bg)';
+          chip.style.color = 'var(--tag-text)';
+        }
+        meta.appendChild(chip);
+      });
+
+      meta.appendChild(el('span', null, 'updated ' + relativeTime(issue.updated_at)));
+      if (issue.assignees.length) {
+        meta.appendChild(el('span', null, issue.assignees.join(', ')));
+      }
+      if (issue.comment_count > 0) {
+        meta.appendChild(el('span', null, plural(issue.comment_count, 'comment')));
+      }
+      li.appendChild(meta);
+
+      return li;
+    }
+
+    function renderGroups(issues, state) {
+      var byRepo = {};
+      issues.forEach(function (issue) {
+        (byRepo[issue.repo] = byRepo[issue.repo] || []).push(issue);
+      });
+
+      var repoInfo = {};
+      data.repos.forEach(function (r) { repoInfo[r.name] = r; });
+
+      var names = Object.keys(byRepo).sort(function (a, b) {
+        return byRepo[b].length - byRepo[a].length || a.localeCompare(b);
+      });
+
+      var frag = document.createDocumentFragment();
+
+      names.forEach(function (name) {
+        var group = el('details', 'repo-group');
+        group.open = true;
+
+        var summary = el('summary');
+        var repoLink = el('a', 'repo-name', name);
+        repoLink.href = (repoInfo[name] && repoInfo[name].url) ||
+          'https://github.com/MaximumTrainer/' + name;
+        repoLink.target = '_blank';
+        repoLink.rel = 'noopener';
+        // Opening the repo must not also collapse the group.
+        repoLink.addEventListener('click', function (event) { event.stopPropagation(); });
+        summary.appendChild(repoLink);
+        summary.appendChild(el('span', 'repo-count', plural(byRepo[name].length, 'open issue')));
+        if (repoInfo[name] && repoInfo[name].description) {
+          summary.appendChild(el('span', 'repo-desc', repoInfo[name].description));
+        }
+        group.appendChild(summary);
+
+        var list = el('ul', 'issue-list');
+        byRepo[name].slice().sort(function (a, b) {
+          if (state.sort === 'newest') return b.created_at.localeCompare(a.created_at);
+          if (state.sort === 'oldest') return a.created_at.localeCompare(b.created_at);
+          return b.updated_at.localeCompare(a.updated_at);
+        }).forEach(function (issue) {
+          list.appendChild(renderIssue(issue));
+        });
+        group.appendChild(list);
+
+        frag.appendChild(group);
+      });
+
+      els.results.innerHTML = '';
+      els.results.appendChild(frag);
+    }
+
+    /* ---------- filtering ---------- */
+
+    function matches(issue, state) {
+      if (state.repo && issue.repo !== state.repo) return false;
+      if (state.label && !issue.labels.some(function (l) { return l.name === state.label; })) return false;
+      if (state.q) {
+        var needle = state.q.toLowerCase();
+        var haystack = issue.title + ' ' + issue.repo + ' ' +
+          issue.labels.map(function (l) { return l.name; }).join(' ');
+        if (haystack.toLowerCase().indexOf(needle) === -1) return false;
+      }
+      return true;
+    }
+
+    function apply() {
+      var state = {
+        q: els.q.value.trim(),
+        repo: els.repo.value,
+        label: els.label.value,
+        sort: els.sort.value
+      };
+      writeState(state);
+
+      var shown = data.issues.filter(function (issue) { return matches(issue, state); });
+      var repos = {};
+      shown.forEach(function (issue) { repos[issue.repo] = true; });
+
+      renderSummary(shown.length, data.issue_count, Object.keys(repos).length);
+
+      var filtering = !!(state.q || state.repo || state.label);
+      els.status.hidden = !filtering;
+      if (filtering) {
+        els.status.textContent = 'Showing ' + shown.length + ' of ' +
+          plural(data.issue_count, 'open issue') + '. ';
+        var reset = el('button', null, 'Clear filters');
+        reset.type = 'button';
+        reset.addEventListener('click', function () {
+          els.q.value = '';
+          els.repo.value = '';
+          els.label.value = '';
+          apply();
+          els.q.focus();
+        });
+        els.status.appendChild(reset);
+      }
+
+      if (!shown.length) {
+        showMessage(els.results, 'empty', filtering
+          ? ['No issues match these filters.']
+          : ['No open issues across the public MaximumTrainer repositories.',
+             'Nothing to triage — enjoy it while it lasts.']);
+        return;
+      }
+
+      renderGroups(shown, state);
+    }
+
+    function populateFilters(state) {
+      data.repos.forEach(function (repo) {
+        var option = el('option', null, repo.name + ' (' + repo.open_issue_count + ')');
+        option.value = repo.name;
+        els.repo.appendChild(option);
+      });
+
+      var labels = {};
+      data.issues.forEach(function (issue) {
+        issue.labels.forEach(function (l) { labels[l.name] = (labels[l.name] || 0) + 1; });
+      });
+      Object.keys(labels).sort(function (a, b) {
+        return labels[b] - labels[a] || a.localeCompare(b);
+      }).forEach(function (name) {
+        var option = el('option', null, name + ' (' + labels[name] + ')');
+        option.value = name;
+        els.label.appendChild(option);
+      });
+
+      els.q.value = state.q;
+      els.repo.value = state.repo;
+      els.label.value = state.label;
+      els.sort.value = state.sort;
+      // A repo or label in the URL that no longer exists falls back to "all".
+      if (els.repo.selectedIndex === -1) els.repo.value = '';
+      if (els.label.selectedIndex === -1) els.label.value = '';
+    }
+
+    function valid(payload) {
+      return payload && typeof payload === 'object' &&
+        Array.isArray(payload.issues) && Array.isArray(payload.repos) &&
+        typeof payload.generated_at === 'string';
+    }
+
+    function failed() {
+      els.controls.hidden = true;
+      var link = el('a', null, 'View the open issues on GitHub');
+      link.href = SEARCH_URL;
+      link.target = '_blank';
+      link.rel = 'noopener';
+      showMessage(els.results, 'error', [
+        'The issue data could not be loaded.',
+        'It is refreshed hourly by a scheduled job — this is usually temporary.',
+        link
+      ]);
+    }
+
+    /* ---------- boot ---------- */
+
+    fetch('data/issues.json', { cache: 'no-cache' })
+      .then(function (res) {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.json();
+      })
+      .then(function (payload) {
+        if (!valid(payload)) throw new Error('malformed data');
+        data = payload;
+
+        if (data.truncated) {
+          banner('More issues exist than the GitHub search API will return — this list is incomplete.');
+        }
+        if (Date.now() - Date.parse(data.generated_at) > STALE_AFTER_MS) {
+          banner('This data may be stale: it was last refreshed ' + relativeTime(data.generated_at) + '.');
+        }
+
+        var state = readState();
+        populateFilters(state);
+        els.controls.hidden = false;
+
+        ['input', 'change'].forEach(function (event) {
+          els.q.addEventListener(event, apply);
+        });
+        [els.repo, els.label, els.sort].forEach(function (control) {
+          control.addEventListener('change', apply);
+        });
+
+        apply();
+      })
+      .catch(function (err) {
+        console.error('Failed to load issue data:', err);
+        failed();
+      });
+  })();
+  </script>
+
+</body>
+</html>

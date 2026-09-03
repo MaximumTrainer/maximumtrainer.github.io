@@ -1,0 +1,4293 @@
+{
+  "generated_at": "2026-09-03T17:00:42Z",
+  "issue_count": 180,
+  "repo_count": 9,
+  "truncated": false,
+  "repos": [
+    {
+      "name": "chorus",
+      "url": "https://github.com/MaximumTrainer/chorus",
+      "description": "an open-source product workspace for teams that build with coding agents",
+      "open_issue_count": 147
+    },
+    {
+      "name": "OpenFactstore",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore",
+      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
+      "open_issue_count": 12
+    },
+    {
+      "name": "freelap-intervals",
+      "url": "https://github.com/MaximumTrainer/freelap-intervals",
+      "description": "# Freelap → intervals.icu Sprint Sync  Takes a timed sprint session from a Freelap system and writes it into intervals.icu — as structured intervals, summary custom fields and a human-readable rep table — then reads the activity back and reports every way it differs from what was intended.",
+      "open_issue_count": 8
+    },
+    {
+      "name": "synthetic-fabricate",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
+      "description": "experimental synthetic data generation engine",
+      "open_issue_count": 6
+    },
+    {
+      "name": "virtualrow",
+      "url": "https://github.com/MaximumTrainer/virtualrow",
+      "description": "",
+      "open_issue_count": 3
+    },
+    {
+      "name": "llm-cad",
+      "url": "https://github.com/MaximumTrainer/llm-cad",
+      "description": "",
+      "open_issue_count": 1
+    },
+    {
+      "name": "MaximumTrainer_Redux",
+      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux",
+      "description": "The original cross platform indoor cycling solution",
+      "open_issue_count": 1
+    },
+    {
+      "name": "maximumtrainer.github.io",
+      "url": "https://github.com/MaximumTrainer/maximumtrainer.github.io",
+      "description": "",
+      "open_issue_count": 1
+    },
+    {
+      "name": "Waymark",
+      "url": "https://github.com/MaximumTrainer/Waymark",
+      "description": "Schema-driven journey orchestration engine ",
+      "open_issue_count": 1
+    }
+  ],
+  "issues": [
+    {
+      "id": "I_kwDOUJlhks8AAAABPjxMvA",
+      "repo": "maximumtrainer.github.io",
+      "number": 1,
+      "title": "Cross-project open issue dashboard, refreshed hourly",
+      "url": "https://github.com/MaximumTrainer/maximumtrainer.github.io/issues/1",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-03T16:42:31Z",
+      "updated_at": "2026-09-03T16:54:00Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBeDDQ",
+      "repo": "chorus",
+      "number": 107,
+      "title": "SLACK-6 — Email and in-app notifications as the fallback surface",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/107",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:slack",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:42:25Z",
+      "updated_at": "2026-09-03T16:49:36Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzZlw",
+      "repo": "chorus",
+      "number": 68,
+      "title": "AGENT-3 — Checkpoint policies per team and workflow",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/68",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:agent",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:24:30Z",
+      "updated_at": "2026-09-03T16:49:34Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzVgg",
+      "repo": "chorus",
+      "number": 66,
+      "title": "AGENT-1 — Workflow registry and the built-in workflow set",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/66",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:agent",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:24:23Z",
+      "updated_at": "2026-09-03T16:49:09Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAlB-w",
+      "repo": "chorus",
+      "number": 15,
+      "title": "EPIC: Non-functional requirements and platform qualities (NFR)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/15",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:59:09Z",
+      "updated_at": "2026-09-03T12:31:19Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAk7sw",
+      "repo": "chorus",
+      "number": 12,
+      "title": "EPIC: Integration framework and connectors (INT)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/12",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:int",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:59:00Z",
+      "updated_at": "2026-09-03T12:31:16Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAklgg",
+      "repo": "chorus",
+      "number": 1,
+      "title": "EPIC: Workspace, identity and access (WS)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/1",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:ws",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:27Z",
+      "updated_at": "2026-09-03T12:31:13Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPMyiYA",
+      "repo": "chorus",
+      "number": 146,
+      "title": "WS-3 AC2 — the team charter must reach the agent's assembled prompt and its recorded context",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/146",
+      "labels": [
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:ws",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-01T17:47:53Z",
+      "updated_at": "2026-09-03T12:31:09Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBq5FQ",
+      "repo": "chorus",
+      "number": 136,
+      "title": "NFR-5 — Auditability and end-to-end observability",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/136",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T18:07:30Z",
+      "updated_at": "2026-09-03T12:24:33Z",
+      "comment_count": 2
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBqr4w",
+      "repo": "chorus",
+      "number": 134,
+      "title": "NFR-3 — Security: tenancy, encryption, secrets, webhooks, rate limits, scanning",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/134",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T18:07:08Z",
+      "updated_at": "2026-09-03T12:24:30Z",
+      "comment_count": 2
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBjhUg",
+      "repo": "chorus",
+      "number": 132,
+      "title": "NFR-1 — Self-hosting: one command, one host, no mandatory SaaS",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/132",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:53:21Z",
+      "updated_at": "2026-09-03T12:24:25Z",
+      "comment_count": 2
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBrcsw",
+      "repo": "chorus",
+      "number": 143,
+      "title": "NFR-12 — Developer experience: one-command dev, typed end to end, seed data",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/143",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T18:08:37Z",
+      "updated_at": "2026-09-03T12:23:51Z",
+      "comment_count": 2
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBjkyA",
+      "repo": "chorus",
+      "number": 133,
+      "title": "NFR-2 — Model agnosticism with per-task-type routing and versioned prompts",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/133",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:53:27Z",
+      "updated_at": "2026-09-03T12:23:48Z",
+      "comment_count": 2
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBhRlA",
+      "repo": "chorus",
+      "number": 114,
+      "title": "INT-2 — MVP source connectors: GitHub, GitLab, Linear, Jira",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/114",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:int",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:48:44Z",
+      "updated_at": "2026-09-03T12:23:44Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAmySQ",
+      "repo": "chorus",
+      "number": 19,
+      "title": "WS-4 — Roles and permission enforcement",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/19",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:ws",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:02:14Z",
+      "updated_at": "2026-09-03T12:23:41Z",
+      "comment_count": 2
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAmwcQ",
+      "repo": "chorus",
+      "number": 18,
+      "title": "WS-3 — Teams with charter, repositories, trackers and policies",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/18",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:ws",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:02:11Z",
+      "updated_at": "2026-09-03T12:23:38Z",
+      "comment_count": 2
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAkufw",
+      "repo": "chorus",
+      "number": 5,
+      "title": "EPIC: Product brain — context engine (BRAIN)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/5",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:brain",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:40Z",
+      "updated_at": "2026-09-03T12:22:59Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPhTpIA",
+      "repo": "chorus",
+      "number": 154,
+      "title": "Indexing throughput margin is thinner than it looks, and inserts are per-row",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/154",
+      "labels": [
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:brain",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-03T12:20:12Z",
+      "updated_at": "2026-09-03T12:20:12Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPgmRBw",
+      "repo": "chorus",
+      "number": 153,
+      "title": "Compile TypeScript for production images instead of running tsx",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/153",
+      "labels": [
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-03T11:08:00Z",
+      "updated_at": "2026-09-03T11:08:00Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPehwwA",
+      "repo": "synthetic-fabricate",
+      "number": 60,
+      "title": "Self-hosted deployment with bring-your-own-key LLM provider support",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/60",
+      "labels": [
+        {
+          "name": "architecture",
+          "color": "ededed"
+        },
+        {
+          "name": "compliance",
+          "color": "ededed"
+        },
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        },
+        {
+          "name": "application",
+          "color": "0e8a16"
+        },
+        {
+          "name": "configuration",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-03T07:23:38Z",
+      "updated_at": "2026-09-03T08:29:49Z",
+      "comment_count": 2
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPe9hrQ",
+      "repo": "synthetic-fabricate",
+      "number": 61,
+      "title": "Lightweight hosted deployment from GitHub (Fly.io reference) with bring-your-own-key",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/61",
+      "labels": [
+        {
+          "name": "documentation",
+          "color": "0075ca"
+        },
+        {
+          "name": "automation",
+          "color": "ededed"
+        },
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        },
+        {
+          "name": "configuration",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-03T08:12:57Z",
+      "updated_at": "2026-09-03T08:29:23Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPe9EvA",
+      "repo": "chorus",
+      "number": 152,
+      "title": "D-5 follow-up: build the model evaluation set and publish benchmarked tier profiles",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/152",
+      "labels": [
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-03T08:12:07Z",
+      "updated_at": "2026-09-03T08:12:07Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABO2VpAw",
+      "repo": "virtualrow",
+      "number": 208,
+      "title": "Propose optional 'path' field to rownative/courses and report course data anomalies upstream (R-14)",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/208",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-30T10:01:35Z",
+      "updated_at": "2026-09-03T07:46:33Z",
+      "comment_count": 3
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPeJQRA",
+      "repo": "synthetic-fabricate",
+      "number": 58,
+      "title": "Bring your own key (BYOK) for LLM providers",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/58",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "application",
+          "color": "0e8a16"
+        },
+        {
+          "name": "configuration",
+          "color": "5319e7"
+        },
+        {
+          "name": "api",
+          "color": "0052cc"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-03T06:39:17Z",
+      "updated_at": "2026-09-03T06:46:16Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABO4RLeg",
+      "repo": "virtualrow",
+      "number": 216,
+      "title": "Scenery asset catalogue for the rownative course library (for llm-cad)",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/216",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-08-30T17:45:19Z",
+      "updated_at": "2026-09-01T21:05:09Z",
+      "comment_count": 3
+    },
+    {
+      "id": "I_kwDOUJBGPs8AAAABPNtj-Q",
+      "repo": "llm-cad",
+      "number": 1,
+      "title": "Deploy cad-mcp as a remote MCP server on Fly.io, managed by GitHub Actions",
+      "url": "https://github.com/MaximumTrainer/llm-cad/issues/1",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-01T19:32:57Z",
+      "updated_at": "2026-09-01T19:41:28Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPM72Yg",
+      "repo": "chorus",
+      "number": 151,
+      "title": "Project website: vision, status and contribution guide, deployed to GitHub Pages",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/151",
+      "labels": [
+        {
+          "name": "documentation",
+          "color": "0075ca"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-01T18:04:59Z",
+      "updated_at": "2026-09-01T18:08:34Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaelA",
+      "repo": "chorus",
+      "number": 89,
+      "title": "MCP-5 — Permission parity and logging of every MCP call",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/89",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:mcp",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:53Z",
+      "updated_at": "2026-09-01T17:49:48Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPMzBhg",
+      "repo": "chorus",
+      "number": 149,
+      "title": "WS-4 AC1 — coding-job and prototype launch must require senior_member",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/149",
+      "labels": [
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:ws",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-01T17:48:49Z",
+      "updated_at": "2026-09-01T17:48:49Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPMyrWA",
+      "repo": "chorus",
+      "number": 147,
+      "title": "WS-3 AC3 — scope artefact queries by team once tasks, documents and integrations exist",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/147",
+      "labels": [
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:ws",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-01T17:48:09Z",
+      "updated_at": "2026-09-01T17:48:10Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAm2kQ",
+      "repo": "chorus",
+      "number": 21,
+      "title": "WS-6 — Audit log of mutations and agent runs",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/21",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:ws",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:02:21Z",
+      "updated_at": "2026-09-01T15:12:22Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABO9YR6w",
+      "repo": "OpenFactstore",
+      "number": 156,
+      "title": "User authentication: sign-in, sessions and role-based access for the web UI",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/156",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "security",
+          "color": "ededed"
+        },
+        {
+          "name": "authentication",
+          "color": "ededed"
+        },
+        {
+          "name": "rbac",
+          "color": "e4e669"
+        },
+        {
+          "name": "sso",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T09:56:28Z",
+      "updated_at": "2026-09-01T14:37:39Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABOekEfw",
+      "repo": "OpenFactstore",
+      "number": 155,
+      "title": "API security and authorisation: enforce bearer-token auth with scoped API keys",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/155",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "security",
+          "color": "ededed"
+        },
+        {
+          "name": "authentication",
+          "color": "ededed"
+        },
+        {
+          "name": "rbac",
+          "color": "e4e669"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-27T10:31:22Z",
+      "updated_at": "2026-09-01T14:37:35Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABPK5gNA",
+      "repo": "OpenFactstore",
+      "number": 164,
+      "title": "Cross-pipeline attestation aggregation: let a secondary pipeline attest to an existing Trail",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/164",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "integration",
+          "color": "0e8a16"
+        },
+        {
+          "name": "pipeline",
+          "color": "0e8a16"
+        },
+        {
+          "name": "attestations",
+          "color": "0075ca"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-01T14:23:56Z",
+      "updated_at": "2026-09-01T14:24:18Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABPK5elg",
+      "repo": "OpenFactstore",
+      "number": 163,
+      "title": "Assertion keyed on artifact digest returns a previous run's attestations for the same commit",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/163",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "pipeline",
+          "color": "0e8a16"
+        },
+        {
+          "name": "attestations",
+          "color": "0075ca"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-01T14:23:54Z",
+      "updated_at": "2026-09-01T14:24:17Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABPK5Yyg",
+      "repo": "OpenFactstore",
+      "number": 161,
+      "title": "Trail and Flow cleanup: allow deleting or archiving obsolete records",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/161",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "epic: resource-lifecycle",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-01T14:23:45Z",
+      "updated_at": "2026-09-01T14:24:15Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABPK5Xrg",
+      "repo": "OpenFactstore",
+      "number": 160,
+      "title": "Flow maintenance: no way to edit a Flow or change its required attestations after creation",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/160",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "developer-experience",
+          "color": "e4e669"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-01T14:23:43Z",
+      "updated_at": "2026-09-01T14:24:14Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABPK5Qqg",
+      "repo": "OpenFactstore",
+      "number": 158,
+      "title": "Trail status stays PENDING after a COMPLIANT assertion",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/158",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "compliance",
+          "color": "0e8a16"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-01T14:23:33Z",
+      "updated_at": "2026-09-01T14:24:12Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABPK5Phw",
+      "repo": "OpenFactstore",
+      "number": 157,
+      "title": "Assert result blanks the page - frontend/backend response contract mismatch",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/157",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-01T14:23:31Z",
+      "updated_at": "2026-09-01T14:24:10Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABPK5Z9g",
+      "repo": "OpenFactstore",
+      "number": 162,
+      "title": "Flow templates: pre-populate quality gates and attestations by service type",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/162",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "compliance",
+          "color": "0e8a16"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-01T14:23:47Z",
+      "updated_at": "2026-09-01T14:23:47Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABPK5SCw",
+      "repo": "OpenFactstore",
+      "number": 159,
+      "title": "Evidence File column: hyperlinks are not clickable and uploaded files cannot be viewed",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/159",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "evidence",
+          "color": "0e8a16"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-01T14:23:35Z",
+      "updated_at": "2026-09-01T14:23:35Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBrYHA",
+      "repo": "chorus",
+      "number": 142,
+      "title": "NFR-11 — AI observability: redaction controls, eval hooks, version pinning",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/142",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T18:08:28Z",
+      "updated_at": "2026-09-01T12:19:05Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBrLuA",
+      "repo": "chorus",
+      "number": 139,
+      "title": "NFR-8 — Cost control: spend limits, per-run cost, cheap defaults, caching",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/139",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T18:08:05Z",
+      "updated_at": "2026-09-01T12:19:04Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJDYXs8AAAABO4n3Uw",
+      "repo": "freelap-intervals",
+      "number": 13,
+      "title": "C6 · Identify our intervals by tag as well as name",
+      "url": "https://github.com/MaximumTrainer/freelap-intervals/issues/13",
+      "labels": [
+        {
+          "name": "P3",
+          "color": "fbca04"
+        },
+        {
+          "name": "area: correctness",
+          "color": "1d76db"
+        },
+        {
+          "name": "effort: S",
+          "color": "ededed"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-30T19:09:06Z",
+      "updated_at": "2026-09-01T11:18:12Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPHHHDQ",
+      "repo": "chorus",
+      "number": 144,
+      "title": "dogfood chorus - Placeholder",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/144",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-01T07:29:34Z",
+      "updated_at": "2026-09-01T07:36:25Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPHHSvg",
+      "repo": "chorus",
+      "number": 145,
+      "title": "chorus SDLC controls - placeholder",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/145",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-01T07:29:51Z",
+      "updated_at": "2026-09-01T07:29:51Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaczw",
+      "repo": "chorus",
+      "number": 88,
+      "title": "MCP-4 — Resources and prompts",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/88",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:mcp",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:49Z",
+      "updated_at": "2026-08-31T18:27:56Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaa2w",
+      "repo": "chorus",
+      "number": 87,
+      "title": "MCP-3 — Write tools",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/87",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:mcp",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:46Z",
+      "updated_at": "2026-08-31T18:27:54Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaDsA",
+      "repo": "chorus",
+      "number": 76,
+      "title": "CODE-2 — Deterministic brief assembly shared with MCP",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/76",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:09Z",
+      "updated_at": "2026-08-31T18:27:50Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAlAJQ",
+      "repo": "chorus",
+      "number": 14,
+      "title": "EPIC: Search, navigation and home (NAV)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/14",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:nav",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:59:06Z",
+      "updated_at": "2026-08-31T18:12:24Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAk93Q",
+      "repo": "chorus",
+      "number": 13,
+      "title": "EPIC: Production prototypes (PROTO)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/13",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:proto",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:59:03Z",
+      "updated_at": "2026-08-31T18:12:17Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAk6BQ",
+      "repo": "chorus",
+      "number": 11,
+      "title": "EPIC: Microsoft Teams surface (TEAMS)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/11",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:teams",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:57Z",
+      "updated_at": "2026-08-31T18:12:01Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAk4TA",
+      "repo": "chorus",
+      "number": 10,
+      "title": "EPIC: Slack surface and notifications (SLACK)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/10",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:slack",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:54Z",
+      "updated_at": "2026-08-31T18:11:55Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAk2Tw",
+      "repo": "chorus",
+      "number": 9,
+      "title": "EPIC: Browser extension — capture (EXT)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/9",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:ext",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:51Z",
+      "updated_at": "2026-08-31T18:11:49Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAk0Vw",
+      "repo": "chorus",
+      "number": 8,
+      "title": "EPIC: MCP server (MCP)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/8",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:mcp",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:49Z",
+      "updated_at": "2026-08-31T18:11:41Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAkyfg",
+      "repo": "chorus",
+      "number": 7,
+      "title": "EPIC: Coding-agent execution (CODE)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/7",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:46Z",
+      "updated_at": "2026-08-31T18:11:35Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAkwqQ",
+      "repo": "chorus",
+      "number": 6,
+      "title": "EPIC: Product agent runtime and workflows (AGENT)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/6",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:agent",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:43Z",
+      "updated_at": "2026-08-31T18:11:27Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAkrzQ",
+      "repo": "chorus",
+      "number": 4,
+      "title": "EPIC: Tasks (TASK)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/4",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:task",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:36Z",
+      "updated_at": "2026-08-31T18:11:12Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAkp6A",
+      "repo": "chorus",
+      "number": 3,
+      "title": "EPIC: Documents (DOC)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/3",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:doc",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:33Z",
+      "updated_at": "2026-08-31T18:11:04Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAknig",
+      "repo": "chorus",
+      "number": 2,
+      "title": "EPIC: Chat-driven shaping (CHAT)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/2",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:chat",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:30Z",
+      "updated_at": "2026-08-31T18:10:55Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBrV0Q",
+      "repo": "chorus",
+      "number": 141,
+      "title": "NFR-10 — Accessibility (WCAG 2.1 AA) and internationalised strings",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/141",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T18:08:24Z",
+      "updated_at": "2026-08-31T18:08:24Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBrSGg",
+      "repo": "chorus",
+      "number": 140,
+      "title": "NFR-9 — Extensibility: versioned plugin contracts with shared test kits",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/140",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T18:08:17Z",
+      "updated_at": "2026-08-31T18:08:17Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBrExg",
+      "repo": "chorus",
+      "number": 138,
+      "title": "NFR-7 — Performance budgets and a nightly performance suite",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/138",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T18:07:52Z",
+      "updated_at": "2026-08-31T18:07:52Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBrCBw",
+      "repo": "chorus",
+      "number": 137,
+      "title": "NFR-6 — Reliability: idempotent jobs, durable cursors, resumable runs",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/137",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T18:07:47Z",
+      "updated_at": "2026-08-31T18:07:47Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBqvkw",
+      "repo": "chorus",
+      "number": 135,
+      "title": "NFR-4 — Privacy: permission propagation, masking, retention, export and erasure",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/135",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T18:07:14Z",
+      "updated_at": "2026-08-31T18:07:14Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBh5yg",
+      "repo": "chorus",
+      "number": 131,
+      "title": "NAV-3 — Inbox of items needing a human",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/131",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:nav",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:50:01Z",
+      "updated_at": "2026-08-31T17:50:01Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBh4Dg",
+      "repo": "chorus",
+      "number": 130,
+      "title": "NAV-2 — Team home: recent work, awaiting confirmation, coding queue, checkpoints",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/130",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nav",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:49:57Z",
+      "updated_at": "2026-08-31T17:49:58Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBh2Mw",
+      "repo": "chorus",
+      "number": 129,
+      "title": "NAV-1 — Global search with filters and a keyboard palette",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/129",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nav",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:49:54Z",
+      "updated_at": "2026-08-31T17:49:54Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBhz4Q",
+      "repo": "chorus",
+      "number": 128,
+      "title": "PROTO-6 — Built-in ephemeral preview hosting",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/128",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:could",
+          "color": "fbca04"
+        },
+        {
+          "name": "module:proto",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:49:50Z",
+      "updated_at": "2026-08-31T17:49:50Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBhyBA",
+      "repo": "chorus",
+      "number": 127,
+      "title": "PROTO-5 — Gap specification between a prototype repository and production",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/127",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:proto",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:49:46Z",
+      "updated_at": "2026-08-31T17:49:46Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBhwLw",
+      "repo": "chorus",
+      "number": 126,
+      "title": "PROTO-4 — Prototype feedback and promotion to production tasks",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/126",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:proto",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:49:43Z",
+      "updated_at": "2026-08-31T17:49:43Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBhuaQ",
+      "repo": "chorus",
+      "number": 125,
+      "title": "PROTO-3 — Preview URL discovery across multiple strategies",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/125",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:proto",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:49:39Z",
+      "updated_at": "2026-08-31T17:49:40Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBhspg",
+      "repo": "chorus",
+      "number": 124,
+      "title": "PROTO-2 — Prototype build with mocked backend and design-system reuse",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/124",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:proto",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:49:36Z",
+      "updated_at": "2026-08-31T17:49:36Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBhqzg",
+      "repo": "chorus",
+      "number": 123,
+      "title": "PROTO-1 — Per-repository prototype enablement after framework detection",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/123",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:proto",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:49:32Z",
+      "updated_at": "2026-08-31T17:49:32Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBholQ",
+      "repo": "chorus",
+      "number": 122,
+      "title": "INT-10 — Miro connector: spatial source, board sink and board-to-spec",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/122",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:int",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:49:28Z",
+      "updated_at": "2026-08-31T17:49:28Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBhm4A",
+      "repo": "chorus",
+      "number": 121,
+      "title": "INT-9 — Confluence connector: source, sink and sync semantics",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/121",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:int",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:49:25Z",
+      "updated_at": "2026-08-31T17:49:25Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBhlKg",
+      "repo": "chorus",
+      "number": 120,
+      "title": "INT-8 — Jira connector: source, sink, entity mapping and sync semantics",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/120",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:int",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:49:21Z",
+      "updated_at": "2026-08-31T17:49:21Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBhi_Q",
+      "repo": "chorus",
+      "number": 119,
+      "title": "INT-7 — Connector SDK, contract-test harness and authoring guide",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/119",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:int",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:49:17Z",
+      "updated_at": "2026-08-31T17:49:17Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBhg8g",
+      "repo": "chorus",
+      "number": 118,
+      "title": "INT-6 — Per-team repository settings including path allow/deny",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/118",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:int",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:49:13Z",
+      "updated_at": "2026-08-31T17:49:13Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBhfAA",
+      "repo": "chorus",
+      "number": 117,
+      "title": "INT-5 — Additional sinks: ClickUp, wikis, boards and chat surfaces",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/117",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:int",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:49:09Z",
+      "updated_at": "2026-08-31T17:49:09Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBhaOQ",
+      "repo": "chorus",
+      "number": 116,
+      "title": "INT-4 — MVP sink connectors: trackers and git hosts",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/116",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:int",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:49:00Z",
+      "updated_at": "2026-08-31T17:49:01Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBhV3A",
+      "repo": "chorus",
+      "number": 115,
+      "title": "INT-3 — Knowledge, board, analytics and transcript source connectors",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/115",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:int",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:48:52Z",
+      "updated_at": "2026-08-31T17:48:52Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBeUeA",
+      "repo": "chorus",
+      "number": 112,
+      "title": "TEAMS-5 — Teams tabs embedding the web app with SSO",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/112",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:teams",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:42:58Z",
+      "updated_at": "2026-08-31T17:42:58Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBeLMw",
+      "repo": "chorus",
+      "number": 111,
+      "title": "TEAMS-4 — Autonomous initiation and meeting transcript ingestion",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/111",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:teams",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:42:41Z",
+      "updated_at": "2026-08-31T17:42:41Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBeImQ",
+      "repo": "chorus",
+      "number": 110,
+      "title": "TEAMS-3 — Graph signal ingestion honouring membership and sensitivity labels",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/110",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:teams",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:42:36Z",
+      "updated_at": "2026-08-31T17:42:36Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBeG4g",
+      "repo": "chorus",
+      "number": 109,
+      "title": "TEAMS-2 — Adaptive Card notifications and proactive messages",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/109",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:teams",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:42:33Z",
+      "updated_at": "2026-08-31T17:42:33Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBeFQw",
+      "repo": "chorus",
+      "number": 108,
+      "title": "TEAMS-1 — Teams app package, tenant binding, mentions, threads and commands",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/108",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:teams",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:42:30Z",
+      "updated_at": "2026-08-31T17:42:30Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBeArw",
+      "repo": "chorus",
+      "number": 106,
+      "title": "SLACK-5 — Discord surface via the same adapter",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/106",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:could",
+          "color": "fbca04"
+        },
+        {
+          "name": "module:slack",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:42:22Z",
+      "updated_at": "2026-08-31T17:42:22Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBd-3A",
+      "repo": "chorus",
+      "number": 105,
+      "title": "SLACK-4 — Autonomous initiation from Slack signals",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/105",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:slack",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:42:18Z",
+      "updated_at": "2026-08-31T17:42:18Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBd9Cg",
+      "repo": "chorus",
+      "number": 104,
+      "title": "SLACK-3 — Slack signal ingestion and reaction triggers",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/104",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:slack",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:42:15Z",
+      "updated_at": "2026-08-31T17:42:15Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBd6sQ",
+      "repo": "chorus",
+      "number": 103,
+      "title": "SLACK-2 — Notifications and checkpoint actions in Slack",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/103",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:slack",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:42:11Z",
+      "updated_at": "2026-08-31T17:42:11Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBd5Ow",
+      "repo": "chorus",
+      "number": 102,
+      "title": "SLACK-1 — Slack app: install, subscriptions, mentions, threads and slash command",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/102",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:slack",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:42:08Z",
+      "updated_at": "2026-08-31T17:42:08Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBd2eA",
+      "repo": "chorus",
+      "number": 101,
+      "title": "EXT-10 — Session-replay style capture for bug reports",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/101",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:could",
+          "color": "fbca04"
+        },
+        {
+          "name": "module:ext",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:42:03Z",
+      "updated_at": "2026-08-31T17:42:04Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBd0sw",
+      "repo": "chorus",
+      "number": 100,
+      "title": "EXT-9 — Privacy controls: allow-list, masking, redaction and recording indicator",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/100",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:ext",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:42:00Z",
+      "updated_at": "2026-08-31T17:42:00Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBdy7A",
+      "repo": "chorus",
+      "number": 99,
+      "title": "EXT-8 — Design and board tabs with node and item identifiers",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/99",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:ext",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:41:57Z",
+      "updated_at": "2026-08-31T17:41:57Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBdxTA",
+      "repo": "chorus",
+      "number": 98,
+      "title": "EXT-7 — Live style tweaking captured as a before/after diff",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/98",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:ext",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:41:53Z",
+      "updated_at": "2026-08-31T17:41:53Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBdu-A",
+      "repo": "chorus",
+      "number": 97,
+      "title": "EXT-6 — Panel output actions including tracker export",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/97",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:ext",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:41:50Z",
+      "updated_at": "2026-08-31T17:41:50Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBdtXw",
+      "repo": "chorus",
+      "number": 96,
+      "title": "EXT-5 — Server-side capture processing to code pointers and workflows",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/96",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:ext",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:41:47Z",
+      "updated_at": "2026-08-31T17:41:47Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBdryg",
+      "repo": "chorus",
+      "number": 95,
+      "title": "EXT-4 — Typed notes, grouping and splitting of annotations",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/95",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:ext",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:41:43Z",
+      "updated_at": "2026-08-31T17:41:44Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBdqIw",
+      "repo": "chorus",
+      "number": 94,
+      "title": "EXT-3 — Flow mode: narrated walkthrough recording across tabs",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/94",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:ext",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:41:40Z",
+      "updated_at": "2026-08-31T17:41:40Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBdntw",
+      "repo": "chorus",
+      "number": 93,
+      "title": "EXT-2 — Element mode: annotate UI elements with selectors and component hints",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/93",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:ext",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:41:36Z",
+      "updated_at": "2026-08-31T17:41:37Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBdl4A",
+      "repo": "chorus",
+      "number": 92,
+      "title": "EXT-1 — Manifest V3 extension with side panel, sign-in and team selection",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/92",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:ext",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:41:33Z",
+      "updated_at": "2026-08-31T17:41:33Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaiog",
+      "repo": "chorus",
+      "number": 91,
+      "title": "MCP-7 — Chorus as an MCP client for external servers",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/91",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:mcp",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:59Z",
+      "updated_at": "2026-08-31T17:35:59Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBag7A",
+      "repo": "chorus",
+      "number": 90,
+      "title": "MCP-6 — Handoff UI with per-client setup snippets",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/90",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:mcp",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:56Z",
+      "updated_at": "2026-08-31T17:35:56Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaYiA",
+      "repo": "chorus",
+      "number": 86,
+      "title": "MCP-2 — Read tools",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/86",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:mcp",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:43Z",
+      "updated_at": "2026-08-31T17:35:43Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaWoQ",
+      "repo": "chorus",
+      "number": 85,
+      "title": "MCP-1 — Streamable-HTTP MCP endpoint with OAuth 2.1 and a stdio wrapper",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/85",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:mcp",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:39Z",
+      "updated_at": "2026-08-31T17:35:39Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaTvA",
+      "repo": "chorus",
+      "number": 84,
+      "title": "CODE-10 — Remote executor backends behind the same adapter interface",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/84",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:could",
+          "color": "fbca04"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:35Z",
+      "updated_at": "2026-08-31T17:35:35Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaRkQ",
+      "repo": "chorus",
+      "number": 83,
+      "title": "CODE-9 — Concurrency, quotas and queue visibility",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/83",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:31Z",
+      "updated_at": "2026-08-31T17:35:32Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaPuw",
+      "repo": "chorus",
+      "number": 82,
+      "title": "CODE-8 — Pre-flight test and lint inside the sandbox",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/82",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:28Z",
+      "updated_at": "2026-08-31T17:35:29Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaNzg",
+      "repo": "chorus",
+      "number": 81,
+      "title": "CODE-7 — Pull request review comments fed back as a follow-up job",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/81",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:25Z",
+      "updated_at": "2026-08-31T17:35:25Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaMMg",
+      "repo": "chorus",
+      "number": 80,
+      "title": "CODE-6 — Live job log, cancel and retry with feedback",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/80",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:22Z",
+      "updated_at": "2026-08-31T17:35:22Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaJGQ",
+      "repo": "chorus",
+      "number": 79,
+      "title": "CODE-5 — Branch, commits and pull request with criteria checklist and results",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/79",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:19Z",
+      "updated_at": "2026-08-31T17:35:19Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaHVA",
+      "repo": "chorus",
+      "number": 78,
+      "title": "CODE-4 — Sandbox isolation, egress allow-list and resource limits",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/78",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:15Z",
+      "updated_at": "2026-08-31T17:35:16Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaF-A",
+      "repo": "chorus",
+      "number": 77,
+      "title": "CODE-3 — Pluggable coding adapters including a built-in reference agent",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/77",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:12Z",
+      "updated_at": "2026-08-31T17:35:13Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaB7w",
+      "repo": "chorus",
+      "number": 75,
+      "title": "CODE-1 — Launch a coding job from a task with role and repository checks",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/75",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:06Z",
+      "updated_at": "2026-08-31T17:35:06Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzdHw",
+      "repo": "chorus",
+      "number": 70,
+      "title": "AGENT-5 — Typed tool registry with per-workflow allow-lists",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/70",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:agent",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:24:36Z",
+      "updated_at": "2026-08-31T17:09:31Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzkrA",
+      "repo": "chorus",
+      "number": 74,
+      "title": "AGENT-9 — Evaluation harness with golden sessions and rubric scoring",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/74",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:could",
+          "color": "fbca04"
+        },
+        {
+          "name": "module:agent",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:24:50Z",
+      "updated_at": "2026-08-31T16:24:50Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzivA",
+      "repo": "chorus",
+      "number": 73,
+      "title": "AGENT-8 — Custom team-defined workflows",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/73",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:agent",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:24:46Z",
+      "updated_at": "2026-08-31T16:24:46Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzgvg",
+      "repo": "chorus",
+      "number": 72,
+      "title": "AGENT-7 — Scheduled runs and digests",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/72",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:agent",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:24:43Z",
+      "updated_at": "2026-08-31T16:24:43Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzfEQ",
+      "repo": "chorus",
+      "number": 71,
+      "title": "AGENT-6 — Signal-triggered runs with escalation",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/71",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:agent",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:24:39Z",
+      "updated_at": "2026-08-31T16:24:40Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzbjg",
+      "repo": "chorus",
+      "number": 69,
+      "title": "AGENT-4 — Run traces: viewable, exportable, reproducible",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/69",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:agent",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:24:33Z",
+      "updated_at": "2026-08-31T16:24:33Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzXzA",
+      "repo": "chorus",
+      "number": 67,
+      "title": "AGENT-2 — Workflow router: rules first, classifier fallback, decision logged",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/67",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:agent",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:24:26Z",
+      "updated_at": "2026-08-31T16:24:26Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzTHA",
+      "repo": "chorus",
+      "number": 65,
+      "title": "BRAIN-10 — Enforced per-workspace brain isolation",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/65",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:could",
+          "color": "fbca04"
+        },
+        {
+          "name": "module:brain",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:24:19Z",
+      "updated_at": "2026-08-31T16:24:19Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzRbQ",
+      "repo": "chorus",
+      "number": 64,
+      "title": "BRAIN-9 — Meeting transcript signals with decisions and action items",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/64",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:brain",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:24:16Z",
+      "updated_at": "2026-08-31T16:24:16Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzPZg",
+      "repo": "chorus",
+      "number": 63,
+      "title": "BRAIN-8 — Product analytics signals and anomaly-triggered workflows",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/63",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:brain",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:24:12Z",
+      "updated_at": "2026-08-31T16:24:12Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzN0g",
+      "repo": "chorus",
+      "number": 62,
+      "title": "BRAIN-7 — Self-organisation: merge, split, stale and contradiction detection",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/62",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:brain",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:24:09Z",
+      "updated_at": "2026-08-31T16:24:09Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzL5A",
+      "repo": "chorus",
+      "number": 61,
+      "title": "BRAIN-6 — Brain map with filters, freshness and a detail drawer",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/61",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:brain",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:24:05Z",
+      "updated_at": "2026-08-31T16:24:05Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzJ9g",
+      "repo": "chorus",
+      "number": 60,
+      "title": "BRAIN-5 — Wiki compilation and git push with human-edit protection",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/60",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:brain",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:24:02Z",
+      "updated_at": "2026-08-31T16:24:02Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzIEQ",
+      "repo": "chorus",
+      "number": 59,
+      "title": "BRAIN-4 — Hybrid retrieval with graph expansion and permission filtering",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/59",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:brain",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:23:58Z",
+      "updated_at": "2026-08-31T16:23:58Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzGQQ",
+      "repo": "chorus",
+      "number": 58,
+      "title": "BRAIN-3 — Entity and edge extraction with confidence and evidence",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/58",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:brain",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:23:55Z",
+      "updated_at": "2026-08-31T16:23:55Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzC2A",
+      "repo": "chorus",
+      "number": 56,
+      "title": "BRAIN-1 — Signal ingestion with immutable provenance",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/56",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:brain",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:23:48Z",
+      "updated_at": "2026-08-31T16:23:49Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAsoDg",
+      "repo": "chorus",
+      "number": 55,
+      "title": "TASK-9 — Task dependencies and a critical-path view",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/55",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:could",
+          "color": "fbca04"
+        },
+        {
+          "name": "module:task",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:12:24Z",
+      "updated_at": "2026-08-31T16:12:24Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAsl2w",
+      "repo": "chorus",
+      "number": 54,
+      "title": "TASK-8 — Task templates per tag",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/54",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:task",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:12:20Z",
+      "updated_at": "2026-08-31T16:12:21Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAsjyA",
+      "repo": "chorus",
+      "number": 53,
+      "title": "TASK-7 — Duplicate and overlap detection",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/53",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:task",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:12:17Z",
+      "updated_at": "2026-08-31T16:12:17Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAshxg",
+      "repo": "chorus",
+      "number": 52,
+      "title": "TASK-6 — Task panel actions: build, handoff, push, duplicate check",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/52",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:task",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:12:13Z",
+      "updated_at": "2026-08-31T16:12:14Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAsflA",
+      "repo": "chorus",
+      "number": 51,
+      "title": "TASK-5 — Assignment and the Agent tag with policy auto-launch",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/51",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:task",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:12:10Z",
+      "updated_at": "2026-08-31T16:12:10Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAsdgw",
+      "repo": "chorus",
+      "number": 50,
+      "title": "TASK-4 — Push to trackers with mapping, status mirror and conflict state",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/50",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:task",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:12:06Z",
+      "updated_at": "2026-08-31T16:12:06Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAsbAA",
+      "repo": "chorus",
+      "number": 49,
+      "title": "TASK-3 — Automatic, editable code pointers that deep-link at a commit",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/49",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:task",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:12:02Z",
+      "updated_at": "2026-08-31T16:12:02Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAsYwA",
+      "repo": "chorus",
+      "number": 48,
+      "title": "TASK-2 — Tree and card views with reorder, re-parent and bulk tagging",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/48",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:task",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:11:58Z",
+      "updated_at": "2026-08-31T16:11:58Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAsWew",
+      "repo": "chorus",
+      "number": 47,
+      "title": "TASK-1 — Task model: fields, acceptance criteria, tags, links and pointers",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/47",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:task",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:11:54Z",
+      "updated_at": "2026-08-31T16:11:54Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAsTzg",
+      "repo": "chorus",
+      "number": 46,
+      "title": "DOC-11 — Diagram blocks and embedded previews",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/46",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:could",
+          "color": "fbca04"
+        },
+        {
+          "name": "module:doc",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:11:50Z",
+      "updated_at": "2026-08-31T16:11:50Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAsRzA",
+      "repo": "chorus",
+      "number": 45,
+      "title": "DOC-10 — Approval workflow gating downstream automations",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/45",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:doc",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:11:46Z",
+      "updated_at": "2026-08-31T16:11:46Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAsPkg",
+      "repo": "chorus",
+      "number": 44,
+      "title": "DOC-9 — Import documents from files and connected sources",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/44",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:doc",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:11:43Z",
+      "updated_at": "2026-08-31T16:11:43Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAsNkQ",
+      "repo": "chorus",
+      "number": 43,
+      "title": "DOC-8 — Push documents to external wikis (Notion, Confluence)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/43",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:doc",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:11:39Z",
+      "updated_at": "2026-08-31T16:11:40Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAsLIg",
+      "repo": "chorus",
+      "number": 42,
+      "title": "DOC-7 — Export to Markdown, rich text and PDF",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/42",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:doc",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:11:36Z",
+      "updated_at": "2026-08-31T16:11:36Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAsJLA",
+      "repo": "chorus",
+      "number": 41,
+      "title": "DOC-6 — Decompose a document into tasks with section back-links",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/41",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:doc",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:11:33Z",
+      "updated_at": "2026-08-31T16:11:33Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAsG5Q",
+      "repo": "chorus",
+      "number": 40,
+      "title": "DOC-5 — Version history with diff and restore",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/40",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:doc",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:11:29Z",
+      "updated_at": "2026-08-31T16:11:29Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAsEwg",
+      "repo": "chorus",
+      "number": 39,
+      "title": "DOC-4 — Anchored comments and threads with mentions",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/39",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:doc",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:11:26Z",
+      "updated_at": "2026-08-31T16:11:26Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAsCvQ",
+      "repo": "chorus",
+      "number": 38,
+      "title": "DOC-3 — AI editing as accept/reject suggestions",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/38",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:doc",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:11:22Z",
+      "updated_at": "2026-08-31T16:11:22Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAsAsQ",
+      "repo": "chorus",
+      "number": 37,
+      "title": "DOC-2 — Collaborative rich-text editor with cursors and nametags",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/37",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:doc",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:11:19Z",
+      "updated_at": "2026-08-31T16:11:19Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAr-cQ",
+      "repo": "chorus",
+      "number": 36,
+      "title": "DOC-1 — Document types and editable templates",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/36",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:doc",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:11:15Z",
+      "updated_at": "2026-08-31T16:11:15Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPApD3g",
+      "repo": "chorus",
+      "number": 35,
+      "title": "CHAT-11 — Session templates",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/35",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:could",
+          "color": "fbca04"
+        },
+        {
+          "name": "module:chat",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:06:12Z",
+      "updated_at": "2026-08-31T16:06:12Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPApBsA",
+      "repo": "chorus",
+      "number": 34,
+      "title": "CHAT-10 — Decision log",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/34",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:chat",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:06:08Z",
+      "updated_at": "2026-08-31T16:06:08Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAo_kA",
+      "repo": "chorus",
+      "number": 33,
+      "title": "CHAT-9 — Slash commands and @-mentions of artefacts, people, repos and integrations",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/33",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:chat",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:06:05Z",
+      "updated_at": "2026-08-31T16:06:05Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAo86g",
+      "repo": "chorus",
+      "number": 32,
+      "title": "CHAT-8 — Voice input with an inline transcript",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/32",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:chat",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:06:01Z",
+      "updated_at": "2026-08-31T16:06:01Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAo6-g",
+      "repo": "chorus",
+      "number": 31,
+      "title": "CHAT-7 — Multiplayer sessions with presence",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/31",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:chat",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:05:57Z",
+      "updated_at": "2026-08-31T16:05:58Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAo41w",
+      "repo": "chorus",
+      "number": 30,
+      "title": "CHAT-6 — Create and refine documents and tasks from chat, including on a selection",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/30",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:chat",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:05:54Z",
+      "updated_at": "2026-08-31T16:05:54Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAo2gA",
+      "repo": "chorus",
+      "number": 29,
+      "title": "CHAT-5 — Structure proposal with a confirmation gate",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/29",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:chat",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:05:50Z",
+      "updated_at": "2026-08-31T16:05:50Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAo0Xw",
+      "repo": "chorus",
+      "number": 28,
+      "title": "CHAT-4 — Bounded clarifying questions",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/28",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:chat",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:05:46Z",
+      "updated_at": "2026-08-31T16:05:47Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAoydQ",
+      "repo": "chorus",
+      "number": 27,
+      "title": "CHAT-3 — Grounding every turn, with a visible \"Context used\" panel",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/27",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:chat",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:05:43Z",
+      "updated_at": "2026-08-31T16:05:43Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAowhQ",
+      "repo": "chorus",
+      "number": 26,
+      "title": "CHAT-2 — Streaming chat with rich message content",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/26",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:chat",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:05:40Z",
+      "updated_at": "2026-08-31T16:05:40Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAouGA",
+      "repo": "chorus",
+      "number": 25,
+      "title": "CHAT-1 — Home entry points and configurable quick actions",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/25",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:chat",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:05:36Z",
+      "updated_at": "2026-08-31T16:05:36Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAm8Pw",
+      "repo": "chorus",
+      "number": 24,
+      "title": "WS-9 — Optional billing module, disabled by default",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/24",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:could",
+          "color": "fbca04"
+        },
+        {
+          "name": "module:ws",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:02:31Z",
+      "updated_at": "2026-08-31T16:02:31Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAm6Sw",
+      "repo": "chorus",
+      "number": 23,
+      "title": "WS-8 — SAML SSO and SCIM provisioning",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/23",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:could",
+          "color": "fbca04"
+        },
+        {
+          "name": "module:ws",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:02:27Z",
+      "updated_at": "2026-08-31T16:02:27Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAm4mQ",
+      "repo": "chorus",
+      "number": 22,
+      "title": "WS-7 — Workspace settings: model routing, spend limits, retention, allowed adapters",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/22",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:ws",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:02:24Z",
+      "updated_at": "2026-08-31T16:02:24Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJDYXs8AAAABO4qRIg",
+      "repo": "freelap-intervals",
+      "number": 38,
+      "title": "B7 · Legal review of MyFreelap credentialed access; approach Freelap",
+      "url": "https://github.com/MaximumTrainer/freelap-intervals/issues/38",
+      "labels": [
+        {
+          "name": "area: security",
+          "color": "5319e7"
+        },
+        {
+          "name": "blocked: external",
+          "color": "000000"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-30T19:17:49Z",
+      "updated_at": "2026-08-30T19:17:49Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJDYXs8AAAABO4qQ0Q",
+      "repo": "freelap-intervals",
+      "number": 37,
+      "title": "B6 · End-to-end against a sandbox athlete, then a 5-10 athlete beta",
+      "url": "https://github.com/MaximumTrainer/freelap-intervals/issues/37",
+      "labels": [
+        {
+          "name": "area: testing",
+          "color": "c5def5"
+        },
+        {
+          "name": "blocked: external",
+          "color": "000000"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-30T19:17:48Z",
+      "updated_at": "2026-08-30T19:17:48Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJDYXs8AAAABO4qQhw",
+      "repo": "freelap-intervals",
+      "number": 36,
+      "title": "B5 · Validate a synthetic FIT with the official Garmin FIT SDK",
+      "url": "https://github.com/MaximumTrainer/freelap-intervals/issues/36",
+      "labels": [
+        {
+          "name": "area: correctness",
+          "color": "1d76db"
+        },
+        {
+          "name": "blocked: external",
+          "color": "000000"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-30T19:17:47Z",
+      "updated_at": "2026-08-30T19:17:47Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJDYXs8AAAABO4qQKw",
+      "repo": "freelap-intervals",
+      "number": 35,
+      "title": "B4 · Confirm every intervals.icu endpoint against the live API",
+      "url": "https://github.com/MaximumTrainer/freelap-intervals/issues/35",
+      "labels": [
+        {
+          "name": "area: correctness",
+          "color": "1d76db"
+        },
+        {
+          "name": "blocked: external",
+          "color": "000000"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-30T19:17:46Z",
+      "updated_at": "2026-08-30T19:17:46Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJDYXs8AAAABO4qP4g",
+      "repo": "freelap-intervals",
+      "number": 34,
+      "title": "B3 · Register the intervals.icu OAuth app",
+      "url": "https://github.com/MaximumTrainer/freelap-intervals/issues/34",
+      "labels": [
+        {
+          "name": "area: operations",
+          "color": "006b75"
+        },
+        {
+          "name": "blocked: external",
+          "color": "000000"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-30T19:17:44Z",
+      "updated_at": "2026-08-30T19:17:44Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJDYXs8AAAABO4qPkw",
+      "repo": "freelap-intervals",
+      "number": 33,
+      "title": "B2 · Collect 10+ real CSV exports with varied app settings",
+      "url": "https://github.com/MaximumTrainer/freelap-intervals/issues/33",
+      "labels": [
+        {
+          "name": "area: testing",
+          "color": "c5def5"
+        },
+        {
+          "name": "blocked: external",
+          "color": "000000"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-30T19:17:43Z",
+      "updated_at": "2026-08-30T19:17:43Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJDYXs8AAAABO4qPOA",
+      "repo": "freelap-intervals",
+      "number": 32,
+      "title": "B1 · Capture real MyFreelap traffic and reconcile the adapter",
+      "url": "https://github.com/MaximumTrainer/freelap-intervals/issues/32",
+      "labels": [
+        {
+          "name": "area: feature",
+          "color": "0e8a16"
+        },
+        {
+          "name": "blocked: external",
+          "color": "000000"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-30T19:17:42Z",
+      "updated_at": "2026-08-30T19:17:42Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOCvwDlc7_jhHa",
+      "repo": "MaximumTrainer_Redux",
+      "number": 122,
+      "title": "Adding Rowing Support to MaximumTrainer_Redux",
+      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux/issues/122",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-04-18T09:35:27Z",
+      "updated_at": "2026-07-09T17:59:06Z",
+      "comment_count": 2
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABGBLJpw",
+      "repo": "OpenFactstore",
+      "number": 151,
+      "title": "Metrics dashboard - placeholder",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/151",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-06-19T07:39:24Z",
+      "updated_at": "2026-06-19T07:39:24Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABCz-NVw",
+      "repo": "OpenFactstore",
+      "number": 150,
+      "title": "dog food factstore",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/150",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-05-20T06:12:24Z",
+      "updated_at": "2026-05-20T06:34:04Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs7bJxjN",
+      "repo": "virtualrow",
+      "number": 37,
+      "title": "Update persistence to use remote postgres database. Change the build file to set up the database & include the ability for database deltas & rollbacks",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/37",
+      "labels": [],
+      "assignees": [
+        "Copilot"
+      ],
+      "created_at": "2025-11-29T13:44:01Z",
+      "updated_at": "2026-05-16T08:29:55Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABCcp9qQ",
+      "repo": "synthetic-fabricate",
+      "number": 57,
+      "title": "Configure GitHub Actions secrets for NoSQL adapter integration tests",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/57",
+      "labels": [
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-05-16T08:17:32Z",
+      "updated_at": "2026-05-16T08:17:32Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSbes3c8AAAABCckbYA",
+      "repo": "Waymark",
+      "number": 76,
+      "title": "Replace placeholder SAML wire format with standard SAML XML",
+      "url": "https://github.com/MaximumTrainer/Waymark/issues/76",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "security",
+          "color": "d73a4a"
+        },
+        {
+          "name": "authentication",
+          "color": "ededed"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-05-16T07:39:41Z",
+      "updated_at": "2026-05-16T07:39:41Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABCZwvzg",
+      "repo": "synthetic-fabricate",
+      "number": 46,
+      "title": "LLM Chat Design: GCP, AWS, and Azure",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/46",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-05-15T18:46:09Z",
+      "updated_at": "2026-05-15T21:26:44Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABCZzR_Q",
+      "repo": "synthetic-fabricate",
+      "number": 47,
+      "title": "LLM backend integration for Data Agent chat responses",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/47",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-05-15T18:52:31Z",
+      "updated_at": "2026-05-15T18:52:31Z",
+      "comment_count": 0
+    }
+  ]
+}

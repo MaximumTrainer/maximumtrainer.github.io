@@ -131,6 +131,12 @@
       <h2>Site structure</h2>
       <pre><code>maximumtrainer.github.io/
   index.html          &larr; home page
+  projects.html       &larr; project index
+  dashboard.html      &larr; cross-project issue dashboard
+  data/
+    issues.json       &larr; generated hourly, do not edit by hand
+  scripts/
+    fetch-issues.mjs  &larr; builds issues.json
   topics/
     getting-started.html  &larr; this page
     your-new-topic.html   &larr; add pages here</code></pre>
@@ -151,6 +157,12 @@
       <p>Open <code>index.html</code> directly in a browser, or serve it locally:</p>
       <pre><code>python3 -m http.server 8000</code></pre>
       <p>Then visit <code>http://localhost:8000</code>.</p>
+
+      <h2>The issue dashboard</h2>
+      <p><a href="../dashboard.html">dashboard.html</a> lists every open issue across the <strong>public</strong> MaximumTrainer repositories. It reads <code>data/issues.json</code>, which is regenerated hourly by the <code>Refresh issue dashboard</code> workflow &mdash; the file is generated output and should never be edited by hand. The workflow uses only the built-in <code>GITHUB_TOKEN</code>, which cannot read private repositories, so private work never reaches this public site.</p>
+      <p>To refresh it immediately, open the Actions tab, choose <code>Refresh issue dashboard</code> and click <em>Run workflow</em>. To run the fetch locally:</p>
+      <pre><code>GITHUB_TOKEN=$(gh auth token) node scripts/fetch-issues.mjs</code></pre>
+      <p><strong>Watch out:</strong> GitHub disables scheduled workflows in a repository that has had no activity for 60 days, and it emails the repository owner when this happens. The dashboard will then quietly go stale &mdash; the page shows a &ldquo;data may be stale&rdquo; banner once the data is more than three hours old. To bring it back, open the Actions tab, select the disabled workflow and click <em>Enable workflow</em>; any push to <code>main</code> also resets the 60-day clock.</p>
 
       <h2>Customization</h2>
       <p>The site uses plain HTML and CSS with no build tools or dependencies. Styles are defined inline in each page using CSS custom properties, making them easy to update in one place. Dark mode is supported automatically via <code>prefers-color-scheme</code>.</p>

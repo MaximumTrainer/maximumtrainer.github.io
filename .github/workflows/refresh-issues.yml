@@ -1,0 +1,47 @@
+name: Refresh issue dashboard
+
+on:
+  schedule:
+    # Hourly at 7 minutes past — avoids the top-of-hour contention that delays
+    # GitHub Actions cron runs. Note: GitHub disables scheduled workflows after
+    # 60 days of repository inactivity; re-enable from the Actions tab.
+    - cron: '7 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-issues
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Public repositories only. GITHUB_TOKEN cannot read other repositories,
+      # so no personal access token or repository secret is used here.
+      - name: Fetch open issues
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/fetch-issues.mjs
+
+      # The script leaves the file untouched when the issue set is unchanged,
+      # so an unchanged hour produces no commit.
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- data/issues.json; then
+            echo "data/issues.json unchanged — nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/issues.json
+          git commit -m "Refresh issue dashboard data"
+          git push
