@@ -1,55 +1,81 @@
 {
-  "generated_at": "2026-09-03T17:07:15Z",
+  "generated_at": "2026-09-03T17:18:00Z",
   "issue_count": 179,
   "repo_count": 8,
+  "category_count": 3,
   "truncated": false,
+  "categories": [
+    {
+      "name": "Training & Fitness",
+      "repo_count": 3,
+      "open_issue_count": 12
+    },
+    {
+      "name": "Developer Tools & Engineering",
+      "repo_count": 2,
+      "open_issue_count": 148
+    },
+    {
+      "name": "Data & LLM Experiments",
+      "repo_count": 3,
+      "open_issue_count": 19
+    }
+  ],
   "repos": [
     {
       "name": "chorus",
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
+      "category": "Developer Tools & Engineering",
       "open_issue_count": 147
     },
     {
       "name": "OpenFactstore",
       "url": "https://github.com/MaximumTrainer/OpenFactstore",
       "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
+      "category": "Data & LLM Experiments",
       "open_issue_count": 12
     },
     {
       "name": "freelap-intervals",
       "url": "https://github.com/MaximumTrainer/freelap-intervals",
       "description": "# Freelap → intervals.icu Sprint Sync  Takes a timed sprint session from a Freelap system and writes it into intervals.icu — as structured intervals, summary custom fields and a human-readable rep table — then reads the activity back and reports every way it differs from what was intended.",
+      "category": "Training & Fitness",
       "open_issue_count": 8
     },
     {
       "name": "synthetic-fabricate",
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
+      "category": "Data & LLM Experiments",
       "open_issue_count": 6
     },
     {
       "name": "virtualrow",
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
+      "category": "Training & Fitness",
       "open_issue_count": 3
     },
     {
       "name": "llm-cad",
       "url": "https://github.com/MaximumTrainer/llm-cad",
       "description": "",
+      "category": "Data & LLM Experiments",
       "open_issue_count": 1
     },
     {
       "name": "MaximumTrainer_Redux",
       "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux",
       "description": "The original cross platform indoor cycling solution",
+      "category": "Training & Fitness",
       "open_issue_count": 1
     },
     {
       "name": "Waymark",
       "url": "https://github.com/MaximumTrainer/Waymark",
       "description": "Schema-driven journey orchestration engine ",
+      "category": "Developer Tools & Engineering",
       "open_issue_count": 1
     }
   ],

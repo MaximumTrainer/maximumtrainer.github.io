@@ -126,15 +126,17 @@
     }
 
     /* Controls */
+    /* Grid rather than flex so a control that wraps onto a new row keeps its
+       column width instead of stretching across it. */
     .controls {
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
       gap: 0.75rem;
       margin-bottom: 1.5rem;
     }
 
-    .control { display: flex; flex-direction: column; gap: 0.25rem; flex: 1 1 160px; }
-    .control.wide { flex: 2 1 240px; }
+    .control { display: flex; flex-direction: column; gap: 0.25rem; min-width: 0; }
+    .control.wide { grid-column: span 2; }
 
     .control label {
       font-size: 0.75rem;
@@ -169,6 +171,28 @@
       cursor: pointer;
       padding: 0;
       text-decoration: underline;
+    }
+
+    /* Project categories */
+    .category-heading {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.5rem 0.75rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin: 1.75rem 0 0.75rem;
+    }
+
+    .category-heading:first-child { margin-top: 0; }
+
+    .category-count {
+      text-transform: none;
+      letter-spacing: 0;
+      font-weight: 400;
     }
 
     /* Repo groups */
@@ -219,6 +243,12 @@
       font-size: 0.85rem;
       flex-basis: 100%;
       margin-left: 1.25rem;
+      /* Some repo descriptions are a whole README paragraph. */
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
 
     .issue-list { list-style: none; }
@@ -284,7 +314,6 @@
     @media (max-width: 480px) {
       .summary { gap: 0.75rem 1.25rem; }
       .stat .num { font-size: 1.25rem; }
-      .control { flex-basis: 100%; }
     }
   </style>
 </head>
@@ -307,6 +336,10 @@
           <div class="control wide">
             <label for="q">Filter</label>
             <input id="q" type="search" placeholder="Title, repository or label" autocomplete="off">
+          </div>
+          <div class="control">
+            <label for="category">Project</label>
+            <select id="category"><option value="">All projects</option></select>
           </div>
           <div class="control">
             <label for="repo">Repository</label>
@@ -346,6 +379,9 @@
     var SEARCH_URL = 'https://github.com/issues?q=' +
       encodeURIComponent('org:MaximumTrainer is:issue is:open is:public');
     var STALE_AFTER_MS = 3 * 60 * 60 * 1000;
+    // A repository group this large buries everything below it, so it starts
+    // collapsed. The count is the filtered one, so narrowing reopens it.
+    var COLLAPSE_OVER = 25;
 
     var els = {
       banners: document.getElementById('banners'),
@@ -354,12 +390,15 @@
       results: document.getElementById('results'),
       status: document.getElementById('filter-status'),
       q: document.getElementById('q'),
+      category: document.getElementById('category'),
       repo: document.getElementById('repo'),
       label: document.getElementById('label'),
       sort: document.getElementById('sort')
     };
 
     var data = null;
+    var repoIndex = {};    // repo name -> repo record
+    var categoryOrder = []; // categories in the order the data file lists them
 
     /* ---------- helpers ---------- */
 
@@ -450,6 +489,7 @@
       var sort = params.get('sort');
       return {
         q: params.get('q') || '',
+        category: params.get('category') || '',
         repo: params.get('repo') || '',
         label: params.get('label') || '',
         sort: (sort === 'newest' || sort === 'oldest') ? sort : 'updated'
@@ -459,6 +499,7 @@
     function writeState(state) {
       var params = new URLSearchParams();
       if (state.q) params.set('q', state.q);
+      if (state.category) params.set('category', state.category);
       if (state.repo) params.set('repo', state.repo);
       if (state.label) params.set('label', state.label);
       if (state.sort !== 'updated') params.set('sort', state.sort);
@@ -534,51 +575,74 @@
       return li;
     }
 
-    function renderGroups(issues, state) {
-      var byRepo = {};
-      issues.forEach(function (issue) {
-        (byRepo[issue.repo] = byRepo[issue.repo] || []).push(issue);
+    function renderRepoGroup(name, groupIssues, state, groupCount) {
+      var info = repoIndex[name] || {};
+      var group = el('details', 'repo-group');
+      // Large groups start collapsed so they do not bury everything below them.
+      // The sole group in view has nothing to bury, so it stays open.
+      group.open = groupCount === 1 || groupIssues.length <= COLLAPSE_OVER;
+
+      var summary = el('summary');
+      var repoLink = el('a', 'repo-name', name);
+      repoLink.href = info.url || 'https://github.com/MaximumTrainer/' + name;
+      repoLink.target = '_blank';
+      repoLink.rel = 'noopener';
+      // Opening the repo must not also collapse the group.
+      repoLink.addEventListener('click', function (event) { event.stopPropagation(); });
+      summary.appendChild(repoLink);
+      summary.appendChild(el('span', 'repo-count', plural(groupIssues.length, 'open issue')));
+      if (info.description) {
+        summary.appendChild(el('span', 'repo-desc', info.description));
+      }
+      group.appendChild(summary);
+
+      var list = el('ul', 'issue-list');
+      groupIssues.slice().sort(function (a, b) {
+        if (state.sort === 'newest') return b.created_at.localeCompare(a.created_at);
+        if (state.sort === 'oldest') return a.created_at.localeCompare(b.created_at);
+        return b.updated_at.localeCompare(a.updated_at);
+      }).forEach(function (issue) {
+        list.appendChild(renderIssue(issue));
       });
+      group.appendChild(list);
 
-      var repoInfo = {};
-      data.repos.forEach(function (r) { repoInfo[r.name] = r; });
+      return group;
+    }
 
-      var names = Object.keys(byRepo).sort(function (a, b) {
-        return byRepo[b].length - byRepo[a].length || a.localeCompare(b);
+    function renderGroups(issues, state) {
+      // Project category, then repository within it.
+      var byCategory = {};
+      issues.forEach(function (issue) {
+        var category = categoryOf(issue.repo);
+        var repos = byCategory[category] = byCategory[category] || {};
+        (repos[issue.repo] = repos[issue.repo] || []).push(issue);
       });
 
       var frag = document.createDocumentFragment();
+      var groupCount = Object.keys(byCategory).reduce(function (sum, category) {
+        return sum + Object.keys(byCategory[category]).length;
+      }, 0);
 
-      names.forEach(function (name) {
-        var group = el('details', 'repo-group');
-        group.open = true;
-
-        var summary = el('summary');
-        var repoLink = el('a', 'repo-name', name);
-        repoLink.href = (repoInfo[name] && repoInfo[name].url) ||
-          'https://github.com/MaximumTrainer/' + name;
-        repoLink.target = '_blank';
-        repoLink.rel = 'noopener';
-        // Opening the repo must not also collapse the group.
-        repoLink.addEventListener('click', function (event) { event.stopPropagation(); });
-        summary.appendChild(repoLink);
-        summary.appendChild(el('span', 'repo-count', plural(byRepo[name].length, 'open issue')));
-        if (repoInfo[name] && repoInfo[name].description) {
-          summary.appendChild(el('span', 'repo-desc', repoInfo[name].description));
-        }
-        group.appendChild(summary);
-
-        var list = el('ul', 'issue-list');
-        byRepo[name].slice().sort(function (a, b) {
-          if (state.sort === 'newest') return b.created_at.localeCompare(a.created_at);
-          if (state.sort === 'oldest') return a.created_at.localeCompare(b.created_at);
-          return b.updated_at.localeCompare(a.updated_at);
-        }).forEach(function (issue) {
-          list.appendChild(renderIssue(issue));
+      categoryOrder.filter(function (category) {
+        return byCategory[category];
+      }).forEach(function (category) {
+        var repos = byCategory[category];
+        var names = Object.keys(repos).sort(function (a, b) {
+          return repos[b].length - repos[a].length || a.localeCompare(b);
         });
-        group.appendChild(list);
+        var total = names.reduce(function (sum, name) { return sum + repos[name].length; }, 0);
 
-        frag.appendChild(group);
+        // With a single category in view the heading only repeats the filter.
+        if (!state.category) {
+          var heading = el('h2', 'category-heading');
+          heading.appendChild(el('span', 'category-name', category));
+          heading.appendChild(el('span', 'category-count', plural(total, 'open issue')));
+          frag.appendChild(heading);
+        }
+
+        names.forEach(function (name) {
+          frag.appendChild(renderRepoGroup(name, repos[name], state, groupCount));
+        });
       });
 
       els.results.innerHTML = '';
@@ -587,7 +651,13 @@
 
     /* ---------- filtering ---------- */
 
+    function categoryOf(repoName) {
+      var repo = repoIndex[repoName];
+      return (repo && repo.category) || 'Other';
+    }
+
     function matches(issue, state) {
+      if (state.category && categoryOf(issue.repo) !== state.category) return false;
       if (state.repo && issue.repo !== state.repo) return false;
       if (state.label && !issue.labels.some(function (l) { return l.name === state.label; })) return false;
       if (state.q) {
@@ -599,9 +669,31 @@
       return true;
     }
 
+    // The repository list only offers repos in the selected project, so the two
+    // filters cannot be combined into an empty result by accident.
+    function syncRepoOptions(category) {
+      var keep = els.repo.value;
+      els.repo.innerHTML = '';
+      var all = el('option', null, category ? 'All in this project' : 'All repositories');
+      all.value = '';
+      els.repo.appendChild(all);
+
+      data.repos.filter(function (repo) {
+        return !category || repo.category === category;
+      }).forEach(function (repo) {
+        var option = el('option', null, repo.name + ' (' + repo.open_issue_count + ')');
+        option.value = repo.name;
+        els.repo.appendChild(option);
+      });
+
+      els.repo.value = keep;
+      if (els.repo.selectedIndex === -1) els.repo.value = ''; // repo not in this project
+    }
+
     function apply() {
       var state = {
         q: els.q.value.trim(),
+        category: els.category.value,
         repo: els.repo.value,
         label: els.label.value,
         sort: els.sort.value
@@ -614,7 +706,7 @@
 
       renderSummary(shown.length, data.issue_count, Object.keys(repos).length);
 
-      var filtering = !!(state.q || state.repo || state.label);
+      var filtering = !!(state.q || state.category || state.repo || state.label);
       els.status.hidden = !filtering;
       if (filtering) {
         els.status.textContent = 'Showing ' + shown.length + ' of ' +
@@ -623,8 +715,9 @@
         reset.type = 'button';
         reset.addEventListener('click', function () {
           els.q.value = '';
-          els.repo.value = '';
+          els.category.value = '';
           els.label.value = '';
+          syncRepoOptions('');
           apply();
           els.q.focus();
         });
@@ -643,10 +736,13 @@
     }
 
     function populateFilters(state) {
-      data.repos.forEach(function (repo) {
-        var option = el('option', null, repo.name + ' (' + repo.open_issue_count + ')');
-        option.value = repo.name;
-        els.repo.appendChild(option);
+      categoryOrder.forEach(function (category) {
+        var count = data.repos.reduce(function (sum, repo) {
+          return repo.category === category ? sum + repo.open_issue_count : sum;
+        }, 0);
+        var option = el('option', null, category + ' (' + count + ')');
+        option.value = category;
+        els.category.appendChild(option);
       });
 
       var labels = {};
@@ -662,12 +758,18 @@
       });
 
       els.q.value = state.q;
-      els.repo.value = state.repo;
+      els.category.value = state.category;
       els.label.value = state.label;
       els.sort.value = state.sort;
-      // A repo or label in the URL that no longer exists falls back to "all".
-      if (els.repo.selectedIndex === -1) els.repo.value = '';
+      // A category or label in the URL that no longer exists falls back to "all".
+      if (els.category.selectedIndex === -1) els.category.value = '';
       if (els.label.selectedIndex === -1) els.label.value = '';
+
+      // Build the repository list against the resolved category, then restore
+      // the repo from the URL — syncRepoOptions drops it if it does not belong.
+      syncRepoOptions(els.category.value);
+      els.repo.value = state.repo;
+      if (els.repo.selectedIndex === -1) els.repo.value = '';
     }
 
     function valid(payload) {
@@ -700,6 +802,17 @@
         if (!valid(payload)) throw new Error('malformed data');
         data = payload;
 
+        data.repos.forEach(function (repo) {
+          if (!repo.category) repo.category = 'Other';
+          repoIndex[repo.name] = repo;
+        });
+        // Prefer the order the generator emits; fall back to first-seen order
+        // if an older data file predates the categories field.
+        categoryOrder = (data.categories || []).map(function (c) { return c.name; });
+        data.repos.forEach(function (repo) {
+          if (categoryOrder.indexOf(repo.category) === -1) categoryOrder.push(repo.category);
+        });
+
         if (data.truncated) {
           banner('More issues exist than the GitHub search API will return — this list is incomplete.');
         }
@@ -713,6 +826,10 @@
 
         ['input', 'change'].forEach(function (event) {
           els.q.addEventListener(event, apply);
+        });
+        els.category.addEventListener('change', function () {
+          syncRepoOptions(els.category.value);
+          apply();
         });
         [els.repo, els.label, els.sort].forEach(function (control) {
           control.addEventListener('change', apply);
