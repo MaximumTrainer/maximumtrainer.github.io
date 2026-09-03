@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T17:00:42Z",
-  "issue_count": 180,
-  "repo_count": 9,
+  "generated_at": "2026-09-03T17:07:15Z",
+  "issue_count": 179,
+  "repo_count": 8,
   "truncated": false,
   "repos": [
     {
@@ -47,12 +47,6 @@
       "open_issue_count": 1
     },
     {
-      "name": "maximumtrainer.github.io",
-      "url": "https://github.com/MaximumTrainer/maximumtrainer.github.io",
-      "description": "",
-      "open_issue_count": 1
-    },
-    {
       "name": "Waymark",
       "url": "https://github.com/MaximumTrainer/Waymark",
       "description": "Schema-driven journey orchestration engine ",
@@ -60,18 +54,6 @@
     }
   ],
   "issues": [
-    {
-      "id": "I_kwDOUJlhks8AAAABPjxMvA",
-      "repo": "maximumtrainer.github.io",
-      "number": 1,
-      "title": "Cross-project open issue dashboard, refreshed hourly",
-      "url": "https://github.com/MaximumTrainer/maximumtrainer.github.io/issues/1",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-03T16:42:31Z",
-      "updated_at": "2026-09-03T16:54:00Z",
-      "comment_count": 0
-    },
     {
       "id": "I_kwDOUJnj1s8AAAABPBeDDQ",
       "repo": "chorus",
