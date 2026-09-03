@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T19:17:14Z",
+  "generated_at": "2026-09-03T23:18:43Z",
   "issue_count": 179,
   "repo_count": 8,
   "category_count": 3,
@@ -80,6 +80,68 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOSeC83s8AAAABPehwwA",
+      "repo": "synthetic-fabricate",
+      "number": 60,
+      "title": "Self-hosted deployment with bring-your-own-key LLM provider support",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/60",
+      "labels": [
+        {
+          "name": "architecture",
+          "color": "ededed"
+        },
+        {
+          "name": "compliance",
+          "color": "ededed"
+        },
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        },
+        {
+          "name": "application",
+          "color": "0e8a16"
+        },
+        {
+          "name": "configuration",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-03T07:23:38Z",
+      "updated_at": "2026-09-03T23:04:26Z",
+      "comment_count": 3
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPe9hrQ",
+      "repo": "synthetic-fabricate",
+      "number": 61,
+      "title": "Lightweight hosted deployment from GitHub (Fly.io reference) with bring-your-own-key",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/61",
+      "labels": [
+        {
+          "name": "documentation",
+          "color": "0075ca"
+        },
+        {
+          "name": "automation",
+          "color": "ededed"
+        },
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        },
+        {
+          "name": "configuration",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-03T08:12:57Z",
+      "updated_at": "2026-09-03T23:03:14Z",
+      "comment_count": 1
+    },
     {
       "id": "I_kwDOUJnj1s8AAAABPBrYHA",
       "repo": "chorus",
@@ -200,68 +262,6 @@
       "created_at": "2026-05-16T08:17:32Z",
       "updated_at": "2026-09-03T18:46:48Z",
       "comment_count": 1
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABPe9hrQ",
-      "repo": "synthetic-fabricate",
-      "number": 61,
-      "title": "Lightweight hosted deployment from GitHub (Fly.io reference) with bring-your-own-key",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/61",
-      "labels": [
-        {
-          "name": "documentation",
-          "color": "0075ca"
-        },
-        {
-          "name": "automation",
-          "color": "ededed"
-        },
-        {
-          "name": "infrastructure",
-          "color": "fbca04"
-        },
-        {
-          "name": "configuration",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-03T08:12:57Z",
-      "updated_at": "2026-09-03T18:46:40Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABPehwwA",
-      "repo": "synthetic-fabricate",
-      "number": 60,
-      "title": "Self-hosted deployment with bring-your-own-key LLM provider support",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/60",
-      "labels": [
-        {
-          "name": "architecture",
-          "color": "ededed"
-        },
-        {
-          "name": "compliance",
-          "color": "ededed"
-        },
-        {
-          "name": "infrastructure",
-          "color": "fbca04"
-        },
-        {
-          "name": "application",
-          "color": "0e8a16"
-        },
-        {
-          "name": "configuration",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-03T07:23:38Z",
-      "updated_at": "2026-09-03T18:46:08Z",
-      "comment_count": 3
     },
     {
       "id": "I_kwDOSeC83s8AAAABPeJQRA",
