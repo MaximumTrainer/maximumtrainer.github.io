@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T17:18:00Z",
+  "generated_at": "2026-09-03T19:17:14Z",
   "issue_count": 179,
   "repo_count": 8,
   "category_count": 3,
@@ -80,6 +80,218 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBrYHA",
+      "repo": "chorus",
+      "number": 142,
+      "title": "NFR-11 — AI observability: redaction controls, eval hooks, version pinning",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/142",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T18:08:28Z",
+      "updated_at": "2026-09-03T18:55:05Z",
+      "comment_count": 2
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzbjg",
+      "repo": "chorus",
+      "number": 69,
+      "title": "AGENT-4 — Run traces: viewable, exportable, reproducible",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/69",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:agent",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:24:33Z",
+      "updated_at": "2026-09-03T18:54:48Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzXzA",
+      "repo": "chorus",
+      "number": 67,
+      "title": "AGENT-2 — Workflow router: rules first, classifier fallback, decision logged",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/67",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:agent",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:24:26Z",
+      "updated_at": "2026-09-03T18:54:46Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABCZzR_Q",
+      "repo": "synthetic-fabricate",
+      "number": 47,
+      "title": "LLM backend integration for Data Agent chat responses",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/47",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-05-15T18:52:31Z",
+      "updated_at": "2026-09-03T18:47:24Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABCZwvzg",
+      "repo": "synthetic-fabricate",
+      "number": 46,
+      "title": "LLM Chat Design: GCP, AWS, and Azure",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/46",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-05-15T18:46:09Z",
+      "updated_at": "2026-09-03T18:46:55Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABCcp9qQ",
+      "repo": "synthetic-fabricate",
+      "number": 57,
+      "title": "Configure GitHub Actions secrets for NoSQL adapter integration tests",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/57",
+      "labels": [
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-05-16T08:17:32Z",
+      "updated_at": "2026-09-03T18:46:48Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPe9hrQ",
+      "repo": "synthetic-fabricate",
+      "number": 61,
+      "title": "Lightweight hosted deployment from GitHub (Fly.io reference) with bring-your-own-key",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/61",
+      "labels": [
+        {
+          "name": "documentation",
+          "color": "0075ca"
+        },
+        {
+          "name": "automation",
+          "color": "ededed"
+        },
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        },
+        {
+          "name": "configuration",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-03T08:12:57Z",
+      "updated_at": "2026-09-03T18:46:40Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPehwwA",
+      "repo": "synthetic-fabricate",
+      "number": 60,
+      "title": "Self-hosted deployment with bring-your-own-key LLM provider support",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/60",
+      "labels": [
+        {
+          "name": "architecture",
+          "color": "ededed"
+        },
+        {
+          "name": "compliance",
+          "color": "ededed"
+        },
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        },
+        {
+          "name": "application",
+          "color": "0e8a16"
+        },
+        {
+          "name": "configuration",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-03T07:23:38Z",
+      "updated_at": "2026-09-03T18:46:08Z",
+      "comment_count": 3
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPeJQRA",
+      "repo": "synthetic-fabricate",
+      "number": 58,
+      "title": "Bring your own key (BYOK) for LLM providers",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/58",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "application",
+          "color": "0e8a16"
+        },
+        {
+          "name": "configuration",
+          "color": "5319e7"
+        },
+        {
+          "name": "api",
+          "color": "0052cc"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-03T06:39:17Z",
+      "updated_at": "2026-09-03T18:46:05Z",
+      "comment_count": 1
+    },
     {
       "id": "I_kwDOUJnj1s8AAAABPBeDDQ",
       "repo": "chorus",
@@ -499,68 +711,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOSeC83s8AAAABPehwwA",
-      "repo": "synthetic-fabricate",
-      "number": 60,
-      "title": "Self-hosted deployment with bring-your-own-key LLM provider support",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/60",
-      "labels": [
-        {
-          "name": "architecture",
-          "color": "ededed"
-        },
-        {
-          "name": "compliance",
-          "color": "ededed"
-        },
-        {
-          "name": "infrastructure",
-          "color": "fbca04"
-        },
-        {
-          "name": "application",
-          "color": "0e8a16"
-        },
-        {
-          "name": "configuration",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-03T07:23:38Z",
-      "updated_at": "2026-09-03T08:29:49Z",
-      "comment_count": 2
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABPe9hrQ",
-      "repo": "synthetic-fabricate",
-      "number": 61,
-      "title": "Lightweight hosted deployment from GitHub (Fly.io reference) with bring-your-own-key",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/61",
-      "labels": [
-        {
-          "name": "documentation",
-          "color": "0075ca"
-        },
-        {
-          "name": "automation",
-          "color": "ededed"
-        },
-        {
-          "name": "infrastructure",
-          "color": "fbca04"
-        },
-        {
-          "name": "configuration",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-03T08:12:57Z",
-      "updated_at": "2026-09-03T08:29:23Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPe9EvA",
       "repo": "chorus",
       "number": 152,
@@ -593,35 +743,6 @@
       "created_at": "2026-08-30T10:01:35Z",
       "updated_at": "2026-09-03T07:46:33Z",
       "comment_count": 3
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABPeJQRA",
-      "repo": "synthetic-fabricate",
-      "number": 58,
-      "title": "Bring your own key (BYOK) for LLM providers",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/58",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "application",
-          "color": "0e8a16"
-        },
-        {
-          "name": "configuration",
-          "color": "5319e7"
-        },
-        {
-          "name": "api",
-          "color": "0052cc"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-03T06:39:17Z",
-      "updated_at": "2026-09-03T06:46:16Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDOQZ3FAs8AAAABO4RLeg",
@@ -998,31 +1119,6 @@
       "created_at": "2026-09-01T14:23:35Z",
       "updated_at": "2026-09-01T14:23:35Z",
       "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPBrYHA",
-      "repo": "chorus",
-      "number": 142,
-      "title": "NFR-11 — AI observability: redaction controls, eval hooks, version pinning",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/142",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:nfr",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T18:08:28Z",
-      "updated_at": "2026-09-01T12:19:05Z",
-      "comment_count": 1
     },
     {
       "id": "I_kwDOUJnj1s8AAAABPBrLuA",
@@ -2905,56 +3001,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABPAzbjg",
-      "repo": "chorus",
-      "number": 69,
-      "title": "AGENT-4 — Run traces: viewable, exportable, reproducible",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/69",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:agent",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:24:33Z",
-      "updated_at": "2026-08-31T16:24:33Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAzXzA",
-      "repo": "chorus",
-      "number": 67,
-      "title": "AGENT-2 — Workflow router: rules first, classifier fallback, decision logged",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/67",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:agent",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:24:26Z",
-      "updated_at": "2026-08-31T16:24:26Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPAzTHA",
       "repo": "chorus",
       "number": 65,
@@ -4227,23 +4273,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOSeC83s8AAAABCcp9qQ",
-      "repo": "synthetic-fabricate",
-      "number": 57,
-      "title": "Configure GitHub Actions secrets for NoSQL adapter integration tests",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/57",
-      "labels": [
-        {
-          "name": "infrastructure",
-          "color": "fbca04"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-05-16T08:17:32Z",
-      "updated_at": "2026-05-16T08:17:32Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOSbes3c8AAAABCckbYA",
       "repo": "Waymark",
       "number": 76,
@@ -4266,35 +4295,6 @@
       "assignees": [],
       "created_at": "2026-05-16T07:39:41Z",
       "updated_at": "2026-05-16T07:39:41Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABCZwvzg",
-      "repo": "synthetic-fabricate",
-      "number": 46,
-      "title": "LLM Chat Design: GCP, AWS, and Azure",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/46",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-05-15T18:46:09Z",
-      "updated_at": "2026-05-15T21:26:44Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABCZzR_Q",
-      "repo": "synthetic-fabricate",
-      "number": 47,
-      "title": "LLM backend integration for Data Agent chat responses",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/47",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-05-15T18:52:31Z",
-      "updated_at": "2026-05-15T18:52:31Z",
       "comment_count": 0
     }
   ]
