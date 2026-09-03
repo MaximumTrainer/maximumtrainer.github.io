@@ -8,9 +8,6 @@ on:
     - cron: '7 * * * *'
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 concurrency:
   group: refresh-issues
   cancel-in-progress: false
@@ -18,6 +15,10 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
     steps:
       - uses: actions/checkout@v4
 
@@ -35,9 +36,11 @@ jobs:
       # The script leaves the file untouched when the issue set is unchanged,
       # so an unchanged hour produces no commit.
       - name: Commit if changed
+        id: commit
         run: |
           if git diff --quiet -- data/issues.json; then
             echo "data/issues.json unchanged — nothing to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -45,3 +48,36 @@ jobs:
           git add data/issues.json
           git commit -m "Refresh issue dashboard data"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  # A push made with GITHUB_TOKEN does not trigger other workflows, so the
+  # commit above will never start deploy.yml. Publish here instead.
+  publish:
+    needs: refresh
+    if: needs.refresh.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # The refresh job just pushed; deploy the branch tip, not the SHA
+          # this run started from.
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
