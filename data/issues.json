@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T23:18:43Z",
-  "issue_count": 179,
+  "generated_at": "2026-09-04T06:36:14Z",
+  "issue_count": 188,
   "repo_count": 8,
   "category_count": 3,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 19
+      "open_issue_count": 28
     }
   ],
   "repos": [
@@ -28,6 +28,13 @@
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
       "open_issue_count": 147
+    },
+    {
+      "name": "synthetic-fabricate",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
+      "description": "experimental synthetic data generation engine",
+      "category": "Data & LLM Experiments",
+      "open_issue_count": 15
     },
     {
       "name": "OpenFactstore",
@@ -42,13 +49,6 @@
       "description": "# Freelap → intervals.icu Sprint Sync  Takes a timed sprint session from a Freelap system and writes it into intervals.icu — as structured intervals, summary custom fields and a human-readable rep table — then reads the activity back and reports every way it differs from what was intended.",
       "category": "Training & Fitness",
       "open_issue_count": 8
-    },
-    {
-      "name": "synthetic-fabricate",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
-      "description": "experimental synthetic data generation engine",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 6
     },
     {
       "name": "virtualrow",
@@ -81,19 +81,203 @@
   ],
   "issues": [
     {
-      "id": "I_kwDOSeC83s8AAAABPehwwA",
+      "id": "I_kwDOSeC83s8AAAABPpXm1Q",
       "repo": "synthetic-fabricate",
-      "number": 60,
-      "title": "Self-hosted deployment with bring-your-own-key LLM provider support",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/60",
+      "number": 77,
+      "title": "Per-workspace LLM usage attribution and token budgets",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/77",
       "labels": [
         {
-          "name": "architecture",
-          "color": "ededed"
+          "name": "application",
+          "color": "0e8a16"
         },
+        {
+          "name": "observability",
+          "color": "006b75"
+        },
+        {
+          "name": "api",
+          "color": "0052cc"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T06:27:35Z",
+      "updated_at": "2026-09-04T06:27:35Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPpXmHg",
+      "repo": "synthetic-fabricate",
+      "number": 76,
+      "title": "Shared, KMS-backed secret encryption for multi-instance deployments",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/76",
+      "labels": [
         {
           "name": "compliance",
           "color": "ededed"
+        },
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T06:27:33Z",
+      "updated_at": "2026-09-04T06:27:33Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPpXlaw",
+      "repo": "synthetic-fabricate",
+      "number": 75,
+      "title": "Expose schema and profile snapshots via the API and make them selectable for plans and runs",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/75",
+      "labels": [
+        {
+          "name": "schema-discovery",
+          "color": "0052cc"
+        },
+        {
+          "name": "application",
+          "color": "0e8a16"
+        },
+        {
+          "name": "api",
+          "color": "0052cc"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T06:27:32Z",
+      "updated_at": "2026-09-04T06:27:32Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPpXj9Q",
+      "repo": "synthetic-fabricate",
+      "number": 74,
+      "title": "Audit log retention policy and export",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/74",
+      "labels": [
+        {
+          "name": "compliance",
+          "color": "ededed"
+        },
+        {
+          "name": "application",
+          "color": "0e8a16"
+        },
+        {
+          "name": "api",
+          "color": "0052cc"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T06:27:30Z",
+      "updated_at": "2026-09-04T06:27:30Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPpXjLg",
+      "repo": "synthetic-fabricate",
+      "number": 73,
+      "title": "TypeScript SDK: non-chat methods call routes that do not exist; add an API contract check",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/73",
+      "labels": [
+        {
+          "name": "documentation",
+          "color": "0075ca"
+        },
+        {
+          "name": "api",
+          "color": "0052cc"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T06:27:28Z",
+      "updated_at": "2026-09-04T06:27:28Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPpXh7g",
+      "repo": "synthetic-fabricate",
+      "number": 72,
+      "title": "Audit chat tool invocations and API usage by key and endpoint",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/72",
+      "labels": [
+        {
+          "name": "application",
+          "color": "0e8a16"
+        },
+        {
+          "name": "observability",
+          "color": "006b75"
+        },
+        {
+          "name": "api",
+          "color": "0052cc"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T06:27:26Z",
+      "updated_at": "2026-09-04T06:27:26Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPpXg6w",
+      "repo": "synthetic-fabricate",
+      "number": 71,
+      "title": "NoSQL: implement the data profilers and expose NoSQL discovery through the CLI and API",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/71",
+      "labels": [
+        {
+          "name": "cli",
+          "color": "ededed"
+        },
+        {
+          "name": "schema-discovery",
+          "color": "0052cc"
+        },
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T06:27:24Z",
+      "updated_at": "2026-09-04T06:27:24Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPpXfeg",
+      "repo": "synthetic-fabricate",
+      "number": 70,
+      "title": "Serve generated API endpoints from ingested OpenAPI contracts",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/70",
+      "labels": [
+        {
+          "name": "application",
+          "color": "0e8a16"
+        },
+        {
+          "name": "api",
+          "color": "0052cc"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T06:27:22Z",
+      "updated_at": "2026-09-04T06:27:22Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPpXegQ",
+      "repo": "synthetic-fabricate",
+      "number": 69,
+      "title": "Workspace connection secrets and per-connection schema discovery (tools always use the instance database)",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/69",
+      "labels": [
+        {
+          "name": "schema-discovery",
+          "color": "0052cc"
         },
         {
           "name": "infrastructure",
@@ -104,14 +288,111 @@
           "color": "0e8a16"
         },
         {
-          "name": "configuration",
-          "color": "5319e7"
+          "name": "api",
+          "color": "0052cc"
         }
       ],
       "assignees": [],
-      "created_at": "2026-09-03T07:23:38Z",
-      "updated_at": "2026-09-03T23:04:26Z",
-      "comment_count": 3
+      "created_at": "2026-09-04T06:27:20Z",
+      "updated_at": "2026-09-04T06:27:20Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPpXdrg",
+      "repo": "synthetic-fabricate",
+      "number": 68,
+      "title": "Enforce the API rate-limit policy (defined but attached to no endpoint)",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/68",
+      "labels": [
+        {
+          "name": "api",
+          "color": "0052cc"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T06:27:18Z",
+      "updated_at": "2026-09-04T06:27:18Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPpXcNQ",
+      "repo": "synthetic-fabricate",
+      "number": 67,
+      "title": "Honour group-based workspace access in effective role resolution",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/67",
+      "labels": [
+        {
+          "name": "application",
+          "color": "0e8a16"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T06:27:16Z",
+      "updated_at": "2026-09-04T06:27:16Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPpXasg",
+      "repo": "synthetic-fabricate",
+      "number": 66,
+      "title": "Tenant-scope dataset runs; start runs and download artifacts through the API and SDK",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/66",
+      "labels": [
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        },
+        {
+          "name": "application",
+          "color": "0e8a16"
+        },
+        {
+          "name": "api",
+          "color": "0052cc"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T06:27:14Z",
+      "updated_at": "2026-09-04T06:27:14Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPpXZ-A",
+      "repo": "synthetic-fabricate",
+      "number": 65,
+      "title": "Persist workspaces, projects, workflows, webhooks and governance state (currently in-memory only)",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/65",
+      "labels": [
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        },
+        {
+          "name": "application",
+          "color": "0e8a16"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T06:27:12Z",
+      "updated_at": "2026-09-04T06:27:12Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABCcp9qQ",
+      "repo": "synthetic-fabricate",
+      "number": 57,
+      "title": "Configure GitHub Actions secrets for NoSQL adapter integration tests",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/57",
+      "labels": [
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-05-16T08:17:32Z",
+      "updated_at": "2026-09-04T05:54:43Z",
+      "comment_count": 2
     },
     {
       "id": "I_kwDOSeC83s8AAAABPe9hrQ",
@@ -139,8 +420,8 @@
       ],
       "assignees": [],
       "created_at": "2026-09-03T08:12:57Z",
-      "updated_at": "2026-09-03T23:03:14Z",
-      "comment_count": 1
+      "updated_at": "2026-09-04T05:54:42Z",
+      "comment_count": 3
     },
     {
       "id": "I_kwDOUJnj1s8AAAABPBrYHA",
@@ -215,81 +496,6 @@
       "assignees": [],
       "created_at": "2026-08-31T16:24:26Z",
       "updated_at": "2026-09-03T18:54:46Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABCZzR_Q",
-      "repo": "synthetic-fabricate",
-      "number": 47,
-      "title": "LLM backend integration for Data Agent chat responses",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/47",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-05-15T18:52:31Z",
-      "updated_at": "2026-09-03T18:47:24Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABCZwvzg",
-      "repo": "synthetic-fabricate",
-      "number": 46,
-      "title": "LLM Chat Design: GCP, AWS, and Azure",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/46",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-05-15T18:46:09Z",
-      "updated_at": "2026-09-03T18:46:55Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABCcp9qQ",
-      "repo": "synthetic-fabricate",
-      "number": 57,
-      "title": "Configure GitHub Actions secrets for NoSQL adapter integration tests",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/57",
-      "labels": [
-        {
-          "name": "infrastructure",
-          "color": "fbca04"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-05-16T08:17:32Z",
-      "updated_at": "2026-09-03T18:46:48Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABPeJQRA",
-      "repo": "synthetic-fabricate",
-      "number": 58,
-      "title": "Bring your own key (BYOK) for LLM providers",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/58",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "application",
-          "color": "0e8a16"
-        },
-        {
-          "name": "configuration",
-          "color": "5319e7"
-        },
-        {
-          "name": "api",
-          "color": "0052cc"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-03T06:39:17Z",
-      "updated_at": "2026-09-03T18:46:05Z",
       "comment_count": 1
     },
     {
