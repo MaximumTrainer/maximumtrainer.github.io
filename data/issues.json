@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T12:32:48Z",
-  "issue_count": 200,
+  "generated_at": "2026-09-04T17:19:09Z",
+  "issue_count": 187,
   "repo_count": 8,
   "category_count": 3,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 38
+      "open_issue_count": 25
     }
   ],
   "repos": [
@@ -34,14 +34,7 @@
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
-      "open_issue_count": 25
-    },
-    {
-      "name": "OpenFactstore",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore",
-      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 12
+      "open_issue_count": 22
     },
     {
       "name": "freelap-intervals",
@@ -56,6 +49,13 @@
       "description": "",
       "category": "Training & Fitness",
       "open_issue_count": 3
+    },
+    {
+      "name": "OpenFactstore",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore",
+      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
+      "category": "Data & LLM Experiments",
+      "open_issue_count": 2
     },
     {
       "name": "llm-cad",
@@ -80,6 +80,68 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDORjrDLM8AAAABOekEfw",
+      "repo": "OpenFactstore",
+      "number": 155,
+      "title": "API security and authorisation: enforce bearer-token auth with scoped API keys",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/155",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "security",
+          "color": "ededed"
+        },
+        {
+          "name": "authentication",
+          "color": "ededed"
+        },
+        {
+          "name": "rbac",
+          "color": "e4e669"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-27T10:31:22Z",
+      "updated_at": "2026-09-04T17:00:13Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABO9YR6w",
+      "repo": "OpenFactstore",
+      "number": 156,
+      "title": "User authentication: sign-in, sessions and role-based access for the web UI",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/156",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "security",
+          "color": "ededed"
+        },
+        {
+          "name": "authentication",
+          "color": "ededed"
+        },
+        {
+          "name": "rbac",
+          "color": "e4e669"
+        },
+        {
+          "name": "sso",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T09:56:28Z",
+      "updated_at": "2026-09-04T17:00:11Z",
+      "comment_count": 1
+    },
     {
       "id": "I_kwDOUJnj1s8AAAABPr7VUw",
       "repo": "chorus",
@@ -284,31 +346,6 @@
       "assignees": [],
       "created_at": "2026-09-04T11:13:48Z",
       "updated_at": "2026-09-04T11:13:48Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABPrq4Jg",
-      "repo": "synthetic-fabricate",
-      "number": 78,
-      "title": "Singleton services capture scoped EF repositories — one shared DbContext across all requests in production",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/78",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "infrastructure",
-          "color": "fbca04"
-        },
-        {
-          "name": "application",
-          "color": "0e8a16"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T11:13:47Z",
-      "updated_at": "2026-09-04T11:13:47Z",
       "comment_count": 0
     },
     {
@@ -571,23 +608,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOSeC83s8AAAABPpXcNQ",
-      "repo": "synthetic-fabricate",
-      "number": 67,
-      "title": "Honour group-based workspace access in effective role resolution",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/67",
-      "labels": [
-        {
-          "name": "application",
-          "color": "0e8a16"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T06:27:16Z",
-      "updated_at": "2026-09-04T06:27:16Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOSeC83s8AAAABPpXasg",
       "repo": "synthetic-fabricate",
       "number": 66,
@@ -610,27 +630,6 @@
       "assignees": [],
       "created_at": "2026-09-04T06:27:14Z",
       "updated_at": "2026-09-04T06:27:14Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABPpXZ-A",
-      "repo": "synthetic-fabricate",
-      "number": 65,
-      "title": "Persist workspaces, projects, workflows, webhooks and governance state (currently in-memory only)",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/65",
-      "labels": [
-        {
-          "name": "infrastructure",
-          "color": "fbca04"
-        },
-        {
-          "name": "application",
-          "color": "0e8a16"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T06:27:12Z",
-      "updated_at": "2026-09-04T06:27:12Z",
       "comment_count": 0
     },
     {
@@ -1343,244 +1342,6 @@
       "created_at": "2026-08-31T16:02:21Z",
       "updated_at": "2026-09-01T15:12:22Z",
       "comment_count": 1
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABO9YR6w",
-      "repo": "OpenFactstore",
-      "number": 156,
-      "title": "User authentication: sign-in, sessions and role-based access for the web UI",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/156",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "security",
-          "color": "ededed"
-        },
-        {
-          "name": "authentication",
-          "color": "ededed"
-        },
-        {
-          "name": "rbac",
-          "color": "e4e669"
-        },
-        {
-          "name": "sso",
-          "color": "d93f0b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T09:56:28Z",
-      "updated_at": "2026-09-01T14:37:39Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABOekEfw",
-      "repo": "OpenFactstore",
-      "number": 155,
-      "title": "API security and authorisation: enforce bearer-token auth with scoped API keys",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/155",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "security",
-          "color": "ededed"
-        },
-        {
-          "name": "authentication",
-          "color": "ededed"
-        },
-        {
-          "name": "rbac",
-          "color": "e4e669"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-27T10:31:22Z",
-      "updated_at": "2026-09-01T14:37:35Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABPK5gNA",
-      "repo": "OpenFactstore",
-      "number": 164,
-      "title": "Cross-pipeline attestation aggregation: let a secondary pipeline attest to an existing Trail",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/164",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "integration",
-          "color": "0e8a16"
-        },
-        {
-          "name": "pipeline",
-          "color": "0e8a16"
-        },
-        {
-          "name": "attestations",
-          "color": "0075ca"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-01T14:23:56Z",
-      "updated_at": "2026-09-01T14:24:18Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABPK5elg",
-      "repo": "OpenFactstore",
-      "number": 163,
-      "title": "Assertion keyed on artifact digest returns a previous run's attestations for the same commit",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/163",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "pipeline",
-          "color": "0e8a16"
-        },
-        {
-          "name": "attestations",
-          "color": "0075ca"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-01T14:23:54Z",
-      "updated_at": "2026-09-01T14:24:17Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABPK5Yyg",
-      "repo": "OpenFactstore",
-      "number": 161,
-      "title": "Trail and Flow cleanup: allow deleting or archiving obsolete records",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/161",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "epic: resource-lifecycle",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-01T14:23:45Z",
-      "updated_at": "2026-09-01T14:24:15Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABPK5Xrg",
-      "repo": "OpenFactstore",
-      "number": 160,
-      "title": "Flow maintenance: no way to edit a Flow or change its required attestations after creation",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/160",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "developer-experience",
-          "color": "e4e669"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-01T14:23:43Z",
-      "updated_at": "2026-09-01T14:24:14Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABPK5Qqg",
-      "repo": "OpenFactstore",
-      "number": 158,
-      "title": "Trail status stays PENDING after a COMPLIANT assertion",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/158",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "compliance",
-          "color": "0e8a16"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-01T14:23:33Z",
-      "updated_at": "2026-09-01T14:24:12Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABPK5Phw",
-      "repo": "OpenFactstore",
-      "number": 157,
-      "title": "Assert result blanks the page - frontend/backend response contract mismatch",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/157",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-01T14:23:31Z",
-      "updated_at": "2026-09-01T14:24:10Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABPK5Z9g",
-      "repo": "OpenFactstore",
-      "number": 162,
-      "title": "Flow templates: pre-populate quality gates and attestations by service type",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/162",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "compliance",
-          "color": "0e8a16"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-01T14:23:47Z",
-      "updated_at": "2026-09-01T14:23:47Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABPK5SCw",
-      "repo": "OpenFactstore",
-      "number": 159,
-      "title": "Evidence File column: hyperlinks are not clickable and uploaded files cannot be viewed",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/159",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "evidence",
-          "color": "0e8a16"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-01T14:23:35Z",
-      "updated_at": "2026-09-01T14:23:35Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDOUJnj1s8AAAABPBrLuA",
@@ -4695,30 +4456,6 @@
       "created_at": "2026-04-18T09:35:27Z",
       "updated_at": "2026-07-09T17:59:06Z",
       "comment_count": 2
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABGBLJpw",
-      "repo": "OpenFactstore",
-      "number": 151,
-      "title": "Metrics dashboard - placeholder",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/151",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-06-19T07:39:24Z",
-      "updated_at": "2026-06-19T07:39:24Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABCz-NVw",
-      "repo": "OpenFactstore",
-      "number": 150,
-      "title": "dog food factstore",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/150",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-05-20T06:12:24Z",
-      "updated_at": "2026-05-20T06:34:04Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDOQZ3FAs7bJxjN",
