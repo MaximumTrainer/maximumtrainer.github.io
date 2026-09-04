@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T06:36:14Z",
-  "issue_count": 188,
+  "generated_at": "2026-09-04T11:20:06Z",
+  "issue_count": 199,
   "repo_count": 8,
   "category_count": 3,
   "truncated": false,
@@ -13,12 +13,12 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 148
+      "open_issue_count": 149
     },
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 28
+      "open_issue_count": 38
     }
   ],
   "repos": [
@@ -27,14 +27,14 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 147
+      "open_issue_count": 148
     },
     {
       "name": "synthetic-fabricate",
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
-      "open_issue_count": 15
+      "open_issue_count": 25
     },
     {
       "name": "OpenFactstore",
@@ -80,6 +80,241 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOSeC83s8AAAABPrrCvA",
+      "repo": "synthetic-fabricate",
+      "number": 87,
+      "title": "Agent clarifying questions and auditable plan revisions",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/87",
+      "labels": [
+        {
+          "name": "application",
+          "color": "0e8a16"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T11:14:02Z",
+      "updated_at": "2026-09-04T11:14:02Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPrrB5g",
+      "repo": "synthetic-fabricate",
+      "number": 86,
+      "title": "Live-provider verification suite for the LLM adapters",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/86",
+      "labels": [
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        },
+        {
+          "name": "validation",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T11:14:01Z",
+      "updated_at": "2026-09-04T11:14:01Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPrrA-A",
+      "repo": "synthetic-fabricate",
+      "number": 85,
+      "title": "Per-user LLM credentials (session-scoped rung in the resolver)",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/85",
+      "labels": [
+        {
+          "name": "application",
+          "color": "0e8a16"
+        },
+        {
+          "name": "api",
+          "color": "0052cc"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T11:13:59Z",
+      "updated_at": "2026-09-04T11:13:59Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPrq_ow",
+      "repo": "synthetic-fabricate",
+      "number": 84,
+      "title": "Object storage for generated artifacts (local disk is ephemeral on every hosted target)",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/84",
+      "labels": [
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        },
+        {
+          "name": "export",
+          "color": "0e8a16"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T11:13:57Z",
+      "updated_at": "2026-09-04T11:13:57Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPrq-gg",
+      "repo": "synthetic-fabricate",
+      "number": 83,
+      "title": "Enforce the prompt data boundary: gate sampled values and refuse the opt-in for Healthcare/Finance",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/83",
+      "labels": [
+        {
+          "name": "compliance",
+          "color": "ededed"
+        },
+        {
+          "name": "application",
+          "color": "0e8a16"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T11:13:56Z",
+      "updated_at": "2026-09-04T11:13:56Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPrq9YA",
+      "repo": "synthetic-fabricate",
+      "number": 82,
+      "title": "Verify the streaming export memory budget (50k rows, peak heap)",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/82",
+      "labels": [
+        {
+          "name": "generation",
+          "color": "ededed"
+        },
+        {
+          "name": "observability",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T11:13:54Z",
+      "updated_at": "2026-09-04T11:13:54Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPrq8HQ",
+      "repo": "synthetic-fabricate",
+      "number": 81,
+      "title": "Export round-trip validation: apply generated SQL to a real database, read back CSV/JSON/Parquet",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/81",
+      "labels": [
+        {
+          "name": "validation",
+          "color": "b60205"
+        },
+        {
+          "name": "export",
+          "color": "0e8a16"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T11:13:52Z",
+      "updated_at": "2026-09-04T11:13:52Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPrq6sw",
+      "repo": "synthetic-fabricate",
+      "number": 80,
+      "title": "End-to-end determinism and reproducibility verification",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/80",
+      "labels": [
+        {
+          "name": "generation",
+          "color": "ededed"
+        },
+        {
+          "name": "validation",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T11:13:50Z",
+      "updated_at": "2026-09-04T11:13:50Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPrq5RA",
+      "repo": "synthetic-fabricate",
+      "number": 79,
+      "title": "Add an HTTP-level integration test harness covering authn, authz and cross-tenant isolation",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/79",
+      "labels": [
+        {
+          "name": "application",
+          "color": "0e8a16"
+        },
+        {
+          "name": "api",
+          "color": "0052cc"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T11:13:48Z",
+      "updated_at": "2026-09-04T11:13:48Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABPrq4Jg",
+      "repo": "synthetic-fabricate",
+      "number": 78,
+      "title": "Singleton services capture scoped EF repositories — one shared DbContext across all requests in production",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/78",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        },
+        {
+          "name": "application",
+          "color": "0e8a16"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T11:13:47Z",
+      "updated_at": "2026-09-04T11:13:47Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPrXq9A",
+      "repo": "chorus",
+      "number": 155,
+      "title": "BRAIN-4 AC5: retrieval p95 is ~635ms at 20k chunks against a 300ms budget, and the components only account for 22ms",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/155",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:brain",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T10:40:13Z",
+      "updated_at": "2026-09-04T10:40:13Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOSeC83s8AAAABPpXm1Q",
       "repo": "synthetic-fabricate",
