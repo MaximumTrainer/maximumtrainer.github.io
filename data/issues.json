@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T20:21:37Z",
-  "issue_count": 185,
+  "generated_at": "2026-09-04T22:20:01Z",
+  "issue_count": 184,
   "repo_count": 8,
   "category_count": 3,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 23
+      "open_issue_count": 22
     }
   ],
   "repos": [
@@ -34,7 +34,7 @@
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
-      "open_issue_count": 20
+      "open_issue_count": 19
     },
     {
       "name": "freelap-intervals",
@@ -304,27 +304,6 @@
       "assignees": [],
       "created_at": "2026-09-04T11:13:52Z",
       "updated_at": "2026-09-04T11:13:52Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABPrq6sw",
-      "repo": "synthetic-fabricate",
-      "number": 80,
-      "title": "End-to-end determinism and reproducibility verification",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/80",
-      "labels": [
-        {
-          "name": "generation",
-          "color": "ededed"
-        },
-        {
-          "name": "validation",
-          "color": "b60205"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T11:13:50Z",
-      "updated_at": "2026-09-04T11:13:50Z",
       "comment_count": 0
     },
     {
