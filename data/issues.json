@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-05T09:20:35Z",
-  "issue_count": 180,
+  "generated_at": "2026-09-05T10:19:06Z",
+  "issue_count": 176,
   "repo_count": 8,
   "category_count": 3,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 18
+      "open_issue_count": 14
     }
   ],
   "repos": [
@@ -34,7 +34,7 @@
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
-      "open_issue_count": 15
+      "open_issue_count": 11
     },
     {
       "name": "freelap-intervals",
@@ -80,27 +80,6 @@
     }
   ],
   "issues": [
-    {
-      "id": "I_kwDOSeC83s8AAAABP0JRiA",
-      "repo": "synthetic-fabricate",
-      "number": 89,
-      "title": "API key list and revoke responses leak the stored secret hash",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/89",
-      "labels": [
-        {
-          "name": "compliance",
-          "color": "ededed"
-        },
-        {
-          "name": "api",
-          "color": "0052cc"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-05T06:53:22Z",
-      "updated_at": "2026-09-05T06:53:22Z",
-      "comment_count": 0
-    },
     {
       "id": "I_kwDORjrDLM8AAAABOekEfw",
       "repo": "OpenFactstore",
@@ -223,27 +202,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOSeC83s8AAAABPrrA-A",
-      "repo": "synthetic-fabricate",
-      "number": 85,
-      "title": "Per-user LLM credentials (session-scoped rung in the resolver)",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/85",
-      "labels": [
-        {
-          "name": "application",
-          "color": "0e8a16"
-        },
-        {
-          "name": "api",
-          "color": "0052cc"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T11:13:59Z",
-      "updated_at": "2026-09-04T11:13:59Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOSeC83s8AAAABPrq_ow",
       "repo": "synthetic-fabricate",
       "number": 84,
@@ -262,27 +220,6 @@
       "assignees": [],
       "created_at": "2026-09-04T11:13:57Z",
       "updated_at": "2026-09-04T11:13:57Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABPrq-gg",
-      "repo": "synthetic-fabricate",
-      "number": 83,
-      "title": "Enforce the prompt data boundary: gate sampled values and refuse the opt-in for Healthcare/Finance",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/83",
-      "labels": [
-        {
-          "name": "compliance",
-          "color": "ededed"
-        },
-        {
-          "name": "application",
-          "color": "0e8a16"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T11:13:56Z",
-      "updated_at": "2026-09-04T11:13:56Z",
       "comment_count": 0
     },
     {
@@ -308,31 +245,6 @@
       "assignees": [],
       "created_at": "2026-09-04T10:40:13Z",
       "updated_at": "2026-09-04T10:40:13Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABPpXm1Q",
-      "repo": "synthetic-fabricate",
-      "number": 77,
-      "title": "Per-workspace LLM usage attribution and token budgets",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/77",
-      "labels": [
-        {
-          "name": "application",
-          "color": "0e8a16"
-        },
-        {
-          "name": "observability",
-          "color": "006b75"
-        },
-        {
-          "name": "api",
-          "color": "0052cc"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T06:27:35Z",
-      "updated_at": "2026-09-04T06:27:35Z",
       "comment_count": 0
     },
     {
