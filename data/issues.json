@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-05T10:19:06Z",
-  "issue_count": 176,
+  "generated_at": "2026-09-05T11:17:28Z",
+  "issue_count": 174,
   "repo_count": 8,
   "category_count": 3,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 14
+      "open_issue_count": 12
     }
   ],
   "repos": [
@@ -34,7 +34,7 @@
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
-      "open_issue_count": 11
+      "open_issue_count": 9
     },
     {
       "name": "freelap-intervals",
@@ -269,31 +269,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOSeC83s8AAAABPpXlaw",
-      "repo": "synthetic-fabricate",
-      "number": 75,
-      "title": "Expose schema and profile snapshots via the API and make them selectable for plans and runs",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/75",
-      "labels": [
-        {
-          "name": "schema-discovery",
-          "color": "0052cc"
-        },
-        {
-          "name": "application",
-          "color": "0e8a16"
-        },
-        {
-          "name": "api",
-          "color": "0052cc"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T06:27:32Z",
-      "updated_at": "2026-09-04T06:27:32Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOSeC83s8AAAABPpXg6w",
       "repo": "synthetic-fabricate",
       "number": 71,
@@ -366,31 +341,6 @@
       "assignees": [],
       "created_at": "2026-09-04T06:27:20Z",
       "updated_at": "2026-09-04T06:27:20Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABPpXasg",
-      "repo": "synthetic-fabricate",
-      "number": 66,
-      "title": "Tenant-scope dataset runs; start runs and download artifacts through the API and SDK",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/66",
-      "labels": [
-        {
-          "name": "infrastructure",
-          "color": "fbca04"
-        },
-        {
-          "name": "application",
-          "color": "0e8a16"
-        },
-        {
-          "name": "api",
-          "color": "0052cc"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T06:27:14Z",
-      "updated_at": "2026-09-04T06:27:14Z",
       "comment_count": 0
     },
     {
