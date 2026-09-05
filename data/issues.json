@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-05T12:28:11Z",
-  "issue_count": 172,
+  "generated_at": "2026-09-05T15:18:23Z",
+  "issue_count": 170,
   "repo_count": 8,
   "category_count": 3,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 10
+      "open_issue_count": 8
     }
   ],
   "repos": [
@@ -41,7 +41,7 @@
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
-      "open_issue_count": 7
+      "open_issue_count": 5
     },
     {
       "name": "virtualrow",
@@ -249,52 +249,6 @@
       "assignees": [],
       "created_at": "2026-09-04T06:27:33Z",
       "updated_at": "2026-09-04T06:27:33Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABPpXg6w",
-      "repo": "synthetic-fabricate",
-      "number": 71,
-      "title": "NoSQL: implement the data profilers and expose NoSQL discovery through the CLI and API",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/71",
-      "labels": [
-        {
-          "name": "cli",
-          "color": "ededed"
-        },
-        {
-          "name": "schema-discovery",
-          "color": "0052cc"
-        },
-        {
-          "name": "infrastructure",
-          "color": "fbca04"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T06:27:24Z",
-      "updated_at": "2026-09-04T06:27:24Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABPpXfeg",
-      "repo": "synthetic-fabricate",
-      "number": 70,
-      "title": "Serve generated API endpoints from ingested OpenAPI contracts",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/70",
-      "labels": [
-        {
-          "name": "application",
-          "color": "0e8a16"
-        },
-        {
-          "name": "api",
-          "color": "0052cc"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T06:27:22Z",
-      "updated_at": "2026-09-04T06:27:22Z",
       "comment_count": 0
     },
     {
