@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T23:18:20Z",
-  "issue_count": 183,
+  "generated_at": "2026-09-05T07:21:21Z",
+  "issue_count": 182,
   "repo_count": 8,
   "category_count": 3,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 21
+      "open_issue_count": 20
     }
   ],
   "repos": [
@@ -34,7 +34,7 @@
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
-      "open_issue_count": 18
+      "open_issue_count": 17
     },
     {
       "name": "freelap-intervals",
@@ -80,6 +80,27 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOSeC83s8AAAABP0JRiA",
+      "repo": "synthetic-fabricate",
+      "number": 89,
+      "title": "API key list and revoke responses leak the stored secret hash",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/89",
+      "labels": [
+        {
+          "name": "compliance",
+          "color": "ededed"
+        },
+        {
+          "name": "api",
+          "color": "0052cc"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-05T06:53:22Z",
+      "updated_at": "2026-09-05T06:53:22Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDORjrDLM8AAAABOekEfw",
       "repo": "OpenFactstore",
@@ -265,27 +286,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOSeC83s8AAAABPrq9YA",
-      "repo": "synthetic-fabricate",
-      "number": 82,
-      "title": "Verify the streaming export memory budget (50k rows, peak heap)",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/82",
-      "labels": [
-        {
-          "name": "generation",
-          "color": "ededed"
-        },
-        {
-          "name": "observability",
-          "color": "006b75"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T11:13:54Z",
-      "updated_at": "2026-09-04T11:13:54Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPrXq9A",
       "repo": "chorus",
       "number": 155,
@@ -404,27 +404,6 @@
       "assignees": [],
       "created_at": "2026-09-04T06:27:30Z",
       "updated_at": "2026-09-04T06:27:30Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABPpXjLg",
-      "repo": "synthetic-fabricate",
-      "number": 73,
-      "title": "TypeScript SDK: non-chat methods call routes that do not exist; add an API contract check",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/73",
-      "labels": [
-        {
-          "name": "documentation",
-          "color": "0075ca"
-        },
-        {
-          "name": "api",
-          "color": "0052cc"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T06:27:28Z",
-      "updated_at": "2026-09-04T06:27:28Z",
       "comment_count": 0
     },
     {
