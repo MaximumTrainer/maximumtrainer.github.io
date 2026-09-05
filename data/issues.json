@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T15:18:23Z",
+  "generated_at": "2026-09-05T17:16:38Z",
   "issue_count": 170,
   "repo_count": 8,
   "category_count": 3,
@@ -81,24 +81,24 @@
   ],
   "issues": [
     {
-      "id": "I_kwDOSeC83s8AAAABP1fd4g",
+      "id": "I_kwDOSeC83s8AAAABP3BaZg",
       "repo": "synthetic-fabricate",
-      "number": 90,
-      "title": "Azure Blob and GCS artifact store adapters",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/90",
+      "number": 91,
+      "title": "Verify the adapters and behaviour left unverified by #71 and #87",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/91",
       "labels": [
         {
           "name": "infrastructure",
           "color": "fbca04"
         },
         {
-          "name": "export",
-          "color": "0e8a16"
+          "name": "validation",
+          "color": "b60205"
         }
       ],
       "assignees": [],
-      "created_at": "2026-09-05T11:44:33Z",
-      "updated_at": "2026-09-05T11:44:33Z",
+      "created_at": "2026-09-05T16:27:24Z",
+      "updated_at": "2026-09-05T16:27:24Z",
       "comment_count": 0
     },
     {
