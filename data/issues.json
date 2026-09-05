@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-05T11:17:28Z",
-  "issue_count": 174,
+  "generated_at": "2026-09-05T12:28:11Z",
+  "issue_count": 172,
   "repo_count": 8,
   "category_count": 3,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 12
+      "open_issue_count": 10
     }
   ],
   "repos": [
@@ -30,18 +30,18 @@
       "open_issue_count": 149
     },
     {
-      "name": "synthetic-fabricate",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
-      "description": "experimental synthetic data generation engine",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 9
-    },
-    {
       "name": "freelap-intervals",
       "url": "https://github.com/MaximumTrainer/freelap-intervals",
       "description": "# Freelap → intervals.icu Sprint Sync  Takes a timed sprint session from a Freelap system and writes it into intervals.icu — as structured intervals, summary custom fields and a human-readable rep table — then reads the activity back and reports every way it differs from what was intended.",
       "category": "Training & Fitness",
       "open_issue_count": 8
+    },
+    {
+      "name": "synthetic-fabricate",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
+      "description": "experimental synthetic data generation engine",
+      "category": "Data & LLM Experiments",
+      "open_issue_count": 7
     },
     {
       "name": "virtualrow",
@@ -80,6 +80,27 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOSeC83s8AAAABP1fd4g",
+      "repo": "synthetic-fabricate",
+      "number": 90,
+      "title": "Azure Blob and GCS artifact store adapters",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/90",
+      "labels": [
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        },
+        {
+          "name": "export",
+          "color": "0e8a16"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-05T11:44:33Z",
+      "updated_at": "2026-09-05T11:44:33Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDORjrDLM8AAAABOekEfw",
       "repo": "OpenFactstore",
@@ -164,23 +185,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOSeC83s8AAAABPrrCvA",
-      "repo": "synthetic-fabricate",
-      "number": 87,
-      "title": "Agent clarifying questions and auditable plan revisions",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/87",
-      "labels": [
-        {
-          "name": "application",
-          "color": "0e8a16"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T11:14:02Z",
-      "updated_at": "2026-09-04T11:14:02Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOSeC83s8AAAABPrrB5g",
       "repo": "synthetic-fabricate",
       "number": 86,
@@ -199,27 +203,6 @@
       "assignees": [],
       "created_at": "2026-09-04T11:14:01Z",
       "updated_at": "2026-09-04T11:14:01Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABPrq_ow",
-      "repo": "synthetic-fabricate",
-      "number": 84,
-      "title": "Object storage for generated artifacts (local disk is ephemeral on every hosted target)",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/84",
-      "labels": [
-        {
-          "name": "infrastructure",
-          "color": "fbca04"
-        },
-        {
-          "name": "export",
-          "color": "0e8a16"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T11:13:57Z",
-      "updated_at": "2026-09-04T11:13:57Z",
       "comment_count": 0
     },
     {
@@ -312,35 +295,6 @@
       "assignees": [],
       "created_at": "2026-09-04T06:27:22Z",
       "updated_at": "2026-09-04T06:27:22Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABPpXegQ",
-      "repo": "synthetic-fabricate",
-      "number": 69,
-      "title": "Workspace connection secrets and per-connection schema discovery (tools always use the instance database)",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/69",
-      "labels": [
-        {
-          "name": "schema-discovery",
-          "color": "0052cc"
-        },
-        {
-          "name": "infrastructure",
-          "color": "fbca04"
-        },
-        {
-          "name": "application",
-          "color": "0e8a16"
-        },
-        {
-          "name": "api",
-          "color": "0052cc"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T06:27:20Z",
-      "updated_at": "2026-09-04T06:27:20Z",
       "comment_count": 0
     },
     {
