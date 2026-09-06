@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-06T07:21:27Z",
-  "issue_count": 170,
+  "generated_at": "2026-09-06T08:25:59Z",
+  "issue_count": 153,
   "repo_count": 9,
   "category_count": 3,
   "truncated": false,
@@ -13,12 +13,12 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 150
+      "open_issue_count": 132
     },
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 7
+      "open_issue_count": 8
     }
   ],
   "repos": [
@@ -27,7 +27,7 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 149
+      "open_issue_count": 131
     },
     {
       "name": "freelap-intervals",
@@ -41,7 +41,7 @@
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
-      "open_issue_count": 4
+      "open_issue_count": 5
     },
     {
       "name": "virtualrow",
@@ -88,6 +88,203 @@
   ],
   "issues": [
     {
+      "id": "I_kwDOUJnj1s8AAAABPAsLIg",
+      "repo": "chorus",
+      "number": 42,
+      "title": "DOC-7 — Export to Markdown, rich text and PDF",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/42",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:doc",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:11:36Z",
+      "updated_at": "2026-09-06T08:04:32Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAlB-w",
+      "repo": "chorus",
+      "number": 15,
+      "title": "EPIC: Non-functional requirements and platform qualities (NFR)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/15",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:59:09Z",
+      "updated_at": "2026-09-06T08:04:00Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAk7sw",
+      "repo": "chorus",
+      "number": 12,
+      "title": "EPIC: Integration framework and connectors (INT)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/12",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:int",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:59:00Z",
+      "updated_at": "2026-09-06T08:03:57Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAk4TA",
+      "repo": "chorus",
+      "number": 10,
+      "title": "EPIC: Slack surface and notifications (SLACK)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/10",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:slack",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:54Z",
+      "updated_at": "2026-09-06T08:03:55Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAknig",
+      "repo": "chorus",
+      "number": 2,
+      "title": "EPIC: Chat-driven shaping (CHAT)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/2",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:chat",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:30Z",
+      "updated_at": "2026-09-06T08:03:37Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAkp6A",
+      "repo": "chorus",
+      "number": 3,
+      "title": "EPIC: Documents (DOC)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/3",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:doc",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:33Z",
+      "updated_at": "2026-09-06T08:03:35Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAkrzQ",
+      "repo": "chorus",
+      "number": 4,
+      "title": "EPIC: Tasks (TASK)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/4",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:task",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:36Z",
+      "updated_at": "2026-09-06T08:02:57Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAkwqQ",
+      "repo": "chorus",
+      "number": 6,
+      "title": "EPIC: Product agent runtime and workflows (AGENT)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/6",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:agent",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:43Z",
+      "updated_at": "2026-09-06T07:56:04Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaDsA",
+      "repo": "chorus",
+      "number": 76,
+      "title": "CODE-2 — Deterministic brief assembly shared with MCP",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/76",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:09Z",
+      "updated_at": "2026-09-06T07:45:58Z",
+      "comment_count": 1
+    },
+    {
       "id": "I_kwDOUJnj1s8AAAABPAmwcQ",
       "repo": "chorus",
       "number": 18,
@@ -109,8 +306,25 @@
       ],
       "assignees": [],
       "created_at": "2026-08-31T16:02:11Z",
-      "updated_at": "2026-09-06T07:10:59Z",
-      "comment_count": 3
+      "updated_at": "2026-09-06T07:43:23Z",
+      "comment_count": 4
+    },
+    {
+      "id": "I_kwDOSeC83s8AAAABP7J_Mw",
+      "repo": "synthetic-fabricate",
+      "number": 92,
+      "title": "Azure Key Vault and GCP KMS key-encryption keys for the Data Protection ring",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/92",
+      "labels": [
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T07:35:47Z",
+      "updated_at": "2026-09-06T07:35:47Z",
+      "comment_count": 0
     },
     {
       "id": "I_kwDOUJnj1s8AAAABP6_zGQ",
@@ -347,198 +561,6 @@
       "comment_count": 3
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABPBrYHA",
-      "repo": "chorus",
-      "number": 142,
-      "title": "NFR-11 — AI observability: redaction controls, eval hooks, version pinning",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/142",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:nfr",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T18:08:28Z",
-      "updated_at": "2026-09-03T18:55:05Z",
-      "comment_count": 2
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAzbjg",
-      "repo": "chorus",
-      "number": 69,
-      "title": "AGENT-4 — Run traces: viewable, exportable, reproducible",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/69",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:agent",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:24:33Z",
-      "updated_at": "2026-09-03T18:54:48Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAzXzA",
-      "repo": "chorus",
-      "number": 67,
-      "title": "AGENT-2 — Workflow router: rules first, classifier fallback, decision logged",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/67",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:agent",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:24:26Z",
-      "updated_at": "2026-09-03T18:54:46Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPBeDDQ",
-      "repo": "chorus",
-      "number": 107,
-      "title": "SLACK-6 — Email and in-app notifications as the fallback surface",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/107",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:slack",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T17:42:25Z",
-      "updated_at": "2026-09-03T16:49:36Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAzZlw",
-      "repo": "chorus",
-      "number": 68,
-      "title": "AGENT-3 — Checkpoint policies per team and workflow",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/68",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:agent",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:24:30Z",
-      "updated_at": "2026-09-03T16:49:34Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAzVgg",
-      "repo": "chorus",
-      "number": 66,
-      "title": "AGENT-1 — Workflow registry and the built-in workflow set",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/66",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:agent",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:24:23Z",
-      "updated_at": "2026-09-03T16:49:09Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAlB-w",
-      "repo": "chorus",
-      "number": 15,
-      "title": "EPIC: Non-functional requirements and platform qualities (NFR)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/15",
-      "labels": [
-        {
-          "name": "type:epic",
-          "color": "5319e7"
-        },
-        {
-          "name": "module:nfr",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T15:59:09Z",
-      "updated_at": "2026-09-03T12:31:19Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAk7sw",
-      "repo": "chorus",
-      "number": 12,
-      "title": "EPIC: Integration framework and connectors (INT)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/12",
-      "labels": [
-        {
-          "name": "type:epic",
-          "color": "5319e7"
-        },
-        {
-          "name": "module:int",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T15:59:00Z",
-      "updated_at": "2026-09-03T12:31:16Z",
-      "comment_count": 1
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPAklgg",
       "repo": "chorus",
       "number": 1,
@@ -683,31 +705,6 @@
       "created_at": "2026-08-31T17:53:27Z",
       "updated_at": "2026-09-03T12:23:48Z",
       "comment_count": 2
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPBhRlA",
-      "repo": "chorus",
-      "number": 114,
-      "title": "INT-2 — MVP source connectors: GitHub, GitLab, Linear, Jira",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/114",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:int",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T17:48:44Z",
-      "updated_at": "2026-09-03T12:23:44Z",
-      "comment_count": 1
     },
     {
       "id": "I_kwDOUJnj1s8AAAABPAmySQ",
@@ -920,27 +917,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABPMyrWA",
-      "repo": "chorus",
-      "number": 147,
-      "title": "WS-3 AC3 — scope artefact queries by team once tasks, documents and integrations exist",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/147",
-      "labels": [
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:ws",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-01T17:48:09Z",
-      "updated_at": "2026-09-01T17:48:10Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPAm2kQ",
       "repo": "chorus",
       "number": 21,
@@ -1090,31 +1066,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABPBaDsA",
-      "repo": "chorus",
-      "number": 76,
-      "title": "CODE-2 — Deterministic brief assembly shared with MCP",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/76",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:code",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T17:35:09Z",
-      "updated_at": "2026-08-31T18:27:50Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPAlAJQ",
       "repo": "chorus",
       "number": 14,
@@ -1178,27 +1129,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABPAk4TA",
-      "repo": "chorus",
-      "number": 10,
-      "title": "EPIC: Slack surface and notifications (SLACK)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/10",
-      "labels": [
-        {
-          "name": "type:epic",
-          "color": "5319e7"
-        },
-        {
-          "name": "module:slack",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T15:58:54Z",
-      "updated_at": "2026-08-31T18:11:55Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPAk2Tw",
       "repo": "chorus",
       "number": 9,
@@ -1259,90 +1189,6 @@
       "assignees": [],
       "created_at": "2026-08-31T15:58:46Z",
       "updated_at": "2026-08-31T18:11:35Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAkwqQ",
-      "repo": "chorus",
-      "number": 6,
-      "title": "EPIC: Product agent runtime and workflows (AGENT)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/6",
-      "labels": [
-        {
-          "name": "type:epic",
-          "color": "5319e7"
-        },
-        {
-          "name": "module:agent",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T15:58:43Z",
-      "updated_at": "2026-08-31T18:11:27Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAkrzQ",
-      "repo": "chorus",
-      "number": 4,
-      "title": "EPIC: Tasks (TASK)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/4",
-      "labels": [
-        {
-          "name": "type:epic",
-          "color": "5319e7"
-        },
-        {
-          "name": "module:task",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T15:58:36Z",
-      "updated_at": "2026-08-31T18:11:12Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAkp6A",
-      "repo": "chorus",
-      "number": 3,
-      "title": "EPIC: Documents (DOC)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/3",
-      "labels": [
-        {
-          "name": "type:epic",
-          "color": "5319e7"
-        },
-        {
-          "name": "module:doc",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T15:58:33Z",
-      "updated_at": "2026-08-31T18:11:04Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAknig",
-      "repo": "chorus",
-      "number": 2,
-      "title": "EPIC: Chat-driven shaping (CHAT)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/2",
-      "labels": [
-        {
-          "name": "type:epic",
-          "color": "5319e7"
-        },
-        {
-          "name": "module:chat",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T15:58:30Z",
-      "updated_at": "2026-08-31T18:10:55Z",
       "comment_count": 0
     },
     {
@@ -2721,31 +2567,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABPAzdHw",
-      "repo": "chorus",
-      "number": 70,
-      "title": "AGENT-5 — Typed tool registry with per-workflow allow-lists",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/70",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:agent",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:24:36Z",
-      "updated_at": "2026-08-31T17:09:31Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPAzkrA",
       "repo": "chorus",
       "number": 74,
@@ -3221,81 +3042,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABPAsbAA",
-      "repo": "chorus",
-      "number": 49,
-      "title": "TASK-3 — Automatic, editable code pointers that deep-link at a commit",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/49",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:task",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:12:02Z",
-      "updated_at": "2026-08-31T16:12:02Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAsYwA",
-      "repo": "chorus",
-      "number": 48,
-      "title": "TASK-2 — Tree and card views with reorder, re-parent and bulk tagging",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/48",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:task",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:11:58Z",
-      "updated_at": "2026-08-31T16:11:58Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAsWew",
-      "repo": "chorus",
-      "number": 47,
-      "title": "TASK-1 — Task model: fields, acceptance criteria, tags, links and pointers",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/47",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:task",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:11:54Z",
-      "updated_at": "2026-08-31T16:11:54Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPAsTzg",
       "repo": "chorus",
       "number": 46,
@@ -3396,31 +3142,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABPAsLIg",
-      "repo": "chorus",
-      "number": 42,
-      "title": "DOC-7 — Export to Markdown, rich text and PDF",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/42",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:doc",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:11:36Z",
-      "updated_at": "2026-08-31T16:11:36Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPAsJLA",
       "repo": "chorus",
       "number": 41,
@@ -3443,131 +3164,6 @@
       "assignees": [],
       "created_at": "2026-08-31T16:11:33Z",
       "updated_at": "2026-08-31T16:11:33Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAsG5Q",
-      "repo": "chorus",
-      "number": 40,
-      "title": "DOC-5 — Version history with diff and restore",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/40",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:doc",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:11:29Z",
-      "updated_at": "2026-08-31T16:11:29Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAsEwg",
-      "repo": "chorus",
-      "number": 39,
-      "title": "DOC-4 — Anchored comments and threads with mentions",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/39",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:doc",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:11:26Z",
-      "updated_at": "2026-08-31T16:11:26Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAsCvQ",
-      "repo": "chorus",
-      "number": 38,
-      "title": "DOC-3 — AI editing as accept/reject suggestions",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/38",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:doc",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:11:22Z",
-      "updated_at": "2026-08-31T16:11:22Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAsAsQ",
-      "repo": "chorus",
-      "number": 37,
-      "title": "DOC-2 — Collaborative rich-text editor with cursors and nametags",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/37",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:doc",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:11:19Z",
-      "updated_at": "2026-08-31T16:11:19Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAr-cQ",
-      "repo": "chorus",
-      "number": 36,
-      "title": "DOC-1 — Document types and editable templates",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/36",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:doc",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:11:15Z",
-      "updated_at": "2026-08-31T16:11:15Z",
       "comment_count": 0
     },
     {
@@ -3818,31 +3414,6 @@
       "assignees": [],
       "created_at": "2026-08-31T16:05:40Z",
       "updated_at": "2026-08-31T16:05:40Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAouGA",
-      "repo": "chorus",
-      "number": 25,
-      "title": "CHAT-1 — Home entry points and configurable quick actions",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/25",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:chat",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:05:36Z",
-      "updated_at": "2026-08-31T16:05:36Z",
       "comment_count": 0
     },
     {
