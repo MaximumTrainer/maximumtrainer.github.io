@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-06T16:21:20Z",
-  "issue_count": 153,
-  "repo_count": 9,
-  "category_count": 3,
+  "generated_at": "2026-09-06T17:16:29Z",
+  "issue_count": 184,
+  "repo_count": 10,
+  "category_count": 4,
   "truncated": false,
   "categories": [
     {
@@ -13,12 +13,17 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 132
+      "open_issue_count": 133
     },
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
       "open_issue_count": 8
+    },
+    {
+      "name": "Other",
+      "repo_count": 1,
+      "open_issue_count": 30
     }
   ],
   "repos": [
@@ -27,7 +32,14 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 131
+      "open_issue_count": 132
+    },
+    {
+      "name": "garmin-cqc-freelap",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap",
+      "description": "sketch project to figure out how to get garmin cqc app recording freelap transmitters",
+      "category": "Other",
+      "open_issue_count": 30
     },
     {
       "name": "freelap-intervals",
@@ -87,6 +99,710 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zdbg",
+      "repo": "garmin-cqc-freelap",
+      "number": 30,
+      "title": "Connect IQ store readiness",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/30",
+      "labels": [
+        {
+          "name": "area:ui",
+          "color": "fbca04"
+        },
+        {
+          "name": "area:docs",
+          "color": "bfdadc"
+        },
+        {
+          "name": "priority:p2",
+          "color": "fbca04"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:48Z",
+      "updated_at": "2026-09-06T17:03:48Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zcyQ",
+      "repo": "garmin-cqc-freelap",
+      "number": 29,
+      "title": "CSV / Intervals.icu export path for splits",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/29",
+      "labels": [
+        {
+          "name": "area:tooling",
+          "color": "c5def5"
+        },
+        {
+          "name": "priority:p2",
+          "color": "fbca04"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:46Z",
+      "updated_at": "2026-09-06T17:03:46Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zcPg",
+      "repo": "garmin-cqc-freelap",
+      "number": 28,
+      "title": "Multi-athlete: Freelap Relay Coach BLE / several chips",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/28",
+      "labels": [
+        {
+          "name": "area:ble",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:engine",
+          "color": "5319e7"
+        },
+        {
+          "name": "priority:p2",
+          "color": "fbca04"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:45Z",
+      "updated_at": "2026-09-06T17:03:45Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zbtw",
+      "repo": "garmin-cqc-freelap",
+      "number": 27,
+      "title": "Fake chip: replay real captures and multi-fragment bursts",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/27",
+      "labels": [
+        {
+          "name": "area:tooling",
+          "color": "c5def5"
+        },
+        {
+          "name": "priority:p1",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:43Z",
+      "updated_at": "2026-09-06T17:03:43Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zbJA",
+      "repo": "garmin-cqc-freelap",
+      "number": 26,
+      "title": "Robustness: memory and watchdog on API 3.1 devices",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/26",
+      "labels": [
+        {
+          "name": "area:engine",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:fit",
+          "color": "d93f0b"
+        },
+        {
+          "name": "priority:p1",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:42Z",
+      "updated_at": "2026-09-06T17:03:42Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zanQ",
+      "repo": "garmin-cqc-freelap",
+      "number": 25,
+      "title": "Field validation: 20 reps on a real track against MyFreelap",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/25",
+      "labels": [
+        {
+          "name": "type:test",
+          "color": "bfd4f2"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:41Z",
+      "updated_at": "2026-09-06T17:03:41Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zaCg",
+      "repo": "garmin-cqc-freelap",
+      "number": 24,
+      "title": "Manual controls: pause/resume, manual rep end, save/discard",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/24",
+      "labels": [
+        {
+          "name": "area:ui",
+          "color": "fbca04"
+        },
+        {
+          "name": "priority:p1",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:39Z",
+      "updated_at": "2026-09-06T17:03:39Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zZjA",
+      "repo": "garmin-cqc-freelap",
+      "number": 23,
+      "title": "Settings via Garmin Connect / Express: courses, latency, flags",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/23",
+      "labels": [
+        {
+          "name": "area:ui",
+          "color": "fbca04"
+        },
+        {
+          "name": "priority:p1",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:38Z",
+      "updated_at": "2026-09-06T17:03:38Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zZAA",
+      "repo": "garmin-cqc-freelap",
+      "number": 22,
+      "title": "On-watch course selection and Quick course",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/22",
+      "labels": [
+        {
+          "name": "area:ui",
+          "color": "fbca04"
+        },
+        {
+          "name": "priority:p1",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:36Z",
+      "updated_at": "2026-09-06T17:03:36Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zYUw",
+      "repo": "garmin-cqc-freelap",
+      "number": 21,
+      "title": "Rep summary overlay after each FINISH",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/21",
+      "labels": [
+        {
+          "name": "area:ui",
+          "color": "fbca04"
+        },
+        {
+          "name": "priority:p2",
+          "color": "fbca04"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:34Z",
+      "updated_at": "2026-09-06T17:03:34Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zXwA",
+      "repo": "garmin-cqc-freelap",
+      "number": 20,
+      "title": "Activity screen: live split readout, rep counter, chip status",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/20",
+      "labels": [
+        {
+          "name": "area:ui",
+          "color": "fbca04"
+        },
+        {
+          "name": "priority:p1",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:33Z",
+      "updated_at": "2026-09-06T17:03:33Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zXMQ",
+      "repo": "garmin-cqc-freelap",
+      "number": 19,
+      "title": "Store the full split log on the watch and expose it for export",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/19",
+      "labels": [
+        {
+          "name": "area:fit",
+          "color": "d93f0b"
+        },
+        {
+          "name": "area:tooling",
+          "color": "c5def5"
+        },
+        {
+          "name": "priority:p2",
+          "color": "fbca04"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:31Z",
+      "updated_at": "2026-09-06T17:03:31Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zWjw",
+      "repo": "garmin-cqc-freelap",
+      "number": 18,
+      "title": "FIT: session summary fields and correct save/discard behaviour",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/18",
+      "labels": [
+        {
+          "name": "area:fit",
+          "color": "d93f0b"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:29Z",
+      "updated_at": "2026-09-06T17:03:30Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zWAQ",
+      "repo": "garmin-cqc-freelap",
+      "number": 17,
+      "title": "FIT: one Garmin lap per Freelap rep with lap-level summary fields",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/17",
+      "labels": [
+        {
+          "name": "area:fit",
+          "color": "d93f0b"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:28Z",
+      "updated_at": "2026-09-06T17:03:28Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zVhQ",
+      "repo": "garmin-cqc-freelap",
+      "number": 16,
+      "title": "FIT: record-level developer fields for every split",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/16",
+      "labels": [
+        {
+          "name": "area:fit",
+          "color": "d93f0b"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:27Z",
+      "updated_at": "2026-09-06T17:03:27Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zU6g",
+      "repo": "garmin-cqc-freelap",
+      "number": 15,
+      "title": "Estimated wall-clock placement of crossings (BLE latency model)",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/15",
+      "labels": [
+        {
+          "name": "area:engine",
+          "color": "5319e7"
+        },
+        {
+          "name": "priority:p1",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:25Z",
+      "updated_at": "2026-09-06T17:03:25Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zURQ",
+      "repo": "garmin-cqc-freelap",
+      "number": 14,
+      "title": "Split engine: derive split/cumulative time (Âµs), distance, velocity, speed and pace",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/14",
+      "labels": [
+        {
+          "name": "area:engine",
+          "color": "5319e7"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:23Z",
+      "updated_at": "2026-09-06T17:03:23Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zTwQ",
+      "repo": "garmin-cqc-freelap",
+      "number": 13,
+      "title": "Course model: parse, validate and match crossings to transmitters",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/13",
+      "labels": [
+        {
+          "name": "area:engine",
+          "color": "5319e7"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:22Z",
+      "updated_at": "2026-09-06T17:03:22Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zTLQ",
+      "repo": "garmin-cqc-freelap",
+      "number": 12,
+      "title": "Capture mode: on-watch raw packet logger",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/12",
+      "labels": [
+        {
+          "name": "area:ble",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:tooling",
+          "color": "c5def5"
+        },
+        {
+          "name": "priority:p1",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:21Z",
+      "updated_at": "2026-09-06T17:03:21Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zSpw",
+      "repo": "garmin-cqc-freelap",
+      "number": 11,
+      "title": "Remember the last chip and prefer it when several are advertising",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/11",
+      "labels": [
+        {
+          "name": "area:ble",
+          "color": "1d76db"
+        },
+        {
+          "name": "priority:p1",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:19Z",
+      "updated_at": "2026-09-06T17:03:19Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zSGQ",
+      "repo": "garmin-cqc-freelap",
+      "number": 10,
+      "title": "Reconnect after link loss without losing crossings already received",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/10",
+      "labels": [
+        {
+          "name": "area:ble",
+          "color": "1d76db"
+        },
+        {
+          "name": "priority:p1",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:18Z",
+      "updated_at": "2026-09-06T17:03:18Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zRkQ",
+      "repo": "garmin-cqc-freelap",
+      "number": 9,
+      "title": "Reliable scan â†’ pair â†’ subscribe against the real chip",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/9",
+      "labels": [
+        {
+          "name": "area:ble",
+          "color": "1d76db"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:16Z",
+      "updated_at": "2026-09-06T17:03:16Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zQ-A",
+      "repo": "garmin-cqc-freelap",
+      "number": 8,
+      "title": "Ask Freelap for protocol documentation / SDK",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/8",
+      "labels": [
+        {
+          "name": "area:protocol",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:p2",
+          "color": "fbca04"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:15Z",
+      "updated_at": "2026-09-06T17:03:15Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zQUg",
+      "repo": "garmin-cqc-freelap",
+      "number": 7,
+      "title": "Implement the real FreelapProtocol decoder with unit-test vectors",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/7",
+      "labels": [
+        {
+          "name": "area:protocol",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:13Z",
+      "updated_at": "2026-09-06T17:03:13Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zPdQ",
+      "repo": "garmin-cqc-freelap",
+      "number": 6,
+      "title": "Decode the crossing packet format from captures",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/6",
+      "labels": [
+        {
+          "name": "area:protocol",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:11Z",
+      "updated_at": "2026-09-06T17:03:11Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zOuQ",
+      "repo": "garmin-cqc-freelap",
+      "number": 5,
+      "title": "Spike: capture MyFreelap â†” chip traffic for the scripted run set",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/5",
+      "labels": [
+        {
+          "name": "area:protocol",
+          "color": "0e8a16"
+        },
+        {
+          "name": "type:spike",
+          "color": "e99695"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:09Z",
+      "updated_at": "2026-09-06T17:03:09Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zOGQ",
+      "repo": "garmin-cqc-freelap",
+      "number": 4,
+      "title": "Spike: enumerate the FxChip BLE's advertising data and GATT table",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/4",
+      "labels": [
+        {
+          "name": "area:protocol",
+          "color": "0e8a16"
+        },
+        {
+          "name": "type:spike",
+          "color": "e99695"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:07Z",
+      "updated_at": "2026-09-06T17:03:07Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zNUg",
+      "repo": "garmin-cqc-freelap",
+      "number": 3,
+      "title": "CI: validate resources and tooling on every push; document the SDK constraint",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/3",
+      "labels": [
+        {
+          "name": "area:tooling",
+          "color": "c5def5"
+        },
+        {
+          "name": "priority:p2",
+          "color": "fbca04"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:05Z",
+      "updated_at": "2026-09-06T17:03:05Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zMjw",
+      "repo": "garmin-cqc-freelap",
+      "number": 2,
+      "title": "Add a launcher icon and per-device resource overrides",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/2",
+      "labels": [
+        {
+          "name": "area:ui",
+          "color": "fbca04"
+        },
+        {
+          "name": "priority:p1",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:03Z",
+      "updated_at": "2026-09-06T17:03:03Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zL8w",
+      "repo": "garmin-cqc-freelap",
+      "number": 1,
+      "title": "Build the skeleton with the Connect IQ SDK and fix compile errors",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/1",
+      "labels": [
+        {
+          "name": "area:tooling",
+          "color": "c5def5"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:01Z",
+      "updated_at": "2026-09-06T17:03:01Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAoydQ",
+      "repo": "chorus",
+      "number": 27,
+      "title": "CHAT-3 — Grounding every turn, with a visible \"Context used\" panel",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/27",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:chat",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:05:43Z",
+      "updated_at": "2026-09-06T16:51:48Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABP9nM3A",
+      "repo": "chorus",
+      "number": 159,
+      "title": "The pre-push gate does not run the browser journeys, so a class of failure reaches CI first",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/159",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T16:25:28Z",
+      "updated_at": "2026-09-06T16:25:28Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOUJnj1s8AAAABPAowhQ",
       "repo": "chorus",
@@ -3389,31 +4105,6 @@
       "assignees": [],
       "created_at": "2026-08-31T16:05:46Z",
       "updated_at": "2026-08-31T16:05:47Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAoydQ",
-      "repo": "chorus",
-      "number": 27,
-      "title": "CHAT-3 — Grounding every turn, with a visible \"Context used\" panel",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/27",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:chat",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:05:43Z",
-      "updated_at": "2026-08-31T16:05:43Z",
       "comment_count": 0
     },
     {
