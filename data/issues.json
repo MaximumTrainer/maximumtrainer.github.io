@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T19:16:00Z",
+  "generated_at": "2026-09-06T02:30:12Z",
   "issue_count": 171,
   "repo_count": 9,
   "category_count": 3,
@@ -88,23 +88,6 @@
   ],
   "issues": [
     {
-      "id": "I_kwDORbFSsM8AAAABP3sdEA",
-      "repo": "SilverSprint",
-      "number": 31,
-      "title": "Sprint pace curve with configurable distances",
-      "url": "https://github.com/MaximumTrainer/SilverSprint/issues/31",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-05T18:17:34Z",
-      "updated_at": "2026-09-05T18:33:14Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOSeC83s8AAAABP3BaZg",
       "repo": "synthetic-fabricate",
       "number": 91,
@@ -122,7 +105,41 @@
       ],
       "assignees": [],
       "created_at": "2026-09-05T16:27:24Z",
-      "updated_at": "2026-09-05T16:27:24Z",
+      "updated_at": "2026-09-06T02:16:51Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABP55G-Q",
+      "repo": "chorus",
+      "number": 157,
+      "title": "Two migrators racing can both apply the same migration",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/157",
+      "labels": [
+        {
+          "name": "priority:could",
+          "color": "fbca04"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T02:16:31Z",
+      "updated_at": "2026-09-06T02:16:31Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORbFSsM8AAAABP3sdEA",
+      "repo": "SilverSprint",
+      "number": 31,
+      "title": "Sprint pace curve with configurable distances",
+      "url": "https://github.com/MaximumTrainer/SilverSprint/issues/31",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-05T18:17:34Z",
+      "updated_at": "2026-09-05T18:33:14Z",
       "comment_count": 0
     },
     {
@@ -186,27 +203,6 @@
       "created_at": "2026-08-31T09:56:28Z",
       "updated_at": "2026-09-04T17:00:11Z",
       "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPr7VUw",
-      "repo": "chorus",
-      "number": 156,
-      "title": "applyMigrations has no ledger: it re-runs every migration on every start, so the stack cannot restart against an existing volume",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/156",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T11:44:42Z",
-      "updated_at": "2026-09-04T11:44:42Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDOSeC83s8AAAABPrrB5g",
