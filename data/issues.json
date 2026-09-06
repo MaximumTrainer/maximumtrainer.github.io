@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T17:16:29Z",
+  "generated_at": "2026-09-06T18:23:00Z",
   "issue_count": 184,
   "repo_count": 10,
   "category_count": 4,
@@ -99,6 +99,77 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAo2gA",
+      "repo": "chorus",
+      "number": 29,
+      "title": "CHAT-5 — Structure proposal with a confirmation gate",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/29",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:chat",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:05:50Z",
+      "updated_at": "2026-09-06T17:49:06Z",
+      "comment_count": 2
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAoydQ",
+      "repo": "chorus",
+      "number": 27,
+      "title": "CHAT-3 — Grounding every turn, with a visible \"Context used\" panel",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/27",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:chat",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:05:43Z",
+      "updated_at": "2026-09-06T17:18:30Z",
+      "comment_count": 2
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABP9nM3A",
+      "repo": "chorus",
+      "number": 159,
+      "title": "The pre-push gate does not run the browser journeys, so a class of failure reaches CI first",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/159",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T16:25:28Z",
+      "updated_at": "2026-09-06T17:18:07Z",
+      "comment_count": 1
+    },
     {
       "id": "I_kwDOUQYAE88AAAABP9zdbg",
       "repo": "garmin-cqc-freelap",
@@ -755,52 +826,6 @@
       "assignees": [],
       "created_at": "2026-09-06T17:03:01Z",
       "updated_at": "2026-09-06T17:03:01Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAoydQ",
-      "repo": "chorus",
-      "number": 27,
-      "title": "CHAT-3 — Grounding every turn, with a visible \"Context used\" panel",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/27",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:chat",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:05:43Z",
-      "updated_at": "2026-09-06T16:51:48Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABP9nM3A",
-      "repo": "chorus",
-      "number": 159,
-      "title": "The pre-push gate does not run the browser journeys, so a class of failure reaches CI first",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/159",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "priority:should",
-          "color": "d93f0b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T16:25:28Z",
-      "updated_at": "2026-09-06T16:25:28Z",
       "comment_count": 0
     },
     {
@@ -4055,31 +4080,6 @@
       "assignees": [],
       "created_at": "2026-08-31T16:05:54Z",
       "updated_at": "2026-08-31T16:05:54Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAo2gA",
-      "repo": "chorus",
-      "number": 29,
-      "title": "CHAT-5 — Structure proposal with a confirmation gate",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/29",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:chat",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:05:50Z",
-      "updated_at": "2026-08-31T16:05:50Z",
       "comment_count": 0
     },
     {
