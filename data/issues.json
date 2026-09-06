@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T08:25:59Z",
+  "generated_at": "2026-09-06T12:28:17Z",
   "issue_count": 153,
   "repo_count": 9,
   "category_count": 3,
@@ -87,6 +87,35 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOSeC83s8AAAABPe9hrQ",
+      "repo": "synthetic-fabricate",
+      "number": 61,
+      "title": "Lightweight hosted deployment from GitHub (Fly.io reference) with bring-your-own-key",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/61",
+      "labels": [
+        {
+          "name": "documentation",
+          "color": "0075ca"
+        },
+        {
+          "name": "automation",
+          "color": "ededed"
+        },
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        },
+        {
+          "name": "configuration",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-03T08:12:57Z",
+      "updated_at": "2026-09-06T11:26:03Z",
+      "comment_count": 4
+    },
     {
       "id": "I_kwDOUJnj1s8AAAABPAsLIg",
       "repo": "chorus",
@@ -530,35 +559,6 @@
       "created_at": "2026-09-04T06:27:33Z",
       "updated_at": "2026-09-04T06:27:33Z",
       "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSeC83s8AAAABPe9hrQ",
-      "repo": "synthetic-fabricate",
-      "number": 61,
-      "title": "Lightweight hosted deployment from GitHub (Fly.io reference) with bring-your-own-key",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/61",
-      "labels": [
-        {
-          "name": "documentation",
-          "color": "0075ca"
-        },
-        {
-          "name": "automation",
-          "color": "ededed"
-        },
-        {
-          "name": "infrastructure",
-          "color": "fbca04"
-        },
-        {
-          "name": "configuration",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-03T08:12:57Z",
-      "updated_at": "2026-09-04T05:54:42Z",
-      "comment_count": 3
     },
     {
       "id": "I_kwDOUJnj1s8AAAABPAklgg",
