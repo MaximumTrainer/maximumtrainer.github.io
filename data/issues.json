@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T06:32:23Z",
+  "generated_at": "2026-09-06T07:21:27Z",
   "issue_count": 170,
   "repo_count": 9,
   "category_count": 3,
@@ -87,6 +87,52 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAmwcQ",
+      "repo": "chorus",
+      "number": 18,
+      "title": "WS-3 — Teams with charter, repositories, trackers and policies",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/18",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:ws",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:02:11Z",
+      "updated_at": "2026-09-06T07:10:59Z",
+      "comment_count": 3
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABP6_zGQ",
+      "repo": "chorus",
+      "number": 158,
+      "title": "createIsolatedDatabase leaks databases when drop() fails, and the leak looks like flakiness",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/158",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T06:58:00Z",
+      "updated_at": "2026-09-06T06:58:00Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOSeC83s8AAAABP3BaZg",
       "repo": "synthetic-fabricate",
@@ -514,27 +560,6 @@
       "comment_count": 1
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABPMyiYA",
-      "repo": "chorus",
-      "number": 146,
-      "title": "WS-3 AC2 — the team charter must reach the agent's assembled prompt and its recorded context",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/146",
-      "labels": [
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:ws",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-01T17:47:53Z",
-      "updated_at": "2026-09-03T12:31:09Z",
-      "comment_count": 1
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPBq5FQ",
       "repo": "chorus",
       "number": 136,
@@ -707,31 +732,6 @@
       "assignees": [],
       "created_at": "2026-08-31T16:02:14Z",
       "updated_at": "2026-09-03T12:23:41Z",
-      "comment_count": 2
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAmwcQ",
-      "repo": "chorus",
-      "number": 18,
-      "title": "WS-3 — Teams with charter, repositories, trackers and policies",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/18",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:ws",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:02:11Z",
-      "updated_at": "2026-09-03T12:23:38Z",
       "comment_count": 2
     },
     {
