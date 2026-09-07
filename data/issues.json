@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-07T12:33:46Z",
-  "issue_count": 171,
+  "generated_at": "2026-09-07T13:24:27Z",
+  "issue_count": 167,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -23,7 +23,7 @@
     {
       "name": "Other",
       "repo_count": 1,
-      "open_issue_count": 14
+      "open_issue_count": 10
     }
   ],
   "repos": [
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap",
       "description": "sketch project to figure out how to get garmin cqc app recording freelap transmitters",
       "category": "Other",
-      "open_issue_count": 14
+      "open_issue_count": 10
     },
     {
       "name": "freelap-intervals",
@@ -472,27 +472,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUQYAE88AAAABP9zcyQ",
-      "repo": "garmin-cqc-freelap",
-      "number": 29,
-      "title": "CSV / Intervals.icu export path for splits",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/29",
-      "labels": [
-        {
-          "name": "area:tooling",
-          "color": "c5def5"
-        },
-        {
-          "name": "priority:p2",
-          "color": "fbca04"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:46Z",
-      "updated_at": "2026-09-06T17:03:46Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUQYAE88AAAABP9zcPg",
       "repo": "garmin-cqc-freelap",
       "number": 28,
@@ -518,31 +497,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUQYAE88AAAABP9zbJA",
-      "repo": "garmin-cqc-freelap",
-      "number": 26,
-      "title": "Robustness: memory and watchdog on API 3.1 devices",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/26",
-      "labels": [
-        {
-          "name": "area:engine",
-          "color": "5319e7"
-        },
-        {
-          "name": "area:fit",
-          "color": "d93f0b"
-        },
-        {
-          "name": "priority:p1",
-          "color": "d93f0b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:42Z",
-      "updated_at": "2026-09-06T17:03:42Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUQYAE88AAAABP9zanQ",
       "repo": "garmin-cqc-freelap",
       "number": 25,
@@ -561,52 +515,6 @@
       "assignees": [],
       "created_at": "2026-09-06T17:03:41Z",
       "updated_at": "2026-09-06T17:03:41Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABP9zYUw",
-      "repo": "garmin-cqc-freelap",
-      "number": 21,
-      "title": "Rep summary overlay after each FINISH",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/21",
-      "labels": [
-        {
-          "name": "area:ui",
-          "color": "fbca04"
-        },
-        {
-          "name": "priority:p2",
-          "color": "fbca04"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:34Z",
-      "updated_at": "2026-09-06T17:03:34Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABP9zXMQ",
-      "repo": "garmin-cqc-freelap",
-      "number": 19,
-      "title": "Store the full split log on the watch and expose it for export",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/19",
-      "labels": [
-        {
-          "name": "area:fit",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:tooling",
-          "color": "c5def5"
-        },
-        {
-          "name": "priority:p2",
-          "color": "fbca04"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:31Z",
-      "updated_at": "2026-09-06T17:03:31Z",
       "comment_count": 0
     },
     {
