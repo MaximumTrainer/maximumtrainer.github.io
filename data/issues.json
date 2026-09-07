@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-07T07:31:18Z",
-  "issue_count": 184,
+  "generated_at": "2026-09-07T08:34:13Z",
+  "issue_count": 190,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 133
+      "open_issue_count": 140
     },
     {
       "name": "Data & LLM Experiments",
@@ -23,7 +23,7 @@
     {
       "name": "Other",
       "repo_count": 1,
-      "open_issue_count": 30
+      "open_issue_count": 29
     }
   ],
   "repos": [
@@ -32,14 +32,14 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 132
+      "open_issue_count": 139
     },
     {
       "name": "garmin-cqc-freelap",
       "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap",
       "description": "sketch project to figure out how to get garmin cqc app recording freelap transmitters",
       "category": "Other",
-      "open_issue_count": 30
+      "open_issue_count": 29
     },
     {
       "name": "freelap-intervals",
@@ -99,6 +99,240 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaF-A",
+      "repo": "chorus",
+      "number": 77,
+      "title": "CODE-3 — Pluggable coding adapters including a built-in reference agent",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/77",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:12Z",
+      "updated_at": "2026-09-07T08:15:39Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBrLuA",
+      "repo": "chorus",
+      "number": 139,
+      "title": "NFR-8 — Cost control: spend limits, per-run cost, cheap defaults, caching",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/139",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T18:08:05Z",
+      "updated_at": "2026-09-07T08:15:37Z",
+      "comment_count": 2
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBjkyA",
+      "repo": "chorus",
+      "number": 133,
+      "title": "NFR-2 — Model agnosticism with per-task-type routing and versioned prompts",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/133",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:53:27Z",
+      "updated_at": "2026-09-07T08:15:36Z",
+      "comment_count": 3
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABQDEMxg",
+      "repo": "chorus",
+      "number": 167,
+      "title": "Claude API capabilities deliberately left out of the model-layer plan",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/167",
+      "labels": [
+        {
+          "name": "priority:could",
+          "color": "fbca04"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-07T08:14:14Z",
+      "updated_at": "2026-09-07T08:15:22Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABQDEKUQ",
+      "repo": "chorus",
+      "number": 166,
+      "title": "CODE-3 — claude-code adapter running the Claude Agent SDK non-interactively in the sandbox",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/166",
+      "labels": [
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-07T08:14:12Z",
+      "updated_at": "2026-09-07T08:15:20Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABQDEJGw",
+      "repo": "chorus",
+      "number": 165,
+      "title": "CODE-3 — Reference coding adapter and the shared adapter contract-test kit",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/165",
+      "labels": [
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-07T08:14:10Z",
+      "updated_at": "2026-09-07T08:15:18Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABQDEH3w",
+      "repo": "chorus",
+      "number": 164,
+      "title": "NFR-8 — countTokens(), prompt-prefix caching, and cached tokens in the spend ledger",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/164",
+      "labels": [
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-07T08:14:08Z",
+      "updated_at": "2026-09-07T08:15:17Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABQDEAcA",
+      "repo": "chorus",
+      "number": 163,
+      "title": "NFR-2 — tool-call deltas in stream(), and the streamingToolDeltas capability",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/163",
+      "labels": [
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-07T08:13:59Z",
+      "updated_at": "2026-09-07T08:15:15Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABQDD-uw",
+      "repo": "chorus",
+      "number": 162,
+      "title": "NFR-2 — generate<T>() with structured output, replacing brace-scraped JSON",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/162",
+      "labels": [
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-07T08:13:57Z",
+      "updated_at": "2026-09-07T08:15:14Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABQDD9NA",
+      "repo": "chorus",
+      "number": 161,
+      "title": "NFR-2 — Anthropic provider behind the ModelProvider contract, with a shared contract-test kit",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/161",
+      "labels": [
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-07T08:13:55Z",
+      "updated_at": "2026-09-07T08:15:12Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABQC6r3Q",
+      "repo": "garmin-cqc-freelap",
+      "number": 31,
+      "title": "create github website for project - placeholder",
+      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/31",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-07T07:59:55Z",
+      "updated_at": "2026-09-07T07:59:55Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDORbFSsM8AAAABQB7qYQ",
       "repo": "SilverSprint",
@@ -829,27 +1063,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUQYAE88AAAABP9zNUg",
-      "repo": "garmin-cqc-freelap",
-      "number": 3,
-      "title": "CI: validate resources and tooling on every push; document the SDK constraint",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/3",
-      "labels": [
-        {
-          "name": "area:tooling",
-          "color": "c5def5"
-        },
-        {
-          "name": "priority:p2",
-          "color": "fbca04"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:05Z",
-      "updated_at": "2026-09-06T17:03:05Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUQYAE88AAAABP9zMjw",
       "repo": "garmin-cqc-freelap",
       "number": 2,
@@ -868,27 +1081,6 @@
       "assignees": [],
       "created_at": "2026-09-06T17:03:03Z",
       "updated_at": "2026-09-06T17:03:03Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABP9zL8w",
-      "repo": "garmin-cqc-freelap",
-      "number": 1,
-      "title": "Build the skeleton with the Connect IQ SDK and fix compile errors",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/1",
-      "labels": [
-        {
-          "name": "area:tooling",
-          "color": "c5def5"
-        },
-        {
-          "name": "priority:p0",
-          "color": "b60205"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:01Z",
-      "updated_at": "2026-09-06T17:03:01Z",
       "comment_count": 0
     },
     {
@@ -1473,31 +1665,6 @@
       "comment_count": 2
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABPBjkyA",
-      "repo": "chorus",
-      "number": 133,
-      "title": "NFR-2 — Model agnosticism with per-task-type routing and versioned prompts",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/133",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:nfr",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T17:53:27Z",
-      "updated_at": "2026-09-03T12:23:48Z",
-      "comment_count": 2
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPAmySQ",
       "repo": "chorus",
       "number": 19,
@@ -1730,31 +1897,6 @@
       "assignees": [],
       "created_at": "2026-08-31T16:02:21Z",
       "updated_at": "2026-09-01T15:12:22Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPBrLuA",
-      "repo": "chorus",
-      "number": 139,
-      "title": "NFR-8 — Cost control: spend limits, per-run cost, cheap defaults, caching",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/139",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:nfr",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T18:08:05Z",
-      "updated_at": "2026-09-01T12:19:04Z",
       "comment_count": 1
     },
     {
@@ -3305,31 +3447,6 @@
       "assignees": [],
       "created_at": "2026-08-31T17:35:15Z",
       "updated_at": "2026-08-31T17:35:16Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPBaF-A",
-      "repo": "chorus",
-      "number": 77,
-      "title": "CODE-3 — Pluggable coding adapters including a built-in reference agent",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/77",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:code",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T17:35:12Z",
-      "updated_at": "2026-08-31T17:35:13Z",
       "comment_count": 0
     },
     {
