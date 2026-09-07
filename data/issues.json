@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-07T10:23:50Z",
-  "issue_count": 186,
+  "generated_at": "2026-09-07T11:21:06Z",
+  "issue_count": 180,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 140
+      "open_issue_count": 137
     },
     {
       "name": "Data & LLM Experiments",
@@ -23,7 +23,7 @@
     {
       "name": "Other",
       "repo_count": 1,
-      "open_issue_count": 24
+      "open_issue_count": 21
     }
   ],
   "repos": [
@@ -32,14 +32,14 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 139
+      "open_issue_count": 136
     },
     {
       "name": "garmin-cqc-freelap",
       "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap",
       "description": "sketch project to figure out how to get garmin cqc app recording freelap transmitters",
       "category": "Other",
-      "open_issue_count": 24
+      "open_issue_count": 21
     },
     {
       "name": "freelap-intervals",
@@ -99,6 +99,27 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOUJnj1s8AAAABQEqoVQ",
+      "repo": "chorus",
+      "number": 168,
+      "title": "NFR-8 — the worker's pre-dequeue spend guard, which fires before the call rather than after it",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/168",
+      "labels": [
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-07T10:48:23Z",
+      "updated_at": "2026-09-07T10:48:23Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDORbFSsM8AAAABQDjeAQ",
       "repo": "SilverSprint",
@@ -269,90 +290,6 @@
       "assignees": [],
       "created_at": "2026-09-07T08:14:10Z",
       "updated_at": "2026-09-07T08:15:18Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABQDEH3w",
-      "repo": "chorus",
-      "number": 164,
-      "title": "NFR-8 — countTokens(), prompt-prefix caching, and cached tokens in the spend ledger",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/164",
-      "labels": [
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:nfr",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-07T08:14:08Z",
-      "updated_at": "2026-09-07T08:15:17Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABQDEAcA",
-      "repo": "chorus",
-      "number": 163,
-      "title": "NFR-2 — tool-call deltas in stream(), and the streamingToolDeltas capability",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/163",
-      "labels": [
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:nfr",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-07T08:13:59Z",
-      "updated_at": "2026-09-07T08:15:15Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABQDD-uw",
-      "repo": "chorus",
-      "number": 162,
-      "title": "NFR-2 — generate<T>() with structured output, replacing brace-scraped JSON",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/162",
-      "labels": [
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:nfr",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-07T08:13:57Z",
-      "updated_at": "2026-09-07T08:15:14Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABQDD9NA",
-      "repo": "chorus",
-      "number": 161,
-      "title": "NFR-2 — Anthropic provider behind the ModelProvider contract, with a shared contract-test kit",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/161",
-      "labels": [
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:nfr",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-07T08:13:55Z",
-      "updated_at": "2026-09-07T08:15:12Z",
       "comment_count": 0
     },
     {
@@ -623,27 +560,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUQYAE88AAAABP9zaCg",
-      "repo": "garmin-cqc-freelap",
-      "number": 24,
-      "title": "Manual controls: pause/resume, manual rep end, save/discard",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/24",
-      "labels": [
-        {
-          "name": "area:ui",
-          "color": "fbca04"
-        },
-        {
-          "name": "priority:p1",
-          "color": "d93f0b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:39Z",
-      "updated_at": "2026-09-06T17:03:39Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUQYAE88AAAABP9zZjA",
       "repo": "garmin-cqc-freelap",
       "number": 23,
@@ -750,27 +666,6 @@
       "assignees": [],
       "created_at": "2026-09-06T17:03:31Z",
       "updated_at": "2026-09-06T17:03:31Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABP9zU6g",
-      "repo": "garmin-cqc-freelap",
-      "number": 15,
-      "title": "Estimated wall-clock placement of crossings (BLE latency model)",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/15",
-      "labels": [
-        {
-          "name": "area:engine",
-          "color": "5319e7"
-        },
-        {
-          "name": "priority:p1",
-          "color": "d93f0b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:25Z",
-      "updated_at": "2026-09-06T17:03:25Z",
       "comment_count": 0
     },
     {
@@ -972,27 +867,6 @@
       "assignees": [],
       "created_at": "2026-09-06T17:03:07Z",
       "updated_at": "2026-09-06T17:03:07Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABP9zMjw",
-      "repo": "garmin-cqc-freelap",
-      "number": 2,
-      "title": "Add a launcher icon and per-device resource overrides",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/2",
-      "labels": [
-        {
-          "name": "area:ui",
-          "color": "fbca04"
-        },
-        {
-          "name": "priority:p1",
-          "color": "d93f0b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:03Z",
-      "updated_at": "2026-09-06T17:03:03Z",
       "comment_count": 0
     },
     {
