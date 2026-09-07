@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-07T15:21:29Z",
-  "issue_count": 164,
+  "generated_at": "2026-09-07T16:23:16Z",
+  "issue_count": 163,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -23,7 +23,7 @@
     {
       "name": "Other",
       "repo_count": 1,
-      "open_issue_count": 7
+      "open_issue_count": 6
     }
   ],
   "repos": [
@@ -42,11 +42,11 @@
       "open_issue_count": 8
     },
     {
-      "name": "garmin-cqc-freelap",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap",
-      "description": "sketch project to figure out how to get garmin cqc app recording freelap transmitters",
+      "name": "garmin-freelap",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap",
+      "description": "Connect IQ watch app that records Freelap FxChip BLE split times into your Garmin activity. In development; not yet verified against a real chip.",
       "category": "Other",
-      "open_issue_count": 7
+      "open_issue_count": 6
     },
     {
       "name": "synthetic-fabricate",
@@ -100,32 +100,11 @@
   ],
   "issues": [
     {
-      "id": "I_kwDOUQYAE88AAAABQC6r3Q",
-      "repo": "garmin-cqc-freelap",
-      "number": 31,
-      "title": "Project website on GitHub Pages",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/31",
-      "labels": [
-        {
-          "name": "area:docs",
-          "color": "bfdadc"
-        },
-        {
-          "name": "priority:p2",
-          "color": "fbca04"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-07T07:59:55Z",
-      "updated_at": "2026-09-07T15:08:54Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUQYAE88AAAABP9zanQ",
-      "repo": "garmin-cqc-freelap",
+      "repo": "garmin-freelap",
       "number": 25,
       "title": "Field validation: 20 reps on a real track against MyFreelap",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/25",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/25",
       "labels": [
         {
           "name": "type:test",
@@ -143,10 +122,10 @@
     },
     {
       "id": "I_kwDOUQYAE88AAAABP9zRkQ",
-      "repo": "garmin-cqc-freelap",
+      "repo": "garmin-freelap",
       "number": 9,
       "title": "Reliable scan â†’ pair â†’ subscribe against the real chip",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/9",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/9",
       "labels": [
         {
           "name": "area:ble",
@@ -164,10 +143,10 @@
     },
     {
       "id": "I_kwDOUQYAE88AAAABP9zQUg",
-      "repo": "garmin-cqc-freelap",
+      "repo": "garmin-freelap",
       "number": 7,
       "title": "Implement the real FreelapProtocol decoder with unit-test vectors",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/7",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/7",
       "labels": [
         {
           "name": "area:protocol",
@@ -185,10 +164,10 @@
     },
     {
       "id": "I_kwDOUQYAE88AAAABP9zPdQ",
-      "repo": "garmin-cqc-freelap",
+      "repo": "garmin-freelap",
       "number": 6,
       "title": "Decode the crossing packet format from captures",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/6",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/6",
       "labels": [
         {
           "name": "area:protocol",
@@ -206,10 +185,10 @@
     },
     {
       "id": "I_kwDOUQYAE88AAAABP9zOuQ",
-      "repo": "garmin-cqc-freelap",
+      "repo": "garmin-freelap",
       "number": 5,
       "title": "Spike: capture MyFreelap â†” chip traffic for the scripted run set",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/5",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/5",
       "labels": [
         {
           "name": "area:protocol",
@@ -231,10 +210,10 @@
     },
     {
       "id": "I_kwDOUQYAE88AAAABP9zOGQ",
-      "repo": "garmin-cqc-freelap",
+      "repo": "garmin-freelap",
       "number": 4,
       "title": "Spike: enumerate the FxChip BLE's advertising data and GATT table",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/4",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/4",
       "labels": [
         {
           "name": "area:protocol",
