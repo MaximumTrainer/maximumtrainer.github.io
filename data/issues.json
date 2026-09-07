@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-07T08:34:13Z",
-  "issue_count": 190,
+  "generated_at": "2026-09-07T09:31:30Z",
+  "issue_count": 187,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 13
+      "open_issue_count": 14
     },
     {
       "name": "Developer Tools & Engineering",
@@ -23,7 +23,7 @@
     {
       "name": "Other",
       "repo_count": 1,
-      "open_issue_count": 29
+      "open_issue_count": 25
     }
   ],
   "repos": [
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap",
       "description": "sketch project to figure out how to get garmin cqc app recording freelap transmitters",
       "category": "Other",
-      "open_issue_count": 29
+      "open_issue_count": 25
     },
     {
       "name": "freelap-intervals",
@@ -70,6 +70,13 @@
       "open_issue_count": 2
     },
     {
+      "name": "SilverSprint",
+      "url": "https://github.com/MaximumTrainer/SilverSprint",
+      "description": "SilverSprint is a \"Neural-First\" training platform. It operates on the principle that for aging sprinters, Central Nervous System (CNS) recovery is the primary bottleneck for performance. The application must automate the detection of neural fatigue and provide actionable \"Go/No-Go\" training recommendations.",
+      "category": "Training & Fitness",
+      "open_issue_count": 2
+    },
+    {
       "name": "llm-cad",
       "url": "https://github.com/MaximumTrainer/llm-cad",
       "description": "",
@@ -84,13 +91,6 @@
       "open_issue_count": 1
     },
     {
-      "name": "SilverSprint",
-      "url": "https://github.com/MaximumTrainer/SilverSprint",
-      "description": "SilverSprint is a \"Neural-First\" training platform. It operates on the principle that for aging sprinters, Central Nervous System (CNS) recovery is the primary bottleneck for performance. The application must automate the detection of neural fatigue and provide actionable \"Go/No-Go\" training recommendations.",
-      "category": "Training & Fitness",
-      "open_issue_count": 1
-    },
-    {
       "name": "Waymark",
       "url": "https://github.com/MaximumTrainer/Waymark",
       "description": "Schema-driven journey orchestration engine ",
@@ -99,6 +99,40 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDORbFSsM8AAAABQDjeAQ",
+      "repo": "SilverSprint",
+      "number": 34,
+      "title": "Live-verify the #32 request budget against the real account",
+      "url": "https://github.com/MaximumTrainer/SilverSprint/issues/34",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-07T09:01:51Z",
+      "updated_at": "2026-09-07T09:01:51Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORbFSsM8AAAABQDVF9w",
+      "repo": "SilverSprint",
+      "number": 33,
+      "title": "Calibrate the pace curve against known race distances",
+      "url": "https://github.com/MaximumTrainer/SilverSprint/issues/33",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-07T08:40:37Z",
+      "updated_at": "2026-09-07T08:40:37Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOUJnj1s8AAAABPBaF-A",
       "repo": "chorus",
@@ -331,23 +365,6 @@
       "assignees": [],
       "created_at": "2026-09-07T07:59:55Z",
       "updated_at": "2026-09-07T07:59:55Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORbFSsM8AAAABQB7qYQ",
-      "repo": "SilverSprint",
-      "number": 32,
-      "title": "Move the pace curve to its own screen and cut the sync's request burst",
-      "url": "https://github.com/MaximumTrainer/SilverSprint/issues/32",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-07T06:09:55Z",
-      "updated_at": "2026-09-07T07:18:06Z",
       "comment_count": 0
     },
     {
@@ -757,48 +774,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUQYAE88AAAABP9zWAQ",
-      "repo": "garmin-cqc-freelap",
-      "number": 17,
-      "title": "FIT: one Garmin lap per Freelap rep with lap-level summary fields",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/17",
-      "labels": [
-        {
-          "name": "area:fit",
-          "color": "d93f0b"
-        },
-        {
-          "name": "priority:p0",
-          "color": "b60205"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:28Z",
-      "updated_at": "2026-09-06T17:03:28Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABP9zVhQ",
-      "repo": "garmin-cqc-freelap",
-      "number": 16,
-      "title": "FIT: record-level developer fields for every split",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/16",
-      "labels": [
-        {
-          "name": "area:fit",
-          "color": "d93f0b"
-        },
-        {
-          "name": "priority:p0",
-          "color": "b60205"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:27Z",
-      "updated_at": "2026-09-06T17:03:27Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUQYAE88AAAABP9zU6g",
       "repo": "garmin-cqc-freelap",
       "number": 15,
@@ -817,48 +792,6 @@
       "assignees": [],
       "created_at": "2026-09-06T17:03:25Z",
       "updated_at": "2026-09-06T17:03:25Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABP9zURQ",
-      "repo": "garmin-cqc-freelap",
-      "number": 14,
-      "title": "Split engine: derive split/cumulative time (Âµs), distance, velocity, speed and pace",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/14",
-      "labels": [
-        {
-          "name": "area:engine",
-          "color": "5319e7"
-        },
-        {
-          "name": "priority:p0",
-          "color": "b60205"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:23Z",
-      "updated_at": "2026-09-06T17:03:23Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABP9zTwQ",
-      "repo": "garmin-cqc-freelap",
-      "number": 13,
-      "title": "Course model: parse, validate and match crossings to transmitters",
-      "url": "https://github.com/MaximumTrainer/garmin-cqc-freelap/issues/13",
-      "labels": [
-        {
-          "name": "area:engine",
-          "color": "5319e7"
-        },
-        {
-          "name": "priority:p0",
-          "color": "b60205"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:22Z",
-      "updated_at": "2026-09-06T17:03:22Z",
       "comment_count": 0
     },
     {
