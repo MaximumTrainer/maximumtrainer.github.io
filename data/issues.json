@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T15:23:27Z",
+  "generated_at": "2026-09-08T17:21:30Z",
   "issue_count": 166,
   "repo_count": 10,
   "category_count": 4,
@@ -100,29 +100,96 @@
   ],
   "issues": [
     {
-      "id": "I_kwDOUJnj1s8AAAABPBaF-A",
-      "repo": "chorus",
-      "number": 77,
-      "title": "CODE-3 — Pluggable coding adapters including a built-in reference agent",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/77",
+      "id": "I_kwDOUQYAE88AAAABP9zanQ",
+      "repo": "garmin-freelap",
+      "number": 25,
+      "title": "Field validation: 20 reps on a real track against MyFreelap",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/25",
       "labels": [
         {
-          "name": "type:requirement",
-          "color": "0e8a16"
+          "name": "type:test",
+          "color": "bfd4f2"
         },
         {
-          "name": "priority:must",
+          "name": "priority:p0",
           "color": "b60205"
-        },
-        {
-          "name": "module:code",
-          "color": "1d76db"
         }
       ],
       "assignees": [],
-      "created_at": "2026-08-31T17:35:12Z",
-      "updated_at": "2026-09-08T14:55:24Z",
+      "created_at": "2026-09-06T17:03:41Z",
+      "updated_at": "2026-09-08T17:11:52Z",
       "comment_count": 2
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zOGQ",
+      "repo": "garmin-freelap",
+      "number": 4,
+      "title": "Spike: confirm the documented broadcast frame against a real FxChip",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/4",
+      "labels": [
+        {
+          "name": "area:protocol",
+          "color": "0e8a16"
+        },
+        {
+          "name": "type:spike",
+          "color": "e99695"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:07Z",
+      "updated_at": "2026-09-08T17:11:50Z",
+      "comment_count": 2
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zOuQ",
+      "repo": "garmin-freelap",
+      "number": 5,
+      "title": "Spike: capture a scripted run set off the air to validate the documented frame",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/5",
+      "labels": [
+        {
+          "name": "area:protocol",
+          "color": "0e8a16"
+        },
+        {
+          "name": "type:spike",
+          "color": "e99695"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:09Z",
+      "updated_at": "2026-09-08T17:11:17Z",
+      "comment_count": 2
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zPdQ",
+      "repo": "garmin-freelap",
+      "number": 6,
+      "title": "Confirm the documented frame layout against captures, and resolve its ambiguities",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/6",
+      "labels": [
+        {
+          "name": "area:protocol",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:11Z",
+      "updated_at": "2026-09-08T17:11:15Z",
+      "comment_count": 3
     },
     {
       "id": "I_kwDOUQYAE88AAAABQQWOrA",
@@ -146,8 +213,8 @@
       ],
       "assignees": [],
       "created_at": "2026-09-08T11:01:52Z",
-      "updated_at": "2026-09-08T14:29:40Z",
-      "comment_count": 2
+      "updated_at": "2026-09-08T17:10:46Z",
+      "comment_count": 4
     },
     {
       "id": "I_kwDOUQYAE88AAAABP9zRkQ",
@@ -167,8 +234,33 @@
       ],
       "assignees": [],
       "created_at": "2026-09-06T17:03:16Z",
-      "updated_at": "2026-09-08T14:29:38Z",
-      "comment_count": 3
+      "updated_at": "2026-09-08T17:10:44Z",
+      "comment_count": 4
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaF-A",
+      "repo": "chorus",
+      "number": 77,
+      "title": "CODE-3 — Pluggable coding adapters including a built-in reference agent",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/77",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:12Z",
+      "updated_at": "2026-09-08T14:55:24Z",
+      "comment_count": 2
     },
     {
       "id": "I_kwDOUJnj1s8AAAABPBaHVA",
@@ -267,27 +359,6 @@
       "comment_count": 3
     },
     {
-      "id": "I_kwDOUQYAE88AAAABP9zPdQ",
-      "repo": "garmin-freelap",
-      "number": 6,
-      "title": "Confirm the documented frame layout against captures, and resolve its ambiguities",
-      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/6",
-      "labels": [
-        {
-          "name": "area:protocol",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:p0",
-          "color": "b60205"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:11Z",
-      "updated_at": "2026-09-08T11:32:02Z",
-      "comment_count": 2
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPAkyfg",
       "repo": "chorus",
       "number": 7,
@@ -330,27 +401,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUQYAE88AAAABP9zanQ",
-      "repo": "garmin-freelap",
-      "number": 25,
-      "title": "Field validation: 20 reps on a real track against MyFreelap",
-      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/25",
-      "labels": [
-        {
-          "name": "type:test",
-          "color": "bfd4f2"
-        },
-        {
-          "name": "priority:p0",
-          "color": "b60205"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:41Z",
-      "updated_at": "2026-09-08T09:52:40Z",
-      "comment_count": 1
-    },
-    {
       "id": "I_kwDOUQYAE88AAAABQPrncA",
       "repo": "garmin-freelap",
       "number": 61,
@@ -370,56 +420,6 @@
       "created_at": "2026-09-08T09:51:50Z",
       "updated_at": "2026-09-08T09:51:50Z",
       "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABP9zOuQ",
-      "repo": "garmin-freelap",
-      "number": 5,
-      "title": "Spike: capture a scripted run set off the air to validate the documented frame",
-      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/5",
-      "labels": [
-        {
-          "name": "area:protocol",
-          "color": "0e8a16"
-        },
-        {
-          "name": "type:spike",
-          "color": "e99695"
-        },
-        {
-          "name": "priority:p0",
-          "color": "b60205"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:09Z",
-      "updated_at": "2026-09-08T09:50:20Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABP9zOGQ",
-      "repo": "garmin-freelap",
-      "number": 4,
-      "title": "Spike: confirm the documented broadcast frame against a real FxChip",
-      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/4",
-      "labels": [
-        {
-          "name": "area:protocol",
-          "color": "0e8a16"
-        },
-        {
-          "name": "type:spike",
-          "color": "e99695"
-        },
-        {
-          "name": "priority:p0",
-          "color": "b60205"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:07Z",
-      "updated_at": "2026-09-08T09:49:55Z",
-      "comment_count": 1
     },
     {
       "id": "I_kwDOUQYAE88AAAABQPqDtQ",
