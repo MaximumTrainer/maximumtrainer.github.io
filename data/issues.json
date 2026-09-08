@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T20:21:21Z",
-  "issue_count": 169,
+  "generated_at": "2026-09-08T22:20:01Z",
+  "issue_count": 171,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -23,7 +23,7 @@
     {
       "name": "Other",
       "repo_count": 1,
-      "open_issue_count": 13
+      "open_issue_count": 15
     }
   ],
   "repos": [
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/garmin-freelap",
       "description": "Connect IQ watch app that records Freelap FxChip BLE split times into your Garmin activity. In development; not yet verified against a real chip.",
       "category": "Other",
-      "open_issue_count": 13
+      "open_issue_count": 15
     },
     {
       "name": "freelap-intervals",
@@ -99,6 +99,48 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOUQYAE88AAAABQWigXQ",
+      "repo": "garmin-freelap",
+      "number": 86,
+      "title": "A real FIT shows the finish record twice and the closing lap repeating the last rep",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/86",
+      "labels": [
+        {
+          "name": "area:fit",
+          "color": "d93f0b"
+        },
+        {
+          "name": "priority:p1",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-08T22:00:11Z",
+      "updated_at": "2026-09-08T22:00:11Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABQWifpQ",
+      "repo": "garmin-freelap",
+      "number": 85,
+      "title": "Rep-summary overlay dismissal pops whatever is on top, and can exit the app",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/85",
+      "labels": [
+        {
+          "name": "area:ui",
+          "color": "fbca04"
+        },
+        {
+          "name": "priority:p1",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-08T22:00:10Z",
+      "updated_at": "2026-09-08T22:00:10Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOUQYAE88AAAABQVVzhg",
       "repo": "garmin-freelap",
