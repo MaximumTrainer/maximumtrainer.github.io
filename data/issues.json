@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T17:21:30Z",
-  "issue_count": 166,
+  "generated_at": "2026-09-08T20:21:21Z",
+  "issue_count": 169,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -23,7 +23,7 @@
     {
       "name": "Other",
       "repo_count": 1,
-      "open_issue_count": 10
+      "open_issue_count": 13
     }
   ],
   "repos": [
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/garmin-freelap",
       "description": "Connect IQ watch app that records Freelap FxChip BLE split times into your Garmin activity. In development; not yet verified against a real chip.",
       "category": "Other",
-      "open_issue_count": 10
+      "open_issue_count": 13
     },
     {
       "name": "freelap-intervals",
@@ -100,15 +100,69 @@
   ],
   "issues": [
     {
-      "id": "I_kwDOUQYAE88AAAABP9zanQ",
+      "id": "I_kwDOUQYAE88AAAABQVVzhg",
       "repo": "garmin-freelap",
-      "number": 25,
-      "title": "Field validation: 20 reps on a real track against MyFreelap",
-      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/25",
+      "number": 79,
+      "title": "FxMotion: does it broadcast the same frame, and how would we tell?",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/79",
       "labels": [
         {
-          "name": "type:test",
-          "color": "bfd4f2"
+          "name": "area:ble",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:protocol",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:p2",
+          "color": "fbca04"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-08T19:35:42Z",
+      "updated_at": "2026-09-08T19:50:56Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABQVVyQg",
+      "repo": "garmin-freelap",
+      "number": 78,
+      "title": "If the advertisement and scan response arrive separately, how are they paired?",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/78",
+      "labels": [
+        {
+          "name": "area:ble",
+          "color": "1d76db"
+        },
+        {
+          "name": "type:spike",
+          "color": "e99695"
+        },
+        {
+          "name": "priority:p1",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-08T19:35:40Z",
+      "updated_at": "2026-09-08T19:50:54Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABQPqDtQ",
+      "repo": "garmin-freelap",
+      "number": 60,
+      "title": "Blocking unknown: can Connect IQ read the FxChip's scan response?",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/60",
+      "labels": [
+        {
+          "name": "area:ble",
+          "color": "1d76db"
+        },
+        {
+          "name": "type:spike",
+          "color": "e99695"
         },
         {
           "name": "priority:p0",
@@ -116,9 +170,30 @@
         }
       ],
       "assignees": [],
-      "created_at": "2026-09-06T17:03:41Z",
-      "updated_at": "2026-09-08T17:11:52Z",
-      "comment_count": 2
+      "created_at": "2026-09-08T09:49:30Z",
+      "updated_at": "2026-09-08T19:50:52Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zPdQ",
+      "repo": "garmin-freelap",
+      "number": 6,
+      "title": "Confirm the documented frame layout against captures, and resolve its ambiguities",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/6",
+      "labels": [
+        {
+          "name": "area:protocol",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:11Z",
+      "updated_at": "2026-09-08T19:50:50Z",
+      "comment_count": 4
     },
     {
       "id": "I_kwDOUQYAE88AAAABP9zOGQ",
@@ -142,54 +217,8 @@
       ],
       "assignees": [],
       "created_at": "2026-09-06T17:03:07Z",
-      "updated_at": "2026-09-08T17:11:50Z",
+      "updated_at": "2026-09-08T19:50:48Z",
       "comment_count": 2
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABP9zOuQ",
-      "repo": "garmin-freelap",
-      "number": 5,
-      "title": "Spike: capture a scripted run set off the air to validate the documented frame",
-      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/5",
-      "labels": [
-        {
-          "name": "area:protocol",
-          "color": "0e8a16"
-        },
-        {
-          "name": "type:spike",
-          "color": "e99695"
-        },
-        {
-          "name": "priority:p0",
-          "color": "b60205"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:09Z",
-      "updated_at": "2026-09-08T17:11:17Z",
-      "comment_count": 2
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABP9zPdQ",
-      "repo": "garmin-freelap",
-      "number": 6,
-      "title": "Confirm the documented frame layout against captures, and resolve its ambiguities",
-      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/6",
-      "labels": [
-        {
-          "name": "area:protocol",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:p0",
-          "color": "b60205"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:11Z",
-      "updated_at": "2026-09-08T17:11:15Z",
-      "comment_count": 3
     },
     {
       "id": "I_kwDOUQYAE88AAAABQQWOrA",
@@ -213,8 +242,104 @@
       ],
       "assignees": [],
       "created_at": "2026-09-08T11:01:52Z",
-      "updated_at": "2026-09-08T17:10:46Z",
-      "comment_count": 4
+      "updated_at": "2026-09-08T19:49:52Z",
+      "comment_count": 5
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABQVVU1w",
+      "repo": "garmin-freelap",
+      "number": 77,
+      "title": "The Python and Monkey C decoders round differently, and it is measurable",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/77",
+      "labels": [
+        {
+          "name": "area:protocol",
+          "color": "0e8a16"
+        },
+        {
+          "name": "type:test",
+          "color": "bfd4f2"
+        },
+        {
+          "name": "priority:p1",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-08T19:34:55Z",
+      "updated_at": "2026-09-08T19:47:46Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABQReOww",
+      "repo": "garmin-freelap",
+      "number": 68,
+      "title": "Record Freelap splits into a Garmin workout: a data field alongside the watch app",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/68",
+      "labels": [
+        {
+          "name": "area:ble",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:fit",
+          "color": "d93f0b"
+        },
+        {
+          "name": "type:spike",
+          "color": "e99695"
+        },
+        {
+          "name": "priority:p1",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-08T13:01:01Z",
+      "updated_at": "2026-09-08T19:47:45Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABQPrncA",
+      "repo": "garmin-freelap",
+      "number": 61,
+      "title": "Retire the connection-oriented BLE layer: there is no link to the chip",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/61",
+      "labels": [
+        {
+          "name": "area:ble",
+          "color": "1d76db"
+        },
+        {
+          "name": "priority:p1",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-08T09:51:50Z",
+      "updated_at": "2026-09-08T19:47:42Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zanQ",
+      "repo": "garmin-freelap",
+      "number": 25,
+      "title": "Field validation: 20 reps on a real track against MyFreelap",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/25",
+      "labels": [
+        {
+          "name": "type:test",
+          "color": "bfd4f2"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:41Z",
+      "updated_at": "2026-09-08T19:47:39Z",
+      "comment_count": 2
     },
     {
       "id": "I_kwDOUQYAE88AAAABP9zRkQ",
@@ -234,8 +359,54 @@
       ],
       "assignees": [],
       "created_at": "2026-09-06T17:03:16Z",
-      "updated_at": "2026-09-08T17:10:44Z",
-      "comment_count": 4
+      "updated_at": "2026-09-08T19:47:37Z",
+      "comment_count": 5
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zQUg",
+      "repo": "garmin-freelap",
+      "number": 7,
+      "title": "Implement the broadcast frame decoder with vectors from real captures",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/7",
+      "labels": [
+        {
+          "name": "area:protocol",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:13Z",
+      "updated_at": "2026-09-08T19:47:36Z",
+      "comment_count": 3
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zOuQ",
+      "repo": "garmin-freelap",
+      "number": 5,
+      "title": "Spike: capture a scripted run set off the air to validate the documented frame",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/5",
+      "labels": [
+        {
+          "name": "area:protocol",
+          "color": "0e8a16"
+        },
+        {
+          "name": "type:spike",
+          "color": "e99695"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:09Z",
+      "updated_at": "2026-09-08T19:47:33Z",
+      "comment_count": 2
     },
     {
       "id": "I_kwDOUJnj1s8AAAABPBaF-A",
@@ -309,56 +480,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUQYAE88AAAABQReOww",
-      "repo": "garmin-freelap",
-      "number": 68,
-      "title": "Record Freelap splits into a Garmin workout: a data field alongside the watch app",
-      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/68",
-      "labels": [
-        {
-          "name": "area:ble",
-          "color": "1d76db"
-        },
-        {
-          "name": "area:fit",
-          "color": "d93f0b"
-        },
-        {
-          "name": "type:spike",
-          "color": "e99695"
-        },
-        {
-          "name": "priority:p1",
-          "color": "d93f0b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-08T13:01:01Z",
-      "updated_at": "2026-09-08T13:01:01Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABP9zQUg",
-      "repo": "garmin-freelap",
-      "number": 7,
-      "title": "Implement the broadcast frame decoder with vectors from real captures",
-      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/7",
-      "labels": [
-        {
-          "name": "area:protocol",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:p0",
-          "color": "b60205"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:13Z",
-      "updated_at": "2026-09-08T12:34:02Z",
-      "comment_count": 3
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPAkyfg",
       "repo": "chorus",
       "number": 7,
@@ -398,52 +519,6 @@
       "assignees": [],
       "created_at": "2026-09-08T10:48:53Z",
       "updated_at": "2026-09-08T10:48:53Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABQPrncA",
-      "repo": "garmin-freelap",
-      "number": 61,
-      "title": "Retire the connection-oriented BLE layer: there is no link to the chip",
-      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/61",
-      "labels": [
-        {
-          "name": "area:ble",
-          "color": "1d76db"
-        },
-        {
-          "name": "priority:p1",
-          "color": "d93f0b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-08T09:51:50Z",
-      "updated_at": "2026-09-08T09:51:50Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABQPqDtQ",
-      "repo": "garmin-freelap",
-      "number": 60,
-      "title": "Blocking unknown: can Connect IQ read the FxChip's scan response?",
-      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/60",
-      "labels": [
-        {
-          "name": "area:ble",
-          "color": "1d76db"
-        },
-        {
-          "name": "type:spike",
-          "color": "e99695"
-        },
-        {
-          "name": "priority:p0",
-          "color": "b60205"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-08T09:49:30Z",
-      "updated_at": "2026-09-08T09:49:30Z",
       "comment_count": 0
     },
     {
