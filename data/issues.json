@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T14:24:32Z",
+  "generated_at": "2026-09-08T15:23:27Z",
   "issue_count": 166,
   "repo_count": 10,
   "category_count": 4,
@@ -99,6 +99,77 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaF-A",
+      "repo": "chorus",
+      "number": 77,
+      "title": "CODE-3 — Pluggable coding adapters including a built-in reference agent",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/77",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:12Z",
+      "updated_at": "2026-09-08T14:55:24Z",
+      "comment_count": 2
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABQQWOrA",
+      "repo": "garmin-freelap",
+      "number": 63,
+      "title": "Bind the app to one chip by its printed ID, the way MyFreelap does",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/63",
+      "labels": [
+        {
+          "name": "area:ble",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:ui",
+          "color": "fbca04"
+        },
+        {
+          "name": "priority:p1",
+          "color": "d93f0b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-08T11:01:52Z",
+      "updated_at": "2026-09-08T14:29:40Z",
+      "comment_count": 2
+    },
+    {
+      "id": "I_kwDOUQYAE88AAAABP9zRkQ",
+      "repo": "garmin-freelap",
+      "number": 9,
+      "title": "Reliable acquisition: never miss a rep's broadcast window",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/9",
+      "labels": [
+        {
+          "name": "area:ble",
+          "color": "1d76db"
+        },
+        {
+          "name": "priority:p0",
+          "color": "b60205"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-06T17:03:16Z",
+      "updated_at": "2026-09-08T14:29:38Z",
+      "comment_count": 3
+    },
     {
       "id": "I_kwDOUJnj1s8AAAABPBaHVA",
       "repo": "chorus",
@@ -214,52 +285,6 @@
       "assignees": [],
       "created_at": "2026-09-06T17:03:11Z",
       "updated_at": "2026-09-08T11:32:02Z",
-      "comment_count": 2
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABQQWOrA",
-      "repo": "garmin-freelap",
-      "number": 63,
-      "title": "Bind the app to one chip by its printed ID, the way MyFreelap does",
-      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/63",
-      "labels": [
-        {
-          "name": "area:ble",
-          "color": "1d76db"
-        },
-        {
-          "name": "area:ui",
-          "color": "fbca04"
-        },
-        {
-          "name": "priority:p1",
-          "color": "d93f0b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-08T11:01:52Z",
-      "updated_at": "2026-09-08T11:17:36Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABP9zRkQ",
-      "repo": "garmin-freelap",
-      "number": 9,
-      "title": "Reliable acquisition: never miss a rep's broadcast window",
-      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/9",
-      "labels": [
-        {
-          "name": "area:ble",
-          "color": "1d76db"
-        },
-        {
-          "name": "priority:p0",
-          "color": "b60205"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:16Z",
-      "updated_at": "2026-09-08T10:55:17Z",
       "comment_count": 2
     },
     {
@@ -475,31 +500,6 @@
       "created_at": "2026-09-07T08:40:37Z",
       "updated_at": "2026-09-07T08:40:37Z",
       "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPBaF-A",
-      "repo": "chorus",
-      "number": 77,
-      "title": "CODE-3 — Pluggable coding adapters including a built-in reference agent",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/77",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:code",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T17:35:12Z",
-      "updated_at": "2026-09-07T08:15:39Z",
-      "comment_count": 1
     },
     {
       "id": "I_kwDOUJnj1s8AAAABPBrLuA",
