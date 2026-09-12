@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-12T19:15:50Z",
-  "issue_count": 181,
+  "generated_at": "2026-09-12T20:21:42Z",
+  "issue_count": 180,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 12
+      "open_issue_count": 11
     },
     {
       "name": "Other",
@@ -56,18 +56,18 @@
       "open_issue_count": 6
     },
     {
-      "name": "llm-cad",
-      "url": "https://github.com/MaximumTrainer/llm-cad",
-      "description": "",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 5
-    },
-    {
       "name": "synthetic-fabricate",
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
       "open_issue_count": 5
+    },
+    {
+      "name": "llm-cad",
+      "url": "https://github.com/MaximumTrainer/llm-cad",
+      "description": "",
+      "category": "Data & LLM Experiments",
+      "open_issue_count": 4
     },
     {
       "name": "virtualrow",
@@ -314,31 +314,6 @@
       "assignees": [],
       "created_at": "2026-09-12T07:23:58Z",
       "updated_at": "2026-09-12T07:23:58Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T6Nw",
-      "repo": "llm-cad",
-      "number": 15,
-      "title": "CAD-014 — No latency budget enforcement for N2",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/15",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:performance",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:23:54Z",
-      "updated_at": "2026-09-12T07:23:54Z",
       "comment_count": 0
     },
     {
