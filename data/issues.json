@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T15:21:36Z",
-  "issue_count": 172,
-  "repo_count": 10,
+  "generated_at": "2026-09-12T07:20:49Z",
+  "issue_count": 173,
+  "repo_count": 11,
   "category_count": 4,
   "truncated": false,
   "categories": [
@@ -22,8 +22,8 @@
     },
     {
       "name": "Other",
-      "repo_count": 1,
-      "open_issue_count": 16
+      "repo_count": 2,
+      "open_issue_count": 17
     }
   ],
   "repos": [
@@ -77,6 +77,13 @@
       "open_issue_count": 2
     },
     {
+      "name": "agent-skills",
+      "url": "https://github.com/MaximumTrainer/agent-skills",
+      "description": "consolidated repository of skills from across all projects in this space",
+      "category": "Other",
+      "open_issue_count": 1
+    },
+    {
       "name": "llm-cad",
       "url": "https://github.com/MaximumTrainer/llm-cad",
       "description": "",
@@ -99,6 +106,18 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOUSCBqs8AAAABQ8NTIQ",
+      "repo": "agent-skills",
+      "number": 1,
+      "title": "create meta-skill - placeholder",
+      "url": "https://github.com/MaximumTrainer/agent-skills/issues/1",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-12T06:57:51Z",
+      "updated_at": "2026-09-12T06:57:51Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOUQYAE88AAAABQZPCuA",
       "repo": "garmin-freelap",
