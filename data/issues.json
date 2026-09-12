@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-12T17:17:20Z",
-  "issue_count": 177,
+  "generated_at": "2026-09-12T18:23:05Z",
+  "issue_count": 176,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 13
+      "open_issue_count": 12
     },
     {
       "name": "Other",
@@ -53,7 +53,7 @@
       "url": "https://github.com/MaximumTrainer/llm-cad",
       "description": "",
       "category": "Data & LLM Experiments",
-      "open_issue_count": 6
+      "open_issue_count": 5
     },
     {
       "name": "synthetic-fabricate",
@@ -99,31 +99,6 @@
     }
   ],
   "issues": [
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T-jQ",
-      "repo": "llm-cad",
-      "number": 27,
-      "title": "CAD-026 — Structured logging is inert outside `main()`",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/27",
-      "labels": [
-        {
-          "name": "P2",
-          "color": "fbca04"
-        },
-        {
-          "name": "area:observability",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:24:12Z",
-      "updated_at": "2026-09-12T16:54:04Z",
-      "comment_count": 2
-    },
     {
       "id": "I_kwDOUJBGPs8AAAABQ8T4nw",
       "repo": "llm-cad",
