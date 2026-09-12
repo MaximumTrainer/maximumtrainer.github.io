@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-12T16:21:20Z",
-  "issue_count": 185,
+  "generated_at": "2026-09-12T17:17:20Z",
+  "issue_count": 177,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 21
+      "open_issue_count": 13
     },
     {
       "name": "Other",
@@ -42,18 +42,18 @@
       "open_issue_count": 16
     },
     {
-      "name": "llm-cad",
-      "url": "https://github.com/MaximumTrainer/llm-cad",
-      "description": "",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 14
-    },
-    {
       "name": "freelap-intervals",
       "url": "https://github.com/MaximumTrainer/freelap-intervals",
       "description": "# Freelap → intervals.icu Sprint Sync  Takes a timed sprint session from a Freelap system and writes it into intervals.icu — as structured intervals, summary custom fields and a human-readable rep table — then reads the activity back and reports every way it differs from what was intended.",
       "category": "Training & Fitness",
       "open_issue_count": 8
+    },
+    {
+      "name": "llm-cad",
+      "url": "https://github.com/MaximumTrainer/llm-cad",
+      "description": "",
+      "category": "Data & LLM Experiments",
+      "open_issue_count": 6
     },
     {
       "name": "synthetic-fabricate",
@@ -100,6 +100,31 @@
   ],
   "issues": [
     {
+      "id": "I_kwDOUJBGPs8AAAABQ8T-jQ",
+      "repo": "llm-cad",
+      "number": 27,
+      "title": "CAD-026 — Structured logging is inert outside `main()`",
+      "url": "https://github.com/MaximumTrainer/llm-cad/issues/27",
+      "labels": [
+        {
+          "name": "P2",
+          "color": "fbca04"
+        },
+        {
+          "name": "area:observability",
+          "color": "0e8a16"
+        },
+        {
+          "name": "backlog-2026-09",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-12T07:24:12Z",
+      "updated_at": "2026-09-12T16:54:04Z",
+      "comment_count": 2
+    },
+    {
       "id": "I_kwDOUJBGPs8AAAABQ8T4nw",
       "repo": "llm-cad",
       "number": 10,
@@ -123,106 +148,6 @@
       "created_at": "2026-09-12T07:23:48Z",
       "updated_at": "2026-09-12T12:55:17Z",
       "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8W_Lw",
-      "repo": "llm-cad",
-      "number": 35,
-      "title": "CAD-034 — Common CadQuery errors return no hint, so the LLM loops",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/35",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:sandbox",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:37:10Z",
-      "updated_at": "2026-09-12T07:37:10Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T_Tw",
-      "repo": "llm-cad",
-      "number": 29,
-      "title": "CAD-028 — Mesh→BREP sewing is unbounded",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/29",
-      "labels": [
-        {
-          "name": "P2",
-          "color": "fbca04"
-        },
-        {
-          "name": "area:ai-mesh",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:24:15Z",
-      "updated_at": "2026-09-12T07:24:15Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T-4g",
-      "repo": "llm-cad",
-      "number": 28,
-      "title": "CAD-027 — Meshy client has no download cap, drifting clock, no retry",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/28",
-      "labels": [
-        {
-          "name": "P2",
-          "color": "fbca04"
-        },
-        {
-          "name": "area:ai-mesh",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:24:13Z",
-      "updated_at": "2026-09-12T07:24:13Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T-jQ",
-      "repo": "llm-cad",
-      "number": 27,
-      "title": "CAD-026 — Structured logging is inert outside `main()`",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/27",
-      "labels": [
-        {
-          "name": "P2",
-          "color": "fbca04"
-        },
-        {
-          "name": "area:observability",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:24:12Z",
-      "updated_at": "2026-09-12T07:24:12Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDOUJBGPs8AAAABQ8T-OA",
@@ -250,81 +175,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJBGPs8AAAABQ8T87Q",
-      "repo": "llm-cad",
-      "number": 23,
-      "title": "CAD-022 — `gen_ai_mesh` breaks the code-history invariant",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/23",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:ai-mesh",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:24:05Z",
-      "updated_at": "2026-09-12T07:24:05Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T8gg",
-      "repo": "llm-cad",
-      "number": 22,
-      "title": "CAD-021 — Example resources are not discoverable",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/22",
-      "labels": [
-        {
-          "name": "P2",
-          "color": "fbca04"
-        },
-        {
-          "name": "area:resources",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:24:03Z",
-      "updated_at": "2026-09-12T07:24:03Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T7iQ",
-      "repo": "llm-cad",
-      "number": 19,
-      "title": "CAD-018 — `measure(what=\"distance\")` measures centres, not distance",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/19",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:measure",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:24:00Z",
-      "updated_at": "2026-09-12T07:24:00Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJBGPs8AAAABQ8T7KQ",
       "repo": "llm-cad",
       "number": 18,
@@ -347,56 +197,6 @@
       "assignees": [],
       "created_at": "2026-09-12T07:23:58Z",
       "updated_at": "2026-09-12T07:23:58Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T62Q",
-      "repo": "llm-cad",
-      "number": 17,
-      "title": "CAD-016 — Overhang report gives counts, not locations",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/17",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:validate",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:23:57Z",
-      "updated_at": "2026-09-12T07:23:57Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T6hA",
-      "repo": "llm-cad",
-      "number": 16,
-      "title": "CAD-015 — Wall-thickness check cannot distinguish material from air",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/16",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:validate",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:23:56Z",
-      "updated_at": "2026-09-12T07:23:56Z",
       "comment_count": 0
     },
     {
