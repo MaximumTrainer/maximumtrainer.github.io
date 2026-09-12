@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-12T18:23:05Z",
-  "issue_count": 176,
+  "generated_at": "2026-09-12T19:15:50Z",
+  "issue_count": 181,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 134
+      "open_issue_count": 139
     },
     {
       "name": "Data & LLM Experiments",
@@ -47,6 +47,13 @@
       "description": "# Freelap → intervals.icu Sprint Sync  Takes a timed sprint session from a Freelap system and writes it into intervals.icu — as structured intervals, summary custom fields and a human-readable rep table — then reads the activity back and reports every way it differs from what was intended.",
       "category": "Training & Fitness",
       "open_issue_count": 8
+    },
+    {
+      "name": "Waymark",
+      "url": "https://github.com/MaximumTrainer/Waymark",
+      "description": "Schema-driven journey orchestration engine ",
+      "category": "Developer Tools & Engineering",
+      "open_issue_count": 6
     },
     {
       "name": "llm-cad",
@@ -89,16 +96,151 @@
       "description": "The original cross platform indoor cycling solution",
       "category": "Training & Fitness",
       "open_issue_count": 1
-    },
-    {
-      "name": "Waymark",
-      "url": "https://github.com/MaximumTrainer/Waymark",
-      "description": "Schema-driven journey orchestration engine ",
-      "category": "Developer Tools & Engineering",
-      "open_issue_count": 1
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOSbes3c8AAAABQ_na2A",
+      "repo": "Waymark",
+      "number": 95,
+      "title": "Journey analytics events have no durable sink and browser events never reach the backend",
+      "url": "https://github.com/MaximumTrainer/Waymark/issues/95",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "observability",
+          "color": "ededed"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-12T19:05:05Z",
+      "updated_at": "2026-09-12T19:05:05Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSbes3c8AAAABQ_najg",
+      "repo": "Waymark",
+      "number": 94,
+      "title": "SAML metadata advertises assertion encryption the ACS cannot decrypt",
+      "url": "https://github.com/MaximumTrainer/Waymark/issues/94",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "security",
+          "color": "d73a4a"
+        },
+        {
+          "name": "authentication",
+          "color": "ededed"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-12T19:05:04Z",
+      "updated_at": "2026-09-12T19:05:04Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSbes3c8AAAABQ_naIg",
+      "repo": "Waymark",
+      "number": 93,
+      "title": "SSE session progress events break when the API runs more than one replica",
+      "url": "https://github.com/MaximumTrainer/Waymark/issues/93",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "infrastructure",
+          "color": "0075ca"
+        },
+        {
+          "name": "reliability",
+          "color": "ededed"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-12T19:05:02Z",
+      "updated_at": "2026-09-12T19:05:02Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSbes3c8AAAABQ_nXKg",
+      "repo": "Waymark",
+      "number": 92,
+      "title": "npm test fails on a clean checkout and frontend unit tests never run in CI",
+      "url": "https://github.com/MaximumTrainer/Waymark/issues/92",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "frontend",
+          "color": "0075ca"
+        },
+        {
+          "name": "testing",
+          "color": "a2eeef"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-12T19:04:55Z",
+      "updated_at": "2026-09-12T19:04:55Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSbes3c8AAAABQ_nWvg",
+      "repo": "Waymark",
+      "number": 91,
+      "title": "Operator-only UI is rendered on the unauthenticated applicant route",
+      "url": "https://github.com/MaximumTrainer/Waymark/issues/91",
+      "labels": [
+        {
+          "name": "frontend",
+          "color": "0075ca"
+        },
+        {
+          "name": "security",
+          "color": "d73a4a"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-12T19:04:54Z",
+      "updated_at": "2026-09-12T19:04:54Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSbes3c8AAAABQ_nWTw",
+      "repo": "Waymark",
+      "number": 90,
+      "title": "Frontend API key grants full Operator access to every browser visitor",
+      "url": "https://github.com/MaximumTrainer/Waymark/issues/90",
+      "labels": [
+        {
+          "name": "frontend",
+          "color": "0075ca"
+        },
+        {
+          "name": "security",
+          "color": "d73a4a"
+        },
+        {
+          "name": "authentication",
+          "color": "ededed"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-12T19:04:52Z",
+      "updated_at": "2026-09-12T19:04:52Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOUJBGPs8AAAABQ8T4nw",
       "repo": "llm-cad",
@@ -4184,31 +4326,6 @@
       ],
       "created_at": "2025-11-29T13:44:01Z",
       "updated_at": "2026-05-16T08:29:55Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSbes3c8AAAABCckbYA",
-      "repo": "Waymark",
-      "number": 76,
-      "title": "Replace placeholder SAML wire format with standard SAML XML",
-      "url": "https://github.com/MaximumTrainer/Waymark/issues/76",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "security",
-          "color": "d73a4a"
-        },
-        {
-          "name": "authentication",
-          "color": "ededed"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-05-16T07:39:41Z",
-      "updated_at": "2026-05-16T07:39:41Z",
       "comment_count": 0
     }
   ]
