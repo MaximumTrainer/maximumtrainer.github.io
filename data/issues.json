@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-12T08:25:39Z",
-  "issue_count": 199,
+  "generated_at": "2026-09-12T13:18:17Z",
+  "issue_count": 191,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 35
+      "open_issue_count": 27
     },
     {
       "name": "Other",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/llm-cad",
       "description": "",
       "category": "Data & LLM Experiments",
-      "open_issue_count": 28
+      "open_issue_count": 20
     },
     {
       "name": "garmin-freelap",
@@ -100,6 +100,31 @@
   ],
   "issues": [
     {
+      "id": "I_kwDOUJBGPs8AAAABQ8T4nw",
+      "repo": "llm-cad",
+      "number": 10,
+      "title": "CAD-009 — OCP runs in-process; a kernel fault kills the server",
+      "url": "https://github.com/MaximumTrainer/llm-cad/issues/10",
+      "labels": [
+        {
+          "name": "P1",
+          "color": "d93f0b"
+        },
+        {
+          "name": "area:architecture",
+          "color": "0e8a16"
+        },
+        {
+          "name": "backlog-2026-09",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-12T07:23:48Z",
+      "updated_at": "2026-09-12T12:55:17Z",
+      "comment_count": 1
+    },
+    {
       "id": "I_kwDOUJBGPs8AAAABQ8W_Lw",
       "repo": "llm-cad",
       "number": 35,
@@ -122,106 +147,6 @@
       "assignees": [],
       "created_at": "2026-09-12T07:37:10Z",
       "updated_at": "2026-09-12T07:37:10Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8UBKA",
-      "repo": "llm-cad",
-      "number": 34,
-      "title": "CAD-033 — No `.mcp.json`, so the documented connect step is manual",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/34",
-      "labels": [
-        {
-          "name": "P2",
-          "color": "fbca04"
-        },
-        {
-          "name": "area:dx",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:24:22Z",
-      "updated_at": "2026-09-12T07:24:22Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8UAvQ",
-      "repo": "llm-cad",
-      "number": 33,
-      "title": "CAD-032 — Nothing detects SPEC/README/code drift",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/33",
-      "labels": [
-        {
-          "name": "P2",
-          "color": "fbca04"
-        },
-        {
-          "name": "area:process",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:24:20Z",
-      "updated_at": "2026-09-12T07:24:20Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8UAaQ",
-      "repo": "llm-cad",
-      "number": 32,
-      "title": "CAD-031 — No Claude Code skills to guide design and implementation",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/32",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:tooling",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:24:19Z",
-      "updated_at": "2026-09-12T07:24:19Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8UABw",
-      "repo": "llm-cad",
-      "number": 31,
-      "title": "CAD-030 — No git hooks",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/31",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:tooling",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:24:17Z",
-      "updated_at": "2026-09-12T07:24:17Z",
       "comment_count": 0
     },
     {
@@ -350,31 +275,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJBGPs8AAAABQ8T98A",
-      "repo": "llm-cad",
-      "number": 25,
-      "title": "CAD-024 — No CI for tests, lint, or types",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/25",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:ci",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:24:09Z",
-      "updated_at": "2026-09-12T07:24:09Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJBGPs8AAAABQ8T87Q",
       "repo": "llm-cad",
       "number": 23,
@@ -422,31 +322,6 @@
       "assignees": [],
       "created_at": "2026-09-12T07:24:03Z",
       "updated_at": "2026-09-12T07:24:03Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T8OA",
-      "repo": "llm-cad",
-      "number": 21,
-      "title": "CAD-020 — Prompts teach v1 only; assembly and `gen_ai_mesh` are untaught",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/21",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:prompts",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:24:02Z",
-      "updated_at": "2026-09-12T07:24:02Z",
       "comment_count": 0
     },
     {
@@ -697,81 +572,6 @@
       "assignees": [],
       "created_at": "2026-09-12T07:23:49Z",
       "updated_at": "2026-09-12T07:23:49Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T4nw",
-      "repo": "llm-cad",
-      "number": 10,
-      "title": "CAD-009 — OCP runs in-process; a kernel fault kills the server",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/10",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:architecture",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:23:48Z",
-      "updated_at": "2026-09-12T07:23:48Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T4Qg",
-      "repo": "llm-cad",
-      "number": 9,
-      "title": "CAD-008 — Concurrent tool calls race on shared sandbox files",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/9",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:session",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:23:46Z",
-      "updated_at": "2026-09-12T07:23:46Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T37w",
-      "repo": "llm-cad",
-      "number": 8,
-      "title": "CAD-007 — All MCP sessions share one global session",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/8",
-      "labels": [
-        {
-          "name": "P0",
-          "color": "b60205"
-        },
-        {
-          "name": "area:session",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:23:45Z",
-      "updated_at": "2026-09-12T07:23:45Z",
       "comment_count": 0
     },
     {
