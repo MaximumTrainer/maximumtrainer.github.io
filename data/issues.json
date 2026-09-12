@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-12T13:18:17Z",
-  "issue_count": 191,
+  "generated_at": "2026-09-12T16:21:20Z",
+  "issue_count": 185,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 27
+      "open_issue_count": 21
     },
     {
       "name": "Other",
@@ -35,18 +35,18 @@
       "open_issue_count": 133
     },
     {
-      "name": "llm-cad",
-      "url": "https://github.com/MaximumTrainer/llm-cad",
-      "description": "",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 20
-    },
-    {
       "name": "garmin-freelap",
       "url": "https://github.com/MaximumTrainer/garmin-freelap",
       "description": "Connect IQ watch app that records Freelap FxChip BLE split times into your Garmin activity. In development; not yet verified against a real chip.",
       "category": "Other",
       "open_issue_count": 16
+    },
+    {
+      "name": "llm-cad",
+      "url": "https://github.com/MaximumTrainer/llm-cad",
+      "description": "",
+      "category": "Data & LLM Experiments",
+      "open_issue_count": 14
     },
     {
       "name": "freelap-intervals",
@@ -147,31 +147,6 @@
       "assignees": [],
       "created_at": "2026-09-12T07:37:10Z",
       "updated_at": "2026-09-12T07:37:10Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T_ng",
-      "repo": "llm-cad",
-      "number": 30,
-      "title": "CAD-029 — Dependency pins contradict CLAUDE.md",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/30",
-      "labels": [
-        {
-          "name": "P2",
-          "color": "fbca04"
-        },
-        {
-          "name": "area:packaging",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:24:16Z",
-      "updated_at": "2026-09-12T07:24:16Z",
       "comment_count": 0
     },
     {
@@ -325,31 +300,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJBGPs8AAAABQ8T74w",
-      "repo": "llm-cad",
-      "number": 20,
-      "title": "CAD-019 — Tool responses have no single envelope",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/20",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:llm-contract",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:24:01Z",
-      "updated_at": "2026-09-12T07:24:01Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJBGPs8AAAABQ8T7iQ",
       "repo": "llm-cad",
       "number": 19,
@@ -472,106 +422,6 @@
       "assignees": [],
       "created_at": "2026-09-12T07:23:54Z",
       "updated_at": "2026-09-12T07:23:54Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T53A",
-      "repo": "llm-cad",
-      "number": 14,
-      "title": "CAD-013 — Golden-image test covers a code path the tool never calls",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/14",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:tests",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:23:53Z",
-      "updated_at": "2026-09-12T07:23:53Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T5oA",
-      "repo": "llm-cad",
-      "number": 13,
-      "title": "CAD-012 — Three runtime imports are undeclared dependencies",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/13",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:packaging",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:23:52Z",
-      "updated_at": "2026-09-12T07:23:52Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T5Sg",
-      "repo": "llm-cad",
-      "number": 12,
-      "title": "CAD-011 — The \"preferred\" renderer is undeclared and never exercised",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/12",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:render",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:23:50Z",
-      "updated_at": "2026-09-12T07:23:50Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T49A",
-      "repo": "llm-cad",
-      "number": 11,
-      "title": "CAD-010 — pyrender backend draws no axes or scale ticks",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/11",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:render",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:23:49Z",
-      "updated_at": "2026-09-12T07:23:49Z",
       "comment_count": 0
     },
     {
