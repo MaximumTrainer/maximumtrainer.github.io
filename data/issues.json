@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-12T20:21:42Z",
-  "issue_count": 180,
+  "generated_at": "2026-09-13T07:22:27Z",
+  "issue_count": 181,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 11
+      "open_issue_count": 12
     },
     {
       "name": "Other",
@@ -56,18 +56,18 @@
       "open_issue_count": 6
     },
     {
+      "name": "llm-cad",
+      "url": "https://github.com/MaximumTrainer/llm-cad",
+      "description": "",
+      "category": "Data & LLM Experiments",
+      "open_issue_count": 5
+    },
+    {
       "name": "synthetic-fabricate",
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
       "open_issue_count": 5
-    },
-    {
-      "name": "llm-cad",
-      "url": "https://github.com/MaximumTrainer/llm-cad",
-      "description": "",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 4
     },
     {
       "name": "virtualrow",
@@ -99,6 +99,18 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOUJBGPs8AAAABRCv_cA",
+      "repo": "llm-cad",
+      "number": 37,
+      "title": "create claude/agent.md - placeholder",
+      "url": "https://github.com/MaximumTrainer/llm-cad/issues/37",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T07:12:22Z",
+      "updated_at": "2026-09-13T07:12:22Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOSbes3c8AAAABQ_na2A",
       "repo": "Waymark",
