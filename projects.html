@@ -13,6 +13,10 @@
       --accent: #2563eb;
       --accent-hover: #1d4ed8;
       --border: #e2e8f0;
+      --status-pass: #16a34a;
+      --status-fail: #dc2626;
+      --status-pending: #ca8a04;
+      --status-none: #94a3b8;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -24,6 +28,10 @@
         --accent: #60a5fa;
         --accent-hover: #93bbfd;
         --border: #334155;
+        --status-pass: #4ade80;
+        --status-fail: #f87171;
+        --status-pending: #facc15;
+        --status-none: #64748b;
       }
     }
 
@@ -55,15 +63,56 @@
       padding: 2.5rem 0;
     }
 
-    section h1 {
+    .page-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .page-header h1 {
       font-size: 1.75rem;
       font-weight: 700;
-      margin-bottom: 0.5rem;
+    }
+
+    .status-summary {
+      display: flex;
+      gap: 1rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      padding-top: 0.4rem;
+    }
+
+    .status-summary span {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
     }
 
     .subtitle {
       color: var(--text-muted);
       margin-bottom: 2.5rem;
+    }
+
+    .legend {
+      display: flex;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+      padding: 0.75rem 1rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+    }
+
+    .legend span {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
     }
 
     .project-group { margin-bottom: 2.5rem; }
@@ -94,14 +143,84 @@
 
     .project-card:hover { border-color: var(--accent); }
 
-    .project-card h3 {
-      font-size: 1rem;
-      font-weight: 600;
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       margin-bottom: 0.35rem;
     }
 
-    .project-card h3 a { color: var(--text); }
-    .project-card h3 a:hover { color: var(--accent); }
+    .card-header h3 {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .card-header h3 a { color: var(--text); }
+    .card-header h3 a:hover { color: var(--accent); }
+
+    .build-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.7rem;
+      font-weight: 500;
+      padding: 0.15rem 0.5rem;
+      border-radius: 9999px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .build-status .dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+    }
+
+    .build-status.loading {
+      color: var(--text-muted);
+    }
+
+    .build-status.loading .dot {
+      background: var(--status-none);
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+
+    .build-status.pass {
+      color: var(--status-pass);
+    }
+
+    .build-status.pass .dot {
+      background: var(--status-pass);
+    }
+
+    .build-status.fail {
+      color: var(--status-fail);
+    }
+
+    .build-status.fail .dot {
+      background: var(--status-fail);
+    }
+
+    .build-status.pending {
+      color: var(--status-pending);
+    }
+
+    .build-status.pending .dot {
+      background: var(--status-pending);
+    }
+
+    .build-status.none {
+      color: var(--status-none);
+    }
+
+    .build-status.none .dot {
+      background: var(--status-none);
+    }
 
     .project-card p {
       color: var(--text-muted);
@@ -147,43 +266,68 @@
     </nav>
 
     <section>
-      <h1>Projects</h1>
-      <p class="subtitle">Open source work on <a href="https://github.com/MaximumTrainer">GitHub</a>.</p>
+      <div class="page-header">
+        <h1>Projects</h1>
+        <div class="status-summary" id="status-summary"></div>
+      </div>
+      <p class="subtitle">Open source work on <a href="https://github.com/MaximumTrainer">GitHub</a>. Build status reflects the latest CI run on main.</p>
+
+      <div class="legend">
+        <span><span class="dot" style="width:7px;height:7px;border-radius:50%;background:var(--status-pass);display:inline-block"></span> Passing</span>
+        <span><span class="dot" style="width:7px;height:7px;border-radius:50%;background:var(--status-fail);display:inline-block"></span> Failing</span>
+        <span><span class="dot" style="width:7px;height:7px;border-radius:50%;background:var(--status-pending);display:inline-block"></span> In progress</span>
+        <span><span class="dot" style="width:7px;height:7px;border-radius:50%;background:var(--status-none);display:inline-block"></span> No CI</span>
+      </div>
 
       <div class="project-group">
         <h2>Training &amp; Fitness</h2>
         <div class="projects-grid">
-          <div class="project-card">
-            <h3><a href="https://github.com/MaximumTrainer/MaximumTrainer_Redux">MaximumTrainer Redux</a></h3>
+          <div class="project-card" data-repo="MaximumTrainer_Redux">
+            <div class="card-header">
+              <h3><a href="https://github.com/MaximumTrainer/MaximumTrainer_Redux">MaximumTrainer Redux</a></h3>
+              <span class="build-status loading"><span class="dot"></span></span>
+            </div>
             <p>Cross-platform indoor cycling training solution.</p>
             <div class="project-meta">
               <span><span class="lang-dot" style="background:#f34b7d"></span> C++</span>
               <span>&#9733; 24</span>
             </div>
           </div>
-          <div class="project-card">
-            <h3><a href="https://github.com/MaximumTrainer/SilverSprint">SilverSprint</a></h3>
+          <div class="project-card" data-repo="SilverSprint">
+            <div class="card-header">
+              <h3><a href="https://github.com/MaximumTrainer/SilverSprint">SilverSprint</a></h3>
+              <span class="build-status loading"><span class="dot"></span></span>
+            </div>
             <p>"Neural-First" training platform for aging sprinters with CNS fatigue detection.</p>
             <div class="project-meta">
               <span><span class="lang-dot" style="background:#3178c6"></span> TypeScript</span>
             </div>
           </div>
-          <div class="project-card">
-            <h3><a href="https://github.com/MaximumTrainer/freelap-intervals">freelap-intervals</a></h3>
+          <div class="project-card" data-repo="freelap-intervals">
+            <div class="card-header">
+              <h3><a href="https://github.com/MaximumTrainer/freelap-intervals">freelap-intervals</a></h3>
+              <span class="build-status loading"><span class="dot"></span></span>
+            </div>
             <p>Freelap to intervals.icu sprint sync &mdash; writes timed sprint sessions as structured intervals.</p>
             <div class="project-meta">
               <span><span class="lang-dot" style="background:#3178c6"></span> TypeScript</span>
             </div>
           </div>
-          <div class="project-card">
-            <h3><a href="https://github.com/MaximumTrainer/sprint-coach">sprint-coach</a></h3>
+          <div class="project-card" data-repo="sprint-coach">
+            <div class="card-header">
+              <h3><a href="https://github.com/MaximumTrainer/sprint-coach">sprint-coach</a></h3>
+              <span class="build-status loading"><span class="dot"></span></span>
+            </div>
             <p>Sprint coaching tooling.</p>
             <div class="project-meta">
               <span><span class="lang-dot" style="background:#3178c6"></span> TypeScript</span>
             </div>
           </div>
-          <div class="project-card">
-            <h3><a href="https://github.com/MaximumTrainer/virtualrow">virtualrow</a></h3>
+          <div class="project-card" data-repo="virtualrow">
+            <div class="card-header">
+              <h3><a href="https://github.com/MaximumTrainer/virtualrow">virtualrow</a></h3>
+              <span class="build-status loading"><span class="dot"></span></span>
+            </div>
             <p>Virtual rowing project.</p>
             <div class="project-meta">
               <span><span class="lang-dot" style="background:#3178c6"></span> TypeScript</span>
@@ -195,47 +339,68 @@
       <div class="project-group">
         <h2>Developer Tools &amp; Engineering</h2>
         <div class="projects-grid">
-          <div class="project-card">
-            <h3><a href="https://github.com/MaximumTrainer/SdlcKnowledgeGraph">SdlcKnowledgeGraph</a></h3>
+          <div class="project-card" data-repo="SdlcKnowledgeGraph">
+            <div class="card-header">
+              <h3><a href="https://github.com/MaximumTrainer/SdlcKnowledgeGraph">SdlcKnowledgeGraph</a></h3>
+              <span class="build-status loading"><span class="dot"></span></span>
+            </div>
             <p>Unified engineering knowledge graph where each Git repository is a node.</p>
             <div class="project-meta">
               <span><span class="lang-dot" style="background:#A97BFF"></span> Kotlin</span>
             </div>
           </div>
-          <div class="project-card">
-            <h3><a href="https://github.com/MaximumTrainer/Waymark">Waymark</a></h3>
+          <div class="project-card" data-repo="Waymark">
+            <div class="card-header">
+              <h3><a href="https://github.com/MaximumTrainer/Waymark">Waymark</a></h3>
+              <span class="build-status loading"><span class="dot"></span></span>
+            </div>
             <p>Schema-driven journey orchestration engine.</p>
             <div class="project-meta">
               <span><span class="lang-dot" style="background:#178600"></span> C#</span>
             </div>
           </div>
-          <div class="project-card">
-            <h3><a href="https://github.com/MaximumTrainer/gatekeeper">gatekeeper</a></h3>
+          <div class="project-card" data-repo="gatekeeper">
+            <div class="card-header">
+              <h3><a href="https://github.com/MaximumTrainer/gatekeeper">gatekeeper</a></h3>
+              <span class="build-status loading"><span class="dot"></span></span>
+            </div>
             <p>Simple tool to verify if a public dependency repository is accessible.</p>
             <div class="project-meta">
               <span><span class="lang-dot" style="background:#00ADD8"></span> Go</span>
             </div>
           </div>
-          <div class="project-card">
-            <h3><a href="https://github.com/MaximumTrainer/GopherMesh">GopherMesh</a></h3>
+          <div class="project-card" data-repo="GopherMesh">
+            <div class="card-header">
+              <h3><a href="https://github.com/MaximumTrainer/GopherMesh">GopherMesh</a></h3>
+              <span class="build-status loading"><span class="dot"></span></span>
+            </div>
             <p>Go networking project.</p>
             <div class="project-meta">
               <span><span class="lang-dot" style="background:#00ADD8"></span> Go</span>
             </div>
           </div>
-          <div class="project-card">
-            <h3><a href="https://github.com/MaximumTrainer/Copilot-Jira-Orchestrator">Copilot-Jira-Orchestrator</a></h3>
+          <div class="project-card" data-repo="Copilot-Jira-Orchestrator">
+            <div class="card-header">
+              <h3><a href="https://github.com/MaximumTrainer/Copilot-Jira-Orchestrator">Copilot-Jira-Orchestrator</a></h3>
+              <span class="build-status loading"><span class="dot"></span></span>
+            </div>
             <p>Copilot and Jira integration orchestrator.</p>
             <div class="project-meta">
               <span><span class="lang-dot" style="background:#178600"></span> C#</span>
             </div>
           </div>
-          <div class="project-card">
-            <h3><a href="https://github.com/MaximumTrainer/chorus">chorus</a></h3>
+          <div class="project-card" data-repo="chorus">
+            <div class="card-header">
+              <h3><a href="https://github.com/MaximumTrainer/chorus">chorus</a></h3>
+              <span class="build-status loading"><span class="dot"></span></span>
+            </div>
             <p>Open-source product workspace for teams that build with coding agents.</p>
           </div>
-          <div class="project-card">
-            <h3><a href="https://github.com/MaximumTrainer/white-papers">white-papers</a></h3>
+          <div class="project-card" data-repo="white-papers">
+            <div class="card-header">
+              <h3><a href="https://github.com/MaximumTrainer/white-papers">white-papers</a></h3>
+              <span class="build-status loading"><span class="dot"></span></span>
+            </div>
             <p>Example white papers explaining engineering practices.</p>
           </div>
         </div>
@@ -244,26 +409,52 @@
       <div class="project-group">
         <h2>Data &amp; LLM Experiments</h2>
         <div class="projects-grid">
-          <div class="project-card">
-            <h3><a href="https://github.com/MaximumTrainer/OpenFactstore">OpenFactstore</a></h3>
+          <div class="project-card" data-repo="OpenFactstore">
+            <div class="card-header">
+              <h3><a href="https://github.com/MaximumTrainer/OpenFactstore">OpenFactstore</a></h3>
+              <span class="build-status loading"><span class="dot"></span></span>
+            </div>
             <p>Experimental black box LLM reimplementation of a data tool.</p>
             <div class="project-meta">
               <span><span class="lang-dot" style="background:#A97BFF"></span> Kotlin</span>
             </div>
           </div>
-          <div class="project-card">
-            <h3><a href="https://github.com/MaximumTrainer/OpenDataMask">OpenDataMask</a></h3>
+          <div class="project-card" data-repo="OpenDataMask">
+            <div class="card-header">
+              <h3><a href="https://github.com/MaximumTrainer/OpenDataMask">OpenDataMask</a></h3>
+              <span class="build-status loading"><span class="dot"></span></span>
+            </div>
             <p>Blackbox experiment data masking tool.</p>
             <div class="project-meta">
               <span><span class="lang-dot" style="background:#A97BFF"></span> Kotlin</span>
             </div>
           </div>
-          <div class="project-card">
-            <h3><a href="https://github.com/MaximumTrainer/llm-cad">llm-cad</a></h3>
+          <div class="project-card" data-repo="synthetic-concoction">
+            <div class="card-header">
+              <h3><a href="https://github.com/MaximumTrainer/synthetic-concoction">synthetic-concoction</a></h3>
+              <span class="build-status loading"><span class="dot"></span></span>
+            </div>
+            <p>Experimental synthetic data generation engine.</p>
+            <div class="project-meta">
+              <span><span class="lang-dot" style="background:#178600"></span> C#</span>
+            </div>
+          </div>
+          <div class="project-card" data-repo="llm-cad">
+            <div class="card-header">
+              <h3><a href="https://github.com/MaximumTrainer/llm-cad">llm-cad</a></h3>
+              <span class="build-status loading"><span class="dot"></span></span>
+            </div>
             <p>LLM-driven CAD experiment.</p>
             <div class="project-meta">
               <span><span class="lang-dot" style="background:#3572A5"></span> Python</span>
             </div>
+          </div>
+          <div class="project-card" data-repo="shadow-of-the-beast-wasm">
+            <div class="card-header">
+              <h3><a href="https://github.com/MaximumTrainer/shadow-of-the-beast-wasm">shadow-of-the-beast-wasm</a></h3>
+              <span class="build-status loading"><span class="dot"></span></span>
+            </div>
+            <p>WASM Rust reimplementation of Amiga Shadow of the Beast game.</p>
           </div>
         </div>
       </div>
@@ -275,6 +466,75 @@
     </footer>
 
   </div>
+
+  <script>
+    const OWNER = "MaximumTrainer";
+    const API = "https://api.github.com";
+
+    function setStatus(card, status, label) {
+      var el = card.querySelector(".build-status");
+      el.className = "build-status " + status;
+      el.innerHTML = '<span class="dot"></span> ' + label;
+    }
+
+    function updateSummary(results) {
+      var pass = 0, fail = 0, pending = 0, none = 0;
+      results.forEach(function(r) {
+        if (r === "pass") pass++;
+        else if (r === "fail") fail++;
+        else if (r === "pending") pending++;
+        else none++;
+      });
+      var parts = [];
+      if (pass) parts.push('<span><span class="dot" style="width:7px;height:7px;border-radius:50%;background:var(--status-pass);display:inline-block"></span> ' + pass + ' passing</span>');
+      if (fail) parts.push('<span><span class="dot" style="width:7px;height:7px;border-radius:50%;background:var(--status-fail);display:inline-block"></span> ' + fail + ' failing</span>');
+      if (pending) parts.push('<span><span class="dot" style="width:7px;height:7px;border-radius:50%;background:var(--status-pending);display:inline-block"></span> ' + pending + ' running</span>');
+      if (none) parts.push('<span><span class="dot" style="width:7px;height:7px;border-radius:50%;background:var(--status-none);display:inline-block"></span> ' + none + ' no CI</span>');
+      document.getElementById("status-summary").innerHTML = parts.join("");
+    }
+
+    async function fetchStatus(card) {
+      var repo = card.dataset.repo;
+      try {
+        var resp = await fetch(API + "/repos/" + OWNER + "/" + repo + "/actions/runs?branch=main&per_page=1");
+        if (!resp.ok) {
+          setStatus(card, "none", "no CI");
+          return "none";
+        }
+        var data = await resp.json();
+        if (!data.workflow_runs || data.workflow_runs.length === 0) {
+          setStatus(card, "none", "no CI");
+          return "none";
+        }
+        var run = data.workflow_runs[0];
+        if (run.status === "in_progress" || run.status === "queued") {
+          setStatus(card, "pending", "running");
+          return "pending";
+        }
+        if (run.conclusion === "success") {
+          setStatus(card, "pass", "passing");
+          return "pass";
+        }
+        if (run.conclusion === "failure" || run.conclusion === "timed_out") {
+          setStatus(card, "fail", "failing");
+          return "fail";
+        }
+        setStatus(card, "none", run.conclusion || "unknown");
+        return "none";
+      } catch (e) {
+        setStatus(card, "none", "no CI");
+        return "none";
+      }
+    }
+
+    async function loadAllStatuses() {
+      var cards = document.querySelectorAll(".project-card[data-repo]");
+      var results = await Promise.all(Array.from(cards).map(fetchStatus));
+      updateSummary(results);
+    }
+
+    loadAllStatuses();
+  </script>
 
 </body>
 </html>
