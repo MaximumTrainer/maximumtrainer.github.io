@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-13T10:24:18Z",
-  "issue_count": 205,
+  "generated_at": "2026-09-13T11:17:34Z",
+  "issue_count": 214,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 3,
-      "open_issue_count": 163
+      "open_issue_count": 172
     },
     {
       "name": "Data & LLM Experiments",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 26
+      "open_issue_count": 35
     },
     {
       "name": "garmin-freelap",
@@ -106,6 +106,114 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDORwT0VM8AAAABRDoBjg",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 68,
+      "title": "48 Dependabot vulnerabilities on main, 19 of them high",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/68",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T10:56:03Z",
+      "updated_at": "2026-09-13T10:56:03Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRDn78g",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 67,
+      "title": "main is unprotected, and two ADRs still say branch protection is unavailable",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/67",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T10:55:40Z",
+      "updated_at": "2026-09-13T10:55:40Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRDn2NA",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 66,
+      "title": "website/scripts/generate.mjs is binary to git, so its diffs cannot be reviewed",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/66",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T10:55:17Z",
+      "updated_at": "2026-09-13T10:55:17Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRDnwug",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 65,
+      "title": "The root scripts have no tests, in a repository built on TDD",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/65",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T10:54:55Z",
+      "updated_at": "2026-09-13T10:54:55Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRDnrpA",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 64,
+      "title": "A legitimate credential-shaped file cannot be committed: the hygiene rule has no escape hatch",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/64",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T10:54:35Z",
+      "updated_at": "2026-09-13T10:54:35Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRDnm3Q",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 63,
+      "title": "protected-branch does not stop 'git push origin HEAD:main' from a feature branch",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/63",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T10:54:17Z",
+      "updated_at": "2026-09-13T10:54:17Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRDnibA",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 62,
+      "title": "A partially staged secret passes the commit gate: secretlint scans the working tree, not the index",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/62",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T10:54:00Z",
+      "updated_at": "2026-09-13T10:54:00Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRDndsw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 61,
+      "title": "Merge commits bypass every pre-commit guard",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/61",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T10:53:42Z",
+      "updated_at": "2026-09-13T10:53:42Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRDl5ug",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 59,
+      "title": "Website: link text still reads as a repository file path",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/59",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T10:47:05Z",
+      "updated_at": "2026-09-13T10:47:05Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDORwT0VM8AAAABRDEEig",
       "repo": "SdlcKnowledgeGraph",
