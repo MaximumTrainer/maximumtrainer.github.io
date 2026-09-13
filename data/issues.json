@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-13T11:17:34Z",
-  "issue_count": 214,
+  "generated_at": "2026-09-13T14:19:40Z",
+  "issue_count": 215,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 3,
-      "open_issue_count": 172
+      "open_issue_count": 173
     },
     {
       "name": "Data & LLM Experiments",
@@ -32,7 +32,7 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 133
+      "open_issue_count": 134
     },
     {
       "name": "SdlcKnowledgeGraph",
@@ -106,6 +106,18 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOUJnj1s8AAAABREiKeg",
+      "repo": "chorus",
+      "number": 172,
+      "title": "Proposal: shared project memory for coding-agent workspaces",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/172",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T14:14:53Z",
+      "updated_at": "2026-09-13T14:14:53Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDORwT0VM8AAAABRDoBjg",
       "repo": "SdlcKnowledgeGraph",
