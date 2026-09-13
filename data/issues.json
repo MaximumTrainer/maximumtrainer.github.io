@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-13T19:16:11Z",
-  "issue_count": 217,
+  "generated_at": "2026-09-13T21:18:22Z",
+  "issue_count": 229,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 175
+      "open_issue_count": 187
     },
     {
       "name": "Data & LLM Experiments",
@@ -32,14 +32,14 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 134
+      "open_issue_count": 136
     },
     {
       "name": "SdlcKnowledgeGraph",
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 41
+      "open_issue_count": 51
     },
     {
       "name": "garmin-freelap",
@@ -99,6 +99,272 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDORwT0VM8AAAABRGpQ5A",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 99,
+      "title": "docs: positioning — what the graph is for, and how it differs from Backstage, Cortex, OpsLevel, Port and the CMDB",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/99",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T21:05:11Z",
+      "updated_at": "2026-09-13T21:05:11Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGpG_A",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 98,
+      "title": "feat(identity): harden identity for real estates — monorepo paths, digest-less artifacts, configurable environment aliases, and node merge",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/98",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T21:04:43Z",
+      "updated_at": "2026-09-13T21:04:43Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGo75w",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 97,
+      "title": "feat(agents): MCP server generated from the ontology",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/97",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T21:04:09Z",
+      "updated_at": "2026-09-13T21:04:09Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGoyuw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 96,
+      "title": "feat(api): bounded context-pack traversal for agent tasks",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/96",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T21:03:42Z",
+      "updated_at": "2026-09-13T21:03:42Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGonLg",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 95,
+      "title": "feat(governance): OPA policy on every request, with a documented confidence-gated action policy for agents",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/95",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T21:03:07Z",
+      "updated_at": "2026-09-13T21:03:07Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGodog",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 94,
+      "title": "feat(auth): implement ADR-0005 — OIDC auth with agents as first-class principals, before connectors carry real data",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/94",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T21:02:38Z",
+      "updated_at": "2026-09-13T21:02:38Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGoUAg",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 93,
+      "title": "feat(api): freshness guarantees — staleness marking, connector lag health, and as-of reads",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/93",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T21:02:08Z",
+      "updated_at": "2026-09-13T21:02:08Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABRGoL5A",
+      "repo": "chorus",
+      "number": 174,
+      "title": "BRAIN-11 — Operational entity kinds (service, environment, deployment, resource) whose authority is an external graph: referenced, never re-extracted",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/174",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:brain",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T21:01:43Z",
+      "updated_at": "2026-09-13T21:01:43Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGoJzQ",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 92,
+      "title": "feat(connectors): ServiceNow CMDB connector — ConfigurationItem and RELATES_TO_CI",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/92",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T21:01:37Z",
+      "updated_at": "2026-09-13T21:01:37Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGoApQ",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 91,
+      "title": "feat(connectors): AWS connector — CloudResource discovery and OWNS_RESOURCE link rules",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/91",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T21:01:06Z",
+      "updated_at": "2026-09-13T21:01:06Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABRGnt6w",
+      "repo": "chorus",
+      "number": 173,
+      "title": "INT-11 — SDLC knowledge graph source connector: deployments, ownership, lineage and incidents as signals",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/173",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:int",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T21:00:12Z",
+      "updated_at": "2026-09-13T21:00:12Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGnoCw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 90,
+      "title": "feat(connectors): CI/deployment connector — artifacts, deployments and environments from GitHub Actions",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/90",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T20:59:56Z",
+      "updated_at": "2026-09-13T20:59:56Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGnKwg",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 89,
+      "title": "Emit \"change is now live\" and \"change is now failing\" events on the change feed, so an upstream workspace can close the loop from task to running software without diffing commits itself",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/89",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T20:58:25Z",
+      "updated_at": "2026-09-13T20:58:25Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGllXA",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 88,
+      "title": "Repository identity: accept a stable provider id (GitHub repository id / installation scope) as an alias, so renames and transfers do not orphan the node",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/88",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T20:53:52Z",
+      "updated_at": "2026-09-13T20:53:52Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGlTyw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 87,
+      "title": "Impact analysis v2: path-scoped input, bounded depth, deterministic scoring and owner resolution, shaped for an agent's context pack",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/87",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T20:53:06Z",
+      "updated_at": "2026-09-13T20:53:06Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGlS9g",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 86,
+      "title": "feat(connectors): GitHub connector — repositories, teams, pipelines and manifest-derived dependencies",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/86",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T20:53:05Z",
+      "updated_at": "2026-09-13T20:53:05Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGk4Kw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 85,
+      "title": "Add Change and PullRequest nodes with an IMPLEMENTS edge to an ExternalWorkItem, so a deployment can be traced to the intent that produced it",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/85",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T20:51:55Z",
+      "updated_at": "2026-09-13T20:51:55Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDORwT0VM8AAAABRFu9RA",
       "repo": "SdlcKnowledgeGraph",
@@ -283,54 +549,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDORwT0VM8AAAABRDn2NA",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 66,
-      "title": "website/scripts/generate.mjs is binary to git, so its diffs cannot be reviewed",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/66",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-13T10:55:17Z",
-      "updated_at": "2026-09-13T10:55:17Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRDnwug",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 65,
-      "title": "The root scripts have no tests, in a repository built on TDD",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/65",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-13T10:54:55Z",
-      "updated_at": "2026-09-13T10:54:55Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRDnrpA",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 64,
-      "title": "A legitimate credential-shaped file cannot be committed: the hygiene rule has no escape hatch",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/64",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-13T10:54:35Z",
-      "updated_at": "2026-09-13T10:54:35Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRDnm3Q",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 63,
-      "title": "protected-branch does not stop 'git push origin HEAD:main' from a feature branch",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/63",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-13T10:54:17Z",
-      "updated_at": "2026-09-13T10:54:17Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDORwT0VM8AAAABRDnibA",
       "repo": "SdlcKnowledgeGraph",
       "number": 62,
@@ -352,18 +570,6 @@
       "assignees": [],
       "created_at": "2026-09-13T10:53:42Z",
       "updated_at": "2026-09-13T10:53:42Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRDl5ug",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 59,
-      "title": "Website: link text still reads as a repository file path",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/59",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-13T10:47:05Z",
-      "updated_at": "2026-09-13T10:47:05Z",
       "comment_count": 0
     },
     {
