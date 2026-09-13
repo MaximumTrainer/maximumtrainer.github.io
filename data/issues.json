@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T14:19:40Z",
-  "issue_count": 215,
-  "repo_count": 11,
+  "generated_at": "2026-09-13T18:24:05Z",
+  "issue_count": 218,
+  "repo_count": 10,
   "category_count": 4,
   "truncated": false,
   "categories": [
@@ -12,8 +12,8 @@
     },
     {
       "name": "Developer Tools & Engineering",
-      "repo_count": 3,
-      "open_issue_count": 173
+      "repo_count": 2,
+      "open_issue_count": 176
     },
     {
       "name": "Data & LLM Experiments",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 35
+      "open_issue_count": 42
     },
     {
       "name": "garmin-freelap",
@@ -68,13 +68,6 @@
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
       "open_issue_count": 5
-    },
-    {
-      "name": "Waymark",
-      "url": "https://github.com/MaximumTrainer/Waymark",
-      "description": "Schema-driven journey orchestration engine ",
-      "category": "Developer Tools & Engineering",
-      "open_issue_count": 4
     },
     {
       "name": "virtualrow",
@@ -106,6 +99,153 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDORwT0VM8AAAABRFu9RA",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 81,
+      "title": "Make the ontology fully self-describing for machine readers: descriptions on every property, enums for status-like fields, examples, and a registry lint that fails the build when they are missing",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/81",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T18:09:08Z",
+      "updated_at": "2026-09-13T18:09:08Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRFud3Q",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 80,
+      "title": "Add operational guardrails: ChangeWindow and EnvironmentPolicy in the ontology, plus a pre-flight check so an agent can ask \"may I do this now\" before acting",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/80",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T18:07:43Z",
+      "updated_at": "2026-09-13T18:07:43Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRFt75g",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 79,
+      "title": "Add context packs: deterministic, budget-bounded serialisation of a subgraph for LLM prompts, with stable citation ids",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/79",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T18:06:02Z",
+      "updated_at": "2026-09-13T18:06:02Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRFtb4w",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 78,
+      "title": "Add an agent decision ledger: AgentRun and Decision nodes citing the facts consulted and the outcome produced, so what agents did is queryable and evaluable",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/78",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T18:04:27Z",
+      "updated_at": "2026-09-13T18:04:27Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRFs6tw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 77,
+      "title": "Add on-behalf-of delegation: an agent acts with the rights of the user it serves, and the audit trail records both",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/77",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T18:02:50Z",
+      "updated_at": "2026-09-13T18:02:50Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRFsejQ",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 76,
+      "title": "Add a graph change feed: cursor-based change log, SSE stream and outbound webhooks so agents and downstream systems learn of changes without polling",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/76",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T18:01:25Z",
+      "updated_at": "2026-09-13T18:01:25Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRFr6zA",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 74,
+      "title": "Add agent proposals: any ontology-valid node or edge asserted by an agent lands in a review queue with provenance, promotion and rejection tombstones",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/74",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T17:59:37Z",
+      "updated_at": "2026-09-13T17:59:37Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOUJnj1s8AAAABREiKeg",
       "repo": "chorus",
@@ -236,106 +376,6 @@
       "assignees": [],
       "created_at": "2026-09-13T08:20:32Z",
       "updated_at": "2026-09-13T08:20:32Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSbes3c8AAAABRDDXJg",
-      "repo": "Waymark",
-      "number": 102,
-      "title": "The persisted analytics event trail has no operator UI",
-      "url": "https://github.com/MaximumTrainer/Waymark/issues/102",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "frontend",
-          "color": "0075ca"
-        },
-        {
-          "name": "observability",
-          "color": "ededed"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-13T08:17:36Z",
-      "updated_at": "2026-09-13T08:17:36Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSbes3c8AAAABRDDWlQ",
-      "repo": "Waymark",
-      "number": 101,
-      "title": "Applicant session tokens cannot be refreshed or revoked",
-      "url": "https://github.com/MaximumTrainer/Waymark/issues/101",
-      "labels": [
-        {
-          "name": "backend",
-          "color": "e4e669"
-        },
-        {
-          "name": "authentication",
-          "color": "ededed"
-        },
-        {
-          "name": "reliability",
-          "color": "ededed"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-13T08:17:35Z",
-      "updated_at": "2026-09-13T08:17:35Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSbes3c8AAAABRDDU3g",
-      "repo": "Waymark",
-      "number": 100,
-      "title": "RabbitMqSessionEventTransport has no test coverage",
-      "url": "https://github.com/MaximumTrainer/Waymark/issues/100",
-      "labels": [
-        {
-          "name": "infrastructure",
-          "color": "0075ca"
-        },
-        {
-          "name": "testing",
-          "color": "a2eeef"
-        },
-        {
-          "name": "reliability",
-          "color": "ededed"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-13T08:17:27Z",
-      "updated_at": "2026-09-13T08:17:27Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSbes3c8AAAABRDDUkg",
-      "repo": "Waymark",
-      "number": 99,
-      "title": "Rate limiters are global rather than per-caller, so one client can lock out every applicant",
-      "url": "https://github.com/MaximumTrainer/Waymark/issues/99",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "backend",
-          "color": "e4e669"
-        },
-        {
-          "name": "security",
-          "color": "d73a4a"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-13T08:17:26Z",
-      "updated_at": "2026-09-13T08:17:26Z",
       "comment_count": 0
     },
     {
