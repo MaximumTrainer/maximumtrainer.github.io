@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T08:26:51Z",
-  "issue_count": 179,
-  "repo_count": 10,
+  "generated_at": "2026-09-13T10:24:18Z",
+  "issue_count": 205,
+  "repo_count": 11,
   "category_count": 4,
   "truncated": false,
   "categories": [
@@ -12,8 +12,8 @@
     },
     {
       "name": "Developer Tools & Engineering",
-      "repo_count": 2,
-      "open_issue_count": 137
+      "repo_count": 3,
+      "open_issue_count": 163
     },
     {
       "name": "Data & LLM Experiments",
@@ -33,6 +33,13 @@
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
       "open_issue_count": 133
+    },
+    {
+      "name": "SdlcKnowledgeGraph",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
+      "description": "A **unified engineering knowledge graph** where each Git repository is a node",
+      "category": "Developer Tools & Engineering",
+      "open_issue_count": 26
     },
     {
       "name": "garmin-freelap",
@@ -99,6 +106,18 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDORwT0VM8AAAABRDEEig",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 53,
+      "title": "OpenApiExportTest can never pass on Windows: Jackson pretty printer uses the platform line separator",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/53",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-13T08:20:32Z",
+      "updated_at": "2026-09-13T08:20:32Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOSbes3c8AAAABRDDXJg",
       "repo": "Waymark",
@@ -760,6 +779,109 @@
       "assignees": [],
       "created_at": "2026-09-08T10:48:53Z",
       "updated_at": "2026-09-08T10:48:53Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABQH2YFg",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 44,
+      "title": "Add structured logging with a declared event registry, request correlation, redaction, and SLO alerts with runbooks",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/44",
+      "labels": [
+        {
+          "name": "type:foundation",
+          "color": "0e8a16"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:ci",
+          "color": "bfd4f2"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-07T16:09:44Z",
+      "updated_at": "2026-09-08T07:56:53Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABQOVbZQ",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 47,
+      "title": "Reference deployment on fly.io: the dogfood instance holding this repository's own SDLC",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/47",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:ci",
+          "color": "bfd4f2"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-08T07:41:02Z",
+      "updated_at": "2026-09-08T07:56:37Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABQOeb_Q",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 48,
+      "title": "Deployment contract: the requirements every deployment must meet, with an executable conformance suite",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/48",
+      "labels": [
+        {
+          "name": "type:foundation",
+          "color": "0e8a16"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:ci",
+          "color": "bfd4f2"
+        },
+        {
+          "name": "area:security",
+          "color": "b60205"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-08T07:55:26Z",
+      "updated_at": "2026-09-08T07:55:26Z",
       "comment_count": 0
     },
     {
@@ -1438,6 +1560,700 @@
       "assignees": [],
       "created_at": "2026-09-04T06:27:33Z",
       "updated_at": "2026-09-04T06:27:33Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM72cenB",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 9,
+      "title": "Add interactive graph visualiser (Cytoscape.js) with neighbourhood, filters and blast-radius overlay",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/9",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:frontend",
+          "color": "fbca04"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-03-25T11:24:09Z",
+      "updated_at": "2026-09-04T05:55:26Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM72bvtv",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 8,
+      "title": "Link Repository nodes to a real git remote with canonical identity keys and duplicate rejection",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/8",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:frontend",
+          "color": "fbca04"
+        },
+        {
+          "name": "size:S",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-03-25T10:55:02Z",
+      "updated_at": "2026-09-04T05:55:23Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM72bomo",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 7,
+      "title": "Add release and deploy pipelines to cloud PaaS with self-ingestion of deployments via POST /api/v1/ingest/deployment",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/7",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "type:bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:ci",
+          "color": "bfd4f2"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-03-25T10:51:21Z",
+      "updated_at": "2026-09-04T05:55:20Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM72boNi",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 6,
+      "title": "Package the site as containers with nginx proxy, ontology-driven app shell and hosting ADR",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/6",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:frontend",
+          "color": "fbca04"
+        },
+        {
+          "name": "area:ci",
+          "color": "bfd4f2"
+        },
+        {
+          "name": "size:M",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-03-25T10:51:09Z",
+      "updated_at": "2026-09-04T05:55:18Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM72a148",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 3,
+      "title": "Secure the API: OIDC resource server, principal kinds user|service|agent, backend-issued API keys and audit",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/3",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:security",
+          "color": "b60205"
+        },
+        {
+          "name": "size:M",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-03-25T10:17:08Z",
+      "updated_at": "2026-09-04T05:55:09Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM72a1pR",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 2,
+      "title": "Add user login via oauth2Login BFF with GitHub first and OIDC providers by config",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/2",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:frontend",
+          "color": "fbca04"
+        },
+        {
+          "name": "area:security",
+          "color": "b60205"
+        },
+        {
+          "name": "size:M",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-03-25T10:16:58Z",
+      "updated_at": "2026-09-04T05:55:06Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABPpIiMw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 36,
+      "title": "Add requirements connector: Jira and Azure DevOps Epics/Stories IMPLEMENTED_BY commits and pull requests",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/36",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:connector",
+          "color": "f9d0c4"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T05:53:01Z",
+      "updated_at": "2026-09-04T05:53:01Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABPpIhkQ",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 35,
+      "title": "Add Jira Service Management connector as the second ItsmConnector implementation",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/35",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:connector",
+          "color": "f9d0c4"
+        },
+        {
+          "name": "size:M",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T05:52:59Z",
+      "updated_at": "2026-09-04T05:52:59Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABPpIgqA",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 34,
+      "title": "Add observability/incident connector: New Relic, Splunk and Azure Monitor alerts to Incident with CAUSED_BY and TRIGGERED_BY",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/34",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:connector",
+          "color": "f9d0c4"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T05:52:57Z",
+      "updated_at": "2026-09-04T05:52:57Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABPpIfnA",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 33,
+      "title": "Add data lifecycle: validFrom/validTo history, connector tombstones, archival job and ontology migrations",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/33",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:ontology",
+          "color": "c2e0c6"
+        },
+        {
+          "name": "area:connector",
+          "color": "f9d0c4"
+        },
+        {
+          "name": "size:M",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T05:52:54Z",
+      "updated_at": "2026-09-04T05:52:54Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABPpIefw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 32,
+      "title": "Add answer-quality evaluation harness: golden questions, expected subgraphs, precision/recall in CI",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/32",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:ci",
+          "color": "bfd4f2"
+        },
+        {
+          "name": "size:M",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T05:52:52Z",
+      "updated_at": "2026-09-04T05:52:52Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABPpIdvQ",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 31,
+      "title": "Add AI-agent query API: read-only GraphQL persisted queries with policy filter and an MCP server",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/31",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:security",
+          "color": "b60205"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T05:52:50Z",
+      "updated_at": "2026-09-04T05:52:50Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABPpIc8A",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 30,
+      "title": "Add RBAC and policy-as-code with OPA: one subject model for users and agents, sensitivity labels, Rego tests",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/30",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:security",
+          "color": "b60205"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T05:52:47Z",
+      "updated_at": "2026-09-04T05:52:48Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABPpIbkQ",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 29,
+      "title": "Add sync observability: Micrometer connector metrics, Prometheus endpoint, freshness age and SyncRun list UI",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/29",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:frontend",
+          "color": "fbca04"
+        },
+        {
+          "name": "area:connector",
+          "color": "f9d0c4"
+        },
+        {
+          "name": "size:M",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T05:52:44Z",
+      "updated_at": "2026-09-04T05:52:44Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABPpIaXw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 28,
+      "title": "Add cloud-to-repo link resolution engine with confidence rules and CANDIDATE_LINK review UI",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/28",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:frontend",
+          "color": "fbca04"
+        },
+        {
+          "name": "area:ontology",
+          "color": "c2e0c6"
+        },
+        {
+          "name": "area:connector",
+          "color": "f9d0c4"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T05:52:41Z",
+      "updated_at": "2026-09-04T05:52:41Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABPpIZLw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 27,
+      "title": "Add GCP cloud connector: Cloud Asset Inventory, multi-project, label-based repo links",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/27",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:connector",
+          "color": "f9d0c4"
+        },
+        {
+          "name": "size:M",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T05:52:38Z",
+      "updated_at": "2026-09-04T05:52:39Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABPpIXnw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 26,
+      "title": "Add Azure cloud connector: Resource Graph KQL, multi-subscription, tag-based repo links",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/26",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:connector",
+          "color": "f9d0c4"
+        },
+        {
+          "name": "size:M",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T05:52:34Z",
+      "updated_at": "2026-09-04T05:52:35Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABPpIVzg",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 25,
+      "title": "Add AWS cloud connector (reference CloudConnector): Tagging API + Cloud Control, multi-account AssumeRole, tag-based repo links",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/25",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:connector",
+          "color": "f9d0c4"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T05:52:30Z",
+      "updated_at": "2026-09-04T05:52:30Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABPpIU5g",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 24,
+      "title": "Add ItsmConnector abstraction and ServiceNow CMDB connector (CIs, change requests, incidents)",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/24",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:connector",
+          "color": "f9d0c4"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T05:52:27Z",
+      "updated_at": "2026-09-04T05:52:27Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABPpIT_w",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 23,
+      "title": "Add GitHub connector: repos, CODEOWNERS and topics (a), dependency manifests and IaC index (b), webhooks (c)",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/23",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:connector",
+          "color": "f9d0c4"
+        },
+        {
+          "name": "size:XL",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T05:52:25Z",
+      "updated_at": "2026-09-04T05:52:25Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABPpIScw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 22,
+      "title": "Add connector SPI, AdapterRegistry, SyncScheduler and SyncRun nodes with /api/v1/connectors and signature-verified webhooks",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/22",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:connector",
+          "color": "f9d0c4"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T05:52:22Z",
+      "updated_at": "2026-09-04T05:52:22Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABPpIRXw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 21,
+      "title": "Add impact analysis and blast-radius queries: what-depends-on, why-did-deployment-fail, who-owns",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/21",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-04T05:52:19Z",
+      "updated_at": "2026-09-04T05:52:19Z",
       "comment_count": 0
     },
     {
