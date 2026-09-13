@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-13T07:22:27Z",
-  "issue_count": 181,
+  "generated_at": "2026-09-13T08:26:51Z",
+  "issue_count": 179,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 139
+      "open_issue_count": 137
     },
     {
       "name": "Data & LLM Experiments",
@@ -49,13 +49,6 @@
       "open_issue_count": 8
     },
     {
-      "name": "Waymark",
-      "url": "https://github.com/MaximumTrainer/Waymark",
-      "description": "Schema-driven journey orchestration engine ",
-      "category": "Developer Tools & Engineering",
-      "open_issue_count": 6
-    },
-    {
       "name": "llm-cad",
       "url": "https://github.com/MaximumTrainer/llm-cad",
       "description": "",
@@ -68,6 +61,13 @@
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
       "open_issue_count": 5
+    },
+    {
+      "name": "Waymark",
+      "url": "https://github.com/MaximumTrainer/Waymark",
+      "description": "Schema-driven journey orchestration engine ",
+      "category": "Developer Tools & Engineering",
+      "open_issue_count": 4
     },
     {
       "name": "virtualrow",
@@ -100,6 +100,106 @@
   ],
   "issues": [
     {
+      "id": "I_kwDOSbes3c8AAAABRDDXJg",
+      "repo": "Waymark",
+      "number": 102,
+      "title": "The persisted analytics event trail has no operator UI",
+      "url": "https://github.com/MaximumTrainer/Waymark/issues/102",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "frontend",
+          "color": "0075ca"
+        },
+        {
+          "name": "observability",
+          "color": "ededed"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T08:17:36Z",
+      "updated_at": "2026-09-13T08:17:36Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSbes3c8AAAABRDDWlQ",
+      "repo": "Waymark",
+      "number": 101,
+      "title": "Applicant session tokens cannot be refreshed or revoked",
+      "url": "https://github.com/MaximumTrainer/Waymark/issues/101",
+      "labels": [
+        {
+          "name": "backend",
+          "color": "e4e669"
+        },
+        {
+          "name": "authentication",
+          "color": "ededed"
+        },
+        {
+          "name": "reliability",
+          "color": "ededed"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T08:17:35Z",
+      "updated_at": "2026-09-13T08:17:35Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSbes3c8AAAABRDDU3g",
+      "repo": "Waymark",
+      "number": 100,
+      "title": "RabbitMqSessionEventTransport has no test coverage",
+      "url": "https://github.com/MaximumTrainer/Waymark/issues/100",
+      "labels": [
+        {
+          "name": "infrastructure",
+          "color": "0075ca"
+        },
+        {
+          "name": "testing",
+          "color": "a2eeef"
+        },
+        {
+          "name": "reliability",
+          "color": "ededed"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T08:17:27Z",
+      "updated_at": "2026-09-13T08:17:27Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOSbes3c8AAAABRDDUkg",
+      "repo": "Waymark",
+      "number": 99,
+      "title": "Rate limiters are global rather than per-caller, so one client can lock out every applicant",
+      "url": "https://github.com/MaximumTrainer/Waymark/issues/99",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "backend",
+          "color": "e4e669"
+        },
+        {
+          "name": "security",
+          "color": "d73a4a"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T08:17:26Z",
+      "updated_at": "2026-09-13T08:17:26Z",
+      "comment_count": 0
+    },
+    {
       "id": "I_kwDOUJBGPs8AAAABRCv_cA",
       "repo": "llm-cad",
       "number": 37,
@@ -109,148 +209,6 @@
       "assignees": [],
       "created_at": "2026-09-13T07:12:22Z",
       "updated_at": "2026-09-13T07:12:22Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSbes3c8AAAABQ_na2A",
-      "repo": "Waymark",
-      "number": 95,
-      "title": "Journey analytics events have no durable sink and browser events never reach the backend",
-      "url": "https://github.com/MaximumTrainer/Waymark/issues/95",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "observability",
-          "color": "ededed"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T19:05:05Z",
-      "updated_at": "2026-09-12T19:05:05Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSbes3c8AAAABQ_najg",
-      "repo": "Waymark",
-      "number": 94,
-      "title": "SAML metadata advertises assertion encryption the ACS cannot decrypt",
-      "url": "https://github.com/MaximumTrainer/Waymark/issues/94",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "security",
-          "color": "d73a4a"
-        },
-        {
-          "name": "authentication",
-          "color": "ededed"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T19:05:04Z",
-      "updated_at": "2026-09-12T19:05:04Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSbes3c8AAAABQ_naIg",
-      "repo": "Waymark",
-      "number": 93,
-      "title": "SSE session progress events break when the API runs more than one replica",
-      "url": "https://github.com/MaximumTrainer/Waymark/issues/93",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "infrastructure",
-          "color": "0075ca"
-        },
-        {
-          "name": "reliability",
-          "color": "ededed"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T19:05:02Z",
-      "updated_at": "2026-09-12T19:05:02Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSbes3c8AAAABQ_nXKg",
-      "repo": "Waymark",
-      "number": 92,
-      "title": "npm test fails on a clean checkout and frontend unit tests never run in CI",
-      "url": "https://github.com/MaximumTrainer/Waymark/issues/92",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "frontend",
-          "color": "0075ca"
-        },
-        {
-          "name": "testing",
-          "color": "a2eeef"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T19:04:55Z",
-      "updated_at": "2026-09-12T19:04:55Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSbes3c8AAAABQ_nWvg",
-      "repo": "Waymark",
-      "number": 91,
-      "title": "Operator-only UI is rendered on the unauthenticated applicant route",
-      "url": "https://github.com/MaximumTrainer/Waymark/issues/91",
-      "labels": [
-        {
-          "name": "frontend",
-          "color": "0075ca"
-        },
-        {
-          "name": "security",
-          "color": "d73a4a"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T19:04:54Z",
-      "updated_at": "2026-09-12T19:04:54Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOSbes3c8AAAABQ_nWTw",
-      "repo": "Waymark",
-      "number": 90,
-      "title": "Frontend API key grants full Operator access to every browser visitor",
-      "url": "https://github.com/MaximumTrainer/Waymark/issues/90",
-      "labels": [
-        {
-          "name": "frontend",
-          "color": "0075ca"
-        },
-        {
-          "name": "security",
-          "color": "d73a4a"
-        },
-        {
-          "name": "authentication",
-          "color": "ededed"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T19:04:52Z",
-      "updated_at": "2026-09-12T19:04:52Z",
       "comment_count": 0
     },
     {
