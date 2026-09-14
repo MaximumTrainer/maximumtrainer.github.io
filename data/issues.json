@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-14T09:31:03Z",
-  "issue_count": 231,
+  "generated_at": "2026-09-14T10:23:16Z",
+  "issue_count": 226,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 192
+      "open_issue_count": 187
     },
     {
       "name": "Data & LLM Experiments",
@@ -32,7 +32,7 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 139
+      "open_issue_count": 134
     },
     {
       "name": "SdlcKnowledgeGraph",
@@ -99,6 +99,48 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOUJnj1s8AAAABPMzBhg",
+      "repo": "chorus",
+      "number": 149,
+      "title": "WS-4 AC1 — coding-job and prototype launch must require senior_member",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/149",
+      "labels": [
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:ws",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-01T17:48:49Z",
+      "updated_at": "2026-09-14T09:57:49Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABQEqoVQ",
+      "repo": "chorus",
+      "number": 168,
+      "title": "NFR-8 — the worker's pre-dequeue spend guard, which fires before the call rather than after it",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/168",
+      "labels": [
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-07T10:48:23Z",
+      "updated_at": "2026-09-14T09:52:45Z",
+      "comment_count": 1
+    },
     {
       "id": "I_kwDORwT0VM8AAAABRLPq1A",
       "repo": "SdlcKnowledgeGraph",
@@ -1655,27 +1697,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABQEqoVQ",
-      "repo": "chorus",
-      "number": 168,
-      "title": "NFR-8 — the worker's pre-dequeue spend guard, which fires before the call rather than after it",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/168",
-      "labels": [
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:nfr",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-07T10:48:23Z",
-      "updated_at": "2026-09-07T10:48:23Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDORbFSsM8AAAABQDjeAQ",
       "repo": "SilverSprint",
       "number": 34,
@@ -1827,31 +1848,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABP-XfQw",
-      "repo": "chorus",
-      "number": 160,
-      "title": "TASK-3's confidence floor rejects realistic task titles: \"Fix parseInvoice\" scores below 0.5 against a file containing parseInvoice",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/160",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "priority:should",
-          "color": "d93f0b"
-        },
-        {
-          "name": "module:brain",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T18:58:28Z",
-      "updated_at": "2026-09-06T18:58:28Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPAoydQ",
       "repo": "chorus",
       "number": 27,
@@ -1877,27 +1873,6 @@
       "comment_count": 2
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABP9nM3A",
-      "repo": "chorus",
-      "number": 159,
-      "title": "The pre-push gate does not run the browser journeys, so a class of failure reaches CI first",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/159",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "priority:should",
-          "color": "d93f0b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T16:25:28Z",
-      "updated_at": "2026-09-06T17:18:07Z",
-      "comment_count": 1
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPAowhQ",
       "repo": "chorus",
       "number": 26,
@@ -1920,27 +1895,6 @@
       "assignees": [],
       "created_at": "2026-08-31T16:05:40Z",
       "updated_at": "2026-09-06T16:15:59Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABP6_zGQ",
-      "repo": "chorus",
-      "number": 158,
-      "title": "createIsolatedDatabase leaks databases when drop() fails, and the leak looks like flakiness",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/158",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "priority:should",
-          "color": "d93f0b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T06:58:00Z",
-      "updated_at": "2026-09-06T16:15:39Z",
       "comment_count": 1
     },
     {
@@ -2158,23 +2112,6 @@
       "comment_count": 1
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABP55G-Q",
-      "repo": "chorus",
-      "number": 157,
-      "title": "Two migrators racing can both apply the same migration",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/157",
-      "labels": [
-        {
-          "name": "priority:could",
-          "color": "fbca04"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T02:16:31Z",
-      "updated_at": "2026-09-06T02:16:31Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDORjrDLM8AAAABOekEfw",
       "repo": "OpenFactstore",
       "number": 155,
@@ -2255,31 +2192,6 @@
       "assignees": [],
       "created_at": "2026-09-04T11:14:01Z",
       "updated_at": "2026-09-04T11:14:01Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPrXq9A",
-      "repo": "chorus",
-      "number": 155,
-      "title": "BRAIN-4 AC5: retrieval p95 is ~635ms at 20k chunks against a 300ms budget, and the components only account for 22ms",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/155",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:brain",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T10:40:13Z",
-      "updated_at": "2026-09-04T10:40:13Z",
       "comment_count": 0
     },
     {
@@ -3289,27 +3201,6 @@
       "created_at": "2026-08-31T17:35:53Z",
       "updated_at": "2026-09-01T17:49:48Z",
       "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPMzBhg",
-      "repo": "chorus",
-      "number": 149,
-      "title": "WS-4 AC1 — coding-job and prototype launch must require senior_member",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/149",
-      "labels": [
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:ws",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-01T17:48:49Z",
-      "updated_at": "2026-09-01T17:48:49Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDOUJnj1s8AAAABPAm2kQ",
