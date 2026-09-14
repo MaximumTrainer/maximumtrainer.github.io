@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T06:47:00Z",
-  "issue_count": 233,
+  "generated_at": "2026-09-14T07:32:22Z",
+  "issue_count": 229,
   "repo_count": 10,
   "category_count": 4,
-  "truncated": false,
+  "truncated": true,
   "categories": [
     {
       "name": "Training & Fitness",
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 194
+      "open_issue_count": 190
     },
     {
       "name": "Data & LLM Experiments",
@@ -32,14 +32,14 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 140
+      "open_issue_count": 138
     },
     {
       "name": "SdlcKnowledgeGraph",
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 54
+      "open_issue_count": 52
     },
     {
       "name": "garmin-freelap",
@@ -100,6 +100,35 @@
   ],
   "issues": [
     {
+      "id": "I_kwDOSeC83s8AAAABPe9hrQ",
+      "repo": "synthetic-fabricate",
+      "number": 61,
+      "title": "Lightweight hosted deployment from GitHub (Fly.io reference) with bring-your-own-key",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/61",
+      "labels": [
+        {
+          "name": "documentation",
+          "color": "0075ca"
+        },
+        {
+          "name": "automation",
+          "color": "ededed"
+        },
+        {
+          "name": "infrastructure",
+          "color": "fbca04"
+        },
+        {
+          "name": "configuration",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-03T08:12:57Z",
+      "updated_at": "2026-09-14T07:08:08Z",
+      "comment_count": 5
+    },
+    {
       "id": "I_kwDOUJBGPs8AAAABPNtj-Q",
       "repo": "llm-cad",
       "number": 1,
@@ -115,30 +144,6 @@
       "created_at": "2026-09-01T19:32:57Z",
       "updated_at": "2026-09-14T06:41:51Z",
       "comment_count": 1
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRJv0Fw",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 123,
-      "title": "The secrets guard test is flaky: it asserts against a temp directory other tests are using",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/123",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-14T06:33:05Z",
-      "updated_at": "2026-09-14T06:33:05Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRJqYcg",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 121,
-      "title": "Publish the agent systems white paper with the rest of the documentation",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/121",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-14T06:23:16Z",
-      "updated_at": "2026-09-14T06:23:16Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDORwT0VM8AAAABRGodog",
@@ -1059,18 +1064,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABREiKeg",
-      "repo": "chorus",
-      "number": 172,
-      "title": "Proposal: shared project memory for coding-agent workspaces",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/172",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-13T14:14:53Z",
-      "updated_at": "2026-09-13T14:14:53Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUQYAE88AAAABQZPCuA",
       "repo": "garmin-freelap",
       "number": 88,
@@ -1939,35 +1932,6 @@
       "comment_count": 1
     },
     {
-      "id": "I_kwDOSeC83s8AAAABPe9hrQ",
-      "repo": "synthetic-fabricate",
-      "number": 61,
-      "title": "Lightweight hosted deployment from GitHub (Fly.io reference) with bring-your-own-key",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate/issues/61",
-      "labels": [
-        {
-          "name": "documentation",
-          "color": "0075ca"
-        },
-        {
-          "name": "automation",
-          "color": "ededed"
-        },
-        {
-          "name": "infrastructure",
-          "color": "fbca04"
-        },
-        {
-          "name": "configuration",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-03T08:12:57Z",
-      "updated_at": "2026-09-06T11:26:03Z",
-      "comment_count": 4
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPAsLIg",
       "repo": "chorus",
       "number": 42,
@@ -2011,27 +1975,6 @@
       "assignees": [],
       "created_at": "2026-08-31T15:59:09Z",
       "updated_at": "2026-09-06T08:04:00Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAk7sw",
-      "repo": "chorus",
-      "number": 12,
-      "title": "EPIC: Integration framework and connectors (INT)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/12",
-      "labels": [
-        {
-          "name": "type:epic",
-          "color": "5319e7"
-        },
-        {
-          "name": "module:int",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T15:59:00Z",
-      "updated_at": "2026-09-06T08:03:57Z",
       "comment_count": 1
     },
     {
