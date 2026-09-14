@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T07:32:22Z",
-  "issue_count": 229,
+  "generated_at": "2026-09-14T08:34:08Z",
+  "issue_count": 231,
   "repo_count": 10,
   "category_count": 4,
-  "truncated": true,
+  "truncated": false,
   "categories": [
     {
       "name": "Training & Fitness",
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 190
+      "open_issue_count": 192
     },
     {
       "name": "Data & LLM Experiments",
@@ -32,14 +32,14 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 138
+      "open_issue_count": 139
     },
     {
       "name": "SdlcKnowledgeGraph",
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 52
+      "open_issue_count": 53
     },
     {
       "name": "garmin-freelap",
@@ -99,6 +99,18 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDORwT0VM8AAAABRJ4Dvw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 125,
+      "title": "Three major updates are blocked by their own ecosystems, and Dependabot will re-propose them weekly",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/125",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-14T06:49:35Z",
+      "updated_at": "2026-09-14T08:18:24Z",
+      "comment_count": 1
+    },
     {
       "id": "I_kwDOSeC83s8AAAABPe9hrQ",
       "repo": "synthetic-fabricate",
@@ -1975,6 +1987,27 @@
       "assignees": [],
       "created_at": "2026-08-31T15:59:09Z",
       "updated_at": "2026-09-06T08:04:00Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAk7sw",
+      "repo": "chorus",
+      "number": 12,
+      "title": "EPIC: Integration framework and connectors (INT)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/12",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:int",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:59:00Z",
+      "updated_at": "2026-09-06T08:03:57Z",
       "comment_count": 1
     },
     {
