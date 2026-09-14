@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T08:34:08Z",
+  "generated_at": "2026-09-14T09:31:03Z",
   "issue_count": 231,
   "repo_count": 10,
   "category_count": 4,
@@ -100,16 +100,16 @@
   ],
   "issues": [
     {
-      "id": "I_kwDORwT0VM8AAAABRJ4Dvw",
+      "id": "I_kwDORwT0VM8AAAABRLPq1A",
       "repo": "SdlcKnowledgeGraph",
-      "number": 125,
-      "title": "Three major updates are blocked by their own ecosystems, and Dependabot will re-propose them weekly",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/125",
+      "number": 138,
+      "title": "The backend toolchain needs a coordinated upgrade: every member of the group blocks the next",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/138",
       "labels": [],
       "assignees": [],
-      "created_at": "2026-09-14T06:49:35Z",
-      "updated_at": "2026-09-14T08:18:24Z",
-      "comment_count": 1
+      "created_at": "2026-09-14T09:28:09Z",
+      "updated_at": "2026-09-14T09:28:09Z",
+      "comment_count": 0
     },
     {
       "id": "I_kwDOSeC83s8AAAABPe9hrQ",
