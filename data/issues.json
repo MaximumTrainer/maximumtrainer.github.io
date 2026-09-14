@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-14T05:23:49Z",
-  "issue_count": 227,
+  "generated_at": "2026-09-14T06:47:00Z",
+  "issue_count": 233,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -13,12 +13,12 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 185
+      "open_issue_count": 194
     },
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 12
+      "open_issue_count": 9
     },
     {
       "name": "Other",
@@ -32,14 +32,14 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 136
+      "open_issue_count": 140
     },
     {
       "name": "SdlcKnowledgeGraph",
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 49
+      "open_issue_count": 54
     },
     {
       "name": "garmin-freelap",
@@ -56,13 +56,6 @@
       "open_issue_count": 8
     },
     {
-      "name": "llm-cad",
-      "url": "https://github.com/MaximumTrainer/llm-cad",
-      "description": "",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 5
-    },
-    {
       "name": "synthetic-fabricate",
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
@@ -75,6 +68,13 @@
       "description": "",
       "category": "Training & Fitness",
       "open_issue_count": 3
+    },
+    {
+      "name": "llm-cad",
+      "url": "https://github.com/MaximumTrainer/llm-cad",
+      "description": "",
+      "category": "Data & LLM Experiments",
+      "open_issue_count": 2
     },
     {
       "name": "OpenFactstore",
@@ -100,63 +100,44 @@
   ],
   "issues": [
     {
-      "id": "I_kwDORwT0VM8AAAABRGpQ5A",
+      "id": "I_kwDOUJBGPs8AAAABPNtj-Q",
+      "repo": "llm-cad",
+      "number": 1,
+      "title": "Deploy cad-mcp as a remote MCP server on Fly.io, managed by GitHub Actions",
+      "url": "https://github.com/MaximumTrainer/llm-cad/issues/1",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-01T19:32:57Z",
+      "updated_at": "2026-09-14T06:41:51Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRJv0Fw",
       "repo": "SdlcKnowledgeGraph",
-      "number": 99,
-      "title": "docs: positioning — what the graph is for, and how it differs from Backstage, Cortex, OpsLevel, Port and the CMDB",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/99",
+      "number": 123,
+      "title": "The secrets guard test is flaky: it asserts against a temp directory other tests are using",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/123",
       "labels": [],
       "assignees": [],
-      "created_at": "2026-09-13T21:05:11Z",
-      "updated_at": "2026-09-13T21:05:11Z",
+      "created_at": "2026-09-14T06:33:05Z",
+      "updated_at": "2026-09-14T06:33:05Z",
       "comment_count": 0
     },
     {
-      "id": "I_kwDORwT0VM8AAAABRGpG_A",
+      "id": "I_kwDORwT0VM8AAAABRJqYcg",
       "repo": "SdlcKnowledgeGraph",
-      "number": 98,
-      "title": "feat(identity): harden identity for real estates — monorepo paths, digest-less artifacts, configurable environment aliases, and node merge",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/98",
+      "number": 121,
+      "title": "Publish the agent systems white paper with the rest of the documentation",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/121",
       "labels": [],
       "assignees": [],
-      "created_at": "2026-09-13T21:04:43Z",
-      "updated_at": "2026-09-13T21:04:43Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRGo75w",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 97,
-      "title": "feat(agents): MCP server generated from the ontology",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/97",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-13T21:04:09Z",
-      "updated_at": "2026-09-13T21:04:09Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRGoyuw",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 96,
-      "title": "feat(api): bounded context-pack traversal for agent tasks",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/96",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-13T21:03:42Z",
-      "updated_at": "2026-09-13T21:03:42Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRGonLg",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 95,
-      "title": "feat(governance): OPA policy on every request, with a documented confidence-gated action policy for agents",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/95",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-13T21:03:07Z",
-      "updated_at": "2026-09-13T21:03:07Z",
+      "created_at": "2026-09-14T06:23:16Z",
+      "updated_at": "2026-09-14T06:23:16Z",
       "comment_count": 0
     },
     {
@@ -165,10 +146,238 @@
       "number": 94,
       "title": "feat(auth): implement ADR-0005 — OIDC auth with agents as first-class principals, before connectors carry real data",
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/94",
-      "labels": [],
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:security",
+          "color": "b60205"
+        },
+        {
+          "name": "size:XL",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
       "assignees": [],
       "created_at": "2026-09-13T21:02:38Z",
-      "updated_at": "2026-09-13T21:02:38Z",
+      "updated_at": "2026-09-14T06:00:05Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRJc52A",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 118,
+      "title": "feat(auth): AUTH-5 auth on by default — compose, e2e stack, getting-started, and removal of the anonymous path",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/118",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:security",
+          "color": "b60205"
+        },
+        {
+          "name": "size:M",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-14T05:56:50Z",
+      "updated_at": "2026-09-14T05:59:26Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRJcjVg",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 117,
+      "title": "feat(auth): AUTH-4 source-scoped writes — graph:write:<sourceSystem> binds a connector to the facts it may assert",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/117",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:security",
+          "color": "b60205"
+        },
+        {
+          "name": "size:M",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-14T05:56:05Z",
+      "updated_at": "2026-09-14T05:59:25Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRJcSvw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 116,
+      "title": "feat(auth): AUTH-3 read/write scopes — graph:read and graph:write enforced with explanatory 403s",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/116",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:security",
+          "color": "b60205"
+        },
+        {
+          "name": "size:M",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-14T05:55:33Z",
+      "updated_at": "2026-09-14T05:59:24Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRJcDjw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 115,
+      "title": "feat(auth): AUTH-2 machine principals — client-credentials for agents and connectors, owning Team in provenance",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/115",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:security",
+          "color": "b60205"
+        },
+        {
+          "name": "size:M",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-14T05:55:02Z",
+      "updated_at": "2026-09-14T05:59:23Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRJb06g",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 114,
+      "title": "feat(auth): AUTH-1 walking skeleton — OIDC login, bearer-token gate on the API, principal recorded in provenance",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/114",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:security",
+          "color": "b60205"
+        },
+        {
+          "name": "size:M",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-14T05:54:32Z",
+      "updated_at": "2026-09-14T05:59:22Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJBGPs8AAAABRJbmjg",
+      "repo": "llm-cad",
+      "number": 38,
+      "title": "Memory cap is not enforced on macOS",
+      "url": "https://github.com/MaximumTrainer/llm-cad/issues/38",
+      "labels": [
+        {
+          "name": "P2",
+          "color": "fbca04"
+        },
+        {
+          "name": "area:sandbox",
+          "color": "0e8a16"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-14T05:54:02Z",
+      "updated_at": "2026-09-14T05:54:02Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGpQ5A",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 99,
+      "title": "docs: positioning — what the graph is for, and how it differs from Backstage, Cortex, OpsLevel, Port and the CMDB",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/99",
+      "labels": [
+        {
+          "name": "documentation",
+          "color": "0075ca"
+        },
+        {
+          "name": "size:S",
+          "color": "ededed"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T21:05:11Z",
+      "updated_at": "2026-09-14T05:41:43Z",
       "comment_count": 0
     },
     {
@@ -177,10 +386,395 @@
       "number": 93,
       "title": "feat(api): freshness guarantees — staleness marking, connector lag health, and as-of reads",
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/93",
-      "labels": [],
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:frontend",
+          "color": "fbca04"
+        },
+        {
+          "name": "area:ontology",
+          "color": "c2e0c6"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
       "assignees": [],
       "created_at": "2026-09-13T21:02:08Z",
-      "updated_at": "2026-09-13T21:02:08Z",
+      "updated_at": "2026-09-14T05:41:03Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGo75w",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 97,
+      "title": "feat(agents): MCP server generated from the ontology",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/97",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:ontology",
+          "color": "c2e0c6"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T21:04:09Z",
+      "updated_at": "2026-09-14T05:40:38Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGpG_A",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 98,
+      "title": "feat(identity): harden identity for real estates — monorepo paths, digest-less artifacts, configurable environment aliases, and node merge",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/98",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:ontology",
+          "color": "c2e0c6"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T21:04:43Z",
+      "updated_at": "2026-09-14T05:40:38Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGonLg",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 95,
+      "title": "feat(governance): OPA policy on every request, with a documented confidence-gated action policy for agents",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/95",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:security",
+          "color": "b60205"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T21:03:07Z",
+      "updated_at": "2026-09-14T05:40:00Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGoyuw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 96,
+      "title": "feat(api): bounded context-pack traversal for agent tasks",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/96",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T21:03:42Z",
+      "updated_at": "2026-09-14T05:39:33Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGoJzQ",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 92,
+      "title": "feat(connectors): ServiceNow CMDB connector — ConfigurationItem and RELATES_TO_CI",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/92",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:connector",
+          "color": "f9d0c4"
+        },
+        {
+          "name": "size:M",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T21:01:37Z",
+      "updated_at": "2026-09-14T05:39:03Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGnoCw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 90,
+      "title": "feat(connectors): CI/deployment connector — artifacts, deployments and environments from GitHub Actions",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/90",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:connector",
+          "color": "f9d0c4"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T20:59:56Z",
+      "updated_at": "2026-09-14T05:38:35Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGoApQ",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 91,
+      "title": "feat(connectors): AWS connector — CloudResource discovery and OWNS_RESOURCE link rules",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/91",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:connector",
+          "color": "f9d0c4"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T21:01:06Z",
+      "updated_at": "2026-09-14T05:38:35Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABRGlS9g",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 86,
+      "title": "feat(connectors): GitHub connector — repositories, teams, pipelines and manifest-derived dependencies",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/86",
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "1d76db"
+        },
+        {
+          "name": "area:backend",
+          "color": "5319e7"
+        },
+        {
+          "name": "area:connector",
+          "color": "f9d0c4"
+        },
+        {
+          "name": "size:L",
+          "color": "ededed"
+        },
+        {
+          "name": "tdd:acceptance-first",
+          "color": "006b75"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-13T20:53:05Z",
+      "updated_at": "2026-09-14T05:38:34Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABRJSytA",
+      "repo": "chorus",
+      "number": 178,
+      "title": "AGENT-4 AC6–AC10 — export a run's decision summary to an external decision ledger (SDLC graph AgentRun/Decision), citing chorus://run/{id}, opt-in per team, redacted per NFR-11",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/178",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:could",
+          "color": "fbca04"
+        },
+        {
+          "name": "module:agent",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-14T05:29:05Z",
+      "updated_at": "2026-09-14T05:29:05Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABRJSa9A",
+      "repo": "chorus",
+      "number": 177,
+      "title": "CODE-11 — After the pull request: deployed/regressed evidence on the task, and incidents that open a session",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/177",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-14T05:27:57Z",
+      "updated_at": "2026-09-14T05:27:57Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABRJR36g",
+      "repo": "chorus",
+      "number": 176,
+      "title": "MCP-7 AC5–AC10 — external MCP servers are called as the acting user (token exchange), with a per-server tool manifest that declares sideEffect and idempotency; SDLC graph as the contract fixture",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/176",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:mcp",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-14T05:26:24Z",
+      "updated_at": "2026-09-14T05:26:24Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABRJQ8zg",
+      "repo": "chorus",
+      "number": 175,
+      "title": "CODE-2 AC9–AC14 — an \"Operational context\" brief section: blast radius, owners and change-window pre-flight from the SDLC graph, present-and-empty when none is linked",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/175",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:code",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-14T05:23:51Z",
+      "updated_at": "2026-09-14T05:25:04Z",
       "comment_count": 0
     },
     {
@@ -209,30 +803,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDORwT0VM8AAAABRGoJzQ",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 92,
-      "title": "feat(connectors): ServiceNow CMDB connector — ConfigurationItem and RELATES_TO_CI",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/92",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-13T21:01:37Z",
-      "updated_at": "2026-09-13T21:01:37Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRGoApQ",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 91,
-      "title": "feat(connectors): AWS connector — CloudResource discovery and OWNS_RESOURCE link rules",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/91",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-13T21:01:06Z",
-      "updated_at": "2026-09-13T21:01:06Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABRGnt6w",
       "repo": "chorus",
       "number": 173,
@@ -255,18 +825,6 @@
       "assignees": [],
       "created_at": "2026-09-13T21:00:12Z",
       "updated_at": "2026-09-13T21:00:12Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRGnoCw",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 90,
-      "title": "feat(connectors): CI/deployment connector — artifacts, deployments and environments from GitHub Actions",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/90",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-13T20:59:56Z",
-      "updated_at": "2026-09-13T20:59:56Z",
       "comment_count": 0
     },
     {
@@ -330,18 +888,6 @@
       "assignees": [],
       "created_at": "2026-09-13T20:53:06Z",
       "updated_at": "2026-09-13T20:53:06Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRGlS9g",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 86,
-      "title": "feat(connectors): GitHub connector — repositories, teams, pipelines and manifest-derived dependencies",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/86",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-13T20:53:05Z",
-      "updated_at": "2026-09-13T20:53:05Z",
       "comment_count": 0
     },
     {
@@ -522,117 +1068,6 @@
       "assignees": [],
       "created_at": "2026-09-13T14:14:53Z",
       "updated_at": "2026-09-13T14:14:53Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRDoBjg",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 68,
-      "title": "48 Dependabot vulnerabilities on main, 19 of them high",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/68",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-13T10:56:03Z",
-      "updated_at": "2026-09-13T10:56:03Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRDn78g",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 67,
-      "title": "main is unprotected, and two ADRs still say branch protection is unavailable",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/67",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-13T10:55:40Z",
-      "updated_at": "2026-09-13T10:55:40Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABRCv_cA",
-      "repo": "llm-cad",
-      "number": 37,
-      "title": "create claude/agent.md - placeholder",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/37",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-13T07:12:22Z",
-      "updated_at": "2026-09-13T07:12:22Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T4nw",
-      "repo": "llm-cad",
-      "number": 10,
-      "title": "CAD-009 — OCP runs in-process; a kernel fault kills the server",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/10",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:architecture",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:23:48Z",
-      "updated_at": "2026-09-12T12:55:17Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T-OA",
-      "repo": "llm-cad",
-      "number": 26,
-      "title": "CAD-025 — Test suite takes 8 minutes",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/26",
-      "labels": [
-        {
-          "name": "P2",
-          "color": "fbca04"
-        },
-        {
-          "name": "area:tests",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:24:10Z",
-      "updated_at": "2026-09-12T07:24:10Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABQ8T7KQ",
-      "repo": "llm-cad",
-      "number": 18,
-      "title": "CAD-017 — Determinism proven for STL only",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/18",
-      "labels": [
-        {
-          "name": "P1",
-          "color": "d93f0b"
-        },
-        {
-          "name": "area:export",
-          "color": "0e8a16"
-        },
-        {
-          "name": "backlog-2026-09",
-          "color": "5319e7"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-12T07:23:58Z",
-      "updated_at": "2026-09-12T07:23:58Z",
       "comment_count": 0
     },
     {
@@ -2836,23 +3271,6 @@
       "created_at": "2026-08-30T17:45:19Z",
       "updated_at": "2026-09-01T21:05:09Z",
       "comment_count": 3
-    },
-    {
-      "id": "I_kwDOUJBGPs8AAAABPNtj-Q",
-      "repo": "llm-cad",
-      "number": 1,
-      "title": "Deploy cad-mcp as a remote MCP server on Fly.io, managed by GitHub Actions",
-      "url": "https://github.com/MaximumTrainer/llm-cad/issues/1",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-01T19:32:57Z",
-      "updated_at": "2026-09-01T19:41:28Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDOUJnj1s8AAAABPM72Yg",
