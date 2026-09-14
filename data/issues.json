@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T12:34:00Z",
+  "generated_at": "2026-09-14T13:24:23Z",
   "issue_count": 227,
   "repo_count": 10,
   "category_count": 4,
@@ -99,6 +99,18 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDORwT0VM8AAAABRNMy_g",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 148,
+      "title": "A browser test races the ontology load, and CI's retries hide it",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/148",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-14T13:01:56Z",
+      "updated_at": "2026-09-14T13:01:56Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABRMZzXQ",
       "repo": "virtualrow",
@@ -2258,39 +2270,6 @@
       "assignees": [],
       "created_at": "2026-03-25T11:24:09Z",
       "updated_at": "2026-09-04T05:55:26Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM72bvtv",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 8,
-      "title": "Link Repository nodes to a real git remote with canonical identity keys and duplicate rejection",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/8",
-      "labels": [
-        {
-          "name": "type:feature",
-          "color": "1d76db"
-        },
-        {
-          "name": "area:backend",
-          "color": "5319e7"
-        },
-        {
-          "name": "area:frontend",
-          "color": "fbca04"
-        },
-        {
-          "name": "size:S",
-          "color": "ededed"
-        },
-        {
-          "name": "tdd:acceptance-first",
-          "color": "006b75"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-03-25T10:55:02Z",
-      "updated_at": "2026-09-04T05:55:23Z",
       "comment_count": 0
     },
     {
