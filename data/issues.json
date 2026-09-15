@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15T06:37:54Z",
-  "issue_count": 227,
+  "generated_at": "2026-09-15T07:27:06Z",
+  "issue_count": 226,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 187
+      "open_issue_count": 186
     },
     {
       "name": "Data & LLM Experiments",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 53
+      "open_issue_count": 52
     },
     {
       "name": "garmin-freelap",
@@ -2866,35 +2866,6 @@
       "assignees": [],
       "created_at": "2026-09-04T05:52:27Z",
       "updated_at": "2026-09-04T05:52:27Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABPpIT_w",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 23,
-      "title": "Add GitHub connector: repos, CODEOWNERS and topics (a), dependency manifests and IaC index (b), webhooks (c)",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/23",
-      "labels": [
-        {
-          "name": "type:feature",
-          "color": "1d76db"
-        },
-        {
-          "name": "area:connector",
-          "color": "f9d0c4"
-        },
-        {
-          "name": "size:XL",
-          "color": "ededed"
-        },
-        {
-          "name": "tdd:acceptance-first",
-          "color": "006b75"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T05:52:25Z",
-      "updated_at": "2026-09-04T05:52:25Z",
       "comment_count": 0
     },
     {
