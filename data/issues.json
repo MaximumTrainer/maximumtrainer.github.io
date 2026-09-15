@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15T15:22:00Z",
-  "issue_count": 224,
+  "generated_at": "2026-09-15T17:19:34Z",
+  "issue_count": 225,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 14
+      "open_issue_count": 15
     },
     {
       "name": "Developer Tools & Engineering",
@@ -67,7 +67,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 3
+      "open_issue_count": 4
     },
     {
       "name": "llm-cad",
@@ -99,6 +99,18 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABRb9fmA",
+      "repo": "virtualrow",
+      "number": 251,
+      "title": "verify 3d model files are published with website & can load - placeholder",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/251",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-15T17:14:25Z",
+      "updated_at": "2026-09-15T17:14:25Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDORwT0VM8AAAABRVKO_g",
       "repo": "SdlcKnowledgeGraph",
