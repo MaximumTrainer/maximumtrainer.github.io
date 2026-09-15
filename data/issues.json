@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-15T08:30:42Z",
-  "issue_count": 225,
-  "repo_count": 10,
+  "generated_at": "2026-09-15T14:24:04Z",
+  "issue_count": 206,
+  "repo_count": 8,
   "category_count": 4,
-  "truncated": false,
+  "truncated": true,
   "categories": [
     {
       "name": "Training & Fitness",
-      "repo_count": 4,
-      "open_issue_count": 15
+      "repo_count": 3,
+      "open_issue_count": 5
     },
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 185
+      "open_issue_count": 178
     },
     {
       "name": "Data & LLM Experiments",
-      "repo_count": 3,
-      "open_issue_count": 9
+      "repo_count": 2,
+      "open_issue_count": 7
     },
     {
       "name": "Other",
@@ -32,7 +32,7 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 134
+      "open_issue_count": 127
     },
     {
       "name": "SdlcKnowledgeGraph",
@@ -49,25 +49,11 @@
       "open_issue_count": 16
     },
     {
-      "name": "freelap-intervals",
-      "url": "https://github.com/MaximumTrainer/freelap-intervals",
-      "description": "# Freelap → intervals.icu Sprint Sync  Takes a timed sprint session from a Freelap system and writes it into intervals.icu — as structured intervals, summary custom fields and a human-readable rep table — then reads the activity back and reports every way it differs from what was intended.",
-      "category": "Training & Fitness",
-      "open_issue_count": 8
-    },
-    {
       "name": "synthetic-fabricate",
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
       "open_issue_count": 5
-    },
-    {
-      "name": "virtualrow",
-      "url": "https://github.com/MaximumTrainer/virtualrow",
-      "description": "",
-      "category": "Training & Fitness",
-      "open_issue_count": 4
     },
     {
       "name": "llm-cad",
@@ -77,16 +63,16 @@
       "open_issue_count": 2
     },
     {
-      "name": "OpenFactstore",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore",
-      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 2
-    },
-    {
       "name": "SilverSprint",
       "url": "https://github.com/MaximumTrainer/SilverSprint",
       "description": "SilverSprint is a \"Neural-First\" training platform. It operates on the principle that for aging sprinters, Central Nervous System (CNS) recovery is the primary bottleneck for performance. The application must automate the detection of neural fatigue and provide actionable \"Go/No-Go\" training recommendations.",
+      "category": "Training & Fitness",
+      "open_issue_count": 2
+    },
+    {
+      "name": "virtualrow",
+      "url": "https://github.com/MaximumTrainer/virtualrow",
+      "description": "",
       "category": "Training & Fitness",
       "open_issue_count": 2
     },
@@ -1660,27 +1646,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABPAkyfg",
-      "repo": "chorus",
-      "number": 7,
-      "title": "EPIC: Coding-agent execution (CODE)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/7",
-      "labels": [
-        {
-          "name": "type:epic",
-          "color": "5319e7"
-        },
-        {
-          "name": "module:code",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T15:58:46Z",
-      "updated_at": "2026-09-08T10:49:25Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABQQOVzQ",
       "repo": "chorus",
       "number": 170,
@@ -1935,27 +1900,6 @@
       "comment_count": 3
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABPAkp6A",
-      "repo": "chorus",
-      "number": 3,
-      "title": "EPIC: Documents (DOC)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/3",
-      "labels": [
-        {
-          "name": "type:epic",
-          "color": "5319e7"
-        },
-        {
-          "name": "module:doc",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T15:58:33Z",
-      "updated_at": "2026-09-06T19:18:30Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPAoydQ",
       "repo": "chorus",
       "number": 27,
@@ -2069,69 +2013,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABPAknig",
-      "repo": "chorus",
-      "number": 2,
-      "title": "EPIC: Chat-driven shaping (CHAT)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/2",
-      "labels": [
-        {
-          "name": "type:epic",
-          "color": "5319e7"
-        },
-        {
-          "name": "module:chat",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T15:58:30Z",
-      "updated_at": "2026-09-06T08:03:37Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAkrzQ",
-      "repo": "chorus",
-      "number": 4,
-      "title": "EPIC: Tasks (TASK)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/4",
-      "labels": [
-        {
-          "name": "type:epic",
-          "color": "5319e7"
-        },
-        {
-          "name": "module:task",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T15:58:36Z",
-      "updated_at": "2026-09-06T08:02:57Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAkwqQ",
-      "repo": "chorus",
-      "number": 6,
-      "title": "EPIC: Product agent runtime and workflows (AGENT)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/6",
-      "labels": [
-        {
-          "name": "type:epic",
-          "color": "5319e7"
-        },
-        {
-          "name": "module:agent",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T15:58:43Z",
-      "updated_at": "2026-09-06T07:56:04Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPAmwcQ",
       "repo": "chorus",
       "number": 18,
@@ -2192,68 +2073,6 @@
       "assignees": [],
       "created_at": "2026-09-05T16:27:24Z",
       "updated_at": "2026-09-06T02:16:51Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABOekEfw",
-      "repo": "OpenFactstore",
-      "number": 155,
-      "title": "API security and authorisation: enforce bearer-token auth with scoped API keys",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/155",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "security",
-          "color": "ededed"
-        },
-        {
-          "name": "authentication",
-          "color": "ededed"
-        },
-        {
-          "name": "rbac",
-          "color": "e4e669"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-27T10:31:22Z",
-      "updated_at": "2026-09-04T17:00:13Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABO9YR6w",
-      "repo": "OpenFactstore",
-      "number": 156,
-      "title": "User authentication: sign-in, sessions and role-based access for the web UI",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/156",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "security",
-          "color": "ededed"
-        },
-        {
-          "name": "authentication",
-          "color": "ededed"
-        },
-        {
-          "name": "rbac",
-          "color": "e4e669"
-        },
-        {
-          "name": "sso",
-          "color": "d93f0b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T09:56:28Z",
-      "updated_at": "2026-09-04T17:00:11Z",
       "comment_count": 1
     },
     {
@@ -2869,27 +2688,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABPAklgg",
-      "repo": "chorus",
-      "number": 1,
-      "title": "EPIC: Workspace, identity and access (WS)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/1",
-      "labels": [
-        {
-          "name": "type:epic",
-          "color": "5319e7"
-        },
-        {
-          "name": "module:ws",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T15:58:27Z",
-      "updated_at": "2026-09-03T12:31:13Z",
-      "comment_count": 1
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPBq5FQ",
       "repo": "chorus",
       "number": 136,
@@ -3015,27 +2813,6 @@
       "comment_count": 2
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABPAkufw",
-      "repo": "chorus",
-      "number": 5,
-      "title": "EPIC: Product brain — context engine (BRAIN)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/5",
-      "labels": [
-        {
-          "name": "type:epic",
-          "color": "5319e7"
-        },
-        {
-          "name": "module:brain",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T15:58:40Z",
-      "updated_at": "2026-09-03T12:22:59Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPhTpIA",
       "repo": "chorus",
       "number": 154,
@@ -3089,23 +2866,6 @@
       "created_at": "2026-09-03T08:12:07Z",
       "updated_at": "2026-09-03T08:12:07Z",
       "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABO2VpAw",
-      "repo": "virtualrow",
-      "number": 208,
-      "title": "Propose optional 'path' field to rownative/courses and report course data anomalies upstream (R-14)",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/208",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-30T10:01:35Z",
-      "updated_at": "2026-09-03T07:46:33Z",
-      "comment_count": 3
     },
     {
       "id": "I_kwDOUJnj1s8AAAABPM72Yg",
@@ -3172,31 +2932,6 @@
       "assignees": [],
       "created_at": "2026-08-31T16:02:21Z",
       "updated_at": "2026-09-01T15:12:22Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUJDYXs8AAAABO4n3Uw",
-      "repo": "freelap-intervals",
-      "number": 13,
-      "title": "C6 · Identify our intervals by tag as well as name",
-      "url": "https://github.com/MaximumTrainer/freelap-intervals/issues/13",
-      "labels": [
-        {
-          "name": "P3",
-          "color": "fbca04"
-        },
-        {
-          "name": "area: correctness",
-          "color": "1d76db"
-        },
-        {
-          "name": "effort: S",
-          "color": "ededed"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-30T19:09:06Z",
-      "updated_at": "2026-09-01T11:18:12Z",
       "comment_count": 1
     },
     {
@@ -5479,153 +5214,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJDYXs8AAAABO4qRIg",
-      "repo": "freelap-intervals",
-      "number": 38,
-      "title": "B7 · Legal review of MyFreelap credentialed access; approach Freelap",
-      "url": "https://github.com/MaximumTrainer/freelap-intervals/issues/38",
-      "labels": [
-        {
-          "name": "area: security",
-          "color": "5319e7"
-        },
-        {
-          "name": "blocked: external",
-          "color": "000000"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-30T19:17:49Z",
-      "updated_at": "2026-08-30T19:17:49Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJDYXs8AAAABO4qQ0Q",
-      "repo": "freelap-intervals",
-      "number": 37,
-      "title": "B6 · End-to-end against a sandbox athlete, then a 5-10 athlete beta",
-      "url": "https://github.com/MaximumTrainer/freelap-intervals/issues/37",
-      "labels": [
-        {
-          "name": "area: testing",
-          "color": "c5def5"
-        },
-        {
-          "name": "blocked: external",
-          "color": "000000"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-30T19:17:48Z",
-      "updated_at": "2026-08-30T19:17:48Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJDYXs8AAAABO4qQhw",
-      "repo": "freelap-intervals",
-      "number": 36,
-      "title": "B5 · Validate a synthetic FIT with the official Garmin FIT SDK",
-      "url": "https://github.com/MaximumTrainer/freelap-intervals/issues/36",
-      "labels": [
-        {
-          "name": "area: correctness",
-          "color": "1d76db"
-        },
-        {
-          "name": "blocked: external",
-          "color": "000000"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-30T19:17:47Z",
-      "updated_at": "2026-08-30T19:17:47Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJDYXs8AAAABO4qQKw",
-      "repo": "freelap-intervals",
-      "number": 35,
-      "title": "B4 · Confirm every intervals.icu endpoint against the live API",
-      "url": "https://github.com/MaximumTrainer/freelap-intervals/issues/35",
-      "labels": [
-        {
-          "name": "area: correctness",
-          "color": "1d76db"
-        },
-        {
-          "name": "blocked: external",
-          "color": "000000"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-30T19:17:46Z",
-      "updated_at": "2026-08-30T19:17:46Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJDYXs8AAAABO4qP4g",
-      "repo": "freelap-intervals",
-      "number": 34,
-      "title": "B3 · Register the intervals.icu OAuth app",
-      "url": "https://github.com/MaximumTrainer/freelap-intervals/issues/34",
-      "labels": [
-        {
-          "name": "area: operations",
-          "color": "006b75"
-        },
-        {
-          "name": "blocked: external",
-          "color": "000000"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-30T19:17:44Z",
-      "updated_at": "2026-08-30T19:17:44Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJDYXs8AAAABO4qPkw",
-      "repo": "freelap-intervals",
-      "number": 33,
-      "title": "B2 · Collect 10+ real CSV exports with varied app settings",
-      "url": "https://github.com/MaximumTrainer/freelap-intervals/issues/33",
-      "labels": [
-        {
-          "name": "area: testing",
-          "color": "c5def5"
-        },
-        {
-          "name": "blocked: external",
-          "color": "000000"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-30T19:17:43Z",
-      "updated_at": "2026-08-30T19:17:43Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJDYXs8AAAABO4qPOA",
-      "repo": "freelap-intervals",
-      "number": 32,
-      "title": "B1 · Capture real MyFreelap traffic and reconcile the adapter",
-      "url": "https://github.com/MaximumTrainer/freelap-intervals/issues/32",
-      "labels": [
-        {
-          "name": "area: feature",
-          "color": "0e8a16"
-        },
-        {
-          "name": "blocked: external",
-          "color": "000000"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-30T19:17:42Z",
-      "updated_at": "2026-08-30T19:17:42Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOCvwDlc7_jhHa",
       "repo": "MaximumTrainer_Redux",
       "number": 122,
@@ -5636,20 +5224,6 @@
       "created_at": "2026-04-18T09:35:27Z",
       "updated_at": "2026-07-09T17:59:06Z",
       "comment_count": 2
-    },
-    {
-      "id": "I_kwDOQZ3FAs7bJxjN",
-      "repo": "virtualrow",
-      "number": 37,
-      "title": "Update persistence to use remote postgres database. Change the build file to set up the database & include the ability for database deltas & rollbacks",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/37",
-      "labels": [],
-      "assignees": [
-        "Copilot"
-      ],
-      "created_at": "2025-11-29T13:44:01Z",
-      "updated_at": "2026-05-16T08:29:55Z",
-      "comment_count": 0
     }
   ]
 }
