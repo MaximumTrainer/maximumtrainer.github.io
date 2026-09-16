@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-16T06:37:14Z",
-  "issue_count": 226,
+  "generated_at": "2026-09-16T21:20:45Z",
+  "issue_count": 225,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 16
+      "open_issue_count": 15
     },
     {
       "name": "Developer Tools & Engineering",
@@ -67,7 +67,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 5
+      "open_issue_count": 4
     },
     {
       "name": "llm-cad",
@@ -138,31 +138,6 @@
       "assignees": [],
       "created_at": "2026-09-15T05:38:57Z",
       "updated_at": "2026-09-15T05:38:57Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABRPG3rg",
-      "repo": "virtualrow",
-      "number": 233,
-      "title": "GodRaysEffect throws every frame in high performance mode",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/233",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "graphic",
-          "color": "ededed"
-        },
-        {
-          "name": "testability",
-          "color": "ededed"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-14T16:02:02Z",
-      "updated_at": "2026-09-14T16:02:02Z",
       "comment_count": 0
     },
     {
