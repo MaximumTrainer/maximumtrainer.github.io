@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15T20:22:02Z",
-  "issue_count": 225,
+  "generated_at": "2026-09-16T06:37:14Z",
+  "issue_count": 226,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 15
+      "open_issue_count": 16
     },
     {
       "name": "Developer Tools & Engineering",
@@ -67,7 +67,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 4
+      "open_issue_count": 5
     },
     {
       "name": "llm-cad",
@@ -100,15 +100,27 @@
   ],
   "issues": [
     {
-      "id": "I_kwDOQZ3FAs8AAAABRb9fmA",
+      "id": "I_kwDOQZ3FAs8AAAABRhox1A",
       "repo": "virtualrow",
-      "number": 251,
-      "title": "3D models 404 in production: asset URLs ignore the deploy base path",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/251",
+      "number": 257,
+      "title": "EffectComposer 'alpha' TypeError at auto and high on a software rasteriser",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/257",
       "labels": [],
       "assignees": [],
-      "created_at": "2026-09-15T17:14:25Z",
-      "updated_at": "2026-09-15T20:02:58Z",
+      "created_at": "2026-09-16T06:34:47Z",
+      "updated_at": "2026-09-16T06:34:47Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABRhLaxg",
+      "repo": "virtualrow",
+      "number": 255,
+      "title": "verify the default route runs without lag across tiers and rower speeds",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/255",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-16T05:29:46Z",
+      "updated_at": "2026-09-16T05:53:30Z",
       "comment_count": 0
     },
     {
