@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-17T14:25:28Z",
-  "issue_count": 223,
+  "generated_at": "2026-09-17T19:19:25Z",
+  "issue_count": 228,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 13
+      "open_issue_count": 18
     },
     {
       "name": "Developer Tools & Engineering",
@@ -56,6 +56,13 @@
       "open_issue_count": 8
     },
     {
+      "name": "virtualrow",
+      "url": "https://github.com/MaximumTrainer/virtualrow",
+      "description": "",
+      "category": "Training & Fitness",
+      "open_issue_count": 7
+    },
+    {
       "name": "synthetic-fabricate",
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
@@ -84,13 +91,6 @@
       "open_issue_count": 2
     },
     {
-      "name": "virtualrow",
-      "url": "https://github.com/MaximumTrainer/virtualrow",
-      "description": "",
-      "category": "Training & Fitness",
-      "open_issue_count": 2
-    },
-    {
       "name": "MaximumTrainer_Redux",
       "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux",
       "description": "The original cross platform indoor cycling solution",
@@ -99,6 +99,66 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABR03Bmg",
+      "repo": "virtualrow",
+      "number": 273,
+      "title": "The rower's arms do not move with the oars in the GLB scull",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/273",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-17T18:30:41Z",
+      "updated_at": "2026-09-17T18:30:41Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABR02qNA",
+      "repo": "virtualrow",
+      "number": 272,
+      "title": "Long-running test: row the default and a long route start to finish without crashing",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/272",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-17T18:30:04Z",
+      "updated_at": "2026-09-17T18:30:04Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABR02d8Q",
+      "repo": "virtualrow",
+      "number": 271,
+      "title": "The scull and oars can extend past the edge of the waterway",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/271",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-17T18:29:44Z",
+      "updated_at": "2026-09-17T18:29:44Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABR02SXw",
+      "repo": "virtualrow",
+      "number": 270,
+      "title": "Toggle debug from inside the debug window, and settle the query parameter",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/270",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-17T18:29:26Z",
+      "updated_at": "2026-09-17T18:29:26Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABR02Jog",
+      "repo": "virtualrow",
+      "number": 269,
+      "title": "The banks do not read as ground: no visible distinction from the water",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/269",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-17T18:29:12Z",
+      "updated_at": "2026-09-17T18:29:12Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDORwT0VM8AAAABRVKO_g",
       "repo": "SdlcKnowledgeGraph",
