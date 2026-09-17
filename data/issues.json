@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T21:20:45Z",
+  "generated_at": "2026-09-17T06:38:06Z",
   "issue_count": 225,
   "repo_count": 10,
   "category_count": 4,
@@ -100,15 +100,15 @@
   ],
   "issues": [
     {
-      "id": "I_kwDOQZ3FAs8AAAABRhox1A",
+      "id": "I_kwDOQZ3FAs8AAAABRtv9Rw",
       "repo": "virtualrow",
-      "number": 257,
-      "title": "EffectComposer 'alpha' TypeError at auto and high on a software rasteriser",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/257",
+      "number": 261,
+      "title": "The 3D scene renders nothing on the demo row (the blank hero is a symptom)",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/261",
       "labels": [],
       "assignees": [],
-      "created_at": "2026-09-16T06:34:47Z",
-      "updated_at": "2026-09-16T06:34:47Z",
+      "created_at": "2026-09-17T06:25:30Z",
+      "updated_at": "2026-09-17T06:35:28Z",
       "comment_count": 0
     },
     {
