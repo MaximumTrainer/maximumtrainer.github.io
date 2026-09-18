@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-18T18:25:53Z",
-  "issue_count": 223,
+  "generated_at": "2026-09-18T20:21:31Z",
+  "issue_count": 243,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 13
+      "open_issue_count": 33
     },
     {
       "name": "Developer Tools & Engineering",
@@ -40,6 +40,13 @@
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
       "open_issue_count": 51
+    },
+    {
+      "name": "virtualrow",
+      "url": "https://github.com/MaximumTrainer/virtualrow",
+      "description": "",
+      "category": "Training & Fitness",
+      "open_issue_count": 22
     },
     {
       "name": "garmin-freelap",
@@ -84,13 +91,6 @@
       "open_issue_count": 2
     },
     {
-      "name": "virtualrow",
-      "url": "https://github.com/MaximumTrainer/virtualrow",
-      "description": "",
-      "category": "Training & Fitness",
-      "open_issue_count": 2
-    },
-    {
       "name": "MaximumTrainer_Redux",
       "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux",
       "description": "The original cross platform indoor cycling solution",
@@ -99,6 +99,246 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA8rSg",
+      "repo": "virtualrow",
+      "number": 301,
+      "title": "Diagnose the tab death on the heavy 20km traverse, on a schedule",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/301",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:33:09Z",
+      "updated_at": "2026-09-18T19:33:09Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA8qGQ",
+      "repo": "virtualrow",
+      "number": 300,
+      "title": "Per-tier test timeouts can exceed the CI step that contains them",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/300",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:33:08Z",
+      "updated_at": "2026-09-18T19:33:08Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA8pMQ",
+      "repo": "virtualrow",
+      "number": 299,
+      "title": "The scene-health rule cannot actually drift-check the app, and fails on a discarded canvas",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/299",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:33:07Z",
+      "updated_at": "2026-09-18T19:33:07Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA8Vig",
+      "repo": "virtualrow",
+      "number": 298,
+      "title": "Wave normals use a Z-up basis on the curved channel, which is Y-up",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/298",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:32:37Z",
+      "updated_at": "2026-09-18T19:32:37Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA8UFw",
+      "repo": "virtualrow",
+      "number": 297,
+      "title": "GL selection can hand a quality tier a surface it is not allowed",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/297",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:32:36Z",
+      "updated_at": "2026-09-18T19:32:36Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA8TVw",
+      "repo": "virtualrow",
+      "number": 296,
+      "title": "The mock PM5's pace field silently overflows 16 bits",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/296",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:32:34Z",
+      "updated_at": "2026-09-18T19:32:34Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA7_pQ",
+      "repo": "virtualrow",
+      "number": 295,
+      "title": "Paused progress smoothing diverges when frames take longer than 0.67s",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/295",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:32:05Z",
+      "updated_at": "2026-09-18T19:32:05Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA7-Mg",
+      "repo": "virtualrow",
+      "number": 294,
+      "title": "The route traverse pauses the session, so it never rows anything",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/294",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:32:03Z",
+      "updated_at": "2026-09-18T19:32:03Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA79fg",
+      "repo": "virtualrow",
+      "number": 293,
+      "title": "The route traverse does not meet #272's memory criterion",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/293",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:32:02Z",
+      "updated_at": "2026-09-18T19:32:02Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA7lig",
+      "repo": "virtualrow",
+      "number": 292,
+      "title": "Riverbanks have no texture, so #269's AC-1 is only half met",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/292",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:31:27Z",
+      "updated_at": "2026-09-18T19:31:27Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA7kZw",
+      "repo": "virtualrow",
+      "number": 291,
+      "title": "scene-contrast's pixel classifier is only valid on two of the six themes",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/291",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:31:26Z",
+      "updated_at": "2026-09-18T19:31:26Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA7jeg",
+      "repo": "virtualrow",
+      "number": 290,
+      "title": "The published hero screenshot still shows the bug #269 fixed",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/290",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:31:24Z",
+      "updated_at": "2026-09-18T19:31:24Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA7PmA",
+      "repo": "virtualrow",
+      "number": 289,
+      "title": "Video and trace are captured for every test, including the ones that pass",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/289",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:30:55Z",
+      "updated_at": "2026-09-18T19:30:55Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA7OFg",
+      "repo": "virtualrow",
+      "number": 288,
+      "title": "StrictMode double-mount has no automated coverage anywhere",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/288",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:30:53Z",
+      "updated_at": "2026-09-18T19:30:53Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA7NXg",
+      "repo": "virtualrow",
+      "number": 287,
+      "title": "Scenery-kit fetch budget is now ~3x too loose, and its docstring describes an environment we left",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/287",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:30:52Z",
+      "updated_at": "2026-09-18T19:30:52Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA68ww",
+      "repo": "virtualrow",
+      "number": 286,
+      "title": "The E2E suite tests a different base path than the deploy publishes",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/286",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:30:28Z",
+      "updated_at": "2026-09-18T19:30:28Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA67ZQ",
+      "repo": "virtualrow",
+      "number": 285,
+      "title": "Riverbanks are still culled on bends, where the offset curve inverts",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/285",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:30:26Z",
+      "updated_at": "2026-09-18T19:30:26Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA6qGw",
+      "repo": "virtualrow",
+      "number": 284,
+      "title": "Water channel is wound backwards, masked by DoubleSide and lit from below",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/284",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:30:00Z",
+      "updated_at": "2026-09-18T19:30:00Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA6pPA",
+      "repo": "virtualrow",
+      "number": 283,
+      "title": "Specs still pass while the 3D view is showing an error",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/283",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:29:59Z",
+      "updated_at": "2026-09-18T19:29:59Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSA6VIg",
+      "repo": "virtualrow",
+      "number": 282,
+      "title": "PM5 pace is divided by 100 twice, so the boat travels 100x too fast",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/282",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-18T19:29:28Z",
+      "updated_at": "2026-09-18T19:29:28Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDORwT0VM8AAAABRVKO_g",
       "repo": "SdlcKnowledgeGraph",
