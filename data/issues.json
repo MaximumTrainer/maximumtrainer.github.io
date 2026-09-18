@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-18T07:25:56Z",
-  "issue_count": 226,
+  "generated_at": "2026-09-18T11:19:48Z",
+  "issue_count": 225,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 16
+      "open_issue_count": 15
     },
     {
       "name": "Developer Tools & Engineering",
@@ -67,7 +67,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 5
+      "open_issue_count": 4
     },
     {
       "name": "llm-cad",
@@ -109,18 +109,6 @@
       "assignees": [],
       "created_at": "2026-09-17T18:30:04Z",
       "updated_at": "2026-09-17T18:30:04Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABR02SXw",
-      "repo": "virtualrow",
-      "number": 270,
-      "title": "Toggle debug from inside the debug window, and settle the query parameter",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/270",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-17T18:29:26Z",
-      "updated_at": "2026-09-17T18:29:26Z",
       "comment_count": 0
     },
     {
