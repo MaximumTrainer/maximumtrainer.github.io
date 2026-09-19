@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T10:20:04Z",
-  "issue_count": 229,
+  "generated_at": "2026-09-19T11:17:51Z",
+  "issue_count": 223,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 19
+      "open_issue_count": 13
     },
     {
       "name": "Developer Tools & Engineering",
@@ -56,13 +56,6 @@
       "open_issue_count": 8
     },
     {
-      "name": "virtualrow",
-      "url": "https://github.com/MaximumTrainer/virtualrow",
-      "description": "",
-      "category": "Training & Fitness",
-      "open_issue_count": 8
-    },
-    {
       "name": "synthetic-fabricate",
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
@@ -91,6 +84,13 @@
       "open_issue_count": 2
     },
     {
+      "name": "virtualrow",
+      "url": "https://github.com/MaximumTrainer/virtualrow",
+      "description": "",
+      "category": "Training & Fitness",
+      "open_issue_count": 2
+    },
+    {
       "name": "MaximumTrainer_Redux",
       "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux",
       "description": "The original cross platform indoor cycling solution",
@@ -99,78 +99,6 @@
     }
   ],
   "issues": [
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSA8rSg",
-      "repo": "virtualrow",
-      "number": 301,
-      "title": "Diagnose the tab death on the heavy 20km traverse, on a schedule",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/301",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-18T19:33:09Z",
-      "updated_at": "2026-09-18T19:33:09Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSA8Vig",
-      "repo": "virtualrow",
-      "number": 298,
-      "title": "Wave normals use a Z-up basis on the curved channel, which is Y-up",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/298",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-18T19:32:37Z",
-      "updated_at": "2026-09-18T19:32:37Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSA7_pQ",
-      "repo": "virtualrow",
-      "number": 295,
-      "title": "Paused progress smoothing diverges when frames take longer than 0.67s",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/295",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-18T19:32:05Z",
-      "updated_at": "2026-09-18T19:32:05Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSA7-Mg",
-      "repo": "virtualrow",
-      "number": 294,
-      "title": "The route traverse pauses the session, so it never rows anything",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/294",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-18T19:32:03Z",
-      "updated_at": "2026-09-18T19:32:03Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSA79fg",
-      "repo": "virtualrow",
-      "number": 293,
-      "title": "The route traverse does not meet #272's memory criterion",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/293",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-18T19:32:02Z",
-      "updated_at": "2026-09-18T19:32:02Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSA7kZw",
-      "repo": "virtualrow",
-      "number": 291,
-      "title": "scene-contrast's pixel classifier is only valid on two of the six themes",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/291",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-18T19:31:26Z",
-      "updated_at": "2026-09-18T19:31:26Z",
-      "comment_count": 0
-    },
     {
       "id": "I_kwDORwT0VM8AAAABRVKO_g",
       "repo": "SdlcKnowledgeGraph",
