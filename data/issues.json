@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T11:17:51Z",
-  "issue_count": 223,
+  "generated_at": "2026-09-19T12:28:51Z",
+  "issue_count": 224,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 13
+      "open_issue_count": 14
     },
     {
       "name": "Developer Tools & Engineering",
@@ -63,6 +63,13 @@
       "open_issue_count": 5
     },
     {
+      "name": "virtualrow",
+      "url": "https://github.com/MaximumTrainer/virtualrow",
+      "description": "",
+      "category": "Training & Fitness",
+      "open_issue_count": 3
+    },
+    {
       "name": "llm-cad",
       "url": "https://github.com/MaximumTrainer/llm-cad",
       "description": "",
@@ -84,13 +91,6 @@
       "open_issue_count": 2
     },
     {
-      "name": "virtualrow",
-      "url": "https://github.com/MaximumTrainer/virtualrow",
-      "description": "",
-      "category": "Training & Fitness",
-      "open_issue_count": 2
-    },
-    {
       "name": "MaximumTrainer_Redux",
       "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux",
       "description": "The original cross platform indoor cycling solution",
@@ -99,6 +99,18 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSGhPfQ",
+      "repo": "virtualrow",
+      "number": 306,
+      "title": "A PM5 rower never sees power; an FTMS rower does",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/306",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-19T11:25:05Z",
+      "updated_at": "2026-09-19T11:25:05Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDORwT0VM8AAAABRVKO_g",
       "repo": "SdlcKnowledgeGraph",
