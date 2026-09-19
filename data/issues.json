@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T07:22:03Z",
-  "issue_count": 242,
+  "generated_at": "2026-09-19T08:26:24Z",
+  "issue_count": 241,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 32
+      "open_issue_count": 31
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 21
+      "open_issue_count": 20
     },
     {
       "name": "garmin-freelap",
@@ -99,18 +99,6 @@
     }
   ],
   "issues": [
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSFJA7w",
-      "repo": "virtualrow",
-      "number": 303,
-      "title": "widen the water channel - placeholder",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/303",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-19T06:35:00Z",
-      "updated_at": "2026-09-19T06:35:00Z",
-      "comment_count": 0
-    },
     {
       "id": "I_kwDOQZ3FAs8AAAABSA8rSg",
       "repo": "virtualrow",
