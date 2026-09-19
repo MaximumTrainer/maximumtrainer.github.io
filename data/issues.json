@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T08:26:24Z",
-  "issue_count": 241,
+  "generated_at": "2026-09-19T10:20:04Z",
+  "issue_count": 229,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 31
+      "open_issue_count": 19
     },
     {
       "name": "Developer Tools & Engineering",
@@ -42,13 +42,6 @@
       "open_issue_count": 51
     },
     {
-      "name": "virtualrow",
-      "url": "https://github.com/MaximumTrainer/virtualrow",
-      "description": "",
-      "category": "Training & Fitness",
-      "open_issue_count": 20
-    },
-    {
       "name": "garmin-freelap",
       "url": "https://github.com/MaximumTrainer/garmin-freelap",
       "description": "Connect IQ watch app that records Freelap FxChip BLE split times into your Garmin activity. In development; not yet verified against a real chip.",
@@ -59,6 +52,13 @@
       "name": "freelap-intervals",
       "url": "https://github.com/MaximumTrainer/freelap-intervals",
       "description": "# Freelap → intervals.icu Sprint Sync  Takes a timed sprint session from a Freelap system and writes it into intervals.icu — as structured intervals, summary custom fields and a human-readable rep table — then reads the activity back and reports every way it differs from what was intended.",
+      "category": "Training & Fitness",
+      "open_issue_count": 8
+    },
+    {
+      "name": "virtualrow",
+      "url": "https://github.com/MaximumTrainer/virtualrow",
+      "description": "",
       "category": "Training & Fitness",
       "open_issue_count": 8
     },
@@ -112,30 +112,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOQZ3FAs8AAAABSA8qGQ",
-      "repo": "virtualrow",
-      "number": 300,
-      "title": "Per-tier test timeouts can exceed the CI step that contains them",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/300",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-18T19:33:08Z",
-      "updated_at": "2026-09-18T19:33:08Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSA8pMQ",
-      "repo": "virtualrow",
-      "number": 299,
-      "title": "The scene-health rule cannot actually drift-check the app, and fails on a discarded canvas",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/299",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-18T19:33:07Z",
-      "updated_at": "2026-09-18T19:33:07Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOQZ3FAs8AAAABSA8Vig",
       "repo": "virtualrow",
       "number": 298,
@@ -145,18 +121,6 @@
       "assignees": [],
       "created_at": "2026-09-18T19:32:37Z",
       "updated_at": "2026-09-18T19:32:37Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSA8UFw",
-      "repo": "virtualrow",
-      "number": 297,
-      "title": "GL selection can hand a quality tier a surface it is not allowed",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/297",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-18T19:32:36Z",
-      "updated_at": "2026-09-18T19:32:36Z",
       "comment_count": 0
     },
     {
@@ -196,18 +160,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOQZ3FAs8AAAABSA7lig",
-      "repo": "virtualrow",
-      "number": 292,
-      "title": "Riverbanks have no texture, so #269's AC-1 is only half met",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/292",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-18T19:31:27Z",
-      "updated_at": "2026-09-18T19:31:27Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOQZ3FAs8AAAABSA7kZw",
       "repo": "virtualrow",
       "number": 291,
@@ -217,102 +169,6 @@
       "assignees": [],
       "created_at": "2026-09-18T19:31:26Z",
       "updated_at": "2026-09-18T19:31:26Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSA7jeg",
-      "repo": "virtualrow",
-      "number": 290,
-      "title": "The published hero screenshot still shows the bug #269 fixed",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/290",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-18T19:31:24Z",
-      "updated_at": "2026-09-18T19:31:24Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSA7PmA",
-      "repo": "virtualrow",
-      "number": 289,
-      "title": "Video and trace are captured for every test, including the ones that pass",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/289",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-18T19:30:55Z",
-      "updated_at": "2026-09-18T19:30:55Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSA7OFg",
-      "repo": "virtualrow",
-      "number": 288,
-      "title": "StrictMode double-mount has no automated coverage anywhere",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/288",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-18T19:30:53Z",
-      "updated_at": "2026-09-18T19:30:53Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSA7NXg",
-      "repo": "virtualrow",
-      "number": 287,
-      "title": "Scenery-kit fetch budget is now ~3x too loose, and its docstring describes an environment we left",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/287",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-18T19:30:52Z",
-      "updated_at": "2026-09-18T19:30:52Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSA68ww",
-      "repo": "virtualrow",
-      "number": 286,
-      "title": "The E2E suite tests a different base path than the deploy publishes",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/286",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-18T19:30:28Z",
-      "updated_at": "2026-09-18T19:30:28Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSA67ZQ",
-      "repo": "virtualrow",
-      "number": 285,
-      "title": "Riverbanks are still culled on bends, where the offset curve inverts",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/285",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-18T19:30:26Z",
-      "updated_at": "2026-09-18T19:30:26Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSA6qGw",
-      "repo": "virtualrow",
-      "number": 284,
-      "title": "Water channel is wound backwards, masked by DoubleSide and lit from below",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/284",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-18T19:30:00Z",
-      "updated_at": "2026-09-18T19:30:00Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSA6pPA",
-      "repo": "virtualrow",
-      "number": 283,
-      "title": "Specs still pass while the 3D view is showing an error",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/283",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-18T19:29:59Z",
-      "updated_at": "2026-09-18T19:29:59Z",
       "comment_count": 0
     },
     {
