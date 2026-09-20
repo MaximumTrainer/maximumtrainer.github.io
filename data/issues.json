@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-20T12:29:19Z",
-  "issue_count": 225,
+  "generated_at": "2026-09-20T14:19:39Z",
+  "issue_count": 224,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 16
+      "open_issue_count": 15
     },
     {
       "name": "Developer Tools & Engineering",
@@ -67,7 +67,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 5
+      "open_issue_count": 4
     },
     {
       "name": "llm-cad",
@@ -100,6 +100,18 @@
   ],
   "issues": [
     {
+      "id": "I_kwDOQZ3FAs8AAAABSOtM0g",
+      "repo": "virtualrow",
+      "number": 318,
+      "title": "create a loading bar to indicate percentage complete - placeholder",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/318",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-20T14:14:05Z",
+      "updated_at": "2026-09-20T14:14:05Z",
+      "comment_count": 0
+    },
+    {
       "id": "I_kwDOQZ3FAs8AAAABO2VpjA",
       "repo": "virtualrow",
       "number": 209,
@@ -115,30 +127,6 @@
       "created_at": "2026-08-30T10:01:37Z",
       "updated_at": "2026-09-20T09:06:08Z",
       "comment_count": 1
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSM0Bow",
-      "repo": "virtualrow",
-      "number": 309,
-      "title": "The ride survives a lost graphics context, the scene comes back, and the app stops causing it",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/309",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-20T07:05:21Z",
-      "updated_at": "2026-09-20T07:58:53Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSGhPfQ",
-      "repo": "virtualrow",
-      "number": 306,
-      "title": "A PM5 rower never sees power; an FTMS rower does",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/306",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-19T11:25:05Z",
-      "updated_at": "2026-09-19T11:25:05Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDORwT0VM8AAAABRVKO_g",
