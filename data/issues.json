@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:22:47Z",
+  "generated_at": "2026-09-20T08:27:36Z",
   "issue_count": 226,
   "repo_count": 10,
   "category_count": 4,
@@ -100,6 +100,30 @@
   ],
   "issues": [
     {
+      "id": "I_kwDOQZ3FAs8AAAABSM0Bow",
+      "repo": "virtualrow",
+      "number": 309,
+      "title": "The ride survives a lost graphics context, the scene comes back, and the app stops causing it",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/309",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-20T07:05:21Z",
+      "updated_at": "2026-09-20T07:58:53Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSM0HbA",
+      "repo": "virtualrow",
+      "number": 310,
+      "title": "A renderer that dies during a spec must fail that spec",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/310",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-20T07:05:43Z",
+      "updated_at": "2026-09-20T07:48:23Z",
+      "comment_count": 0
+    },
+    {
       "id": "I_kwDOQZ3FAs8AAAABR02d8Q",
       "repo": "virtualrow",
       "number": 271,
@@ -109,30 +133,6 @@
       "assignees": [],
       "created_at": "2026-09-17T18:29:44Z",
       "updated_at": "2026-09-20T07:16:09Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSM0HbA",
-      "repo": "virtualrow",
-      "number": 310,
-      "title": "Test for browser crashes - placeholder",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/310",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-20T07:05:43Z",
-      "updated_at": "2026-09-20T07:05:43Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSM0Bow",
-      "repo": "virtualrow",
-      "number": 309,
-      "title": "Test for 3d context loss during ride - placeholder",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/309",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-20T07:05:21Z",
-      "updated_at": "2026-09-20T07:05:21Z",
       "comment_count": 0
     },
     {
