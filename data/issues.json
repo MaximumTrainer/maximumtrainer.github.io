@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T12:28:51Z",
-  "issue_count": 224,
+  "generated_at": "2026-09-20T07:22:47Z",
+  "issue_count": 226,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 14
+      "open_issue_count": 17
     },
     {
       "name": "Developer Tools & Engineering",
@@ -23,7 +23,7 @@
     {
       "name": "Other",
       "repo_count": 1,
-      "open_issue_count": 16
+      "open_issue_count": 15
     }
   ],
   "repos": [
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/garmin-freelap",
       "description": "Connect IQ watch app that records Freelap FxChip BLE split times into your Garmin activity. In development; not yet verified against a real chip.",
       "category": "Other",
-      "open_issue_count": 16
+      "open_issue_count": 15
     },
     {
       "name": "freelap-intervals",
@@ -56,18 +56,18 @@
       "open_issue_count": 8
     },
     {
+      "name": "virtualrow",
+      "url": "https://github.com/MaximumTrainer/virtualrow",
+      "description": "",
+      "category": "Training & Fitness",
+      "open_issue_count": 6
+    },
+    {
       "name": "synthetic-fabricate",
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
       "open_issue_count": 5
-    },
-    {
-      "name": "virtualrow",
-      "url": "https://github.com/MaximumTrainer/virtualrow",
-      "description": "",
-      "category": "Training & Fitness",
-      "open_issue_count": 3
     },
     {
       "name": "llm-cad",
@@ -99,6 +99,42 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABR02d8Q",
+      "repo": "virtualrow",
+      "number": 271,
+      "title": "The scull and oars can extend past the edge of the waterway",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/271",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-17T18:29:44Z",
+      "updated_at": "2026-09-20T07:16:09Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSM0HbA",
+      "repo": "virtualrow",
+      "number": 310,
+      "title": "Test for browser crashes - placeholder",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/310",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-20T07:05:43Z",
+      "updated_at": "2026-09-20T07:05:43Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSM0Bow",
+      "repo": "virtualrow",
+      "number": 309,
+      "title": "Test for 3d context loss during ride - placeholder",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/309",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-20T07:05:21Z",
+      "updated_at": "2026-09-20T07:05:21Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABSGhPfQ",
       "repo": "virtualrow",
@@ -1181,18 +1217,6 @@
       "assignees": [],
       "created_at": "2026-09-13T17:59:37Z",
       "updated_at": "2026-09-13T17:59:37Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABQZPCuA",
-      "repo": "garmin-freelap",
-      "number": 88,
-      "title": "Add payment code - placeholder",
-      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/88",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-09T04:58:44Z",
-      "updated_at": "2026-09-09T04:58:44Z",
       "comment_count": 0
     },
     {
