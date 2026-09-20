@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T14:19:39Z",
+  "generated_at": "2026-09-20T15:19:00Z",
   "issue_count": 224,
   "repo_count": 10,
   "category_count": 4,
@@ -103,13 +103,13 @@
       "id": "I_kwDOQZ3FAs8AAAABSOtM0g",
       "repo": "virtualrow",
       "number": 318,
-      "title": "create a loading bar to indicate percentage complete - placeholder",
+      "title": "Show how much of the route load is done, and go when it is actually done",
       "url": "https://github.com/MaximumTrainer/virtualrow/issues/318",
       "labels": [],
       "assignees": [],
       "created_at": "2026-09-20T14:14:05Z",
-      "updated_at": "2026-09-20T14:14:05Z",
-      "comment_count": 0
+      "updated_at": "2026-09-20T14:54:51Z",
+      "comment_count": 1
     },
     {
       "id": "I_kwDOQZ3FAs8AAAABO2VpjA",
