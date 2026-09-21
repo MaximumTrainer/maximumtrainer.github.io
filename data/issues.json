@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-20T18:24:21Z",
-  "issue_count": 223,
+  "generated_at": "2026-09-21T08:34:02Z",
+  "issue_count": 253,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 14
+      "open_issue_count": 44
     },
     {
       "name": "Developer Tools & Engineering",
@@ -42,6 +42,13 @@
       "open_issue_count": 51
     },
     {
+      "name": "virtualrow",
+      "url": "https://github.com/MaximumTrainer/virtualrow",
+      "description": "",
+      "category": "Training & Fitness",
+      "open_issue_count": 33
+    },
+    {
       "name": "garmin-freelap",
       "url": "https://github.com/MaximumTrainer/garmin-freelap",
       "description": "Connect IQ watch app that records Freelap FxChip BLE split times into your Garmin activity. In development; not yet verified against a real chip.",
@@ -61,13 +68,6 @@
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
       "open_issue_count": 5
-    },
-    {
-      "name": "virtualrow",
-      "url": "https://github.com/MaximumTrainer/virtualrow",
-      "description": "",
-      "category": "Training & Fitness",
-      "open_issue_count": 3
     },
     {
       "name": "llm-cad",
@@ -99,6 +99,972 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUqA2A",
+      "repo": "virtualrow",
+      "number": 350,
+      "title": "VR-29: Bank and terrain surface detail: procedural grass/earth detail with normals and distance fade",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/350",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "realism",
+          "color": "ededed"
+        },
+        {
+          "name": "world",
+          "color": "ededed"
+        },
+        {
+          "name": "materials",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:30:50Z",
+      "updated_at": "2026-09-21T08:30:50Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUph7A",
+      "repo": "virtualrow",
+      "number": 349,
+      "title": "VR-28: Image-based lighting from the sky for the scull and scenery; collapse the four-light rig",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/349",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "realism",
+          "color": "ededed"
+        },
+        {
+          "name": "3d",
+          "color": "ededed"
+        },
+        {
+          "name": "materials",
+          "color": "ededed"
+        },
+        {
+          "name": "lighting",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:high",
+          "color": "9c768b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:29:57Z",
+      "updated_at": "2026-09-21T08:29:57Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUpC1Q",
+      "repo": "virtualrow",
+      "number": 348,
+      "title": "VR-27: Shadows never follow the boat and the water receives none: a boat-tracking shadow frustum, soft shadows, and a contact shadow",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/348",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "3d",
+          "color": "ededed"
+        },
+        {
+          "name": "shadows",
+          "color": "ededed"
+        },
+        {
+          "name": "lighting",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:high",
+          "color": "9c768b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:29:02Z",
+      "updated_at": "2026-09-21T08:29:02Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUlcsw",
+      "repo": "virtualrow",
+      "number": 347,
+      "title": "Visual, gameplay & engine review — backlog summary and implementation order (VR-01…VR-26)",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/347",
+      "labels": [
+        {
+          "name": "architecture",
+          "color": "ededed"
+        },
+        {
+          "name": "priority:high",
+          "color": "9c768b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:22:27Z",
+      "updated_at": "2026-09-21T08:22:27Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUlQ5w",
+      "repo": "virtualrow",
+      "number": 346,
+      "title": "VR-26: Time of day and weather presets per row",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/346",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "world",
+          "color": "ededed"
+        },
+        {
+          "name": "atmosphere",
+          "color": "ededed"
+        },
+        {
+          "name": "lighting",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:low",
+          "color": "438422"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:22:06Z",
+      "updated_at": "2026-09-21T08:22:06Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUkvCA",
+      "repo": "virtualrow",
+      "number": 345,
+      "title": "VR-25: WebGPU is detected, labelled, and never used: either adopt WebGPURenderer behind a flag or drop the probe",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/345",
+      "labels": [
+        {
+          "name": "3d",
+          "color": "ededed"
+        },
+        {
+          "name": "architecture",
+          "color": "ededed"
+        },
+        {
+          "name": "size:S",
+          "color": "a20c8c"
+        },
+        {
+          "name": "priority:low",
+          "color": "438422"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:21:05Z",
+      "updated_at": "2026-09-21T08:21:05Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUkWog",
+      "repo": "virtualrow",
+      "number": 344,
+      "title": "VR-24: HUD accessibility and reduced motion",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/344",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "display",
+          "color": "ededed"
+        },
+        {
+          "name": "size:S",
+          "color": "a20c8c"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        },
+        {
+          "name": "hud",
+          "color": "91c84d"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:20:20Z",
+      "updated_at": "2026-09-21T08:20:20Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUjh4w",
+      "repo": "virtualrow",
+      "number": 343,
+      "title": "VR-23: Make the R3F scene unit-testable: plan functions and @react-three/test-renderer smoke tests",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/343",
+      "labels": [
+        {
+          "name": "testability",
+          "color": "ededed"
+        },
+        {
+          "name": "architecture",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        },
+        {
+          "name": "tooling",
+          "color": "939107"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:18:46Z",
+      "updated_at": "2026-09-21T08:18:46Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUjIBg",
+      "repo": "virtualrow",
+      "number": 342,
+      "title": "VR-22: Performance budgets as a CI gate: draw calls, triangles and frame-time per tier",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/342",
+      "labels": [
+        {
+          "name": "performance",
+          "color": "ededed"
+        },
+        {
+          "name": "architecture",
+          "color": "ededed"
+        },
+        {
+          "name": "size:S",
+          "color": "a20c8c"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:18:02Z",
+      "updated_at": "2026-09-21T08:18:02Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUit7A",
+      "repo": "virtualrow",
+      "number": 341,
+      "title": "VR-21: Shader hygiene: move GLSL out of template strings and validate it in CI",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/341",
+      "labels": [
+        {
+          "name": "testability",
+          "color": "ededed"
+        },
+        {
+          "name": "architecture",
+          "color": "ededed"
+        },
+        {
+          "name": "size:S",
+          "color": "a20c8c"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        },
+        {
+          "name": "tooling",
+          "color": "939107"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:17:19Z",
+      "updated_at": "2026-09-21T08:17:19Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUiURQ",
+      "repo": "virtualrow",
+      "number": 340,
+      "title": "VR-20: Visual regression suite: deterministic scene screenshots per theme, tier and viewport",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/340",
+      "labels": [
+        {
+          "name": "testability",
+          "color": "ededed"
+        },
+        {
+          "name": "architecture",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:high",
+          "color": "9c768b"
+        },
+        {
+          "name": "tooling",
+          "color": "939107"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:16:38Z",
+      "updated_at": "2026-09-21T08:16:38Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUh1tA",
+      "repo": "virtualrow",
+      "number": 339,
+      "title": "VR-19: Sound: strokes, water and cues with a procedural Web Audio bed (no downloads)",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/339",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "gameplay",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:low",
+          "color": "438422"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:15:51Z",
+      "updated_at": "2026-09-21T08:15:51Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUhWEg",
+      "repo": "virtualrow",
+      "number": 338,
+      "title": "VR-18: Ghost boat: race your personal best or a target pace",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/338",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "gameplay",
+          "color": "ededed"
+        },
+        {
+          "name": "size:L",
+          "color": "b0b087"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:15:01Z",
+      "updated_at": "2026-09-21T08:15:01Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUg7IA",
+      "repo": "virtualrow",
+      "number": 337,
+      "title": "VR-17: Post-row summary: splits, pace/HR chart, personal-best comparison, share card",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/337",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        },
+        {
+          "name": "hud",
+          "color": "91c84d"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:14:18Z",
+      "updated_at": "2026-09-21T08:14:18Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUgamA",
+      "repo": "virtualrow",
+      "number": 336,
+      "title": "VR-16: Start sequence and finish: countdown on first stroke, finish line on the water, transition to summary",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/336",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "gameplay",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:13:30Z",
+      "updated_at": "2026-09-21T08:13:30Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUfh7A",
+      "repo": "virtualrow",
+      "number": 335,
+      "title": "VR-15: In-canvas HUD and fullscreen row screen",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/335",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "size:L",
+          "color": "b0b087"
+        },
+        {
+          "name": "priority:high",
+          "color": "9c768b"
+        },
+        {
+          "name": "hud",
+          "color": "91c84d"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:11:59Z",
+      "updated_at": "2026-09-21T08:11:59Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUeIlg",
+      "repo": "virtualrow",
+      "number": 334,
+      "title": "VR-14: Shoreline and ground: the world ends at the bank strip and the page background shows through",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/334",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "world",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:high",
+          "color": "9c768b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:09:45Z",
+      "updated_at": "2026-09-21T08:09:45Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUdkTA",
+      "repo": "virtualrow",
+      "number": 333,
+      "title": "VR-13: Vegetation: replace cone pines and CAD blob trees with textured cross-billboards and wind",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/333",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "realism",
+          "color": "ededed"
+        },
+        {
+          "name": "world",
+          "color": "ededed"
+        },
+        {
+          "name": "flora",
+          "color": "ededed"
+        },
+        {
+          "name": "size:L",
+          "color": "b0b087"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:08:49Z",
+      "updated_at": "2026-09-21T08:08:49Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUcUig",
+      "repo": "virtualrow",
+      "number": 332,
+      "title": "VR-12: Scenery asset pipeline: compress the 51 MB GLB kit and load it by tier",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/332",
+      "labels": [
+        {
+          "name": "performance",
+          "color": "ededed"
+        },
+        {
+          "name": "architecture",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        },
+        {
+          "name": "tooling",
+          "color": "939107"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:06:27Z",
+      "updated_at": "2026-09-21T08:06:27Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUbZVQ",
+      "repo": "virtualrow",
+      "number": 331,
+      "title": "VR-11: Scenery re-renders the React tree 10× per second: cull in useFrame instead",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/331",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "performance",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:high",
+          "color": "9c768b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:04:52Z",
+      "updated_at": "2026-09-21T08:04:52Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUaIoQ",
+      "repo": "virtualrow",
+      "number": 330,
+      "title": "VR-10: Rower animation: sequence legs → back → arms instead of one shared ramp",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/330",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "3d",
+          "color": "ededed"
+        },
+        {
+          "name": "size:S",
+          "color": "a20c8c"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:02:23Z",
+      "updated_at": "2026-09-21T08:02:23Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUZJNg",
+      "repo": "virtualrow",
+      "number": 329,
+      "title": "VR-09: Boat dynamics: per-stroke surge, pitch and heave, blade dip and feathering",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/329",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "physics",
+          "color": "ededed"
+        },
+        {
+          "name": "realism",
+          "color": "ededed"
+        },
+        {
+          "name": "gameplay",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:high",
+          "color": "9c768b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:00:28Z",
+      "updated_at": "2026-09-21T08:00:28Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUPU3A",
+      "repo": "virtualrow",
+      "number": 328,
+      "title": "VR-08: Camera rig: smoothed chase, speed-coupled framing, and selectable views",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/328",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:high",
+          "color": "9c768b"
+        },
+        {
+          "name": "camera",
+          "color": "f22ef4"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T07:42:09Z",
+      "updated_at": "2026-09-21T07:42:09Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUO92w",
+      "repo": "virtualrow",
+      "number": 327,
+      "title": "VR-07: Post-processing retune: depth of field blurs the whole world, tone mapping is applied twice, bloom eats the water",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/327",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "3d",
+          "color": "ededed"
+        },
+        {
+          "name": "post-processing",
+          "color": "ededed"
+        },
+        {
+          "name": "tonemapping",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:high",
+          "color": "9c768b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T07:41:24Z",
+      "updated_at": "2026-09-21T07:41:24Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUOnWA",
+      "repo": "virtualrow",
+      "number": 326,
+      "title": "VR-06: Sky, clouds and horizon silhouette track only boatZ: they drift on bends and lag on loops",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/326",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "3d",
+          "color": "ededed"
+        },
+        {
+          "name": "atmosphere",
+          "color": "ededed"
+        },
+        {
+          "name": "size:S",
+          "color": "a20c8c"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T07:40:40Z",
+      "updated_at": "2026-09-21T07:40:40Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUOaaw",
+      "repo": "virtualrow",
+      "number": 325,
+      "title": "VR-05: Bring back distance fog: chunks and scenery pop in against a hard horizon",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/325",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "3d",
+          "color": "ededed"
+        },
+        {
+          "name": "atmosphere",
+          "color": "ededed"
+        },
+        {
+          "name": "size:S",
+          "color": "a20c8c"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T07:40:17Z",
+      "updated_at": "2026-09-21T07:40:17Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUN-cA",
+      "repo": "virtualrow",
+      "number": 324,
+      "title": "VR-04: Route water is a flat emissive colour: add reflections, fresnel and ripple normals to the channel",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/324",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "realism",
+          "color": "ededed"
+        },
+        {
+          "name": "materials",
+          "color": "ededed"
+        },
+        {
+          "name": "water",
+          "color": "ededed"
+        },
+        {
+          "name": "size:L",
+          "color": "b0b087"
+        },
+        {
+          "name": "priority:high",
+          "color": "9c768b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T07:39:29Z",
+      "updated_at": "2026-09-21T07:39:29Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUNi0w",
+      "repo": "virtualrow",
+      "number": 323,
+      "title": "VR-03: Wake and blade foam render as blown-out white slabs",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/323",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "water",
+          "color": "ededed"
+        },
+        {
+          "name": "particles",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:high",
+          "color": "9c768b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T07:38:36Z",
+      "updated_at": "2026-09-21T07:38:36Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUNFjA",
+      "repo": "virtualrow",
+      "number": 322,
+      "title": "VR-02: Remove Rapier: the physics engine is a 1.4 MB dependency that moves nothing",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/322",
+      "labels": [
+        {
+          "name": "performance",
+          "color": "ededed"
+        },
+        {
+          "name": "architecture",
+          "color": "ededed"
+        },
+        {
+          "name": "size:S",
+          "color": "a20c8c"
+        },
+        {
+          "name": "priority:high",
+          "color": "9c768b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T07:37:42Z",
+      "updated_at": "2026-09-21T07:37:42Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUMBjw",
+      "repo": "virtualrow",
+      "number": 321,
+      "title": "VR-01: Unify the world scale: one scene unit = one metre",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/321",
+      "labels": [
+        {
+          "name": "realism",
+          "color": "ededed"
+        },
+        {
+          "name": "3d",
+          "color": "ededed"
+        },
+        {
+          "name": "architecture",
+          "color": "ededed"
+        },
+        {
+          "name": "size:XL",
+          "color": "493df1"
+        },
+        {
+          "name": "priority:blocker",
+          "color": "493df1"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T07:35:50Z",
+      "updated_at": "2026-09-21T07:35:50Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABO2VpjA",
       "repo": "virtualrow",
