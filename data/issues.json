@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21T19:19:17Z",
-  "issue_count": 257,
+  "generated_at": "2026-09-21T20:22:23Z",
+  "issue_count": 256,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 48
+      "open_issue_count": 47
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 37
+      "open_issue_count": 36
     },
     {
       "name": "garmin-freelap",
@@ -100,6 +100,18 @@
   ],
   "issues": [
     {
+      "id": "I_kwDOQZ3FAs8AAAABSbh6Bw",
+      "repo": "virtualrow",
+      "number": 364,
+      "title": "delete redundant theme logic & code - placeholder",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/364",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-21T19:56:30Z",
+      "updated_at": "2026-09-21T19:56:45Z",
+      "comment_count": 0
+    },
+    {
       "id": "I_kwDOQZ3FAs8AAAABSbAcIw",
       "repo": "virtualrow",
       "number": 362,
@@ -130,39 +142,6 @@
       "assignees": [],
       "created_at": "2026-09-21T19:02:54Z",
       "updated_at": "2026-09-21T19:02:54Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSa_fsQ",
-      "repo": "virtualrow",
-      "number": 361,
-      "title": "Retire the dystopian-thames and gothic-venice themes",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/361",
-      "labels": [
-        {
-          "name": "dead-code",
-          "color": "ededed"
-        },
-        {
-          "name": "3d",
-          "color": "ededed"
-        },
-        {
-          "name": "theming",
-          "color": "ededed"
-        },
-        {
-          "name": "size:M",
-          "color": "eea98c"
-        },
-        {
-          "name": "priority:medium",
-          "color": "f138ba"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T19:01:30Z",
-      "updated_at": "2026-09-21T19:01:30Z",
       "comment_count": 0
     },
     {
@@ -1153,39 +1132,6 @@
       "assignees": [],
       "created_at": "2026-09-21T07:37:42Z",
       "updated_at": "2026-09-21T07:37:42Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUMBjw",
-      "repo": "virtualrow",
-      "number": 321,
-      "title": "VR-01: Unify the world scale: one scene unit = one metre",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/321",
-      "labels": [
-        {
-          "name": "realism",
-          "color": "ededed"
-        },
-        {
-          "name": "3d",
-          "color": "ededed"
-        },
-        {
-          "name": "architecture",
-          "color": "ededed"
-        },
-        {
-          "name": "size:XL",
-          "color": "493df1"
-        },
-        {
-          "name": "priority:blocker",
-          "color": "493df1"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T07:35:50Z",
-      "updated_at": "2026-09-21T07:35:50Z",
       "comment_count": 0
     },
     {
