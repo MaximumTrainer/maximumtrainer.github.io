@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21T08:34:02Z",
-  "issue_count": 253,
+  "generated_at": "2026-09-21T14:25:30Z",
+  "issue_count": 257,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 44
+      "open_issue_count": 48
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 33
+      "open_issue_count": 37
     },
     {
       "name": "garmin-freelap",
@@ -99,6 +99,150 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUlcsw",
+      "repo": "virtualrow",
+      "number": 347,
+      "title": "Visual, gameplay & engine review — backlog summary and implementation order (VR-01…VR-26)",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/347",
+      "labels": [
+        {
+          "name": "architecture",
+          "color": "ededed"
+        },
+        {
+          "name": "priority:high",
+          "color": "9c768b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:22:27Z",
+      "updated_at": "2026-09-21T14:13:41Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSYDrOA",
+      "repo": "virtualrow",
+      "number": 354,
+      "title": "VR-29: Material pass for boat, rower and building kit: PBR hull, cloth and skin, procedural facade detail, dusk windows",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/354",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "realism",
+          "color": "ededed"
+        },
+        {
+          "name": "3d",
+          "color": "ededed"
+        },
+        {
+          "name": "materials",
+          "color": "ededed"
+        },
+        {
+          "name": "size:L",
+          "color": "b0b087"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T14:13:11Z",
+      "updated_at": "2026-09-21T14:13:11Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSYDV0Q",
+      "repo": "virtualrow",
+      "number": 353,
+      "title": "VR-28: Bank terrain surface: procedural triplanar grass/earth detail, slope blending and relief beyond the strip",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/353",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "realism",
+          "color": "ededed"
+        },
+        {
+          "name": "world",
+          "color": "ededed"
+        },
+        {
+          "name": "materials",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:high",
+          "color": "9c768b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T14:12:44Z",
+      "updated_at": "2026-09-21T14:12:44Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSYCirg",
+      "repo": "virtualrow",
+      "number": 352,
+      "title": "VR-27: Lighting and shadows: shadow frustum follows the boat, soft PCF, unified sun, hull contact shadow",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/352",
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "realism",
+          "color": "ededed"
+        },
+        {
+          "name": "shadows",
+          "color": "ededed"
+        },
+        {
+          "name": "lighting",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:high",
+          "color": "9c768b"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T14:11:39Z",
+      "updated_at": "2026-09-21T14:11:39Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSYBBOw",
+      "repo": "virtualrow",
+      "number": 351,
+      "title": "VR-30: Scull materials and hull waterline: painted hull, kit colours and a foam line where the hull meets the water",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/351",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-21T14:09:31Z",
+      "updated_at": "2026-09-21T14:09:31Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABSUqA2A",
       "repo": "virtualrow",
@@ -212,27 +356,6 @@
       "assignees": [],
       "created_at": "2026-09-21T08:29:02Z",
       "updated_at": "2026-09-21T08:29:02Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUlcsw",
-      "repo": "virtualrow",
-      "number": 347,
-      "title": "Visual, gameplay & engine review — backlog summary and implementation order (VR-01…VR-26)",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/347",
-      "labels": [
-        {
-          "name": "architecture",
-          "color": "ededed"
-        },
-        {
-          "name": "priority:high",
-          "color": "9c768b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T08:22:27Z",
-      "updated_at": "2026-09-21T08:22:27Z",
       "comment_count": 0
     },
     {
