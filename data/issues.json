@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T16:25:13Z",
+  "generated_at": "2026-09-21T19:19:17Z",
   "issue_count": 257,
   "repo_count": 10,
   "category_count": 4,
@@ -100,15 +100,69 @@
   ],
   "issues": [
     {
-      "id": "I_kwDOQZ3FAs8AAAABSYiI2w",
+      "id": "I_kwDOQZ3FAs8AAAABSbAcIw",
       "repo": "virtualrow",
-      "number": 356,
-      "title": "remove redundant Venice route & gothic theme - placeholder",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/356",
-      "labels": [],
+      "number": 362,
+      "title": "The published screenshots show a game that no longer exists",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/362",
+      "labels": [
+        {
+          "name": "documentation",
+          "color": "0075ca"
+        },
+        {
+          "name": "testability",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        },
+        {
+          "name": "tooling",
+          "color": "939107"
+        }
+      ],
       "assignees": [],
-      "created_at": "2026-09-21T14:55:56Z",
-      "updated_at": "2026-09-21T14:55:56Z",
+      "created_at": "2026-09-21T19:02:54Z",
+      "updated_at": "2026-09-21T19:02:54Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSa_fsQ",
+      "repo": "virtualrow",
+      "number": 361,
+      "title": "Retire the dystopian-thames and gothic-venice themes",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/361",
+      "labels": [
+        {
+          "name": "dead-code",
+          "color": "ededed"
+        },
+        {
+          "name": "3d",
+          "color": "ededed"
+        },
+        {
+          "name": "theming",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T19:01:30Z",
+      "updated_at": "2026-09-21T19:01:30Z",
       "comment_count": 0
     },
     {
@@ -467,39 +521,6 @@
       "assignees": [],
       "created_at": "2026-09-21T08:20:20Z",
       "updated_at": "2026-09-21T08:20:20Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUjh4w",
-      "repo": "virtualrow",
-      "number": 343,
-      "title": "VR-23: Make the R3F scene unit-testable: plan functions and @react-three/test-renderer smoke tests",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/343",
-      "labels": [
-        {
-          "name": "testability",
-          "color": "ededed"
-        },
-        {
-          "name": "architecture",
-          "color": "ededed"
-        },
-        {
-          "name": "size:M",
-          "color": "eea98c"
-        },
-        {
-          "name": "priority:medium",
-          "color": "f138ba"
-        },
-        {
-          "name": "tooling",
-          "color": "939107"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T08:18:46Z",
-      "updated_at": "2026-09-21T08:18:46Z",
       "comment_count": 0
     },
     {
