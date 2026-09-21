@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21T15:21:13Z",
-  "issue_count": 258,
+  "generated_at": "2026-09-21T16:25:13Z",
+  "issue_count": 257,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 49
+      "open_issue_count": 48
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 38
+      "open_issue_count": 37
     },
     {
       "name": "garmin-freelap",
@@ -562,39 +562,6 @@
       "assignees": [],
       "created_at": "2026-09-21T08:17:19Z",
       "updated_at": "2026-09-21T08:17:19Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUiURQ",
-      "repo": "virtualrow",
-      "number": 340,
-      "title": "VR-20: Visual regression suite: deterministic scene screenshots per theme, tier and viewport",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/340",
-      "labels": [
-        {
-          "name": "testability",
-          "color": "ededed"
-        },
-        {
-          "name": "architecture",
-          "color": "ededed"
-        },
-        {
-          "name": "size:M",
-          "color": "eea98c"
-        },
-        {
-          "name": "priority:high",
-          "color": "9c768b"
-        },
-        {
-          "name": "tooling",
-          "color": "939107"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T08:16:38Z",
-      "updated_at": "2026-09-21T08:16:38Z",
       "comment_count": 0
     },
     {
