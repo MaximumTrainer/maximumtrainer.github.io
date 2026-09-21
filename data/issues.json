@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21T20:22:23Z",
-  "issue_count": 256,
+  "generated_at": "2026-09-21T21:20:23Z",
+  "issue_count": 254,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 47
+      "open_issue_count": 45
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 36
+      "open_issue_count": 34
     },
     {
       "name": "garmin-freelap",
@@ -438,35 +438,6 @@
       "assignees": [],
       "created_at": "2026-09-21T08:22:06Z",
       "updated_at": "2026-09-21T08:22:06Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUkvCA",
-      "repo": "virtualrow",
-      "number": 345,
-      "title": "VR-25: WebGPU is detected, labelled, and never used: either adopt WebGPURenderer behind a flag or drop the probe",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/345",
-      "labels": [
-        {
-          "name": "3d",
-          "color": "ededed"
-        },
-        {
-          "name": "architecture",
-          "color": "ededed"
-        },
-        {
-          "name": "size:S",
-          "color": "a20c8c"
-        },
-        {
-          "name": "priority:low",
-          "color": "438422"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T08:21:05Z",
-      "updated_at": "2026-09-21T08:21:05Z",
       "comment_count": 0
     },
     {
@@ -1103,35 +1074,6 @@
       "assignees": [],
       "created_at": "2026-09-21T07:38:36Z",
       "updated_at": "2026-09-21T07:38:36Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUNFjA",
-      "repo": "virtualrow",
-      "number": 322,
-      "title": "VR-02: Remove Rapier: the physics engine is a 1.4 MB dependency that moves nothing",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/322",
-      "labels": [
-        {
-          "name": "performance",
-          "color": "ededed"
-        },
-        {
-          "name": "architecture",
-          "color": "ededed"
-        },
-        {
-          "name": "size:S",
-          "color": "a20c8c"
-        },
-        {
-          "name": "priority:high",
-          "color": "9c768b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T07:37:42Z",
-      "updated_at": "2026-09-21T07:37:42Z",
       "comment_count": 0
     },
     {
