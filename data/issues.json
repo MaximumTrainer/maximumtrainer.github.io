@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22T16:24:40Z",
-  "issue_count": 247,
+  "generated_at": "2026-09-22T19:19:14Z",
+  "issue_count": 246,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 38
+      "open_issue_count": 37
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 27
+      "open_issue_count": 26
     },
     {
       "name": "garmin-freelap",
@@ -806,35 +806,6 @@
       "assignees": [],
       "created_at": "2026-09-21T08:00:28Z",
       "updated_at": "2026-09-21T08:00:28Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUPU3A",
-      "repo": "virtualrow",
-      "number": 328,
-      "title": "VR-08: Camera rig: smoothed chase, speed-coupled framing, and selectable views",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/328",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "size:M",
-          "color": "eea98c"
-        },
-        {
-          "name": "priority:high",
-          "color": "9c768b"
-        },
-        {
-          "name": "camera",
-          "color": "f22ef4"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T07:42:09Z",
-      "updated_at": "2026-09-21T07:42:09Z",
       "comment_count": 0
     },
     {
