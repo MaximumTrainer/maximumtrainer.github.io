@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22T21:19:18Z",
-  "issue_count": 247,
+  "generated_at": "2026-09-22T22:20:20Z",
+  "issue_count": 246,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 38
+      "open_issue_count": 37
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 27
+      "open_issue_count": 26
     },
     {
       "name": "garmin-freelap",
@@ -781,43 +781,6 @@
       "assignees": [],
       "created_at": "2026-09-21T08:02:23Z",
       "updated_at": "2026-09-21T08:02:23Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUZJNg",
-      "repo": "virtualrow",
-      "number": 329,
-      "title": "VR-09: Boat dynamics: per-stroke surge, pitch and heave, blade dip and feathering",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/329",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "physics",
-          "color": "ededed"
-        },
-        {
-          "name": "realism",
-          "color": "ededed"
-        },
-        {
-          "name": "gameplay",
-          "color": "ededed"
-        },
-        {
-          "name": "size:M",
-          "color": "eea98c"
-        },
-        {
-          "name": "priority:high",
-          "color": "9c768b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T08:00:28Z",
-      "updated_at": "2026-09-21T08:00:28Z",
       "comment_count": 0
     },
     {
