@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22T13:24:22Z",
-  "issue_count": 248,
+  "generated_at": "2026-09-22T16:24:40Z",
+  "issue_count": 247,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 39
+      "open_issue_count": 38
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 28
+      "open_issue_count": 27
     },
     {
       "name": "garmin-freelap",
@@ -868,43 +868,6 @@
       "assignees": [],
       "created_at": "2026-09-21T07:40:40Z",
       "updated_at": "2026-09-21T07:40:40Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUN-cA",
-      "repo": "virtualrow",
-      "number": 324,
-      "title": "VR-04: Route water is a flat emissive colour: add reflections, fresnel and ripple normals to the channel",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/324",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "realism",
-          "color": "ededed"
-        },
-        {
-          "name": "materials",
-          "color": "ededed"
-        },
-        {
-          "name": "water",
-          "color": "ededed"
-        },
-        {
-          "name": "size:L",
-          "color": "b0b087"
-        },
-        {
-          "name": "priority:high",
-          "color": "9c768b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T07:39:29Z",
-      "updated_at": "2026-09-21T07:39:29Z",
       "comment_count": 0
     },
     {
