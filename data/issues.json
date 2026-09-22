@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22T07:26:44Z",
-  "issue_count": 252,
+  "generated_at": "2026-09-22T10:24:11Z",
+  "issue_count": 251,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 43
+      "open_issue_count": 42
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 32
+      "open_issue_count": 31
     },
     {
       "name": "garmin-freelap",
@@ -893,43 +893,6 @@
       "assignees": [],
       "created_at": "2026-09-21T07:42:09Z",
       "updated_at": "2026-09-21T07:42:09Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUO92w",
-      "repo": "virtualrow",
-      "number": 327,
-      "title": "VR-07: Post-processing retune: depth of field blurs the whole world, tone mapping is applied twice, bloom eats the water",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/327",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "3d",
-          "color": "ededed"
-        },
-        {
-          "name": "post-processing",
-          "color": "ededed"
-        },
-        {
-          "name": "tonemapping",
-          "color": "ededed"
-        },
-        {
-          "name": "size:M",
-          "color": "eea98c"
-        },
-        {
-          "name": "priority:high",
-          "color": "9c768b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T07:41:24Z",
-      "updated_at": "2026-09-21T07:41:24Z",
       "comment_count": 0
     },
     {
