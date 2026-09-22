@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21T21:20:23Z",
-  "issue_count": 254,
+  "generated_at": "2026-09-22T06:36:57Z",
+  "issue_count": 253,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 45
+      "open_issue_count": 44
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 34
+      "open_issue_count": 33
     },
     {
       "name": "garmin-freelap",
@@ -971,39 +971,6 @@
       "assignees": [],
       "created_at": "2026-09-21T07:40:40Z",
       "updated_at": "2026-09-21T07:40:40Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUOaaw",
-      "repo": "virtualrow",
-      "number": 325,
-      "title": "VR-05: Bring back distance fog: chunks and scenery pop in against a hard horizon",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/325",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "3d",
-          "color": "ededed"
-        },
-        {
-          "name": "atmosphere",
-          "color": "ededed"
-        },
-        {
-          "name": "size:S",
-          "color": "a20c8c"
-        },
-        {
-          "name": "priority:medium",
-          "color": "f138ba"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T07:40:17Z",
-      "updated_at": "2026-09-21T07:40:17Z",
       "comment_count": 0
     },
     {
