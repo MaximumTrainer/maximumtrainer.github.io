@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-23T10:23:36Z",
-  "issue_count": 240,
+  "generated_at": "2026-09-23T17:21:41Z",
+  "issue_count": 239,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 31
+      "open_issue_count": 30
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 20
+      "open_issue_count": 19
     },
     {
       "name": "garmin-freelap",
@@ -688,39 +688,6 @@
       "assignees": [],
       "created_at": "2026-09-21T08:06:27Z",
       "updated_at": "2026-09-21T08:06:27Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUOnWA",
-      "repo": "virtualrow",
-      "number": 326,
-      "title": "VR-06: Sky, clouds and horizon silhouette track only boatZ: they drift on bends and lag on loops",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/326",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "3d",
-          "color": "ededed"
-        },
-        {
-          "name": "atmosphere",
-          "color": "ededed"
-        },
-        {
-          "name": "size:S",
-          "color": "a20c8c"
-        },
-        {
-          "name": "priority:medium",
-          "color": "f138ba"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T07:40:40Z",
-      "updated_at": "2026-09-21T07:40:40Z",
       "comment_count": 0
     },
     {
