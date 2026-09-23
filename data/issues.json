@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-23T08:30:18Z",
-  "issue_count": 244,
+  "generated_at": "2026-09-23T10:23:36Z",
+  "issue_count": 240,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 35
+      "open_issue_count": 31
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 24
+      "open_issue_count": 20
     },
     {
       "name": "garmin-freelap",
@@ -100,48 +100,17 @@
   ],
   "issues": [
     {
-      "id": "I_kwDOQZ3FAs8AAAABSnZlPA",
+      "id": "I_kwDOQZ3FAs7bJxjN",
       "repo": "virtualrow",
-      "number": 379,
-      "title": "Scenery is placed by absolute offset and ignores how wide the water is, so buildings stand in the river",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/379",
+      "number": 37,
+      "title": "Update persistence to use remote postgres database. Change the build file to set up the database & include the ability for database deltas & rollbacks",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/37",
       "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-22T19:30:13Z",
-      "updated_at": "2026-09-22T20:50:18Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSbAcIw",
-      "repo": "virtualrow",
-      "number": 362,
-      "title": "The published screenshots show a game that no longer exists",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/362",
-      "labels": [
-        {
-          "name": "documentation",
-          "color": "0075ca"
-        },
-        {
-          "name": "testability",
-          "color": "ededed"
-        },
-        {
-          "name": "size:M",
-          "color": "eea98c"
-        },
-        {
-          "name": "priority:medium",
-          "color": "f138ba"
-        },
-        {
-          "name": "tooling",
-          "color": "939107"
-        }
+      "assignees": [
+        "Copilot"
       ],
-      "assignees": [],
-      "created_at": "2026-09-21T19:02:54Z",
-      "updated_at": "2026-09-21T19:02:54Z",
+      "created_at": "2025-11-29T13:44:01Z",
+      "updated_at": "2026-09-23T10:06:08Z",
       "comment_count": 0
     },
     {
@@ -753,23 +722,6 @@
       "created_at": "2026-09-21T07:40:40Z",
       "updated_at": "2026-09-21T07:40:40Z",
       "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABO2VpjA",
-      "repo": "virtualrow",
-      "number": 209,
-      "title": "Export attached course tracks (GeoJSON) so they can be shared and contributed upstream",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/209",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-30T10:01:37Z",
-      "updated_at": "2026-09-20T09:06:08Z",
-      "comment_count": 1
     },
     {
       "id": "I_kwDORwT0VM8AAAABRVKO_g",
@@ -3697,23 +3649,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOQZ3FAs8AAAABO2VpAw",
-      "repo": "virtualrow",
-      "number": 208,
-      "title": "Propose optional 'path' field to rownative/courses and report course data anomalies upstream (R-14)",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/208",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-30T10:01:35Z",
-      "updated_at": "2026-09-03T07:46:33Z",
-      "comment_count": 3
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPM72Yg",
       "repo": "chorus",
       "number": 151,
@@ -6242,20 +6177,6 @@
       "created_at": "2026-04-18T09:35:27Z",
       "updated_at": "2026-07-09T17:59:06Z",
       "comment_count": 2
-    },
-    {
-      "id": "I_kwDOQZ3FAs7bJxjN",
-      "repo": "virtualrow",
-      "number": 37,
-      "title": "Update persistence to use remote postgres database. Change the build file to set up the database & include the ability for database deltas & rollbacks",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/37",
-      "labels": [],
-      "assignees": [
-        "Copilot"
-      ],
-      "created_at": "2025-11-29T13:44:01Z",
-      "updated_at": "2026-05-16T08:29:55Z",
-      "comment_count": 0
     }
   ]
 }
