@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22T22:20:20Z",
-  "issue_count": 246,
+  "generated_at": "2026-09-23T06:37:43Z",
+  "issue_count": 245,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 37
+      "open_issue_count": 36
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 26
+      "open_issue_count": 25
     },
     {
       "name": "garmin-freelap",
@@ -752,35 +752,6 @@
       "assignees": [],
       "created_at": "2026-09-21T08:06:27Z",
       "updated_at": "2026-09-21T08:06:27Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUaIoQ",
-      "repo": "virtualrow",
-      "number": 330,
-      "title": "VR-10: Rower animation: sequence legs → back → arms instead of one shared ramp",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/330",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "3d",
-          "color": "ededed"
-        },
-        {
-          "name": "size:S",
-          "color": "a20c8c"
-        },
-        {
-          "name": "priority:medium",
-          "color": "f138ba"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T08:02:23Z",
-      "updated_at": "2026-09-21T08:02:23Z",
       "comment_count": 0
     },
     {
