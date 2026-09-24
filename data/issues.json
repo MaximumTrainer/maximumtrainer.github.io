@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T12:38:05Z",
+  "generated_at": "2026-09-24T13:24:00Z",
   "issue_count": 233,
   "repo_count": 10,
   "category_count": 4,
@@ -99,6 +99,35 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUh1tA",
+      "repo": "virtualrow",
+      "number": 339,
+      "title": "VR-19: Sound: strokes, water and cues with a procedural Web Audio bed (no downloads)",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/339",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "gameplay",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:low",
+          "color": "438422"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:15:51Z",
+      "updated_at": "2026-09-24T13:18:06Z",
+      "comment_count": 1
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABSUhWEg",
       "repo": "virtualrow",
@@ -469,35 +498,6 @@
       "assignees": [],
       "created_at": "2026-09-21T08:22:06Z",
       "updated_at": "2026-09-21T08:22:06Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUh1tA",
-      "repo": "virtualrow",
-      "number": 339,
-      "title": "VR-19: Sound: strokes, water and cues with a procedural Web Audio bed (no downloads)",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/339",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "gameplay",
-          "color": "ededed"
-        },
-        {
-          "name": "size:M",
-          "color": "eea98c"
-        },
-        {
-          "name": "priority:low",
-          "color": "438422"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T08:15:51Z",
-      "updated_at": "2026-09-21T08:15:51Z",
       "comment_count": 0
     },
     {
