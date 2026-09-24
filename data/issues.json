@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-24T11:21:40Z",
-  "issue_count": 234,
+  "generated_at": "2026-09-24T12:38:05Z",
+  "issue_count": 233,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 25
+      "open_issue_count": 24
     },
     {
       "name": "Developer Tools & Engineering",
@@ -53,7 +53,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 14
+      "open_issue_count": 13
     },
     {
       "name": "freelap-intervals",
@@ -100,15 +100,48 @@
   ],
   "issues": [
     {
-      "id": "I_kwDOQZ3FAs8AAAABSUg7IA",
+      "id": "I_kwDOQZ3FAs8AAAABSUhWEg",
       "repo": "virtualrow",
-      "number": 337,
-      "title": "VR-17: Post-row summary: splits, pace/HR chart, personal-best comparison, share card",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/337",
+      "number": 338,
+      "title": "VR-18: Ghost boat: race your personal best or a target pace",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/338",
       "labels": [
         {
           "name": "enhancement",
           "color": "a2eeef"
+        },
+        {
+          "name": "gameplay",
+          "color": "ededed"
+        },
+        {
+          "name": "size:L",
+          "color": "b0b087"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:15:01Z",
+      "updated_at": "2026-09-24T12:26:02Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUcUig",
+      "repo": "virtualrow",
+      "number": 332,
+      "title": "VR-12: Scenery asset pipeline: compress the 51 MB GLB kit and load it by tier",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/332",
+      "labels": [
+        {
+          "name": "performance",
+          "color": "ededed"
+        },
+        {
+          "name": "architecture",
+          "color": "ededed"
         },
         {
           "name": "size:M",
@@ -119,13 +152,13 @@
           "color": "f138ba"
         },
         {
-          "name": "hud",
-          "color": "91c84d"
+          "name": "tooling",
+          "color": "939107"
         }
       ],
       "assignees": [],
-      "created_at": "2026-09-21T08:14:18Z",
-      "updated_at": "2026-09-24T11:18:20Z",
+      "created_at": "2026-09-21T08:06:27Z",
+      "updated_at": "2026-09-24T11:58:09Z",
       "comment_count": 1
     },
     {
@@ -465,68 +498,6 @@
       "assignees": [],
       "created_at": "2026-09-21T08:15:51Z",
       "updated_at": "2026-09-21T08:15:51Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUhWEg",
-      "repo": "virtualrow",
-      "number": 338,
-      "title": "VR-18: Ghost boat: race your personal best or a target pace",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/338",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "gameplay",
-          "color": "ededed"
-        },
-        {
-          "name": "size:L",
-          "color": "b0b087"
-        },
-        {
-          "name": "priority:medium",
-          "color": "f138ba"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T08:15:01Z",
-      "updated_at": "2026-09-21T08:15:01Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUcUig",
-      "repo": "virtualrow",
-      "number": 332,
-      "title": "VR-12: Scenery asset pipeline: compress the 51 MB GLB kit and load it by tier",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/332",
-      "labels": [
-        {
-          "name": "performance",
-          "color": "ededed"
-        },
-        {
-          "name": "architecture",
-          "color": "ededed"
-        },
-        {
-          "name": "size:M",
-          "color": "eea98c"
-        },
-        {
-          "name": "priority:medium",
-          "color": "f138ba"
-        },
-        {
-          "name": "tooling",
-          "color": "939107"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T08:06:27Z",
-      "updated_at": "2026-09-21T08:06:27Z",
       "comment_count": 0
     },
     {
