@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-24T07:27:35Z",
-  "issue_count": 238,
+  "generated_at": "2026-09-24T10:23:32Z",
+  "issue_count": 236,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 29
+      "open_issue_count": 27
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 18
+      "open_issue_count": 16
     },
     {
       "name": "garmin-freelap",
@@ -410,39 +410,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOQZ3FAs8AAAABSUkWog",
-      "repo": "virtualrow",
-      "number": 344,
-      "title": "VR-24: HUD accessibility and reduced motion",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/344",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "display",
-          "color": "ededed"
-        },
-        {
-          "name": "size:S",
-          "color": "a20c8c"
-        },
-        {
-          "name": "priority:medium",
-          "color": "f138ba"
-        },
-        {
-          "name": "hud",
-          "color": "91c84d"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T08:20:20Z",
-      "updated_at": "2026-09-21T08:20:20Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOQZ3FAs8AAAABSUit7A",
       "repo": "virtualrow",
       "number": 341,
@@ -589,35 +556,6 @@
       "assignees": [],
       "created_at": "2026-09-21T08:13:30Z",
       "updated_at": "2026-09-21T08:13:30Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUfh7A",
-      "repo": "virtualrow",
-      "number": 335,
-      "title": "VR-15: In-canvas HUD and fullscreen row screen",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/335",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "size:L",
-          "color": "b0b087"
-        },
-        {
-          "name": "priority:high",
-          "color": "9c768b"
-        },
-        {
-          "name": "hud",
-          "color": "91c84d"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T08:11:59Z",
-      "updated_at": "2026-09-21T08:11:59Z",
       "comment_count": 0
     },
     {
