@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T14:26:44Z",
+  "generated_at": "2026-09-24T15:23:20Z",
   "issue_count": 231,
   "repo_count": 10,
   "category_count": 4,
@@ -99,6 +99,43 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABSUlQ5w",
+      "repo": "virtualrow",
+      "number": 346,
+      "title": "VR-26: Time of day and weather presets per row",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/346",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "world",
+          "color": "ededed"
+        },
+        {
+          "name": "atmosphere",
+          "color": "ededed"
+        },
+        {
+          "name": "lighting",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:low",
+          "color": "438422"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-21T08:22:06Z",
+      "updated_at": "2026-09-24T14:27:27Z",
+      "comment_count": 1
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABSUh1tA",
       "repo": "virtualrow",
@@ -399,43 +436,6 @@
       "assignees": [],
       "created_at": "2026-09-21T08:29:02Z",
       "updated_at": "2026-09-21T08:29:02Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUlQ5w",
-      "repo": "virtualrow",
-      "number": 346,
-      "title": "VR-26: Time of day and weather presets per row",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/346",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "world",
-          "color": "ededed"
-        },
-        {
-          "name": "atmosphere",
-          "color": "ededed"
-        },
-        {
-          "name": "lighting",
-          "color": "ededed"
-        },
-        {
-          "name": "size:M",
-          "color": "eea98c"
-        },
-        {
-          "name": "priority:low",
-          "color": "438422"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T08:22:06Z",
-      "updated_at": "2026-09-21T08:22:06Z",
       "comment_count": 0
     },
     {
