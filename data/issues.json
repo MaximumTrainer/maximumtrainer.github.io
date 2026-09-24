@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-24T19:19:33Z",
-  "issue_count": 230,
-  "repo_count": 10,
+  "generated_at": "2026-09-24T20:25:43Z",
+  "issue_count": 227,
+  "repo_count": 11,
   "category_count": 4,
   "truncated": false,
   "categories": [
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 21
+      "open_issue_count": 17
     },
     {
       "name": "Developer Tools & Engineering",
@@ -22,8 +22,8 @@
     },
     {
       "name": "Other",
-      "repo_count": 1,
-      "open_issue_count": 15
+      "repo_count": 2,
+      "open_issue_count": 16
     }
   ],
   "repos": [
@@ -49,18 +49,18 @@
       "open_issue_count": 15
     },
     {
-      "name": "virtualrow",
-      "url": "https://github.com/MaximumTrainer/virtualrow",
-      "description": "",
-      "category": "Training & Fitness",
-      "open_issue_count": 10
-    },
-    {
       "name": "freelap-intervals",
       "url": "https://github.com/MaximumTrainer/freelap-intervals",
       "description": "# Freelap → intervals.icu Sprint Sync  Takes a timed sprint session from a Freelap system and writes it into intervals.icu — as structured intervals, summary custom fields and a human-readable rep table — then reads the activity back and reports every way it differs from what was intended.",
       "category": "Training & Fitness",
       "open_issue_count": 8
+    },
+    {
+      "name": "virtualrow",
+      "url": "https://github.com/MaximumTrainer/virtualrow",
+      "description": "",
+      "category": "Training & Fitness",
+      "open_issue_count": 6
     },
     {
       "name": "synthetic-fabricate",
@@ -91,6 +91,13 @@
       "open_issue_count": 2
     },
     {
+      "name": "agent-skills",
+      "url": "https://github.com/MaximumTrainer/agent-skills",
+      "description": "consolidated repository of skills from across all projects in this space",
+      "category": "Other",
+      "open_issue_count": 1
+    },
+    {
       "name": "MaximumTrainer_Redux",
       "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux",
       "description": "The original cross platform indoor cycling solution",
@@ -100,34 +107,43 @@
   ],
   "issues": [
     {
-      "id": "I_kwDOQZ3FAs8AAAABTCGzyA",
-      "repo": "virtualrow",
-      "number": 415,
-      "title": "Use rownative challenges: browse them, row the course, race the leaderboard",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/415",
-      "labels": [],
+      "id": "I_kwDOUSCBqs8AAAABTDx9Fw",
+      "repo": "agent-skills",
+      "number": 3,
+      "title": "Validate the skill catalogue: prioritised eval plan",
+      "url": "https://github.com/MaximumTrainer/agent-skills/issues/3",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        }
+      ],
       "assignees": [],
-      "created_at": "2026-09-24T17:42:17Z",
-      "updated_at": "2026-09-24T18:55:23Z",
+      "created_at": "2026-09-24T20:13:33Z",
+      "updated_at": "2026-09-24T20:13:33Z",
       "comment_count": 0
     },
     {
-      "id": "I_kwDOQZ3FAs8AAAABSYCirg",
+      "id": "I_kwDOQZ3FAs8AAAABSUph7A",
       "repo": "virtualrow",
-      "number": 352,
-      "title": "VR-27: Lighting and shadows: shadow frustum follows the boat, soft PCF, unified sun, hull contact shadow",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/352",
+      "number": 349,
+      "title": "VR-28: Image-based lighting from the sky for the scull and scenery; collapse the four-light rig",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/349",
       "labels": [
         {
-          "name": "bug",
-          "color": "d73a4a"
+          "name": "enhancement",
+          "color": "a2eeef"
         },
         {
           "name": "realism",
           "color": "ededed"
         },
         {
-          "name": "shadows",
+          "name": "3d",
+          "color": "ededed"
+        },
+        {
+          "name": "materials",
           "color": "ededed"
         },
         {
@@ -144,9 +160,21 @@
         }
       ],
       "assignees": [],
-      "created_at": "2026-09-21T14:11:39Z",
-      "updated_at": "2026-09-24T16:36:39Z",
+      "created_at": "2026-09-21T08:29:57Z",
+      "updated_at": "2026-09-24T19:42:56Z",
       "comment_count": 1
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABTCGzyA",
+      "repo": "virtualrow",
+      "number": 415,
+      "title": "Use rownative challenges: browse them, row the course, race the leaderboard",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/415",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-24T17:42:17Z",
+      "updated_at": "2026-09-24T18:55:23Z",
+      "comment_count": 0
     },
     {
       "id": "I_kwDOQZ3FAs8AAAABTBJYbw",
@@ -246,133 +274,6 @@
       "assignees": [],
       "created_at": "2026-09-21T14:12:44Z",
       "updated_at": "2026-09-21T14:12:44Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSYBBOw",
-      "repo": "virtualrow",
-      "number": 351,
-      "title": "VR-30: Scull materials and hull waterline: painted hull, kit colours and a foam line where the hull meets the water",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/351",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-21T14:09:31Z",
-      "updated_at": "2026-09-21T14:09:31Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUqA2A",
-      "repo": "virtualrow",
-      "number": 350,
-      "title": "VR-29: Bank and terrain surface detail: procedural grass/earth detail with normals and distance fade",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/350",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "realism",
-          "color": "ededed"
-        },
-        {
-          "name": "world",
-          "color": "ededed"
-        },
-        {
-          "name": "materials",
-          "color": "ededed"
-        },
-        {
-          "name": "size:M",
-          "color": "eea98c"
-        },
-        {
-          "name": "priority:medium",
-          "color": "f138ba"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T08:30:50Z",
-      "updated_at": "2026-09-21T08:30:50Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUph7A",
-      "repo": "virtualrow",
-      "number": 349,
-      "title": "VR-28: Image-based lighting from the sky for the scull and scenery; collapse the four-light rig",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/349",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "realism",
-          "color": "ededed"
-        },
-        {
-          "name": "3d",
-          "color": "ededed"
-        },
-        {
-          "name": "materials",
-          "color": "ededed"
-        },
-        {
-          "name": "lighting",
-          "color": "ededed"
-        },
-        {
-          "name": "size:M",
-          "color": "eea98c"
-        },
-        {
-          "name": "priority:high",
-          "color": "9c768b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T08:29:57Z",
-      "updated_at": "2026-09-21T08:29:57Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUpC1Q",
-      "repo": "virtualrow",
-      "number": 348,
-      "title": "VR-27: Shadows never follow the boat and the water receives none: a boat-tracking shadow frustum, soft shadows, and a contact shadow",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/348",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "3d",
-          "color": "ededed"
-        },
-        {
-          "name": "shadows",
-          "color": "ededed"
-        },
-        {
-          "name": "lighting",
-          "color": "ededed"
-        },
-        {
-          "name": "size:M",
-          "color": "eea98c"
-        },
-        {
-          "name": "priority:high",
-          "color": "9c768b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T08:29:02Z",
-      "updated_at": "2026-09-21T08:29:02Z",
       "comment_count": 0
     },
     {
