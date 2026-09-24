@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-24T16:26:32Z",
-  "issue_count": 231,
+  "generated_at": "2026-09-24T17:20:56Z",
+  "issue_count": 230,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 22
+      "open_issue_count": 21
     },
     {
       "name": "Developer Tools & Engineering",
@@ -53,7 +53,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 11
+      "open_issue_count": 10
     },
     {
       "name": "freelap-intervals",
@@ -100,34 +100,22 @@
   ],
   "issues": [
     {
-      "id": "I_kwDOQZ3FAs8AAAABTBJYbw",
+      "id": "I_kwDOQZ3FAs8AAAABSYCirg",
       "repo": "virtualrow",
-      "number": 413,
-      "title": "lakes render as rivers - placeholder",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/413",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-24T16:15:36Z",
-      "updated_at": "2026-09-24T16:15:36Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUlQ5w",
-      "repo": "virtualrow",
-      "number": 346,
-      "title": "VR-26: Time of day and weather presets per row",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/346",
+      "number": 352,
+      "title": "VR-27: Lighting and shadows: shadow frustum follows the boat, soft PCF, unified sun, hull contact shadow",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/352",
       "labels": [
         {
-          "name": "enhancement",
-          "color": "a2eeef"
+          "name": "bug",
+          "color": "d73a4a"
         },
         {
-          "name": "world",
+          "name": "realism",
           "color": "ededed"
         },
         {
-          "name": "atmosphere",
+          "name": "shadows",
           "color": "ededed"
         },
         {
@@ -139,14 +127,26 @@
           "color": "eea98c"
         },
         {
-          "name": "priority:low",
-          "color": "438422"
+          "name": "priority:high",
+          "color": "9c768b"
         }
       ],
       "assignees": [],
-      "created_at": "2026-09-21T08:22:06Z",
-      "updated_at": "2026-09-24T14:27:27Z",
+      "created_at": "2026-09-21T14:11:39Z",
+      "updated_at": "2026-09-24T16:36:39Z",
       "comment_count": 1
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABTBJYbw",
+      "repo": "virtualrow",
+      "number": 413,
+      "title": "Lake courses render as rivers: classify the water body from the course name",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/413",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-24T16:15:36Z",
+      "updated_at": "2026-09-24T16:32:12Z",
+      "comment_count": 0
     },
     {
       "id": "I_kwDOQZ3FAs7bJxjN",
@@ -255,43 +255,6 @@
       "assignees": [],
       "created_at": "2026-09-21T14:12:44Z",
       "updated_at": "2026-09-21T14:12:44Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSYCirg",
-      "repo": "virtualrow",
-      "number": 352,
-      "title": "VR-27: Lighting and shadows: shadow frustum follows the boat, soft PCF, unified sun, hull contact shadow",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/352",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "realism",
-          "color": "ededed"
-        },
-        {
-          "name": "shadows",
-          "color": "ededed"
-        },
-        {
-          "name": "lighting",
-          "color": "ededed"
-        },
-        {
-          "name": "size:M",
-          "color": "eea98c"
-        },
-        {
-          "name": "priority:high",
-          "color": "9c768b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T14:11:39Z",
-      "updated_at": "2026-09-21T14:11:39Z",
       "comment_count": 0
     },
     {
