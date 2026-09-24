@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T18:28:04Z",
+  "generated_at": "2026-09-24T19:19:33Z",
   "issue_count": 230,
   "repo_count": 10,
   "category_count": 4,
@@ -103,12 +103,12 @@
       "id": "I_kwDOQZ3FAs8AAAABTCGzyA",
       "repo": "virtualrow",
       "number": 415,
-      "title": "Add ability to use rownative challenges - placeholder",
+      "title": "Use rownative challenges: browse them, row the course, race the leaderboard",
       "url": "https://github.com/MaximumTrainer/virtualrow/issues/415",
       "labels": [],
       "assignees": [],
       "created_at": "2026-09-24T17:42:17Z",
-      "updated_at": "2026-09-24T17:42:17Z",
+      "updated_at": "2026-09-24T18:55:23Z",
       "comment_count": 0
     },
     {
