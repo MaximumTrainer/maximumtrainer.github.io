@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T17:20:56Z",
+  "generated_at": "2026-09-24T18:28:04Z",
   "issue_count": 230,
   "repo_count": 10,
   "category_count": 4,
@@ -100,6 +100,18 @@
   ],
   "issues": [
     {
+      "id": "I_kwDOQZ3FAs8AAAABTCGzyA",
+      "repo": "virtualrow",
+      "number": 415,
+      "title": "Add ability to use rownative challenges - placeholder",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/415",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-24T17:42:17Z",
+      "updated_at": "2026-09-24T17:42:17Z",
+      "comment_count": 0
+    },
+    {
       "id": "I_kwDOQZ3FAs8AAAABSYCirg",
       "repo": "virtualrow",
       "number": 352,
@@ -161,27 +173,6 @@
       "created_at": "2025-11-29T13:44:01Z",
       "updated_at": "2026-09-23T10:06:08Z",
       "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUlcsw",
-      "repo": "virtualrow",
-      "number": 347,
-      "title": "Visual, gameplay & engine review — backlog summary and implementation order (VR-01…VR-26)",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/347",
-      "labels": [
-        {
-          "name": "architecture",
-          "color": "ededed"
-        },
-        {
-          "name": "priority:high",
-          "color": "9c768b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T08:22:27Z",
-      "updated_at": "2026-09-21T14:13:41Z",
-      "comment_count": 1
     },
     {
       "id": "I_kwDOQZ3FAs8AAAABSYDrOA",
