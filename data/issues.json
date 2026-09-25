@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-24T21:21:04Z",
-  "issue_count": 228,
+  "generated_at": "2026-09-25T07:28:00Z",
+  "issue_count": 227,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 17
+      "open_issue_count": 16
     },
     {
       "name": "Developer Tools & Engineering",
@@ -56,17 +56,17 @@
       "open_issue_count": 8
     },
     {
-      "name": "virtualrow",
-      "url": "https://github.com/MaximumTrainer/virtualrow",
-      "description": "",
-      "category": "Training & Fitness",
-      "open_issue_count": 6
-    },
-    {
       "name": "synthetic-fabricate",
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
+      "open_issue_count": 5
+    },
+    {
+      "name": "virtualrow",
+      "url": "https://github.com/MaximumTrainer/virtualrow",
+      "description": "",
+      "category": "Training & Fitness",
       "open_issue_count": 5
     },
     {
@@ -120,66 +120,20 @@
       ],
       "assignees": [],
       "created_at": "2026-09-24T20:13:33Z",
-      "updated_at": "2026-09-24T21:16:05Z",
-      "comment_count": 2
+      "updated_at": "2026-09-25T06:41:26Z",
+      "comment_count": 3
     },
     {
-      "id": "I_kwDOUSCBqs8AAAABTED0gQ",
+      "id": "I_kwDOUSCBqs8AAAABTIwtSw",
       "repo": "agent-skills",
-      "number": 4,
-      "title": "Committed .skill bundles drift from their source",
-      "url": "https://github.com/MaximumTrainer/agent-skills/issues/4",
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        }
-      ],
+      "number": 5,
+      "title": "Improve the skills: stop writing what the model already does",
+      "url": "https://github.com/MaximumTrainer/agent-skills/issues/5",
+      "labels": [],
       "assignees": [],
-      "created_at": "2026-09-24T20:40:34Z",
-      "updated_at": "2026-09-24T20:40:34Z",
+      "created_at": "2026-09-25T06:41:11Z",
+      "updated_at": "2026-09-25T06:41:11Z",
       "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSUph7A",
-      "repo": "virtualrow",
-      "number": 349,
-      "title": "VR-28: Image-based lighting from the sky for the scull and scenery; collapse the four-light rig",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/349",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "realism",
-          "color": "ededed"
-        },
-        {
-          "name": "3d",
-          "color": "ededed"
-        },
-        {
-          "name": "materials",
-          "color": "ededed"
-        },
-        {
-          "name": "lighting",
-          "color": "ededed"
-        },
-        {
-          "name": "size:M",
-          "color": "eea98c"
-        },
-        {
-          "name": "priority:high",
-          "color": "9c768b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T08:29:57Z",
-      "updated_at": "2026-09-24T19:42:56Z",
-      "comment_count": 1
     },
     {
       "id": "I_kwDOQZ3FAs8AAAABTCGzyA",
