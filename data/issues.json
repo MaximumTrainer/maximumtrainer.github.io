@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T08:31:13Z",
-  "issue_count": 228,
+  "generated_at": "2026-09-25T09:25:56Z",
+  "issue_count": 230,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 17
+      "open_issue_count": 19
     },
     {
       "name": "Developer Tools & Engineering",
@@ -60,7 +60,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 6
+      "open_issue_count": 8
     },
     {
       "name": "synthetic-fabricate",
@@ -107,6 +107,68 @@
   ],
   "issues": [
     {
+      "id": "I_kwDOUSCBqs8AAAABTIwtSw",
+      "repo": "agent-skills",
+      "number": 5,
+      "title": "Improve the skills: stop writing what the model already does",
+      "url": "https://github.com/MaximumTrainer/agent-skills/issues/5",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-25T06:41:11Z",
+      "updated_at": "2026-09-25T08:54:41Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABTKAD0w",
+      "repo": "virtualrow",
+      "number": 419,
+      "title": "The scene automation measures is not the scene that ships",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/419",
+      "labels": [
+        {
+          "name": "3d",
+          "color": "ededed"
+        },
+        {
+          "name": "lighting",
+          "color": "ededed"
+        },
+        {
+          "name": "architecture",
+          "color": "ededed"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-25T08:49:03Z",
+      "updated_at": "2026-09-25T08:49:03Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABTJ__sQ",
+      "repo": "virtualrow",
+      "number": 418,
+      "title": "Build the sky environment once and share it between the water and the scene",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/418",
+      "labels": [
+        {
+          "name": "performance",
+          "color": "ededed"
+        },
+        {
+          "name": "3d",
+          "color": "ededed"
+        },
+        {
+          "name": "lighting",
+          "color": "ededed"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-25T08:48:56Z",
+      "updated_at": "2026-09-25T08:48:56Z",
+      "comment_count": 0
+    },
+    {
       "id": "I_kwDOQZ3FAs8AAAABTJUD1w",
       "repo": "virtualrow",
       "number": 417,
@@ -134,18 +196,6 @@
       "created_at": "2026-09-24T20:13:33Z",
       "updated_at": "2026-09-25T06:41:26Z",
       "comment_count": 3
-    },
-    {
-      "id": "I_kwDOUSCBqs8AAAABTIwtSw",
-      "repo": "agent-skills",
-      "number": 5,
-      "title": "Improve the skills: stop writing what the model already does",
-      "url": "https://github.com/MaximumTrainer/agent-skills/issues/5",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-25T06:41:11Z",
-      "updated_at": "2026-09-25T06:41:11Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDOQZ3FAs8AAAABTCGzyA",
