@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T07:28:00Z",
-  "issue_count": 227,
+  "generated_at": "2026-09-25T08:31:13Z",
+  "issue_count": 228,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 16
+      "open_issue_count": 17
     },
     {
       "name": "Developer Tools & Engineering",
@@ -56,17 +56,17 @@
       "open_issue_count": 8
     },
     {
-      "name": "synthetic-fabricate",
-      "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
-      "description": "experimental synthetic data generation engine",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 5
-    },
-    {
       "name": "virtualrow",
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
+      "open_issue_count": 6
+    },
+    {
+      "name": "synthetic-fabricate",
+      "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
+      "description": "experimental synthetic data generation engine",
+      "category": "Data & LLM Experiments",
       "open_issue_count": 5
     },
     {
@@ -106,6 +106,18 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABTJUD1w",
+      "repo": "virtualrow",
+      "number": 417,
+      "title": "Push to Strava - placeholder",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/417",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-25T07:40:05Z",
+      "updated_at": "2026-09-25T07:40:05Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOUSCBqs8AAAABTDx9Fw",
       "repo": "agent-skills",
