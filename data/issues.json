@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-27T15:22:50Z",
-  "issue_count": 227,
+  "generated_at": "2026-09-27T16:23:26Z",
+  "issue_count": 231,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 16
+      "open_issue_count": 20
     },
     {
       "name": "Developer Tools & Engineering",
@@ -49,6 +49,13 @@
       "open_issue_count": 15
     },
     {
+      "name": "virtualrow",
+      "url": "https://github.com/MaximumTrainer/virtualrow",
+      "description": "",
+      "category": "Training & Fitness",
+      "open_issue_count": 9
+    },
+    {
       "name": "freelap-intervals",
       "url": "https://github.com/MaximumTrainer/freelap-intervals",
       "description": "# Freelap → intervals.icu Sprint Sync  Takes a timed sprint session from a Freelap system and writes it into intervals.icu — as structured intervals, summary custom fields and a human-readable rep table — then reads the activity back and reports every way it differs from what was intended.",
@@ -60,13 +67,6 @@
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
-      "open_issue_count": 5
-    },
-    {
-      "name": "virtualrow",
-      "url": "https://github.com/MaximumTrainer/virtualrow",
-      "description": "",
-      "category": "Training & Fitness",
       "open_issue_count": 5
     },
     {
@@ -106,6 +106,142 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABTgS72w",
+      "repo": "virtualrow",
+      "number": 433,
+      "title": "Re-tune hemisphere and env intensities off shipping-scene measurements (#419 follow-up)",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/433",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "realism",
+          "color": "ededed"
+        },
+        {
+          "name": "3d",
+          "color": "ededed"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-27T15:28:20Z",
+      "updated_at": "2026-09-27T15:28:20Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABTgSyBg",
+      "repo": "virtualrow",
+      "number": 432,
+      "title": "Building facade detail and dusk-lit windows for the scenery kit (#354 follow-up)",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/432",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "realism",
+          "color": "ededed"
+        },
+        {
+          "name": "3d",
+          "color": "ededed"
+        },
+        {
+          "name": "materials",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-27T15:27:59Z",
+      "updated_at": "2026-09-27T15:27:59Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABTgSkTw",
+      "repo": "virtualrow",
+      "number": 431,
+      "title": "Relief on the VR-14 ground plane so the field beyond the bank isn't dead flat (#353 follow-up)",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/431",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "realism",
+          "color": "ededed"
+        },
+        {
+          "name": "world",
+          "color": "ededed"
+        },
+        {
+          "name": "size:S",
+          "color": "a20c8c"
+        },
+        {
+          "name": "priority:low",
+          "color": "438422"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-27T15:27:32Z",
+      "updated_at": "2026-09-27T15:27:32Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABTgSbmQ",
+      "repo": "virtualrow",
+      "number": 430,
+      "title": "Bank material with triplanar grass/earth, slope and shore blending (#353 follow-up)",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/430",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "realism",
+          "color": "ededed"
+        },
+        {
+          "name": "world",
+          "color": "ededed"
+        },
+        {
+          "name": "materials",
+          "color": "ededed"
+        },
+        {
+          "name": "size:M",
+          "color": "eea98c"
+        },
+        {
+          "name": "priority:medium",
+          "color": "f138ba"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-27T15:27:15Z",
+      "updated_at": "2026-09-27T15:27:15Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABTZQUNg",
       "repo": "virtualrow",
