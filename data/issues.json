@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-27T14:20:25Z",
-  "issue_count": 229,
+  "generated_at": "2026-09-27T15:22:50Z",
+  "issue_count": 227,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 18
+      "open_issue_count": 16
     },
     {
       "name": "Developer Tools & Engineering",
@@ -56,17 +56,17 @@
       "open_issue_count": 8
     },
     {
-      "name": "virtualrow",
-      "url": "https://github.com/MaximumTrainer/virtualrow",
-      "description": "",
-      "category": "Training & Fitness",
-      "open_issue_count": 7
-    },
-    {
       "name": "synthetic-fabricate",
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
+      "open_issue_count": 5
+    },
+    {
+      "name": "virtualrow",
+      "url": "https://github.com/MaximumTrainer/virtualrow",
+      "description": "",
+      "category": "Training & Fitness",
       "open_issue_count": 5
     },
     {
@@ -143,31 +143,6 @@
       "comment_count": 1
     },
     {
-      "id": "I_kwDOQZ3FAs8AAAABTKAD0w",
-      "repo": "virtualrow",
-      "number": 419,
-      "title": "The scene automation measures is not the scene that ships",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/419",
-      "labels": [
-        {
-          "name": "3d",
-          "color": "ededed"
-        },
-        {
-          "name": "lighting",
-          "color": "ededed"
-        },
-        {
-          "name": "architecture",
-          "color": "ededed"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-25T08:49:03Z",
-      "updated_at": "2026-09-25T08:49:03Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUSCBqs8AAAABTDx9Fw",
       "repo": "agent-skills",
       "number": 3,
@@ -208,43 +183,6 @@
       ],
       "created_at": "2025-11-29T13:44:01Z",
       "updated_at": "2026-09-23T10:06:08Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABSYDrOA",
-      "repo": "virtualrow",
-      "number": 354,
-      "title": "VR-29: Material pass for boat, rower and building kit: PBR hull, cloth and skin, procedural facade detail, dusk windows",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/354",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "realism",
-          "color": "ededed"
-        },
-        {
-          "name": "3d",
-          "color": "ededed"
-        },
-        {
-          "name": "materials",
-          "color": "ededed"
-        },
-        {
-          "name": "size:L",
-          "color": "b0b087"
-        },
-        {
-          "name": "priority:medium",
-          "color": "f138ba"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-21T14:13:11Z",
-      "updated_at": "2026-09-21T14:13:11Z",
       "comment_count": 0
     },
     {
