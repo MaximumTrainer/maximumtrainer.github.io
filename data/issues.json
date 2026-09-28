@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T06:51:42Z",
+  "generated_at": "2026-09-28T19:19:46Z",
   "issue_count": 229,
   "repo_count": 11,
   "category_count": 4,
@@ -107,15 +107,34 @@
   ],
   "issues": [
     {
+      "id": "I_kwDOQZ3FAs7bJxjN",
+      "repo": "virtualrow",
+      "number": 37,
+      "title": "Update persistence to use remote postgres database. Change the build file to set up the database & include the ability for database deltas & rollbacks",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/37",
+      "labels": [
+        {
+          "name": "blocked",
+          "color": "aaaaaa"
+        }
+      ],
+      "assignees": [
+        "Copilot"
+      ],
+      "created_at": "2025-11-29T13:44:01Z",
+      "updated_at": "2026-09-28T18:46:15Z",
+      "comment_count": 0
+    },
+    {
       "id": "I_kwDOQZ3FAs8AAAABTmbhZg",
       "repo": "virtualrow",
       "number": 438,
-      "title": "Add in multi player activities - placeholder",
+      "title": "Multiplayer: show other rowers on the same route in real time",
       "url": "https://github.com/MaximumTrainer/virtualrow/issues/438",
       "labels": [],
       "assignees": [],
       "created_at": "2026-09-28T06:27:58Z",
-      "updated_at": "2026-09-28T06:30:14Z",
+      "updated_at": "2026-09-28T18:37:14Z",
       "comment_count": 0
     },
     {
@@ -239,20 +258,6 @@
       "assignees": [],
       "created_at": "2026-09-24T17:42:17Z",
       "updated_at": "2026-09-24T18:55:23Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs7bJxjN",
-      "repo": "virtualrow",
-      "number": 37,
-      "title": "Update persistence to use remote postgres database. Change the build file to set up the database & include the ability for database deltas & rollbacks",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/37",
-      "labels": [],
-      "assignees": [
-        "Copilot"
-      ],
-      "created_at": "2025-11-29T13:44:01Z",
-      "updated_at": "2026-09-23T10:06:08Z",
       "comment_count": 0
     },
     {
