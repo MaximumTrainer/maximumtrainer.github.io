@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T20:26:48Z",
-  "issue_count": 229,
+  "generated_at": "2026-09-29T21:23:00Z",
+  "issue_count": 230,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 20
+      "open_issue_count": 21
     },
     {
       "name": "Developer Tools & Engineering",
@@ -53,7 +53,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 9
+      "open_issue_count": 10
     },
     {
       "name": "freelap-intervals",
@@ -106,6 +106,27 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABT_fGRg",
+      "repo": "virtualrow",
+      "number": 446,
+      "title": "Test & verify FIT upload to intervals.icu end-to-end: decoder-gated fixture, opt-in live contract check, documented manual verification",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/446",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "testing",
+          "color": "ededed"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-29T20:28:57Z",
+      "updated_at": "2026-09-29T20:28:57Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABT_YwEA",
       "repo": "virtualrow",
