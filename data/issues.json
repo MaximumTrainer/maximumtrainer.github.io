@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T19:19:46Z",
-  "issue_count": 229,
+  "generated_at": "2026-09-29T06:40:18Z",
+  "issue_count": 227,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 18
+      "open_issue_count": 16
     },
     {
       "name": "Developer Tools & Engineering",
@@ -56,17 +56,17 @@
       "open_issue_count": 8
     },
     {
-      "name": "virtualrow",
-      "url": "https://github.com/MaximumTrainer/virtualrow",
-      "description": "",
-      "category": "Training & Fitness",
-      "open_issue_count": 7
-    },
-    {
       "name": "synthetic-fabricate",
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
+      "open_issue_count": 5
+    },
+    {
+      "name": "virtualrow",
+      "url": "https://github.com/MaximumTrainer/virtualrow",
+      "description": "",
+      "category": "Training & Fitness",
       "open_issue_count": 5
     },
     {
@@ -135,64 +135,6 @@
       "assignees": [],
       "created_at": "2026-09-28T06:27:58Z",
       "updated_at": "2026-09-28T18:37:14Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABTmFrrw",
-      "repo": "virtualrow",
-      "number": 437,
-      "title": "Bank triplanar: sample the normal maps that #430 skipped",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/437",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "realism",
-          "color": "ededed"
-        },
-        {
-          "name": "materials",
-          "color": "ededed"
-        },
-        {
-          "name": "size:S",
-          "color": "a20c8c"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-28T05:47:27Z",
-      "updated_at": "2026-09-28T05:47:27Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABTgS72w",
-      "repo": "virtualrow",
-      "number": 433,
-      "title": "Re-tune hemisphere and env intensities off shipping-scene measurements (#419 follow-up)",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/433",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "realism",
-          "color": "ededed"
-        },
-        {
-          "name": "3d",
-          "color": "ededed"
-        },
-        {
-          "name": "priority:medium",
-          "color": "f138ba"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-27T15:28:20Z",
-      "updated_at": "2026-09-27T15:28:20Z",
       "comment_count": 0
     },
     {
