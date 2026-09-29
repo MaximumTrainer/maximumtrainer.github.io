@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T19:21:53Z",
-  "issue_count": 225,
+  "generated_at": "2026-09-29T20:26:48Z",
+  "issue_count": 229,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 16
+      "open_issue_count": 20
     },
     {
       "name": "Developer Tools & Engineering",
@@ -49,6 +49,13 @@
       "open_issue_count": 15
     },
     {
+      "name": "virtualrow",
+      "url": "https://github.com/MaximumTrainer/virtualrow",
+      "description": "",
+      "category": "Training & Fitness",
+      "open_issue_count": 9
+    },
+    {
       "name": "freelap-intervals",
       "url": "https://github.com/MaximumTrainer/freelap-intervals",
       "description": "# Freelap → intervals.icu Sprint Sync  Takes a timed sprint session from a Freelap system and writes it into intervals.icu — as structured intervals, summary custom fields and a human-readable rep table — then reads the activity back and reports every way it differs from what was intended.",
@@ -60,13 +67,6 @@
       "url": "https://github.com/MaximumTrainer/synthetic-fabricate",
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
-      "open_issue_count": 5
-    },
-    {
-      "name": "virtualrow",
-      "url": "https://github.com/MaximumTrainer/virtualrow",
-      "description": "",
-      "category": "Training & Fitness",
       "open_issue_count": 5
     },
     {
@@ -107,23 +107,42 @@
   ],
   "issues": [
     {
-      "id": "I_kwDORwT0VM8AAAABT-LRgw",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 179,
-      "title": "Set dogfood environment secrets to unblock the fly.io deploy",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/179",
+      "id": "I_kwDOQZ3FAs8AAAABT_YwEA",
+      "repo": "virtualrow",
+      "number": 445,
+      "title": "Rework workout flow: drop the local workout library, load today's session from intervals.icu, show a live block panel with prescribed vs actual pace/power",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/445",
       "labels": [
         {
-          "name": "blocked",
+          "name": "enhancement",
+          "color": "a2eeef"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-29T20:20:30Z",
+      "updated_at": "2026-09-29T20:20:30Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABT-8Yaw",
+      "repo": "virtualrow",
+      "number": 441,
+      "title": "Host Postgres on Neon free tier and store connection details as GitHub secrets",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/441",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "infrastructure",
           "color": "ededed"
         }
       ],
-      "assignees": [
-        "MaximumTrainer"
-      ],
-      "created_at": "2026-09-29T18:35:44Z",
-      "updated_at": "2026-09-29T18:35:44Z",
-      "comment_count": 0
+      "assignees": [],
+      "created_at": "2026-09-29T19:42:41Z",
+      "updated_at": "2026-09-29T19:59:07Z",
+      "comment_count": 1
     },
     {
       "id": "I_kwDOQZ3FAs7bJxjN",
@@ -141,7 +160,60 @@
         "Copilot"
       ],
       "created_at": "2025-11-29T13:44:01Z",
-      "updated_at": "2026-09-28T18:46:15Z",
+      "updated_at": "2026-09-29T19:57:01Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABT-_cNA",
+      "repo": "virtualrow",
+      "number": 443,
+      "title": "Remove the CrewPicker \"Rower\" panel for signed-in users and take crew gender from their intervals.icu profile",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/443",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-29T19:46:48Z",
+      "updated_at": "2026-09-29T19:46:48Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABT-97gQ",
+      "repo": "virtualrow",
+      "number": 442,
+      "title": "Remove route tag chips (scenic, meadow, forest, …) from the main screen",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/442",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-29T19:44:49Z",
+      "updated_at": "2026-09-29T19:44:49Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORwT0VM8AAAABT-LRgw",
+      "repo": "SdlcKnowledgeGraph",
+      "number": 179,
+      "title": "Set dogfood environment secrets to unblock the fly.io deploy",
+      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/179",
+      "labels": [
+        {
+          "name": "blocked",
+          "color": "ededed"
+        }
+      ],
+      "assignees": [
+        "MaximumTrainer"
+      ],
+      "created_at": "2026-09-29T18:35:44Z",
+      "updated_at": "2026-09-29T18:35:44Z",
       "comment_count": 0
     },
     {
