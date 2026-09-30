@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T15:26:37Z",
-  "issue_count": 214,
+  "generated_at": "2026-09-30T17:23:00Z",
+  "issue_count": 213,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 168
+      "open_issue_count": 167
     },
     {
       "name": "Data & LLM Experiments",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 36
+      "open_issue_count": 35
     },
     {
       "name": "garmin-freelap",
@@ -916,27 +916,6 @@
       "assignees": [],
       "created_at": "2026-09-13T20:58:25Z",
       "updated_at": "2026-09-13T20:58:25Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRFu9RA",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 81,
-      "title": "Make the ontology fully self-describing for machine readers: descriptions on every property, enums for status-like fields, examples, and a registry lint that fails the build when they are missing",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/81",
-      "labels": [
-        {
-          "name": "type:feature",
-          "color": "1d76db"
-        },
-        {
-          "name": "tdd:acceptance-first",
-          "color": "006b75"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-13T18:09:08Z",
-      "updated_at": "2026-09-13T18:09:08Z",
       "comment_count": 0
     },
     {
