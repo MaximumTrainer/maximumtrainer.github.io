@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T21:24:50Z",
-  "issue_count": 213,
+  "generated_at": "2026-09-30T22:24:01Z",
+  "issue_count": 212,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 164
+      "open_issue_count": 163
     },
     {
       "name": "Data & LLM Experiments",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 33
+      "open_issue_count": 32
     },
     {
       "name": "garmin-freelap",
@@ -537,39 +537,6 @@
       ],
       "assignees": [],
       "created_at": "2026-09-13T21:04:09Z",
-      "updated_at": "2026-09-14T05:40:38Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRGpG_A",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 98,
-      "title": "feat(identity): harden identity for real estates — monorepo paths, digest-less artifacts, configurable environment aliases, and node merge",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/98",
-      "labels": [
-        {
-          "name": "type:feature",
-          "color": "1d76db"
-        },
-        {
-          "name": "area:backend",
-          "color": "5319e7"
-        },
-        {
-          "name": "area:ontology",
-          "color": "c2e0c6"
-        },
-        {
-          "name": "size:L",
-          "color": "ededed"
-        },
-        {
-          "name": "tdd:acceptance-first",
-          "color": "006b75"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-13T21:04:43Z",
       "updated_at": "2026-09-14T05:40:38Z",
       "comment_count": 0
     },
