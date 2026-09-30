@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T01:41:45Z",
-  "issue_count": 229,
+  "generated_at": "2026-09-30T03:30:20Z",
+  "issue_count": 228,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 182
+      "open_issue_count": 181
     },
     {
       "name": "Data & LLM Experiments",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 48
+      "open_issue_count": 47
     },
     {
       "name": "garmin-freelap",
@@ -569,39 +569,6 @@
       "assignees": [],
       "created_at": "2026-09-14T05:55:33Z",
       "updated_at": "2026-09-14T05:59:24Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRJcDjw",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 115,
-      "title": "feat(auth): AUTH-2 machine principals — client-credentials for agents and connectors, owning Team in provenance",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/115",
-      "labels": [
-        {
-          "name": "type:feature",
-          "color": "1d76db"
-        },
-        {
-          "name": "area:backend",
-          "color": "5319e7"
-        },
-        {
-          "name": "area:security",
-          "color": "b60205"
-        },
-        {
-          "name": "size:M",
-          "color": "ededed"
-        },
-        {
-          "name": "tdd:acceptance-first",
-          "color": "006b75"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-14T05:55:02Z",
-      "updated_at": "2026-09-14T05:59:23Z",
       "comment_count": 0
     },
     {
