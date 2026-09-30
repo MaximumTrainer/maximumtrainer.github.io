@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:25:23Z",
+  "generated_at": "2026-09-30T21:24:50Z",
   "issue_count": 213,
   "repo_count": 11,
   "category_count": 4,
@@ -8,12 +8,12 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 22
+      "open_issue_count": 23
     },
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 165
+      "open_issue_count": 164
     },
     {
       "name": "Data & LLM Experiments",
@@ -32,7 +32,7 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 132
+      "open_issue_count": 131
     },
     {
       "name": "SdlcKnowledgeGraph",
@@ -53,7 +53,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 11
+      "open_issue_count": 12
     },
     {
       "name": "freelap-intervals",
@@ -107,6 +107,27 @@
   ],
   "issues": [
     {
+      "id": "I_kwDOUJnj1s8AAAABPAk0Vw",
+      "repo": "chorus",
+      "number": 8,
+      "title": "EPIC: MCP server (MCP)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/8",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:mcp",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:49Z",
+      "updated_at": "2026-09-30T21:01:58Z",
+      "comment_count": 0
+    },
+    {
       "id": "I_kwDOQZ3FAs8AAAABUOEL5w",
       "repo": "virtualrow",
       "number": 454,
@@ -115,7 +136,19 @@
       "labels": [],
       "assignees": [],
       "created_at": "2026-09-30T19:28:12Z",
-      "updated_at": "2026-09-30T19:28:12Z",
+      "updated_at": "2026-09-30T20:59:06Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABUPE3mA",
+      "repo": "virtualrow",
+      "number": 455,
+      "title": "Expand graphics tiers: basic / low / medium / high / extra high",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/455",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-30T20:58:59Z",
+      "updated_at": "2026-09-30T20:58:59Z",
       "comment_count": 0
     },
     {
@@ -2908,27 +2941,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABPAk0Vw",
-      "repo": "chorus",
-      "number": 8,
-      "title": "EPIC: MCP server (MCP)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/8",
-      "labels": [
-        {
-          "name": "type:epic",
-          "color": "5319e7"
-        },
-        {
-          "name": "module:mcp",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T15:58:49Z",
-      "updated_at": "2026-08-31T18:11:41Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPBrV0Q",
       "repo": "chorus",
       "number": 141,
@@ -4051,31 +4063,6 @@
       "assignees": [],
       "created_at": "2026-08-31T17:35:43Z",
       "updated_at": "2026-08-31T17:35:43Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPBaWoQ",
-      "repo": "chorus",
-      "number": 85,
-      "title": "MCP-1 — Streamable-HTTP MCP endpoint with OAuth 2.1 and a stdio wrapper",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/85",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:mcp",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T17:35:39Z",
-      "updated_at": "2026-08-31T17:35:39Z",
       "comment_count": 0
     },
     {
