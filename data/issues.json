@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T19:21:56Z",
+  "generated_at": "2026-09-30T20:25:23Z",
   "issue_count": 213,
   "repo_count": 11,
   "category_count": 4,
@@ -8,12 +8,12 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 21
+      "open_issue_count": 22
     },
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 166
+      "open_issue_count": 165
     },
     {
       "name": "Data & LLM Experiments",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 34
+      "open_issue_count": 33
     },
     {
       "name": "garmin-freelap",
@@ -53,7 +53,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 10
+      "open_issue_count": 11
     },
     {
       "name": "freelap-intervals",
@@ -106,6 +106,18 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABUOEL5w",
+      "repo": "virtualrow",
+      "number": 454,
+      "title": "Probe device performance before route load, move Graphics picker into the debug panel",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/454",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-30T19:28:12Z",
+      "updated_at": "2026-09-30T19:28:12Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABUN_WFg",
       "repo": "virtualrow",
@@ -2198,39 +2210,6 @@
       "assignees": [],
       "created_at": "2026-09-04T05:52:57Z",
       "updated_at": "2026-09-04T05:52:57Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABPpIfnA",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 33,
-      "title": "Add data lifecycle: validFrom/validTo history, connector tombstones, archival job and ontology migrations",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/33",
-      "labels": [
-        {
-          "name": "type:feature",
-          "color": "1d76db"
-        },
-        {
-          "name": "area:ontology",
-          "color": "c2e0c6"
-        },
-        {
-          "name": "area:connector",
-          "color": "f9d0c4"
-        },
-        {
-          "name": "size:M",
-          "color": "ededed"
-        },
-        {
-          "name": "tdd:acceptance-first",
-          "color": "006b75"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T05:52:54Z",
-      "updated_at": "2026-09-04T05:52:54Z",
       "comment_count": 0
     },
     {
