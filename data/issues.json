@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T03:30:20Z",
-  "issue_count": 228,
+  "generated_at": "2026-09-30T04:29:02Z",
+  "issue_count": 227,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 181
+      "open_issue_count": 180
     },
     {
       "name": "Data & LLM Experiments",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 47
+      "open_issue_count": 46
     },
     {
       "name": "garmin-freelap",
@@ -536,39 +536,6 @@
       "assignees": [],
       "created_at": "2026-09-14T05:56:05Z",
       "updated_at": "2026-09-14T05:59:25Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRJcSvw",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 116,
-      "title": "feat(auth): AUTH-3 read/write scopes — graph:read and graph:write enforced with explanatory 403s",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/116",
-      "labels": [
-        {
-          "name": "type:feature",
-          "color": "1d76db"
-        },
-        {
-          "name": "area:backend",
-          "color": "5319e7"
-        },
-        {
-          "name": "area:security",
-          "color": "b60205"
-        },
-        {
-          "name": "size:M",
-          "color": "ededed"
-        },
-        {
-          "name": "tdd:acceptance-first",
-          "color": "006b75"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-14T05:55:33Z",
-      "updated_at": "2026-09-14T05:59:24Z",
       "comment_count": 0
     },
     {
