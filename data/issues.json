@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T17:23:00Z",
-  "issue_count": 213,
+  "generated_at": "2026-09-30T18:28:51Z",
+  "issue_count": 212,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 167
+      "open_issue_count": 166
     },
     {
       "name": "Data & LLM Experiments",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 35
+      "open_issue_count": 34
     },
     {
       "name": "garmin-freelap",
@@ -448,43 +448,6 @@
       "assignees": [],
       "created_at": "2026-09-13T21:05:11Z",
       "updated_at": "2026-09-14T05:41:43Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRGoUAg",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 93,
-      "title": "feat(api): freshness guarantees — staleness marking, connector lag health, and as-of reads",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/93",
-      "labels": [
-        {
-          "name": "type:feature",
-          "color": "1d76db"
-        },
-        {
-          "name": "area:backend",
-          "color": "5319e7"
-        },
-        {
-          "name": "area:frontend",
-          "color": "fbca04"
-        },
-        {
-          "name": "area:ontology",
-          "color": "c2e0c6"
-        },
-        {
-          "name": "size:L",
-          "color": "ededed"
-        },
-        {
-          "name": "tdd:acceptance-first",
-          "color": "006b75"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-13T21:02:08Z",
-      "updated_at": "2026-09-14T05:41:03Z",
       "comment_count": 0
     },
     {
