@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T09:27:13Z",
-  "issue_count": 218,
+  "generated_at": "2026-09-30T10:25:21Z",
+  "issue_count": 217,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 172
+      "open_issue_count": 171
     },
     {
       "name": "Data & LLM Experiments",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 40
+      "open_issue_count": 39
     },
     {
       "name": "garmin-freelap",
@@ -937,27 +937,6 @@
       "assignees": [],
       "created_at": "2026-09-13T20:53:52Z",
       "updated_at": "2026-09-13T20:53:52Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRGlTyw",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 87,
-      "title": "Impact analysis v2: path-scoped input, bounded depth, deterministic scoring and owner resolution, shaped for an agent's context pack",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/87",
-      "labels": [
-        {
-          "name": "type:feature",
-          "color": "1d76db"
-        },
-        {
-          "name": "tdd:acceptance-first",
-          "color": "006b75"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-13T20:53:06Z",
-      "updated_at": "2026-09-13T20:53:06Z",
       "comment_count": 0
     },
     {
