@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T06:39:55Z",
-  "issue_count": 225,
+  "generated_at": "2026-09-30T07:32:26Z",
+  "issue_count": 218,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,12 +8,12 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 20
+      "open_issue_count": 19
     },
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 179
+      "open_issue_count": 173
     },
     {
       "name": "Data & LLM Experiments",
@@ -32,14 +32,14 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 134
+      "open_issue_count": 132
     },
     {
       "name": "SdlcKnowledgeGraph",
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 45
+      "open_issue_count": 41
     },
     {
       "name": "garmin-freelap",
@@ -49,16 +49,16 @@
       "open_issue_count": 15
     },
     {
-      "name": "virtualrow",
-      "url": "https://github.com/MaximumTrainer/virtualrow",
-      "description": "",
-      "category": "Training & Fitness",
-      "open_issue_count": 9
-    },
-    {
       "name": "freelap-intervals",
       "url": "https://github.com/MaximumTrainer/freelap-intervals",
       "description": "# Freelap → intervals.icu Sprint Sync  Takes a timed sprint session from a Freelap system and writes it into intervals.icu — as structured intervals, summary custom fields and a human-readable rep table — then reads the activity back and reports every way it differs from what was intended.",
+      "category": "Training & Fitness",
+      "open_issue_count": 8
+    },
+    {
+      "name": "virtualrow",
+      "url": "https://github.com/MaximumTrainer/virtualrow",
+      "description": "",
       "category": "Training & Fitness",
       "open_issue_count": 8
     },
@@ -119,27 +119,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABUETVeg",
-      "repo": "chorus",
-      "number": 182,
-      "title": "Compose sets CHORUS_DB_OWNER_* but the database client reads CHORUS_DB_USER/PASSWORD",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/182",
-      "labels": [
-        {
-          "name": "priority:should",
-          "color": "d93f0b"
-        },
-        {
-          "name": "module:nfr",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-30T05:49:33Z",
-      "updated_at": "2026-09-30T05:49:33Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPHHHDQ",
       "repo": "chorus",
       "number": 144,
@@ -150,27 +129,6 @@
       "created_at": "2026-09-01T07:29:34Z",
       "updated_at": "2026-09-30T05:49:29Z",
       "comment_count": 1
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABT_fGRg",
-      "repo": "virtualrow",
-      "number": 446,
-      "title": "Test & verify FIT upload to intervals.icu end-to-end: decoder-gated fixture, opt-in live contract check, documented manual verification",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/446",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "testing",
-          "color": "ededed"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-29T20:28:57Z",
-      "updated_at": "2026-09-29T20:28:57Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDOQZ3FAs8AAAABT_YwEA",
@@ -372,27 +330,6 @@
       "comment_count": 1
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABQEqoVQ",
-      "repo": "chorus",
-      "number": 168,
-      "title": "NFR-8 — the worker's pre-dequeue spend guard, which fires before the call rather than after it",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/168",
-      "labels": [
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:nfr",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-07T10:48:23Z",
-      "updated_at": "2026-09-14T09:52:45Z",
-      "comment_count": 1
-    },
-    {
       "id": "I_kwDORwT0VM8AAAABRLPq1A",
       "repo": "SdlcKnowledgeGraph",
       "number": 138,
@@ -449,72 +386,6 @@
       "created_at": "2026-09-01T19:32:57Z",
       "updated_at": "2026-09-14T06:41:51Z",
       "comment_count": 1
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRGodog",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 94,
-      "title": "feat(auth): implement ADR-0005 — OIDC auth with agents as first-class principals, before connectors carry real data",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/94",
-      "labels": [
-        {
-          "name": "type:feature",
-          "color": "1d76db"
-        },
-        {
-          "name": "area:backend",
-          "color": "5319e7"
-        },
-        {
-          "name": "area:security",
-          "color": "b60205"
-        },
-        {
-          "name": "size:XL",
-          "color": "ededed"
-        },
-        {
-          "name": "tdd:acceptance-first",
-          "color": "006b75"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-13T21:02:38Z",
-      "updated_at": "2026-09-14T06:00:05Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRJc52A",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 118,
-      "title": "feat(auth): AUTH-5 auth on by default — compose, e2e stack, getting-started, and removal of the anonymous path",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/118",
-      "labels": [
-        {
-          "name": "type:feature",
-          "color": "1d76db"
-        },
-        {
-          "name": "area:backend",
-          "color": "5319e7"
-        },
-        {
-          "name": "area:security",
-          "color": "b60205"
-        },
-        {
-          "name": "size:M",
-          "color": "ededed"
-        },
-        {
-          "name": "tdd:acceptance-first",
-          "color": "006b75"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-14T05:56:50Z",
-      "updated_at": "2026-09-14T05:59:26Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDOUJBGPs8AAAABRJbmjg",
@@ -2361,72 +2232,6 @@
       "assignees": [],
       "created_at": "2026-03-25T10:51:09Z",
       "updated_at": "2026-09-04T05:55:18Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM72a148",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 3,
-      "title": "Secure the API: OIDC resource server, principal kinds user|service|agent, backend-issued API keys and audit",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/3",
-      "labels": [
-        {
-          "name": "type:feature",
-          "color": "1d76db"
-        },
-        {
-          "name": "area:backend",
-          "color": "5319e7"
-        },
-        {
-          "name": "area:security",
-          "color": "b60205"
-        },
-        {
-          "name": "size:M",
-          "color": "ededed"
-        },
-        {
-          "name": "tdd:acceptance-first",
-          "color": "006b75"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-03-25T10:17:08Z",
-      "updated_at": "2026-09-04T05:55:09Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM72a1pR",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 2,
-      "title": "Add user login via oauth2Login BFF with GitHub first and OIDC providers by config",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/2",
-      "labels": [
-        {
-          "name": "type:feature",
-          "color": "1d76db"
-        },
-        {
-          "name": "area:frontend",
-          "color": "fbca04"
-        },
-        {
-          "name": "area:security",
-          "color": "b60205"
-        },
-        {
-          "name": "size:M",
-          "color": "ededed"
-        },
-        {
-          "name": "tdd:acceptance-first",
-          "color": "006b75"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-03-25T10:16:58Z",
-      "updated_at": "2026-09-04T05:55:06Z",
       "comment_count": 0
     },
     {
