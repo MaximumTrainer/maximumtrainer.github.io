@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T05:25:18Z",
-  "issue_count": 226,
+  "generated_at": "2026-09-30T06:39:55Z",
+  "issue_count": 225,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 180
+      "open_issue_count": 179
     },
     {
       "name": "Data & LLM Experiments",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 46
+      "open_issue_count": 45
     },
     {
       "name": "garmin-freelap",
@@ -106,6 +106,51 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABUEhS0g",
+      "repo": "virtualrow",
+      "number": 449,
+      "title": "Monthly GitHub Action: run llm-cad against new rownative routes and register generated scenery",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/449",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-30T06:12:53Z",
+      "updated_at": "2026-09-30T06:12:53Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABUETVeg",
+      "repo": "chorus",
+      "number": 182,
+      "title": "Compose sets CHORUS_DB_OWNER_* but the database client reads CHORUS_DB_USER/PASSWORD",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/182",
+      "labels": [
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-09-30T05:49:33Z",
+      "updated_at": "2026-09-30T05:49:33Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPHHHDQ",
+      "repo": "chorus",
+      "number": 144,
+      "title": "dogfood chorus - Placeholder",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/144",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-01T07:29:34Z",
+      "updated_at": "2026-09-30T05:49:29Z",
+      "comment_count": 1
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABT_fGRg",
       "repo": "virtualrow",
@@ -183,23 +228,6 @@
       "created_at": "2025-11-29T13:44:01Z",
       "updated_at": "2026-09-29T19:57:01Z",
       "comment_count": 1
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABT-_cNA",
-      "repo": "virtualrow",
-      "number": 443,
-      "title": "Remove the CrewPicker \"Rower\" panel for signed-in users and take crew gender from their intervals.icu profile",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/443",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-29T19:46:48Z",
-      "updated_at": "2026-09-29T19:46:48Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDORwT0VM8AAAABT-LRgw",
@@ -486,39 +514,6 @@
       "assignees": [],
       "created_at": "2026-09-14T05:56:50Z",
       "updated_at": "2026-09-14T05:59:26Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRJcjVg",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 117,
-      "title": "feat(auth): AUTH-4 source-scoped writes — graph:write:<sourceSystem> binds a connector to the facts it may assert",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/117",
-      "labels": [
-        {
-          "name": "type:feature",
-          "color": "1d76db"
-        },
-        {
-          "name": "area:backend",
-          "color": "5319e7"
-        },
-        {
-          "name": "area:security",
-          "color": "b60205"
-        },
-        {
-          "name": "size:M",
-          "color": "ededed"
-        },
-        {
-          "name": "tdd:acceptance-first",
-          "color": "006b75"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-14T05:56:05Z",
-      "updated_at": "2026-09-14T05:59:25Z",
       "comment_count": 0
     },
     {
@@ -3024,23 +3019,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABPgmRBw",
-      "repo": "chorus",
-      "number": 153,
-      "title": "Compile TypeScript for production images instead of running tsx",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/153",
-      "labels": [
-        {
-          "name": "priority:should",
-          "color": "d93f0b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-03T11:08:00Z",
-      "updated_at": "2026-09-03T11:08:00Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPe9EvA",
       "repo": "chorus",
       "number": 152,
@@ -3148,18 +3126,6 @@
       "created_at": "2026-08-30T19:09:06Z",
       "updated_at": "2026-09-01T11:18:12Z",
       "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPHHHDQ",
-      "repo": "chorus",
-      "number": 144,
-      "title": "dogfood chorus - Placeholder",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/144",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-01T07:29:34Z",
-      "updated_at": "2026-09-01T07:36:25Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDOUJnj1s8AAAABPHHSvg",
