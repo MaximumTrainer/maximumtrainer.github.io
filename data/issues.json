@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T07:33:58Z",
-  "issue_count": 204,
+  "generated_at": "2026-10-01T16:25:26Z",
+  "issue_count": 203,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 21
+      "open_issue_count": 20
     },
     {
       "name": "Developer Tools & Engineering",
@@ -53,7 +53,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 10
+      "open_issue_count": 9
     },
     {
       "name": "freelap-intervals",
@@ -126,18 +126,6 @@
       "created_at": "2026-08-31T15:58:49Z",
       "updated_at": "2026-09-30T21:01:58Z",
       "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABUOEL5w",
-      "repo": "virtualrow",
-      "number": 454,
-      "title": "Probe device performance before route load, move Graphics picker into the debug panel",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/454",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-30T19:28:12Z",
-      "updated_at": "2026-09-30T20:59:06Z",
-      "comment_count": 1
     },
     {
       "id": "I_kwDOQZ3FAs8AAAABUPE3mA",
