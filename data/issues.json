@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T03:33:27Z",
-  "issue_count": 209,
+  "generated_at": "2026-10-01T05:31:16Z",
+  "issue_count": 207,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,12 +8,12 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 23
+      "open_issue_count": 22
     },
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 160
+      "open_issue_count": 159
     },
     {
       "name": "Data & LLM Experiments",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 29
+      "open_issue_count": 28
     },
     {
       "name": "garmin-freelap",
@@ -53,7 +53,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 12
+      "open_issue_count": 11
     },
     {
       "name": "freelap-intervals",
@@ -149,18 +149,6 @@
       "assignees": [],
       "created_at": "2026-09-30T20:58:59Z",
       "updated_at": "2026-09-30T20:58:59Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABUN_WFg",
-      "repo": "virtualrow",
-      "number": 453,
-      "title": "Hide demo-row CTA from signed-in athletes unless enabled from the debug panel",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/453",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-30T19:21:46Z",
-      "updated_at": "2026-09-30T19:21:46Z",
       "comment_count": 0
     },
     {
@@ -2243,43 +2231,6 @@
       "assignees": [],
       "created_at": "2026-09-04T05:52:44Z",
       "updated_at": "2026-09-04T05:52:44Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABPpIaXw",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 28,
-      "title": "Add cloud-to-repo link resolution engine with confidence rules and CANDIDATE_LINK review UI",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/28",
-      "labels": [
-        {
-          "name": "type:feature",
-          "color": "1d76db"
-        },
-        {
-          "name": "area:frontend",
-          "color": "fbca04"
-        },
-        {
-          "name": "area:ontology",
-          "color": "c2e0c6"
-        },
-        {
-          "name": "area:connector",
-          "color": "f9d0c4"
-        },
-        {
-          "name": "size:L",
-          "color": "ededed"
-        },
-        {
-          "name": "tdd:acceptance-first",
-          "color": "006b75"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-04T05:52:41Z",
-      "updated_at": "2026-09-04T05:52:41Z",
       "comment_count": 0
     },
     {
