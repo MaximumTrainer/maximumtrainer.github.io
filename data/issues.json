@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T02:40:28Z",
-  "issue_count": 210,
+  "generated_at": "2026-10-01T03:33:27Z",
+  "issue_count": 209,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 161
+      "open_issue_count": 160
     },
     {
       "name": "Data & LLM Experiments",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph",
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 30
+      "open_issue_count": 29
     },
     {
       "name": "garmin-freelap",
@@ -604,39 +604,6 @@
       "assignees": [],
       "created_at": "2026-09-13T21:01:37Z",
       "updated_at": "2026-09-14T05:39:03Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORwT0VM8AAAABRGnoCw",
-      "repo": "SdlcKnowledgeGraph",
-      "number": 90,
-      "title": "feat(connectors): CI/deployment connector — artifacts, deployments and environments from GitHub Actions",
-      "url": "https://github.com/MaximumTrainer/SdlcKnowledgeGraph/issues/90",
-      "labels": [
-        {
-          "name": "type:feature",
-          "color": "1d76db"
-        },
-        {
-          "name": "area:backend",
-          "color": "5319e7"
-        },
-        {
-          "name": "area:connector",
-          "color": "f9d0c4"
-        },
-        {
-          "name": "size:L",
-          "color": "ededed"
-        },
-        {
-          "name": "tdd:acceptance-first",
-          "color": "006b75"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-13T20:59:56Z",
-      "updated_at": "2026-09-14T05:38:35Z",
       "comment_count": 0
     },
     {
