@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T16:25:26Z",
-  "issue_count": 203,
+  "generated_at": "2026-10-01T18:31:44Z",
+  "issue_count": 204,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 20
+      "open_issue_count": 21
     },
     {
       "name": "Developer Tools & Engineering",
@@ -53,7 +53,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 9
+      "open_issue_count": 10
     },
     {
       "name": "freelap-intervals",
@@ -106,6 +106,18 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABUcE2fQ",
+      "repo": "virtualrow",
+      "number": 462,
+      "title": "oars appear to go vertical above rowers head instead of backwards/forwards side of scull - placeholder",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/462",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-01T17:48:06Z",
+      "updated_at": "2026-10-01T17:57:47Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOUJnj1s8AAAABPAk0Vw",
       "repo": "chorus",
