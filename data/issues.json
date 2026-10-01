@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T05:31:16Z",
-  "issue_count": 207,
+  "generated_at": "2026-10-01T06:41:09Z",
+  "issue_count": 206,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 22
+      "open_issue_count": 21
     },
     {
       "name": "Developer Tools & Engineering",
@@ -53,7 +53,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 11
+      "open_issue_count": 10
     },
     {
       "name": "freelap-intervals",
@@ -195,23 +195,6 @@
       "created_at": "2026-09-01T07:29:34Z",
       "updated_at": "2026-09-30T05:49:29Z",
       "comment_count": 1
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABT_YwEA",
-      "repo": "virtualrow",
-      "number": 445,
-      "title": "Rework workout flow: drop the local workout library, load today's session from intervals.icu, show a live block panel with prescribed vs actual pace/power",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/445",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-29T20:20:30Z",
-      "updated_at": "2026-09-29T20:20:30Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDOQZ3FAs8AAAABT-8Yaw",
