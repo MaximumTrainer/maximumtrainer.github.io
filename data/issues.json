@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-03T15:09:17Z",
-  "issue_count": 205,
+  "generated_at": "2026-10-03T18:54:42Z",
+  "issue_count": 206,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 22
+      "open_issue_count": 23
     },
     {
       "name": "Developer Tools & Engineering",
@@ -53,7 +53,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 11
+      "open_issue_count": 12
     },
     {
       "name": "freelap-intervals",
@@ -106,6 +106,18 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABU0tLvw",
+      "repo": "virtualrow",
+      "number": 472,
+      "title": "Add workout image to website - placeholder",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/472",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-03T18:34:00Z",
+      "updated_at": "2026-10-03T18:34:00Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABUy7jSA",
       "repo": "virtualrow",
