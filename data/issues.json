@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-03T06:39:19Z",
-  "issue_count": 204,
+  "generated_at": "2026-10-03T15:09:17Z",
+  "issue_count": 205,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 21
+      "open_issue_count": 22
     },
     {
       "name": "Developer Tools & Engineering",
@@ -53,7 +53,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 10
+      "open_issue_count": 11
     },
     {
       "name": "freelap-intervals",
@@ -106,6 +106,20 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABUy7jSA",
+      "repo": "virtualrow",
+      "number": 471,
+      "title": "Restore INTERVALS_ICU_TEST_API_KEY and INTERVALS_ICU_TEST_ATHLETE_ID repo secrets so the nightly FIT upload contract check runs again",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/471",
+      "labels": [],
+      "assignees": [
+        "MaximumTrainer"
+      ],
+      "created_at": "2026-10-03T14:33:09Z",
+      "updated_at": "2026-10-03T14:33:09Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABUidpbg",
       "repo": "virtualrow",
