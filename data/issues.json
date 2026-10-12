@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-03T18:54:42Z",
-  "issue_count": 206,
+  "generated_at": "2026-10-12T20:26:09Z",
+  "issue_count": 208,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 23
+      "open_issue_count": 25
     },
     {
       "name": "Developer Tools & Engineering",
@@ -53,7 +53,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 12
+      "open_issue_count": 14
     },
     {
       "name": "freelap-intervals",
@@ -106,6 +106,30 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABWuIftw",
+      "repo": "virtualrow",
+      "number": 474,
+      "title": "Enhance human eower model - placeholder",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/474",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-12T20:05:21Z",
+      "updated_at": "2026-10-12T20:05:21Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABWt9onQ",
+      "repo": "virtualrow",
+      "number": 473,
+      "title": "Crash telemetry collection — collect on crash, submit to GitHub as an issue",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/473",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-12T19:50:10Z",
+      "updated_at": "2026-10-12T19:56:44Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABU0tLvw",
       "repo": "virtualrow",
