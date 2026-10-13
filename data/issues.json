@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-13T07:37:40Z",
-  "issue_count": 209,
+  "generated_at": "2026-10-13T13:32:54Z",
+  "issue_count": 208,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 26
+      "open_issue_count": 25
     },
     {
       "name": "Developer Tools & Engineering",
@@ -53,7 +53,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 15
+      "open_issue_count": 14
     },
     {
       "name": "freelap-intervals",
@@ -129,18 +129,6 @@
       "created_at": "2026-10-13T07:20:10Z",
       "updated_at": "2026-10-13T07:20:10Z",
       "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABWuIftw",
-      "repo": "virtualrow",
-      "number": 474,
-      "title": "Enhance human rower model — customisable clothing, hair and hat; llm-cad pipeline",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/474",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-10-12T20:05:21Z",
-      "updated_at": "2026-10-13T06:46:58Z",
-      "comment_count": 1
     },
     {
       "id": "I_kwDOQZ3FAs8AAAABWt9onQ",
