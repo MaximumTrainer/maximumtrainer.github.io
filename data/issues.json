@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T11:36:49Z",
-  "issue_count": 212,
+  "generated_at": "2026-10-18T13:23:51Z",
+  "issue_count": 211,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 29
+      "open_issue_count": 28
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 18
+      "open_issue_count": 17
     },
     {
       "name": "garmin-freelap",
@@ -129,18 +129,6 @@
       "created_at": "2026-10-18T08:35:48Z",
       "updated_at": "2026-10-18T10:03:56Z",
       "comment_count": 2
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABYCmgpw",
-      "repo": "virtualrow",
-      "number": 497,
-      "title": "Chunked foliage with built-in frustum culling",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/497",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-10-18T09:51:21Z",
-      "updated_at": "2026-10-18T09:51:21Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDOQZ3FAs8AAAABYCmYuA",
