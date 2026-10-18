@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T09:21:20Z",
-  "issue_count": 208,
+  "generated_at": "2026-10-18T10:21:38Z",
+  "issue_count": 211,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 25
+      "open_issue_count": 28
     },
     {
       "name": "Developer Tools & Engineering",
@@ -42,18 +42,18 @@
       "open_issue_count": 26
     },
     {
+      "name": "virtualrow",
+      "url": "https://github.com/MaximumTrainer/virtualrow",
+      "description": "",
+      "category": "Training & Fitness",
+      "open_issue_count": 17
+    },
+    {
       "name": "garmin-freelap",
       "url": "https://github.com/MaximumTrainer/garmin-freelap",
       "description": "Connect IQ watch app that records Freelap FxChip BLE split times into your Garmin activity. In development; not yet verified against a real chip.",
       "category": "Other",
       "open_issue_count": 15
-    },
-    {
-      "name": "virtualrow",
-      "url": "https://github.com/MaximumTrainer/virtualrow",
-      "description": "",
-      "category": "Training & Fitness",
-      "open_issue_count": 14
     },
     {
       "name": "freelap-intervals",
@@ -115,7 +115,43 @@
       "labels": [],
       "assignees": [],
       "created_at": "2026-10-18T08:35:48Z",
-      "updated_at": "2026-10-18T08:43:51Z",
+      "updated_at": "2026-10-18T10:03:56Z",
+      "comment_count": 2
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABYCmgpw",
+      "repo": "virtualrow",
+      "number": 497,
+      "title": "Chunked foliage with built-in frustum culling",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/497",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-18T09:51:21Z",
+      "updated_at": "2026-10-18T09:51:21Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABYCmYuA",
+      "repo": "virtualrow",
+      "number": 496,
+      "title": "Density-field grass on bank slopes",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/496",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-18T09:51:04Z",
+      "updated_at": "2026-10-18T09:51:04Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABYCmQIg",
+      "repo": "virtualrow",
+      "number": 495,
+      "title": "Cascaded Shadow Maps for the sun",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/495",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-18T09:50:46Z",
+      "updated_at": "2026-10-18T09:50:46Z",
       "comment_count": 0
     },
     {
