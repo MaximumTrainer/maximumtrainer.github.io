@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T12:33:21Z",
-  "issue_count": 212,
+  "generated_at": "2026-10-20T16:25:51Z",
+  "issue_count": 213,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 29
+      "open_issue_count": 30
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 18
+      "open_issue_count": 19
     },
     {
       "name": "garmin-freelap",
@@ -107,6 +107,23 @@
   ],
   "issues": [
     {
+      "id": "I_kwDOQZ3FAs8AAAABYloNQA",
+      "repo": "virtualrow",
+      "number": 543,
+      "title": "P0: branch + SvelteKit scaffold + move framework-free layers (#542)",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/543",
+      "labels": [
+        {
+          "name": "architecture",
+          "color": "ededed"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-10-20T15:59:51Z",
+      "updated_at": "2026-10-20T15:59:51Z",
+      "comment_count": 0
+    },
+    {
       "id": "I_kwDOQZ3FAs8AAAABYhbhiw",
       "repo": "virtualrow",
       "number": 542,
@@ -124,7 +141,7 @@
       ],
       "assignees": [],
       "created_at": "2026-10-20T11:12:36Z",
-      "updated_at": "2026-10-20T11:50:25Z",
+      "updated_at": "2026-10-20T15:53:26Z",
       "comment_count": 0
     },
     {
