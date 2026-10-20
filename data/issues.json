@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T11:25:34Z",
+  "generated_at": "2026-10-20T12:33:21Z",
   "issue_count": 212,
   "repo_count": 11,
   "category_count": 4,
@@ -110,7 +110,7 @@
       "id": "I_kwDOQZ3FAs8AAAABYhbhiw",
       "repo": "virtualrow",
       "number": 542,
-      "title": "Migrate the rower renderer to WebGPU and the Biketerra graphics model (epic)",
+      "title": "Rebuild virtualrow on Svelte + a Biketerra-model WebGPU renderer, on its own branch (epic)",
       "url": "https://github.com/MaximumTrainer/virtualrow/issues/542",
       "labels": [
         {
@@ -124,7 +124,7 @@
       ],
       "assignees": [],
       "created_at": "2026-10-20T11:12:36Z",
-      "updated_at": "2026-10-20T11:18:09Z",
+      "updated_at": "2026-10-20T11:50:25Z",
       "comment_count": 0
     },
     {
