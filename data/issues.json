@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T10:23:29Z",
-  "issue_count": 217,
+  "generated_at": "2026-10-21T11:22:10Z",
+  "issue_count": 218,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 34
+      "open_issue_count": 35
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 23
+      "open_issue_count": 24
     },
     {
       "name": "garmin-freelap",
@@ -106,6 +106,18 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABYzIHng",
+      "repo": "virtualrow",
+      "number": 559,
+      "title": "P4: Cascaded Shadow Maps + flora shadow-depth pass (#542)",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/559",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-21T10:59:17Z",
+      "updated_at": "2026-10-21T10:59:17Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABYyS1GQ",
       "repo": "virtualrow",
