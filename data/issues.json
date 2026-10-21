@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T22:21:10Z",
-  "issue_count": 215,
+  "generated_at": "2026-10-21T10:23:29Z",
+  "issue_count": 217,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 32
+      "open_issue_count": 34
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 21
+      "open_issue_count": 23
     },
     {
       "name": "garmin-freelap",
@@ -106,6 +106,30 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABYyS1GQ",
+      "repo": "virtualrow",
+      "number": 556,
+      "title": "Backlog: optional GPU-renderer improvements deferred from P3 (#542)",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/556",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-21T09:55:55Z",
+      "updated_at": "2026-10-21T09:55:55Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABYyFXtw",
+      "repo": "virtualrow",
+      "number": 555,
+      "title": "P3: GPU-driven scenery — compute cull + indirect draws for foliage, scenery and furniture (#542)",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/555",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-21T09:40:49Z",
+      "updated_at": "2026-10-21T09:40:49Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABYqVSrQ",
       "repo": "virtualrow",
