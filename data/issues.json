@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T11:22:10Z",
-  "issue_count": 218,
+  "generated_at": "2026-10-21T12:33:11Z",
+  "issue_count": 219,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 35
+      "open_issue_count": 36
     },
     {
       "name": "Developer Tools & Engineering",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 24
+      "open_issue_count": 25
     },
     {
       "name": "garmin-freelap",
@@ -106,6 +106,18 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABYz0hkw",
+      "repo": "virtualrow",
+      "number": 562,
+      "title": "P5: Flora LOD + texture pipeline — KTX2 + GPU mips (#542)",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/562",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-21T11:50:58Z",
+      "updated_at": "2026-10-21T11:50:58Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABYzIHng",
       "repo": "virtualrow",
