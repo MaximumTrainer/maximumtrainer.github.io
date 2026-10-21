@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T19:19:18Z",
-  "issue_count": 221,
+  "generated_at": "2026-10-21T21:20:55Z",
+  "issue_count": 223,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 38
+      "open_issue_count": 40
     },
     {
       "name": "Developer Tools & Engineering",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 27
+      "open_issue_count": 29
     },
     {
       "name": "SdlcKnowledgeGraph",
@@ -106,6 +106,30 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABY7vvmQ",
+      "repo": "virtualrow",
+      "number": 571,
+      "title": "P7 optional additions (engine track of #542)",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/571",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-21T20:44:25Z",
+      "updated_at": "2026-10-21T20:44:25Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABY7oCwA",
+      "repo": "virtualrow",
+      "number": 570,
+      "title": "[P7] WebGPU boat + ghost + crew skinning (engine track of #542)",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/570",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-21T20:35:33Z",
+      "updated_at": "2026-10-21T20:35:33Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABY6dypg",
       "repo": "virtualrow",
