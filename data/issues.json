@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T17:20:00Z",
-  "issue_count": 225,
+  "generated_at": "2026-10-23T09:26:09Z",
+  "issue_count": 226,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 42
+      "open_issue_count": 43
     },
     {
       "name": "Developer Tools & Engineering",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 31
+      "open_issue_count": 32
     },
     {
       "name": "SdlcKnowledgeGraph",
@@ -106,6 +106,18 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABZVFesg",
+      "repo": "virtualrow",
+      "number": 577,
+      "title": "Add virtual rowers taking part in activity around main rower - placeholder",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/577",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-23T08:49:26Z",
+      "updated_at": "2026-10-23T08:49:26Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABZBH6sA",
       "repo": "virtualrow",
