@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T09:21:53Z",
-  "issue_count": 227,
+  "generated_at": "2026-10-25T11:18:40Z",
+  "issue_count": 229,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 44
+      "open_issue_count": 46
     },
     {
       "name": "Developer Tools & Engineering",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 33
+      "open_issue_count": 34
     },
     {
       "name": "SdlcKnowledgeGraph",
@@ -84,6 +84,13 @@
       "open_issue_count": 2
     },
     {
+      "name": "MaximumTrainer_Redux",
+      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux",
+      "description": "The original cross platform indoor cycling solution",
+      "category": "Training & Fitness",
+      "open_issue_count": 2
+    },
+    {
       "name": "OpenFactstore",
       "url": "https://github.com/MaximumTrainer/OpenFactstore",
       "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
@@ -96,16 +103,33 @@
       "description": "SilverSprint is a \"Neural-First\" training platform. It operates on the principle that for aging sprinters, Central Nervous System (CNS) recovery is the primary bottleneck for performance. The application must automate the detection of neural fatigue and provide actionable \"Go/No-Go\" training recommendations.",
       "category": "Training & Fitness",
       "open_issue_count": 2
-    },
-    {
-      "name": "MaximumTrainer_Redux",
-      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux",
-      "description": "The original cross platform indoor cycling solution",
-      "category": "Training & Fitness",
-      "open_issue_count": 1
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOCvwDlc8AAAABZwYQUw",
+      "repo": "MaximumTrainer_Redux",
+      "number": 381,
+      "title": "fails to load on windows 10",
+      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux/issues/381",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-25T10:27:07Z",
+      "updated_at": "2026-10-25T10:27:07Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABZwWDoA",
+      "repo": "virtualrow",
+      "number": 584,
+      "title": "AC4 follow-up: wire real device-lost recovery + GPU-runner e2e ports",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/584",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-25T10:22:33Z",
+      "updated_at": "2026-10-25T10:22:33Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOCvwDlc7_jhHa",
       "repo": "MaximumTrainer_Redux",
