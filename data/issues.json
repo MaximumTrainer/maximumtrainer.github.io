@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T14:20:29Z",
-  "issue_count": 238,
+  "generated_at": "2026-10-25T16:22:16Z",
+  "issue_count": 239,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 55
+      "open_issue_count": 56
     },
     {
       "name": "Developer Tools & Engineering",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 34
+      "open_issue_count": 35
     },
     {
       "name": "SdlcKnowledgeGraph",
@@ -106,6 +106,90 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABTCGzyA",
+      "repo": "virtualrow",
+      "number": 415,
+      "title": "Use rownative challenges: browse them, row the course, race the leaderboard",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/415",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-09-24T17:42:17Z",
+      "updated_at": "2026-10-25T16:19:16Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABW0Vupw",
+      "repo": "virtualrow",
+      "number": 477,
+      "title": "Move rower appearance preference to Postgres user profile when #37 lands",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/477",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-13T07:20:10Z",
+      "updated_at": "2026-10-25T16:18:26Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABYCmYuA",
+      "repo": "virtualrow",
+      "number": 496,
+      "title": "Density-field grass on bank slopes",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/496",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-18T09:51:04Z",
+      "updated_at": "2026-10-25T16:18:12Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABYCmQIg",
+      "repo": "virtualrow",
+      "number": 495,
+      "title": "Cascaded Shadow Maps for the sun",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/495",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-18T09:50:46Z",
+      "updated_at": "2026-10-25T16:17:47Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABU0tLvw",
+      "repo": "virtualrow",
+      "number": 472,
+      "title": "Add workout image to website - placeholder",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/472",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-03T18:34:00Z",
+      "updated_at": "2026-10-25T16:17:22Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABZzWt0w",
+      "repo": "virtualrow",
+      "number": 588,
+      "title": "optimise build pipeline around webgpu design, removing legacy react constraints - ensure full test criteria remains",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/588",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-25T16:15:30Z",
+      "updated_at": "2026-10-25T16:15:30Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABYFGSrw",
+      "repo": "virtualrow",
+      "number": 505,
+      "title": "update route selection screen",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/505",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-18T15:07:58Z",
+      "updated_at": "2026-10-25T15:37:39Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOCvwDlc8AAAABZySaTQ",
       "repo": "MaximumTrainer_Redux",
@@ -474,42 +558,6 @@
       "comment_count": 3
     },
     {
-      "id": "I_kwDOQZ3FAs8AAAABYFGSrw",
-      "repo": "virtualrow",
-      "number": 505,
-      "title": "update route selection screen - placeholder",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/505",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-10-18T15:07:58Z",
-      "updated_at": "2026-10-18T16:52:27Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABYCmYuA",
-      "repo": "virtualrow",
-      "number": 496,
-      "title": "Density-field grass on bank slopes",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/496",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-10-18T09:51:04Z",
-      "updated_at": "2026-10-18T09:51:04Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABYCmQIg",
-      "repo": "virtualrow",
-      "number": 495,
-      "title": "Cascaded Shadow Maps for the sun",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/495",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-10-18T09:50:46Z",
-      "updated_at": "2026-10-18T09:50:46Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOQZ3FAs8AAAABUEhS0g",
       "repo": "virtualrow",
       "number": 449,
@@ -520,30 +568,6 @@
       "created_at": "2026-09-30T06:12:53Z",
       "updated_at": "2026-10-13T07:20:19Z",
       "comment_count": 1
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABW0Vupw",
-      "repo": "virtualrow",
-      "number": 477,
-      "title": "Move rower appearance preference to Postgres user profile when #37 lands",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/477",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-10-13T07:20:10Z",
-      "updated_at": "2026-10-13T07:20:10Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABU0tLvw",
-      "repo": "virtualrow",
-      "number": 472,
-      "title": "Add workout image to website - placeholder",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/472",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-10-03T18:34:00Z",
-      "updated_at": "2026-10-03T18:34:00Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDOQZ3FAs8AAAABUy7jSA",
@@ -760,18 +784,6 @@
       "created_at": "2026-09-24T20:13:33Z",
       "updated_at": "2026-09-25T06:41:26Z",
       "comment_count": 3
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABTCGzyA",
-      "repo": "virtualrow",
-      "number": 415,
-      "title": "Use rownative challenges: browse them, row the course, race the leaderboard",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/415",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-24T17:42:17Z",
-      "updated_at": "2026-09-24T18:55:23Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDOUJnj1s8AAAABPAowhQ",
