@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T13:19:24Z",
-  "issue_count": 229,
+  "generated_at": "2026-10-25T14:20:29Z",
+  "issue_count": 238,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 46
+      "open_issue_count": 55
     },
     {
       "name": "Developer Tools & Engineering",
@@ -56,6 +56,13 @@
       "open_issue_count": 15
     },
     {
+      "name": "MaximumTrainer_Redux",
+      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux",
+      "description": "The original cross platform indoor cycling solution",
+      "category": "Training & Fitness",
+      "open_issue_count": 11
+    },
+    {
       "name": "freelap-intervals",
       "url": "https://github.com/MaximumTrainer/freelap-intervals",
       "description": "# Freelap → intervals.icu Sprint Sync  Takes a timed sprint session from a Freelap system and writes it into intervals.icu — as structured intervals, summary custom fields and a human-readable rep table — then reads the activity back and reports every way it differs from what was intended.",
@@ -84,13 +91,6 @@
       "open_issue_count": 2
     },
     {
-      "name": "MaximumTrainer_Redux",
-      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux",
-      "description": "The original cross platform indoor cycling solution",
-      "category": "Training & Fitness",
-      "open_issue_count": 2
-    },
-    {
       "name": "OpenFactstore",
       "url": "https://github.com/MaximumTrainer/OpenFactstore",
       "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
@@ -107,18 +107,136 @@
   ],
   "issues": [
     {
-      "id": "I_kwDOCvwDlc8AAAABZwYQUw",
+      "id": "I_kwDOCvwDlc8AAAABZySaTQ",
       "repo": "MaximumTrainer_Redux",
-      "number": 381,
-      "title": "fails to load on windows 10",
-      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux/issues/381",
+      "number": 394,
+      "title": "Rowing: upload finished rowing workouts to the Concept2 Logbook",
+      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux/issues/394",
       "labels": [],
-      "assignees": [
-        "MaximumTrainer"
-      ],
-      "created_at": "2026-10-25T10:27:07Z",
-      "updated_at": "2026-10-25T13:05:55Z",
-      "comment_count": 3
+      "assignees": [],
+      "created_at": "2026-10-25T14:16:23Z",
+      "updated_at": "2026-10-25T14:16:46Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOCvwDlc8AAAABZySJYQ",
+      "repo": "MaximumTrainer_Redux",
+      "number": 391,
+      "title": "Rowing: bundled rowing workout plan(s) with spm and pace targets",
+      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux/issues/391",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-25T14:15:53Z",
+      "updated_at": "2026-10-25T14:16:45Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOCvwDlc8AAAABZySkjA",
+      "repo": "MaximumTrainer_Redux",
+      "number": 397,
+      "title": "Docs: mark indoor rowing as shipped on the landing page and README",
+      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux/issues/397",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-25T14:16:40Z",
+      "updated_at": "2026-10-25T14:16:40Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOCvwDlc8AAAABZyShSA",
+      "repo": "MaximumTrainer_Redux",
+      "number": 396,
+      "title": "Rowing: WASM (Web Bluetooth) support for FTMS rowers",
+      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux/issues/396",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-25T14:16:35Z",
+      "updated_at": "2026-10-25T14:16:35Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOCvwDlc8AAAABZySdVg",
+      "repo": "MaximumTrainer_Redux",
+      "number": 395,
+      "title": "Rowing: Studio mode support for multiple rowers",
+      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux/issues/395",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-25T14:16:29Z",
+      "updated_at": "2026-10-25T14:16:29Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOCvwDlc8AAAABZySVhQ",
+      "repo": "MaximumTrainer_Redux",
+      "number": 393,
+      "title": "Rowing: connect a Concept2 Logbook account (OAuth2)",
+      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux/issues/393",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-25T14:16:14Z",
+      "updated_at": "2026-10-25T14:16:14Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOCvwDlc8AAAABZySPsg",
+      "repo": "MaximumTrainer_Redux",
+      "number": 392,
+      "title": "Rowing: Concept2 PM5 proprietary BLE service (rowing status, drag factor, splits)",
+      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux/issues/392",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-25T14:16:04Z",
+      "updated_at": "2026-10-25T14:16:04Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOCvwDlc8AAAABZySF0A",
+      "repo": "MaximumTrainer_Redux",
+      "number": 390,
+      "title": "Rowing (Beta): stroke-rate (spm) targets in workouts instead of cycling rpm cadence",
+      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux/issues/390",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-25T14:15:47Z",
+      "updated_at": "2026-10-25T14:15:47Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOCvwDlc8AAAABZySBUA",
+      "repo": "MaximumTrainer_Redux",
+      "number": 389,
+      "title": "Rowing (Beta): use device-reported distance and stroke count from FTMS Rower Data",
+      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux/issues/389",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-25T14:15:39Z",
+      "updated_at": "2026-10-25T14:15:39Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOCvwDlc8AAAABZyR77g",
+      "repo": "MaximumTrainer_Redux",
+      "number": 388,
+      "title": "Rowing (Beta): show \"Provided by rower\" on Power/Cadence slots when a Rower is paired",
+      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux/issues/388",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-25T14:15:30Z",
+      "updated_at": "2026-10-25T14:15:30Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOCvwDlc8AAAABZyR2xQ",
+      "repo": "MaximumTrainer_Redux",
+      "number": 387,
+      "title": "Rowing (Beta): validate FTMS rower support on real hardware (incl. Concept2 PM5)",
+      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux/issues/387",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-25T14:15:22Z",
+      "updated_at": "2026-10-25T14:15:22Z",
+      "comment_count": 0
     },
     {
       "id": "I_kwDOQZ3FAs8AAAABZwWDoA",
@@ -131,18 +249,6 @@
       "created_at": "2026-10-25T10:22:33Z",
       "updated_at": "2026-10-25T10:22:33Z",
       "comment_count": 0
-    },
-    {
-      "id": "I_kwDOCvwDlc7_jhHa",
-      "repo": "MaximumTrainer_Redux",
-      "number": 122,
-      "title": "Adding Rowing Support to MaximumTrainer_Redux",
-      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux/issues/122",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-04-18T09:35:27Z",
-      "updated_at": "2026-10-25T08:44:36Z",
-      "comment_count": 4
     },
     {
       "id": "I_kwDOQZ3FAs8AAAABZVFesg",
