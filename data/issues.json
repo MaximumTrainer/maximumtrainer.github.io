@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T08:26:53Z",
-  "issue_count": 228,
+  "generated_at": "2026-10-25T09:21:53Z",
+  "issue_count": 227,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 45
+      "open_issue_count": 44
     },
     {
       "name": "Developer Tools & Engineering",
@@ -84,13 +84,6 @@
       "open_issue_count": 2
     },
     {
-      "name": "MaximumTrainer_Redux",
-      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux",
-      "description": "The original cross platform indoor cycling solution",
-      "category": "Training & Fitness",
-      "open_issue_count": 2
-    },
-    {
       "name": "OpenFactstore",
       "url": "https://github.com/MaximumTrainer/OpenFactstore",
       "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
@@ -103,20 +96,27 @@
       "description": "SilverSprint is a \"Neural-First\" training platform. It operates on the principle that for aging sprinters, Central Nervous System (CNS) recovery is the primary bottleneck for performance. The application must automate the detection of neural fatigue and provide actionable \"Go/No-Go\" training recommendations.",
       "category": "Training & Fitness",
       "open_issue_count": 2
+    },
+    {
+      "name": "MaximumTrainer_Redux",
+      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux",
+      "description": "The original cross platform indoor cycling solution",
+      "category": "Training & Fitness",
+      "open_issue_count": 1
     }
   ],
   "issues": [
     {
-      "id": "I_kwDOCvwDlc8AAAABZvLpzA",
+      "id": "I_kwDOCvwDlc7_jhHa",
       "repo": "MaximumTrainer_Redux",
-      "number": 377,
-      "title": "latest build doesn't load on windows - fails at loading configuration - no logs",
-      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux/issues/377",
+      "number": 122,
+      "title": "Adding Rowing Support to MaximumTrainer_Redux",
+      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux/issues/122",
       "labels": [],
       "assignees": [],
-      "created_at": "2026-10-25T07:50:13Z",
-      "updated_at": "2026-10-25T07:53:25Z",
-      "comment_count": 0
+      "created_at": "2026-04-18T09:35:27Z",
+      "updated_at": "2026-10-25T08:44:36Z",
+      "comment_count": 4
     },
     {
       "id": "I_kwDOQZ3FAs8AAAABZVFesg",
@@ -141,18 +141,6 @@
       "created_at": "2026-10-24T18:41:36Z",
       "updated_at": "2026-10-24T18:41:36Z",
       "comment_count": 0
-    },
-    {
-      "id": "I_kwDOCvwDlc7_jhHa",
-      "repo": "MaximumTrainer_Redux",
-      "number": 122,
-      "title": "Adding Rowing Support to MaximumTrainer_Redux",
-      "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux/issues/122",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-04-18T09:35:27Z",
-      "updated_at": "2026-10-24T18:15:25Z",
-      "comment_count": 4
     },
     {
       "id": "I_kwDOQZ3FAs8AAAABZBH6sA",
