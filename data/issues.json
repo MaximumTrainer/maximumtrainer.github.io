@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T17:18:28Z",
-  "issue_count": 239,
+  "generated_at": "2026-10-25T18:24:27Z",
+  "issue_count": 240,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 56
+      "open_issue_count": 57
     },
     {
       "name": "Developer Tools & Engineering",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 35
+      "open_issue_count": 36
     },
     {
       "name": "SdlcKnowledgeGraph",
@@ -106,6 +106,18 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABZ0VVMw",
+      "repo": "virtualrow",
+      "number": 590,
+      "title": "use llm-cad to recreate rowers male & female body - placeholder",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/590",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-25T18:02:30Z",
+      "updated_at": "2026-10-25T18:07:32Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABTZQUNg",
       "repo": "virtualrow",
