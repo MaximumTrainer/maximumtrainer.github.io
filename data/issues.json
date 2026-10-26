@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T18:24:27Z",
-  "issue_count": 240,
+  "generated_at": "2026-10-26T13:56:51Z",
+  "issue_count": 241,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -8,7 +8,7 @@
     {
       "name": "Training & Fitness",
       "repo_count": 4,
-      "open_issue_count": 57
+      "open_issue_count": 58
     },
     {
       "name": "Developer Tools & Engineering",
@@ -39,7 +39,7 @@
       "url": "https://github.com/MaximumTrainer/virtualrow",
       "description": "",
       "category": "Training & Fitness",
-      "open_issue_count": 36
+      "open_issue_count": 37
     },
     {
       "name": "SdlcKnowledgeGraph",
@@ -106,6 +106,20 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOQZ3FAs8AAAABaBA4pw",
+      "repo": "virtualrow",
+      "number": 592,
+      "title": "WebGPU SSAO pipeline invalid at extra-high tier → whole frame goes black",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/592",
+      "labels": [],
+      "assignees": [
+        "MaximumTrainer"
+      ],
+      "created_at": "2026-10-26T13:42:29Z",
+      "updated_at": "2026-10-26T13:43:36Z",
+      "comment_count": 1
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABZ0VVMw",
       "repo": "virtualrow",
