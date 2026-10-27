@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T13:56:51Z",
+  "generated_at": "2026-10-27T13:28:51Z",
   "issue_count": 241,
   "repo_count": 11,
   "category_count": 4,
@@ -106,6 +106,56 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOUJnj1s8AAAABPApBsA",
+      "repo": "chorus",
+      "number": 34,
+      "title": "CHAT-10 — Decision log",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/34",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:should",
+          "color": "d93f0b"
+        },
+        {
+          "name": "module:chat",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:06:08Z",
+      "updated_at": "2026-10-27T12:57:25Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPBaa2w",
+      "repo": "chorus",
+      "number": 87,
+      "title": "MCP-3 — Write tools",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/87",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:mcp",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T17:35:46Z",
+      "updated_at": "2026-10-27T12:57:22Z",
+      "comment_count": 1
+    },
     {
       "id": "I_kwDOQZ3FAs8AAAABaBA4pw",
       "repo": "virtualrow",
@@ -3055,31 +3105,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUJnj1s8AAAABPBaa2w",
-      "repo": "chorus",
-      "number": 87,
-      "title": "MCP-3 — Write tools",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/87",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:mcp",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T17:35:46Z",
-      "updated_at": "2026-08-31T18:27:54Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUJnj1s8AAAABPAlAJQ",
       "repo": "chorus",
       "number": 14,
@@ -5011,31 +5036,6 @@
       "assignees": [],
       "created_at": "2026-08-31T16:06:12Z",
       "updated_at": "2026-08-31T16:06:12Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPApBsA",
-      "repo": "chorus",
-      "number": 34,
-      "title": "CHAT-10 — Decision log",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/34",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:should",
-          "color": "d93f0b"
-        },
-        {
-          "name": "module:chat",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:06:08Z",
-      "updated_at": "2026-08-31T16:06:08Z",
       "comment_count": 0
     },
     {
