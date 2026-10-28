@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T18:21:10Z",
-  "issue_count": 240,
+  "generated_at": "2026-10-28T21:15:25Z",
+  "issue_count": 239,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 156
+      "open_issue_count": 155
     },
     {
       "name": "Data & LLM Experiments",
@@ -32,7 +32,7 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 130
+      "open_issue_count": 129
     },
     {
       "name": "virtualrow",
@@ -106,6 +106,27 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAk0Vw",
+      "repo": "chorus",
+      "number": 8,
+      "title": "EPIC: MCP server (MCP)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/8",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:mcp",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:49Z",
+      "updated_at": "2026-10-28T20:49:58Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOUJnj1s8AAAABPApBsA",
       "repo": "chorus",
@@ -717,27 +738,6 @@
       ],
       "created_at": "2026-10-03T14:33:09Z",
       "updated_at": "2026-10-03T14:33:09Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAk0Vw",
-      "repo": "chorus",
-      "number": 8,
-      "title": "EPIC: MCP server (MCP)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/8",
-      "labels": [
-        {
-          "name": "type:epic",
-          "color": "5319e7"
-        },
-        {
-          "name": "module:mcp",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T15:58:49Z",
-      "updated_at": "2026-09-30T21:01:58Z",
       "comment_count": 0
     },
     {
@@ -2969,31 +2969,6 @@
       "assignees": [],
       "created_at": "2026-09-01T18:04:59Z",
       "updated_at": "2026-09-01T18:08:34Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPBaelA",
-      "repo": "chorus",
-      "number": 89,
-      "title": "MCP-5 — Permission parity and logging of every MCP call",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/89",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:mcp",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T17:35:53Z",
-      "updated_at": "2026-09-01T17:49:48Z",
       "comment_count": 1
     },
     {
