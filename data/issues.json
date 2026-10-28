@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T13:28:51Z",
-  "issue_count": 241,
+  "generated_at": "2026-10-28T18:21:10Z",
+  "issue_count": 240,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 157
+      "open_issue_count": 156
     },
     {
       "name": "Data & LLM Experiments",
@@ -32,7 +32,7 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 131
+      "open_issue_count": 130
     },
     {
       "name": "virtualrow",
@@ -885,27 +885,6 @@
       "created_at": "2026-08-31T16:05:40Z",
       "updated_at": "2026-09-14T11:07:40Z",
       "comment_count": 2
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPMzBhg",
-      "repo": "chorus",
-      "number": 149,
-      "title": "WS-4 AC1 — coding-job and prototype launch must require senior_member",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/149",
-      "labels": [
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:ws",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-01T17:48:49Z",
-      "updated_at": "2026-09-14T09:57:49Z",
-      "comment_count": 1
     },
     {
       "id": "I_kwDORwT0VM8AAAABRLPq1A",
