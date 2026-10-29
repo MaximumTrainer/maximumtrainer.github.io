@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T06:27:32Z",
-  "issue_count": 238,
+  "generated_at": "2026-10-29T10:17:41Z",
+  "issue_count": 239,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 154
+      "open_issue_count": 155
     },
     {
       "name": "Data & LLM Experiments",
@@ -32,7 +32,7 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 128
+      "open_issue_count": 129
     },
     {
       "name": "virtualrow",
@@ -106,6 +106,39 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOUJnj1s8AAAABa2xIEw",
+      "repo": "chorus",
+      "number": 199,
+      "title": "NFR-2 — the Anthropic provider's structured output (generate) is rejected by the live API: output_config.format.name",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/199",
+      "labels": [
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-10-29T09:57:21Z",
+      "updated_at": "2026-10-29T09:57:21Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOQZ3FAs8AAAABU0tLvw",
+      "repo": "virtualrow",
+      "number": 472,
+      "title": "Add workout image to website",
+      "url": "https://github.com/MaximumTrainer/virtualrow/issues/472",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-03T18:34:00Z",
+      "updated_at": "2026-10-29T09:47:39Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOUJnj1s8AAAABPAk0Vw",
       "repo": "chorus",
@@ -357,18 +390,6 @@
       "assignees": [],
       "created_at": "2026-10-18T09:50:46Z",
       "updated_at": "2026-10-25T16:17:47Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOQZ3FAs8AAAABU0tLvw",
-      "repo": "virtualrow",
-      "number": 472,
-      "title": "Add workout image to website - placeholder",
-      "url": "https://github.com/MaximumTrainer/virtualrow/issues/472",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-10-03T18:34:00Z",
-      "updated_at": "2026-10-25T16:17:22Z",
       "comment_count": 0
     },
     {
