@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T12:25:15Z",
-  "issue_count": 201,
+  "generated_at": "2026-10-29T22:16:57Z",
+  "issue_count": 203,
   "repo_count": 10,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 154
+      "open_issue_count": 156
     },
     {
       "name": "Data & LLM Experiments",
@@ -32,7 +32,7 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 128
+      "open_issue_count": 130
     },
     {
       "name": "SdlcKnowledgeGraph",
@@ -99,6 +99,63 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAknig",
+      "repo": "chorus",
+      "number": 2,
+      "title": "EPIC: Chat-driven shaping (CHAT)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/2",
+      "labels": [
+        {
+          "name": "type:epic",
+          "color": "5319e7"
+        },
+        {
+          "name": "module:chat",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T15:58:30Z",
+      "updated_at": "2026-10-29T22:02:59Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABbBvwIg",
+      "repo": "chorus",
+      "number": 207,
+      "title": "INT-4: bulk sink operations with precise partial-failure reporting (AC4)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/207",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-29T21:23:10Z",
+      "updated_at": "2026-10-29T21:23:10Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABbBvkMw",
+      "repo": "chorus",
+      "number": 206,
+      "title": "INT-4: Linear sink actions (create/update issue, transition, comment) with cassettes",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/206",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-29T21:22:58Z",
+      "updated_at": "2026-10-29T21:22:58Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABbBvWPg",
+      "repo": "chorus",
+      "number": 205,
+      "title": "INT-4: register connector sink actions as gated tools (AC1 end-to-end)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/205",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-10-29T21:22:43Z",
+      "updated_at": "2026-10-29T21:22:43Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOUJnj1s8AAAABPAk0Vw",
       "repo": "chorus",
@@ -1691,27 +1748,6 @@
       "assignees": [],
       "created_at": "2026-08-31T15:58:54Z",
       "updated_at": "2026-09-06T08:03:55Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAknig",
-      "repo": "chorus",
-      "number": 2,
-      "title": "EPIC: Chat-driven shaping (CHAT)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/2",
-      "labels": [
-        {
-          "name": "type:epic",
-          "color": "5319e7"
-        },
-        {
-          "name": "module:chat",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T15:58:30Z",
-      "updated_at": "2026-09-06T08:03:37Z",
       "comment_count": 0
     },
     {
@@ -4545,31 +4581,6 @@
       "assignees": [],
       "created_at": "2026-08-31T16:05:57Z",
       "updated_at": "2026-08-31T16:05:58Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAo41w",
-      "repo": "chorus",
-      "number": 30,
-      "title": "CHAT-6 — Create and refine documents and tasks from chat, including on a selection",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/30",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:chat",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:05:54Z",
-      "updated_at": "2026-08-31T16:05:54Z",
       "comment_count": 0
     },
     {
