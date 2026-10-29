@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T21:15:25Z",
-  "issue_count": 239,
+  "generated_at": "2026-10-29T06:27:32Z",
+  "issue_count": 238,
   "repo_count": 11,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 155
+      "open_issue_count": 154
     },
     {
       "name": "Data & LLM Experiments",
@@ -32,7 +32,7 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 129
+      "open_issue_count": 128
     },
     {
       "name": "virtualrow",
@@ -1823,27 +1823,6 @@
       "assignees": [],
       "created_at": "2026-08-31T15:58:46Z",
       "updated_at": "2026-09-08T10:49:25Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABQQOVzQ",
-      "repo": "chorus",
-      "number": 170,
-      "title": "CODE-1 AC4 / CODE-5 AC7 — the checkpoint gates, once there is an agent-initiated launch to gate",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/170",
-      "labels": [
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:code",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-08T10:48:53Z",
-      "updated_at": "2026-09-08T10:48:53Z",
       "comment_count": 0
     },
     {
