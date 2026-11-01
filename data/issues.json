@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-29T22:16:57Z",
-  "issue_count": 203,
-  "repo_count": 10,
+  "generated_at": "2026-11-01T15:12:17Z",
+  "issue_count": 201,
+  "repo_count": 9,
   "category_count": 4,
   "truncated": false,
   "categories": [
@@ -22,8 +22,8 @@
     },
     {
       "name": "Other",
-      "repo_count": 2,
-      "open_issue_count": 17
+      "repo_count": 1,
+      "open_issue_count": 15
     }
   ],
   "repos": [
@@ -68,13 +68,6 @@
       "description": "experimental synthetic data generation engine",
       "category": "Data & LLM Experiments",
       "open_issue_count": 5
-    },
-    {
-      "name": "agent-skills",
-      "url": "https://github.com/MaximumTrainer/agent-skills",
-      "description": "consolidated repository of skills from across all projects in this space",
-      "category": "Other",
-      "open_issue_count": 2
     },
     {
       "name": "llm-cad",
@@ -389,35 +382,6 @@
       "created_at": "2026-09-29T18:35:44Z",
       "updated_at": "2026-09-29T18:35:44Z",
       "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUSCBqs8AAAABTIwtSw",
-      "repo": "agent-skills",
-      "number": 5,
-      "title": "Improve the skills: stop writing what the model already does",
-      "url": "https://github.com/MaximumTrainer/agent-skills/issues/5",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-09-25T06:41:11Z",
-      "updated_at": "2026-09-25T08:54:41Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUSCBqs8AAAABTDx9Fw",
-      "repo": "agent-skills",
-      "number": 3,
-      "title": "Validate the skill catalogue: prioritised eval plan",
-      "url": "https://github.com/MaximumTrainer/agent-skills/issues/3",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-24T20:13:33Z",
-      "updated_at": "2026-09-25T06:41:26Z",
-      "comment_count": 3
     },
     {
       "id": "I_kwDOUJnj1s8AAAABPAowhQ",
