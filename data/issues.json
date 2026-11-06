@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T16:16:23Z",
-  "issue_count": 203,
+  "generated_at": "2026-11-06T19:12:41Z",
+  "issue_count": 218,
   "repo_count": 9,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 11
+      "open_issue_count": 26
     },
     {
       "name": "Other",
@@ -40,6 +40,13 @@
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
       "open_issue_count": 26
+    },
+    {
+      "name": "OpenFactstore",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore",
+      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
+      "category": "Data & LLM Experiments",
+      "open_issue_count": 19
     },
     {
       "name": "garmin-freelap",
@@ -70,13 +77,6 @@
       "open_issue_count": 5
     },
     {
-      "name": "OpenFactstore",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore",
-      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 4
-    },
-    {
       "name": "llm-cad",
       "url": "https://github.com/MaximumTrainer/llm-cad",
       "description": "",
@@ -92,6 +92,186 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDORjrDLM8AAAABdHiO6A",
+      "repo": "OpenFactstore",
+      "number": 200,
+      "title": "Requirement: Cryptographic Shredding",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/200",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-06T19:12:00Z",
+      "updated_at": "2026-11-06T19:12:00Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABdHiN0w",
+      "repo": "OpenFactstore",
+      "number": 199,
+      "title": "Requirement: SIEM Integration",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/199",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-06T19:11:58Z",
+      "updated_at": "2026-11-06T19:11:58Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABdHiNGw",
+      "repo": "OpenFactstore",
+      "number": 198,
+      "title": "Requirement: In-Flight Data Masking",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/198",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-06T19:11:58Z",
+      "updated_at": "2026-11-06T19:11:58Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABdHiMJQ",
+      "repo": "OpenFactstore",
+      "number": 197,
+      "title": "Requirement: Spec-Driven Evolution",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/197",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-06T19:11:57Z",
+      "updated_at": "2026-11-06T19:11:57Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABdHiLZA",
+      "repo": "OpenFactstore",
+      "number": 196,
+      "title": "Requirement: Strict Ingress Validation",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/196",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-06T19:11:56Z",
+      "updated_at": "2026-11-06T19:11:56Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABdHiKqA",
+      "repo": "OpenFactstore",
+      "number": 195,
+      "title": "Requirement: Centralized Schema Registry",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/195",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-06T19:11:55Z",
+      "updated_at": "2026-11-06T19:11:55Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABdHiI6w",
+      "repo": "OpenFactstore",
+      "number": 193,
+      "title": "Requirement: Risk-Based Fallback Policies",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/193",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-06T19:11:54Z",
+      "updated_at": "2026-11-06T19:11:54Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABdHiJyg",
+      "repo": "OpenFactstore",
+      "number": 194,
+      "title": "Requirement: CQRS Read-Replica Optimization",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/194",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-06T19:11:54Z",
+      "updated_at": "2026-11-06T19:11:54Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABdHiHzQ",
+      "repo": "OpenFactstore",
+      "number": 192,
+      "title": "Requirement: Active-Active Multi-Region",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/192",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-06T19:11:53Z",
+      "updated_at": "2026-11-06T19:11:53Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABdHiHBw",
+      "repo": "OpenFactstore",
+      "number": 191,
+      "title": "Requirement: Identity Lineage in Facts",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/191",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-06T19:11:52Z",
+      "updated_at": "2026-11-06T19:11:52Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABdHiGXA",
+      "repo": "OpenFactstore",
+      "number": 190,
+      "title": "Requirement: Strict ABAC (Attribute-Based Access Control)",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/190",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-06T19:11:51Z",
+      "updated_at": "2026-11-06T19:11:51Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABdHiEnA",
+      "repo": "OpenFactstore",
+      "number": 188,
+      "title": "Requirement: Tamper-Evident Hashing",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/188",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-06T19:11:50Z",
+      "updated_at": "2026-11-06T19:11:50Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABdHiFlg",
+      "repo": "OpenFactstore",
+      "number": 189,
+      "title": "Requirement: OIDC / SPIFFE Federation",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/189",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-06T19:11:50Z",
+      "updated_at": "2026-11-06T19:11:50Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABdHiDng",
+      "repo": "OpenFactstore",
+      "number": 187,
+      "title": "Requirement: Cryptographic Signing",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/187",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-06T19:11:48Z",
+      "updated_at": "2026-11-06T19:11:48Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABdHiCJQ",
+      "repo": "OpenFactstore",
+      "number": 186,
+      "title": "Requirement: Immutable Storage Engine",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/186",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-06T19:11:47Z",
+      "updated_at": "2026-11-06T19:11:47Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDORjrDLM8AAAABdEnuoQ",
       "repo": "OpenFactstore",
