@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T19:12:41Z",
+  "generated_at": "2026-11-06T20:14:42Z",
   "issue_count": 218,
   "repo_count": 9,
   "category_count": 4,
@@ -92,6 +92,30 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDORjrDLM8AAAABdEnuoQ",
+      "repo": "OpenFactstore",
+      "number": 185,
+      "title": "Error handling and alerting for backend services",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/185",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-06T15:56:26Z",
+      "updated_at": "2026-11-06T19:18:40Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABdESRtQ",
+      "repo": "OpenFactstore",
+      "number": 184,
+      "title": "Digitally sign each event record in database when storing facts",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/184",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-06T15:36:16Z",
+      "updated_at": "2026-11-06T19:18:38Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDORjrDLM8AAAABdHiO6A",
       "repo": "OpenFactstore",
@@ -270,30 +294,6 @@
       "assignees": [],
       "created_at": "2026-11-06T19:11:47Z",
       "updated_at": "2026-11-06T19:11:47Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABdEnuoQ",
-      "repo": "OpenFactstore",
-      "number": 185,
-      "title": "add in error & alerting into backend services - placeholder",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/185",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-11-06T15:56:26Z",
-      "updated_at": "2026-11-06T15:56:26Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABdESRtQ",
-      "repo": "OpenFactstore",
-      "number": 184,
-      "title": "Digitally sign each event record in database when storing facts - PLACEHOLDER",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/184",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-11-06T15:36:16Z",
-      "updated_at": "2026-11-06T15:37:29Z",
       "comment_count": 0
     },
     {
