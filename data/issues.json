@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-08T20:13:33Z",
-  "issue_count": 221,
+  "generated_at": "2026-11-08T21:12:47Z",
+  "issue_count": 220,
   "repo_count": 9,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 29
+      "open_issue_count": 28
     },
     {
       "name": "Other",
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/OpenFactstore",
       "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
       "category": "Data & LLM Experiments",
-      "open_issue_count": 22
+      "open_issue_count": 21
     },
     {
       "name": "garmin-freelap",
@@ -110,8 +110,8 @@
       ],
       "assignees": [],
       "created_at": "2026-11-08T19:05:01Z",
-      "updated_at": "2026-11-08T19:59:27Z",
-      "comment_count": 1
+      "updated_at": "2026-11-08T20:57:16Z",
+      "comment_count": 2
     },
     {
       "id": "I_kwDORjrDLM8AAAABdf1TXQ",
@@ -153,27 +153,6 @@
       "assignees": [],
       "created_at": "2026-11-08T19:04:54Z",
       "updated_at": "2026-11-08T19:04:54Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABdf1OwQ",
-      "repo": "OpenFactstore",
-      "number": 206,
-      "title": "#155 PR 2: require read scopes on read endpoints",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/206",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "security",
-          "color": "ededed"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-11-08T19:04:50Z",
-      "updated_at": "2026-11-08T19:04:50Z",
       "comment_count": 0
     },
     {
