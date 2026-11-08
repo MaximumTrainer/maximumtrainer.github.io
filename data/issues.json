@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T14:12:45Z",
+  "generated_at": "2026-11-08T16:13:36Z",
   "issue_count": 217,
   "repo_count": 9,
   "category_count": 4,
@@ -92,6 +92,35 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDORjrDLM8AAAABOekEfw",
+      "repo": "OpenFactstore",
+      "number": 155,
+      "title": "API security and authorisation: enforce bearer-token auth with scoped API keys",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/155",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "security",
+          "color": "ededed"
+        },
+        {
+          "name": "authentication",
+          "color": "ededed"
+        },
+        {
+          "name": "rbac",
+          "color": "e4e669"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-27T10:31:22Z",
+      "updated_at": "2026-11-08T16:05:43Z",
+      "comment_count": 2
+    },
     {
       "id": "I_kwDORjrDLM8AAAABO9YR6w",
       "repo": "OpenFactstore",
@@ -2042,35 +2071,6 @@
       "assignees": [],
       "created_at": "2026-09-05T16:27:24Z",
       "updated_at": "2026-09-06T02:16:51Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABOekEfw",
-      "repo": "OpenFactstore",
-      "number": 155,
-      "title": "API security and authorisation: enforce bearer-token auth with scoped API keys",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/155",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "security",
-          "color": "ededed"
-        },
-        {
-          "name": "authentication",
-          "color": "ededed"
-        },
-        {
-          "name": "rbac",
-          "color": "e4e669"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-27T10:31:22Z",
-      "updated_at": "2026-09-04T17:00:13Z",
       "comment_count": 1
     },
     {
