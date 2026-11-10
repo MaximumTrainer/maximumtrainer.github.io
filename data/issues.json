@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T17:12:37Z",
+  "generated_at": "2026-11-10T18:16:18Z",
   "issue_count": 211,
   "repo_count": 9,
   "category_count": 4,
@@ -13,12 +13,12 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 156
+      "open_issue_count": 157
     },
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 19
+      "open_issue_count": 18
     },
     {
       "name": "Other",
@@ -32,7 +32,7 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 130
+      "open_issue_count": 131
     },
     {
       "name": "SdlcKnowledgeGraph",
@@ -49,17 +49,17 @@
       "open_issue_count": 15
     },
     {
-      "name": "OpenFactstore",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore",
-      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 12
-    },
-    {
       "name": "MaximumTrainer_Redux",
       "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux",
       "description": "The original cross platform indoor cycling solution",
       "category": "Training & Fitness",
+      "open_issue_count": 11
+    },
+    {
+      "name": "OpenFactstore",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore",
+      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
+      "category": "Data & LLM Experiments",
       "open_issue_count": 11
     },
     {
@@ -92,6 +92,27 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOUJnj1s8AAAABeDoE8A",
+      "repo": "chorus",
+      "number": 242,
+      "title": "Retrieval honours per-content permission scopes (INT-9 AC4 enforcement)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/242",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "module:int",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-11-10T17:19:24Z",
+      "updated_at": "2026-11-10T17:19:24Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDORjrDLM8AAAABd_z_iw",
       "repo": "OpenFactstore",
@@ -231,18 +252,6 @@
       "assignees": [],
       "created_at": "2026-11-06T19:11:47Z",
       "updated_at": "2026-11-08T12:29:28Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABdESRtQ",
-      "repo": "OpenFactstore",
-      "number": 184,
-      "title": "Digitally sign each event record in database when storing facts",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/184",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-11-06T15:36:16Z",
-      "updated_at": "2026-11-08T12:29:26Z",
       "comment_count": 1
     },
     {
