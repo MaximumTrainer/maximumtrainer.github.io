@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T12:20:19Z",
-  "issue_count": 216,
+  "generated_at": "2026-11-10T13:15:18Z",
+  "issue_count": 214,
   "repo_count": 9,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 24
+      "open_issue_count": 22
     },
     {
       "name": "Other",
@@ -42,17 +42,17 @@
       "open_issue_count": 26
     },
     {
-      "name": "OpenFactstore",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore",
-      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 17
-    },
-    {
       "name": "garmin-freelap",
       "url": "https://github.com/MaximumTrainer/garmin-freelap",
       "description": "Connect IQ watch app that records Freelap FxChip BLE split times into your Garmin activity. In development; not yet verified against a real chip.",
       "category": "Other",
+      "open_issue_count": 15
+    },
+    {
+      "name": "OpenFactstore",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore",
+      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
+      "category": "Data & LLM Experiments",
       "open_issue_count": 15
     },
     {
@@ -183,30 +183,6 @@
       "assignees": [],
       "created_at": "2026-11-06T19:11:57Z",
       "updated_at": "2026-11-08T12:30:13Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABdHiLZA",
-      "repo": "OpenFactstore",
-      "number": 196,
-      "title": "Requirement: Strict Ingress Validation",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/196",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-11-06T19:11:56Z",
-      "updated_at": "2026-11-08T12:30:12Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABdHiKqA",
-      "repo": "OpenFactstore",
-      "number": 195,
-      "title": "Requirement: Centralized Schema Registry",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/195",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-11-06T19:11:55Z",
-      "updated_at": "2026-11-08T12:30:01Z",
       "comment_count": 1
     },
     {
