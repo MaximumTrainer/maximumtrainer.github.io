@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T13:15:18Z",
-  "issue_count": 214,
+  "generated_at": "2026-11-10T14:16:03Z",
+  "issue_count": 215,
   "repo_count": 9,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 22
+      "open_issue_count": 23
     },
     {
       "name": "Other",
@@ -42,17 +42,17 @@
       "open_issue_count": 26
     },
     {
-      "name": "garmin-freelap",
-      "url": "https://github.com/MaximumTrainer/garmin-freelap",
-      "description": "Connect IQ watch app that records Freelap FxChip BLE split times into your Garmin activity. In development; not yet verified against a real chip.",
-      "category": "Other",
-      "open_issue_count": 15
-    },
-    {
       "name": "OpenFactstore",
       "url": "https://github.com/MaximumTrainer/OpenFactstore",
       "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
       "category": "Data & LLM Experiments",
+      "open_issue_count": 16
+    },
+    {
+      "name": "garmin-freelap",
+      "url": "https://github.com/MaximumTrainer/garmin-freelap",
+      "description": "Connect IQ watch app that records Freelap FxChip BLE split times into your Garmin activity. In development; not yet verified against a real chip.",
+      "category": "Other",
       "open_issue_count": 15
     },
     {
@@ -92,6 +92,18 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDORjrDLM8AAAABd_z_iw",
+      "repo": "OpenFactstore",
+      "number": 220,
+      "title": "TrailLookupTest: commit-sha lookup picks the wrong trail when two trails share a createdAt",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/220",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-10T13:41:15Z",
+      "updated_at": "2026-11-10T13:41:15Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDORjrDLM8AAAABd-OrQQ",
       "repo": "OpenFactstore",
