@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T15:13:46Z",
-  "issue_count": 214,
+  "generated_at": "2026-11-10T16:16:47Z",
+  "issue_count": 212,
   "repo_count": 9,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 22
+      "open_issue_count": 20
     },
     {
       "name": "Other",
@@ -53,7 +53,7 @@
       "url": "https://github.com/MaximumTrainer/OpenFactstore",
       "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
       "category": "Data & LLM Experiments",
-      "open_issue_count": 15
+      "open_issue_count": 13
     },
     {
       "name": "MaximumTrainer_Redux",
@@ -124,18 +124,6 @@
       "created_at": "2026-11-10T12:01:39Z",
       "updated_at": "2026-11-10T12:01:39Z",
       "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABdHiGXA",
-      "repo": "OpenFactstore",
-      "number": 190,
-      "title": "Requirement: Strict ABAC (Attribute-Based Access Control)",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/190",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-11-06T19:11:51Z",
-      "updated_at": "2026-11-08T12:30:32Z",
-      "comment_count": 1
     },
     {
       "id": "I_kwDORjrDLM8AAAABdHiEnA",
@@ -231,18 +219,6 @@
       "assignees": [],
       "created_at": "2026-11-06T19:11:53Z",
       "updated_at": "2026-11-08T12:29:56Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABdHiHBw",
-      "repo": "OpenFactstore",
-      "number": 191,
-      "title": "Requirement: Identity Lineage in Facts",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/191",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-11-06T19:11:52Z",
-      "updated_at": "2026-11-08T12:29:54Z",
       "comment_count": 1
     },
     {
