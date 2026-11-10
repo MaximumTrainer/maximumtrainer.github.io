@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T18:16:18Z",
-  "issue_count": 211,
+  "generated_at": "2026-11-10T20:15:02Z",
+  "issue_count": 210,
   "repo_count": 9,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 18
+      "open_issue_count": 17
     },
     {
       "name": "Other",
@@ -60,7 +60,7 @@
       "url": "https://github.com/MaximumTrainer/OpenFactstore",
       "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
       "category": "Data & LLM Experiments",
-      "open_issue_count": 11
+      "open_issue_count": 10
     },
     {
       "name": "freelap-intervals",
@@ -110,7 +110,7 @@
       ],
       "assignees": [],
       "created_at": "2026-11-10T17:19:24Z",
-      "updated_at": "2026-11-10T17:19:24Z",
+      "updated_at": "2026-11-10T20:00:24Z",
       "comment_count": 0
     },
     {
@@ -145,18 +145,6 @@
       "created_at": "2026-11-10T12:01:39Z",
       "updated_at": "2026-11-10T12:01:39Z",
       "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABdHiEnA",
-      "repo": "OpenFactstore",
-      "number": 188,
-      "title": "Requirement: Tamper-Evident Hashing",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/188",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-11-06T19:11:50Z",
-      "updated_at": "2026-11-08T12:30:30Z",
-      "comment_count": 1
     },
     {
       "id": "I_kwDORjrDLM8AAAABdHiO6A",
