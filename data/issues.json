@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T20:15:02Z",
-  "issue_count": 210,
+  "generated_at": "2026-11-12T08:19:41Z",
+  "issue_count": 207,
   "repo_count": 9,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 17
+      "open_issue_count": 14
     },
     {
       "name": "Other",
@@ -56,18 +56,18 @@
       "open_issue_count": 11
     },
     {
-      "name": "OpenFactstore",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore",
-      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 10
-    },
-    {
       "name": "freelap-intervals",
       "url": "https://github.com/MaximumTrainer/freelap-intervals",
       "description": "# Freelap → intervals.icu Sprint Sync  Takes a timed sprint session from a Freelap system and writes it into intervals.icu — as structured intervals, summary custom fields and a human-readable rep table — then reads the activity back and reports every way it differs from what was intended.",
       "category": "Training & Fitness",
       "open_issue_count": 8
+    },
+    {
+      "name": "OpenFactstore",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore",
+      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
+      "category": "Data & LLM Experiments",
+      "open_issue_count": 7
     },
     {
       "name": "synthetic-fabricate",
@@ -114,18 +114,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDORjrDLM8AAAABd_z_iw",
-      "repo": "OpenFactstore",
-      "number": 220,
-      "title": "TrailLookupTest: commit-sha lookup picks the wrong trail when two trails share a createdAt",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/220",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-11-10T13:41:15Z",
-      "updated_at": "2026-11-10T13:41:15Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDORjrDLM8AAAABd-OrQQ",
       "repo": "OpenFactstore",
       "number": 218,
@@ -156,18 +144,6 @@
       "assignees": [],
       "created_at": "2026-11-06T19:12:00Z",
       "updated_at": "2026-11-08T12:30:19Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABdHiN0w",
-      "repo": "OpenFactstore",
-      "number": 199,
-      "title": "Requirement: SIEM Integration",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/199",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-11-06T19:11:58Z",
-      "updated_at": "2026-11-08T12:30:17Z",
       "comment_count": 1
     },
     {
@@ -228,18 +204,6 @@
       "assignees": [],
       "created_at": "2026-11-06T19:11:53Z",
       "updated_at": "2026-11-08T12:29:56Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABdHiCJQ",
-      "repo": "OpenFactstore",
-      "number": 186,
-      "title": "Requirement: Immutable Storage Engine",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/186",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-11-06T19:11:47Z",
-      "updated_at": "2026-11-08T12:29:28Z",
       "comment_count": 1
     },
     {
