@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T18:18:08Z",
-  "issue_count": 204,
+  "generated_at": "2026-11-12T20:15:18Z",
+  "issue_count": 203,
   "repo_count": 9,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 10
+      "open_issue_count": 9
     },
     {
       "name": "Other",
@@ -70,16 +70,16 @@
       "open_issue_count": 5
     },
     {
-      "name": "OpenFactstore",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore",
-      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 3
-    },
-    {
       "name": "llm-cad",
       "url": "https://github.com/MaximumTrainer/llm-cad",
       "description": "",
+      "category": "Data & LLM Experiments",
+      "open_issue_count": 2
+    },
+    {
+      "name": "OpenFactstore",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore",
+      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
       "category": "Data & LLM Experiments",
       "open_issue_count": 2
     },
@@ -156,18 +156,6 @@
       "assignees": [],
       "created_at": "2026-11-06T19:11:54Z",
       "updated_at": "2026-11-08T12:29:59Z",
-      "comment_count": 1
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABdHiI6w",
-      "repo": "OpenFactstore",
-      "number": 193,
-      "title": "Requirement: Risk-Based Fallback Policies",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/193",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-11-06T19:11:54Z",
-      "updated_at": "2026-11-08T12:29:58Z",
       "comment_count": 1
     },
     {
