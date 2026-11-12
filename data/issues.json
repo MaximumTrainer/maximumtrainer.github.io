@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T21:13:31Z",
+  "generated_at": "2026-11-12T22:13:26Z",
   "issue_count": 202,
   "repo_count": 9,
   "category_count": 4,
@@ -93,6 +93,30 @@
   ],
   "issues": [
     {
+      "id": "I_kwDORjrDLM8AAAABexOXqg",
+      "repo": "OpenFactstore",
+      "number": 238,
+      "title": "CLI: mask, sign and push facts (factstore fact push)",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/238",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-12T21:58:14Z",
+      "updated_at": "2026-11-12T21:58:14Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABellaeA",
+      "repo": "chorus",
+      "number": 253,
+      "title": "BRAIN-11 AC7 — brain map renders external-authority nodes with their source (blocked on BRAIN-6 #61)",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/253",
+      "labels": [],
+      "assignees": [],
+      "created_at": "2026-11-12T10:18:19Z",
+      "updated_at": "2026-11-12T21:35:25Z",
+      "comment_count": 1
+    },
+    {
       "id": "I_kwDOUJnj1s8AAAABeDoE8A",
       "repo": "chorus",
       "number": 242,
@@ -112,39 +136,6 @@
       "created_at": "2026-11-10T17:19:24Z",
       "updated_at": "2026-11-12T17:15:45Z",
       "comment_count": 1
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABellaeA",
-      "repo": "chorus",
-      "number": 253,
-      "title": "BRAIN-11 AC7 — brain map renders external-authority nodes with their source (blocked on BRAIN-6 #61)",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/253",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-11-12T10:18:19Z",
-      "updated_at": "2026-11-12T10:18:19Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABd-OrQQ",
-      "repo": "OpenFactstore",
-      "number": 218,
-      "title": "Tenant scoping for reports, OPA decisions and deployment policies (#155 follow-up)",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/218",
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "security",
-          "color": "ededed"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-11-10T12:01:39Z",
-      "updated_at": "2026-11-10T12:01:39Z",
-      "comment_count": 0
     },
     {
       "id": "I_kwDOUJnj1s8AAAABPAknig",
