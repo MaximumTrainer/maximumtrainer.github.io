@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T08:19:17Z",
-  "issue_count": 200,
+  "generated_at": "2026-11-13T20:15:36Z",
+  "issue_count": 201,
   "repo_count": 9,
   "category_count": 4,
   "truncated": false,
@@ -13,7 +13,7 @@
     {
       "name": "Developer Tools & Engineering",
       "repo_count": 2,
-      "open_issue_count": 158
+      "open_issue_count": 159
     },
     {
       "name": "Data & LLM Experiments",
@@ -32,7 +32,7 @@
       "url": "https://github.com/MaximumTrainer/chorus",
       "description": "an open-source product workspace for teams that build with coding agents",
       "category": "Developer Tools & Engineering",
-      "open_issue_count": 132
+      "open_issue_count": 133
     },
     {
       "name": "SdlcKnowledgeGraph",
@@ -92,6 +92,27 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDOUJnj1s8AAAABfDot4w",
+      "repo": "chorus",
+      "number": 265,
+      "title": "NFR-4: verify Atlassian account linking against a real Atlassian OAuth app",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/265",
+      "labels": [
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:nfr",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-11-13T20:13:11Z",
+      "updated_at": "2026-11-13T20:13:11Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDORjrDLM8AAAABexOXqg",
       "repo": "OpenFactstore",
