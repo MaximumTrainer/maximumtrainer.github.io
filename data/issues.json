@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T22:13:26Z",
-  "issue_count": 202,
+  "generated_at": "2026-11-13T08:19:17Z",
+  "issue_count": 200,
   "repo_count": 9,
   "category_count": 4,
   "truncated": false,
@@ -23,7 +23,7 @@
     {
       "name": "Other",
       "repo_count": 1,
-      "open_issue_count": 15
+      "open_issue_count": 13
     }
   ],
   "repos": [
@@ -46,7 +46,7 @@
       "url": "https://github.com/MaximumTrainer/garmin-freelap",
       "description": "Connect IQ watch app that records Freelap FxChip BLE split times into your Garmin activity. In development; not yet verified against a real chip.",
       "category": "Other",
-      "open_issue_count": 15
+      "open_issue_count": 13
     },
     {
       "name": "MaximumTrainer_Redux",
@@ -971,27 +971,6 @@
       "comment_count": 0
     },
     {
-      "id": "I_kwDOUQYAE88AAAABQWifpQ",
-      "repo": "garmin-freelap",
-      "number": 85,
-      "title": "Rep-summary overlay dismissal pops whatever is on top, and can exit the app",
-      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/85",
-      "labels": [
-        {
-          "name": "area:ui",
-          "color": "fbca04"
-        },
-        {
-          "name": "priority:p1",
-          "color": "d93f0b"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-08T22:00:10Z",
-      "updated_at": "2026-09-08T22:00:10Z",
-      "comment_count": 0
-    },
-    {
       "id": "I_kwDOUQYAE88AAAABQVVzhg",
       "repo": "garmin-freelap",
       "number": 79,
@@ -1211,27 +1190,6 @@
       "created_at": "2026-09-08T09:51:50Z",
       "updated_at": "2026-09-08T19:47:42Z",
       "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUQYAE88AAAABP9zanQ",
-      "repo": "garmin-freelap",
-      "number": 25,
-      "title": "Field validation: 20 reps on a real track against MyFreelap",
-      "url": "https://github.com/MaximumTrainer/garmin-freelap/issues/25",
-      "labels": [
-        {
-          "name": "type:test",
-          "color": "bfd4f2"
-        },
-        {
-          "name": "priority:p0",
-          "color": "b60205"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-09-06T17:03:41Z",
-      "updated_at": "2026-09-08T19:47:39Z",
-      "comment_count": 2
     },
     {
       "id": "I_kwDOUQYAE88AAAABP9zRkQ",
