@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T13:12:51Z",
-  "issue_count": 214,
+  "generated_at": "2026-11-14T14:13:02Z",
+  "issue_count": 212,
   "repo_count": 9,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 21
+      "open_issue_count": 19
     },
     {
       "name": "Other",
@@ -42,18 +42,18 @@
       "open_issue_count": 26
     },
     {
-      "name": "OpenFactstore",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore",
-      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 14
-    },
-    {
       "name": "garmin-freelap",
       "url": "https://github.com/MaximumTrainer/garmin-freelap",
       "description": "Connect IQ watch app that records Freelap FxChip BLE split times into your Garmin activity. In development; not yet verified against a real chip.",
       "category": "Other",
       "open_issue_count": 13
+    },
+    {
+      "name": "OpenFactstore",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore",
+      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
+      "category": "Data & LLM Experiments",
+      "open_issue_count": 12
     },
     {
       "name": "MaximumTrainer_Redux",
@@ -229,33 +229,6 @@
       ],
       "created_at": "2026-11-14T12:25:04Z",
       "updated_at": "2026-11-14T12:25:04Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABfN6D-w",
-      "repo": "OpenFactstore",
-      "number": 249,
-      "title": "Fix documentation drift: architecture, auth headers and unauthenticated examples",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/249",
-      "labels": [
-        {
-          "name": "documentation",
-          "color": "0075ca"
-        },
-        {
-          "name": "priority: medium",
-          "color": "fbca04"
-        },
-        {
-          "name": "risk",
-          "color": "e11d21"
-        }
-      ],
-      "assignees": [
-        "MaximumTrainer"
-      ],
-      "created_at": "2026-11-14T12:25:02Z",
-      "updated_at": "2026-11-14T12:25:02Z",
       "comment_count": 0
     },
     {
@@ -571,18 +544,6 @@
       ],
       "created_at": "2026-11-14T12:24:51Z",
       "updated_at": "2026-11-14T12:24:51Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABexOXqg",
-      "repo": "OpenFactstore",
-      "number": 238,
-      "title": "CLI: mask, sign and push facts (factstore fact push)",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/238",
-      "labels": [],
-      "assignees": [],
-      "created_at": "2026-11-12T21:58:14Z",
-      "updated_at": "2026-11-12T21:58:14Z",
       "comment_count": 0
     },
     {
