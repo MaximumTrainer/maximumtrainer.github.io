@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T14:13:02Z",
-  "issue_count": 212,
+  "generated_at": "2026-11-14T15:12:57Z",
+  "issue_count": 210,
   "repo_count": 9,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 19
+      "open_issue_count": 17
     },
     {
       "name": "Other",
@@ -49,18 +49,18 @@
       "open_issue_count": 13
     },
     {
-      "name": "OpenFactstore",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore",
-      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 12
-    },
-    {
       "name": "MaximumTrainer_Redux",
       "url": "https://github.com/MaximumTrainer/MaximumTrainer_Redux",
       "description": "The original cross platform indoor cycling solution",
       "category": "Training & Fitness",
       "open_issue_count": 11
+    },
+    {
+      "name": "OpenFactstore",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore",
+      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
+      "category": "Data & LLM Experiments",
+      "open_issue_count": 10
     },
     {
       "name": "freelap-intervals",
@@ -167,37 +167,6 @@
       ],
       "created_at": "2026-11-14T12:25:06Z",
       "updated_at": "2026-11-14T12:25:06Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABfN6FkA",
-      "repo": "OpenFactstore",
-      "number": 251,
-      "title": "Automatic data retention: configurable pruning and archival",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/251",
-      "labels": [
-        {
-          "name": "database",
-          "color": "ededed"
-        },
-        {
-          "name": "compliance",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority: medium",
-          "color": "fbca04"
-        },
-        {
-          "name": "risk",
-          "color": "e11d21"
-        }
-      ],
-      "assignees": [
-        "MaximumTrainer"
-      ],
-      "created_at": "2026-11-14T12:25:05Z",
-      "updated_at": "2026-11-14T12:25:05Z",
       "comment_count": 0
     },
     {
@@ -478,37 +447,6 @@
       ],
       "created_at": "2026-11-14T12:24:54Z",
       "updated_at": "2026-11-14T12:24:54Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABfN59Tg",
-      "repo": "OpenFactstore",
-      "number": 241,
-      "title": "C2: Make policy `if:` conditions fail closed and validate them at upload",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/241",
-      "labels": [
-        {
-          "name": "policy",
-          "color": "ededed"
-        },
-        {
-          "name": "compliance",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority: critical",
-          "color": "b60205"
-        },
-        {
-          "name": "risk",
-          "color": "e11d21"
-        }
-      ],
-      "assignees": [
-        "MaximumTrainer"
-      ],
-      "created_at": "2026-11-14T12:24:53Z",
-      "updated_at": "2026-11-14T12:24:53Z",
       "comment_count": 0
     },
     {
