@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T20:15:36Z",
-  "issue_count": 201,
+  "generated_at": "2026-11-14T13:12:51Z",
+  "issue_count": 214,
   "repo_count": 9,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 8
+      "open_issue_count": 21
     },
     {
       "name": "Other",
@@ -40,6 +40,13 @@
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
       "open_issue_count": 26
+    },
+    {
+      "name": "OpenFactstore",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore",
+      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
+      "category": "Data & LLM Experiments",
+      "open_issue_count": 14
     },
     {
       "name": "garmin-freelap",
@@ -82,13 +89,6 @@
       "description": "SilverSprint is a \"Neural-First\" training platform. It operates on the principle that for aging sprinters, Central Nervous System (CNS) recovery is the primary bottleneck for performance. The application must automate the detection of neural fatigue and provide actionable \"Go/No-Go\" training recommendations.",
       "category": "Training & Fitness",
       "open_issue_count": 2
-    },
-    {
-      "name": "OpenFactstore",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore",
-      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 1
     }
   ],
   "issues": [
@@ -110,7 +110,467 @@
       ],
       "assignees": [],
       "created_at": "2026-11-13T20:13:11Z",
-      "updated_at": "2026-11-13T20:13:11Z",
+      "updated_at": "2026-11-14T13:03:19Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDOUJnj1s8AAAABPAzC2A",
+      "repo": "chorus",
+      "number": 56,
+      "title": "BRAIN-1 — Signal ingestion with immutable provenance",
+      "url": "https://github.com/MaximumTrainer/chorus/issues/56",
+      "labels": [
+        {
+          "name": "type:requirement",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority:must",
+          "color": "b60205"
+        },
+        {
+          "name": "module:brain",
+          "color": "1d76db"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-08-31T16:23:48Z",
+      "updated_at": "2026-11-14T12:33:24Z",
+      "comment_count": 1
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABfN6Gig",
+      "repo": "OpenFactstore",
+      "number": 252,
+      "title": "Run integration tests on PostgreSQL with Testcontainers instead of H2",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/252",
+      "labels": [
+        {
+          "name": "database",
+          "color": "ededed"
+        },
+        {
+          "name": "testing",
+          "color": "ededed"
+        },
+        {
+          "name": "priority: medium",
+          "color": "fbca04"
+        },
+        {
+          "name": "risk",
+          "color": "e11d21"
+        }
+      ],
+      "assignees": [
+        "MaximumTrainer"
+      ],
+      "created_at": "2026-11-14T12:25:06Z",
+      "updated_at": "2026-11-14T12:25:06Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABfN6FkA",
+      "repo": "OpenFactstore",
+      "number": 251,
+      "title": "Automatic data retention: configurable pruning and archival",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/251",
+      "labels": [
+        {
+          "name": "database",
+          "color": "ededed"
+        },
+        {
+          "name": "compliance",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority: medium",
+          "color": "fbca04"
+        },
+        {
+          "name": "risk",
+          "color": "e11d21"
+        }
+      ],
+      "assignees": [
+        "MaximumTrainer"
+      ],
+      "created_at": "2026-11-14T12:25:05Z",
+      "updated_at": "2026-11-14T12:25:05Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABfN6EuA",
+      "repo": "OpenFactstore",
+      "number": 250,
+      "title": "Reduce API surface area: consolidate v1/v2 and deprecate duplicates",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/250",
+      "labels": [
+        {
+          "name": "refactor",
+          "color": "ededed"
+        },
+        {
+          "name": "technical-debt",
+          "color": "ededed"
+        },
+        {
+          "name": "priority: medium",
+          "color": "fbca04"
+        },
+        {
+          "name": "risk",
+          "color": "e11d21"
+        }
+      ],
+      "assignees": [
+        "MaximumTrainer"
+      ],
+      "created_at": "2026-11-14T12:25:04Z",
+      "updated_at": "2026-11-14T12:25:04Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABfN6D-w",
+      "repo": "OpenFactstore",
+      "number": 249,
+      "title": "Fix documentation drift: architecture, auth headers and unauthenticated examples",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/249",
+      "labels": [
+        {
+          "name": "documentation",
+          "color": "0075ca"
+        },
+        {
+          "name": "priority: medium",
+          "color": "fbca04"
+        },
+        {
+          "name": "risk",
+          "color": "e11d21"
+        }
+      ],
+      "assignees": [
+        "MaximumTrainer"
+      ],
+      "created_at": "2026-11-14T12:25:02Z",
+      "updated_at": "2026-11-14T12:25:02Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABfN6DFg",
+      "repo": "OpenFactstore",
+      "number": 248,
+      "title": "Publish the Terraform provider to the Terraform Registry",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/248",
+      "labels": [
+        {
+          "name": "kosli-feature",
+          "color": "ededed"
+        },
+        {
+          "name": "infrastructure-as-code",
+          "color": "d93f0b"
+        },
+        {
+          "name": "epic: iac",
+          "color": "c2e0c6"
+        },
+        {
+          "name": "priority: medium",
+          "color": "fbca04"
+        },
+        {
+          "name": "feature-gap",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [
+        "MaximumTrainer"
+      ],
+      "created_at": "2026-11-14T12:25:01Z",
+      "updated_at": "2026-11-14T12:25:01Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABfN6Cgw",
+      "repo": "OpenFactstore",
+      "number": 247,
+      "title": "Versioned environment policies and a Kubernetes admission controller",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/247",
+      "labels": [
+        {
+          "name": "kosli-feature",
+          "color": "ededed"
+        },
+        {
+          "name": "environment",
+          "color": "ededed"
+        },
+        {
+          "name": "policy",
+          "color": "ededed"
+        },
+        {
+          "name": "deployment-gate",
+          "color": "ededed"
+        },
+        {
+          "name": "priority: medium",
+          "color": "fbca04"
+        },
+        {
+          "name": "feature-gap",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [
+        "MaximumTrainer"
+      ],
+      "created_at": "2026-11-14T12:25:00Z",
+      "updated_at": "2026-11-14T12:25:00Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABfN6BjQ",
+      "repo": "OpenFactstore",
+      "number": 246,
+      "title": "CLI: artifact fingerprinting and CI auto-detection, and use the CLI in the docs",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/246",
+      "labels": [
+        {
+          "name": "documentation",
+          "color": "0075ca"
+        },
+        {
+          "name": "kosli-feature",
+          "color": "ededed"
+        },
+        {
+          "name": "developer-experience",
+          "color": "e4e669"
+        },
+        {
+          "name": "epic: cli",
+          "color": "bfd4f2"
+        },
+        {
+          "name": "priority: high",
+          "color": "d93f0b"
+        },
+        {
+          "name": "feature-gap",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [
+        "MaximumTrainer"
+      ],
+      "created_at": "2026-11-14T12:24:59Z",
+      "updated_at": "2026-11-14T12:24:59Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABfN6A0A",
+      "repo": "OpenFactstore",
+      "number": 245,
+      "title": "Immutable evidence: archive instead of delete for trails, attestations, evidence and environments",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/245",
+      "labels": [
+        {
+          "name": "kosli-feature",
+          "color": "ededed"
+        },
+        {
+          "name": "audit",
+          "color": "1d76db"
+        },
+        {
+          "name": "evidence",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority: high",
+          "color": "d93f0b"
+        },
+        {
+          "name": "feature-gap",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [
+        "MaximumTrainer"
+      ],
+      "created_at": "2026-11-14T12:24:58Z",
+      "updated_at": "2026-11-14T12:24:58Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABfN5_-w",
+      "repo": "OpenFactstore",
+      "number": 244,
+      "title": "H5: Make the Jira and Snyk evidence processors check real outcomes",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/244",
+      "labels": [
+        {
+          "name": "integrations",
+          "color": "ededed"
+        },
+        {
+          "name": "evidence",
+          "color": "0e8a16"
+        },
+        {
+          "name": "attestations",
+          "color": "0075ca"
+        },
+        {
+          "name": "priority: high",
+          "color": "d93f0b"
+        },
+        {
+          "name": "risk",
+          "color": "e11d21"
+        }
+      ],
+      "assignees": [
+        "MaximumTrainer"
+      ],
+      "created_at": "2026-11-14T12:24:57Z",
+      "updated_at": "2026-11-14T12:24:57Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABfN5--w",
+      "repo": "OpenFactstore",
+      "number": 243,
+      "title": "H4: Define one precedence order across the policy engines so gates cannot disagree",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/243",
+      "labels": [
+        {
+          "name": "documentation",
+          "color": "0075ca"
+        },
+        {
+          "name": "policy",
+          "color": "ededed"
+        },
+        {
+          "name": "deployment-gate",
+          "color": "ededed"
+        },
+        {
+          "name": "priority: high",
+          "color": "d93f0b"
+        },
+        {
+          "name": "risk",
+          "color": "e11d21"
+        }
+      ],
+      "assignees": [
+        "MaximumTrainer"
+      ],
+      "created_at": "2026-11-14T12:24:55Z",
+      "updated_at": "2026-11-14T12:24:55Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABfN5-QA",
+      "repo": "OpenFactstore",
+      "number": 242,
+      "title": "H3: Remove weak secret defaults and fix the contradictory SCM token docs",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/242",
+      "labels": [
+        {
+          "name": "documentation",
+          "color": "0075ca"
+        },
+        {
+          "name": "security",
+          "color": "ededed"
+        },
+        {
+          "name": "priority: high",
+          "color": "d93f0b"
+        },
+        {
+          "name": "risk",
+          "color": "e11d21"
+        }
+      ],
+      "assignees": [
+        "MaximumTrainer"
+      ],
+      "created_at": "2026-11-14T12:24:54Z",
+      "updated_at": "2026-11-14T12:24:54Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABfN59Tg",
+      "repo": "OpenFactstore",
+      "number": 241,
+      "title": "C2: Make policy `if:` conditions fail closed and validate them at upload",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/241",
+      "labels": [
+        {
+          "name": "policy",
+          "color": "ededed"
+        },
+        {
+          "name": "compliance",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority: critical",
+          "color": "b60205"
+        },
+        {
+          "name": "risk",
+          "color": "e11d21"
+        }
+      ],
+      "assignees": [
+        "MaximumTrainer"
+      ],
+      "created_at": "2026-11-14T12:24:53Z",
+      "updated_at": "2026-11-14T12:24:53Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABfN58eQ",
+      "repo": "OpenFactstore",
+      "number": 240,
+      "title": "C1: Derive attestation pass/fail server-side instead of trusting the caller",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/240",
+      "labels": [
+        {
+          "name": "security",
+          "color": "ededed"
+        },
+        {
+          "name": "evidence",
+          "color": "0e8a16"
+        },
+        {
+          "name": "attestations",
+          "color": "0075ca"
+        },
+        {
+          "name": "priority: critical",
+          "color": "b60205"
+        },
+        {
+          "name": "risk",
+          "color": "e11d21"
+        }
+      ],
+      "assignees": [
+        "MaximumTrainer"
+      ],
+      "created_at": "2026-11-14T12:24:51Z",
+      "updated_at": "2026-11-14T12:24:51Z",
       "comment_count": 0
     },
     {
@@ -4132,31 +4592,6 @@
       "assignees": [],
       "created_at": "2026-08-31T16:23:55Z",
       "updated_at": "2026-08-31T16:23:55Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDOUJnj1s8AAAABPAzC2A",
-      "repo": "chorus",
-      "number": 56,
-      "title": "BRAIN-1 — Signal ingestion with immutable provenance",
-      "url": "https://github.com/MaximumTrainer/chorus/issues/56",
-      "labels": [
-        {
-          "name": "type:requirement",
-          "color": "0e8a16"
-        },
-        {
-          "name": "priority:must",
-          "color": "b60205"
-        },
-        {
-          "name": "module:brain",
-          "color": "1d76db"
-        }
-      ],
-      "assignees": [],
-      "created_at": "2026-08-31T16:23:48Z",
-      "updated_at": "2026-08-31T16:23:49Z",
       "comment_count": 0
     },
     {
