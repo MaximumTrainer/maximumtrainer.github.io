@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T15:12:57Z",
-  "issue_count": 210,
+  "generated_at": "2026-11-14T16:14:40Z",
+  "issue_count": 208,
   "repo_count": 9,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 17
+      "open_issue_count": 15
     },
     {
       "name": "Other",
@@ -56,17 +56,17 @@
       "open_issue_count": 11
     },
     {
-      "name": "OpenFactstore",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore",
-      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 10
-    },
-    {
       "name": "freelap-intervals",
       "url": "https://github.com/MaximumTrainer/freelap-intervals",
       "description": "# Freelap → intervals.icu Sprint Sync  Takes a timed sprint session from a Freelap system and writes it into intervals.icu — as structured intervals, summary custom fields and a human-readable rep table — then reads the activity back and reports every way it differs from what was intended.",
       "category": "Training & Fitness",
+      "open_issue_count": 8
+    },
+    {
+      "name": "OpenFactstore",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore",
+      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
+      "category": "Data & LLM Experiments",
       "open_issue_count": 8
     },
     {
@@ -416,72 +416,6 @@
       ],
       "created_at": "2026-11-14T12:24:55Z",
       "updated_at": "2026-11-14T12:24:55Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABfN5-QA",
-      "repo": "OpenFactstore",
-      "number": 242,
-      "title": "H3: Remove weak secret defaults and fix the contradictory SCM token docs",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/242",
-      "labels": [
-        {
-          "name": "documentation",
-          "color": "0075ca"
-        },
-        {
-          "name": "security",
-          "color": "ededed"
-        },
-        {
-          "name": "priority: high",
-          "color": "d93f0b"
-        },
-        {
-          "name": "risk",
-          "color": "e11d21"
-        }
-      ],
-      "assignees": [
-        "MaximumTrainer"
-      ],
-      "created_at": "2026-11-14T12:24:54Z",
-      "updated_at": "2026-11-14T12:24:54Z",
-      "comment_count": 0
-    },
-    {
-      "id": "I_kwDORjrDLM8AAAABfN58eQ",
-      "repo": "OpenFactstore",
-      "number": 240,
-      "title": "C1: Derive attestation pass/fail server-side instead of trusting the caller",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/240",
-      "labels": [
-        {
-          "name": "security",
-          "color": "ededed"
-        },
-        {
-          "name": "evidence",
-          "color": "0e8a16"
-        },
-        {
-          "name": "attestations",
-          "color": "0075ca"
-        },
-        {
-          "name": "priority: critical",
-          "color": "b60205"
-        },
-        {
-          "name": "risk",
-          "color": "e11d21"
-        }
-      ],
-      "assignees": [
-        "MaximumTrainer"
-      ],
-      "created_at": "2026-11-14T12:24:51Z",
-      "updated_at": "2026-11-14T12:24:51Z",
       "comment_count": 0
     },
     {
