@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T12:21:07Z",
-  "issue_count": 213,
+  "generated_at": "2026-11-23T19:12:03Z",
+  "issue_count": 221,
   "repo_count": 9,
   "category_count": 4,
   "truncated": false,
@@ -18,7 +18,7 @@
     {
       "name": "Data & LLM Experiments",
       "repo_count": 3,
-      "open_issue_count": 18
+      "open_issue_count": 26
     },
     {
       "name": "Other",
@@ -40,6 +40,13 @@
       "description": "A **unified engineering knowledge graph** where each Git repository is a node",
       "category": "Developer Tools & Engineering",
       "open_issue_count": 26
+    },
+    {
+      "name": "OpenFactstore",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore",
+      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
+      "category": "Data & LLM Experiments",
+      "open_issue_count": 14
     },
     {
       "name": "garmin-freelap",
@@ -70,13 +77,6 @@
       "open_issue_count": 8
     },
     {
-      "name": "OpenFactstore",
-      "url": "https://github.com/MaximumTrainer/OpenFactstore",
-      "description": "Experimental black box LLM reimplementation of a different tool - not for reuse",
-      "category": "Data & LLM Experiments",
-      "open_issue_count": 6
-    },
-    {
       "name": "llm-cad",
       "url": "https://github.com/MaximumTrainer/llm-cad",
       "description": "",
@@ -92,6 +92,238 @@
     }
   ],
   "issues": [
+    {
+      "id": "I_kwDORjrDLM8AAAABh2RWEg",
+      "repo": "OpenFactstore",
+      "number": 267,
+      "title": "Capacity and sizing: reproducible load benchmarks and a sizing guide (TCO and SLO evidence)",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/267",
+      "labels": [
+        {
+          "name": "documentation",
+          "color": "0075ca"
+        },
+        {
+          "name": "testing",
+          "color": "ededed"
+        },
+        {
+          "name": "priority: medium",
+          "color": "fbca04"
+        },
+        {
+          "name": "feature-gap",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-11-23T18:49:59Z",
+      "updated_at": "2026-11-23T18:50:37Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABh2RVVw",
+      "repo": "OpenFactstore",
+      "number": 266,
+      "title": "Data residency: pin an organisation's data to a home region, and document federated deployments",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/266",
+      "labels": [
+        {
+          "name": "infrastructure",
+          "color": "ededed"
+        },
+        {
+          "name": "multi-tenancy",
+          "color": "0075ca"
+        },
+        {
+          "name": "priority: medium",
+          "color": "fbca04"
+        },
+        {
+          "name": "feature-gap",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-11-23T18:49:58Z",
+      "updated_at": "2026-11-23T18:50:33Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABh2RUaA",
+      "repo": "OpenFactstore",
+      "number": 265,
+      "title": "Exit and portability: full organisation export, offline verification and import",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/265",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "compliance",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority: medium",
+          "color": "fbca04"
+        },
+        {
+          "name": "feature-gap",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-11-23T18:49:58Z",
+      "updated_at": "2026-11-23T18:50:30Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABh2RThw",
+      "repo": "OpenFactstore",
+      "number": 264,
+      "title": "GDPR: data-subject erasure for trails, approvals and evidence (extend crypto-shredding beyond fact payloads)",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/264",
+      "labels": [
+        {
+          "name": "security",
+          "color": "ededed"
+        },
+        {
+          "name": "compliance",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority: high",
+          "color": "d93f0b"
+        },
+        {
+          "name": "feature-gap",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-11-23T18:49:57Z",
+      "updated_at": "2026-11-23T18:50:27Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABh2RS6w",
+      "repo": "OpenFactstore",
+      "number": 263,
+      "title": "Ledger proofs for any record, and a verifiable per-release proof bundle",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/263",
+      "labels": [
+        {
+          "name": "audit",
+          "color": "1d76db"
+        },
+        {
+          "name": "evidence",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority: high",
+          "color": "d93f0b"
+        },
+        {
+          "name": "feature-gap",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-11-23T18:49:56Z",
+      "updated_at": "2026-11-23T18:50:25Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABh2RSIQ",
+      "repo": "OpenFactstore",
+      "number": 262,
+      "title": "Ledger coverage: put approvals, overrides, gate decisions and v1 writes into the signed event log",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/262",
+      "labels": [
+        {
+          "name": "security",
+          "color": "ededed"
+        },
+        {
+          "name": "audit",
+          "color": "1d76db"
+        },
+        {
+          "name": "priority: critical",
+          "color": "b60205"
+        },
+        {
+          "name": "feature-gap",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-11-23T18:49:56Z",
+      "updated_at": "2026-11-23T18:50:21Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABh2RRGw",
+      "repo": "OpenFactstore",
+      "number": 261,
+      "title": "Deployment gates: report-only (shadow) enforcement mode per environment",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/261",
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "deployment-gate",
+          "color": "ededed"
+        },
+        {
+          "name": "priority: high",
+          "color": "d93f0b"
+        },
+        {
+          "name": "feature-gap",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-11-23T18:49:55Z",
+      "updated_at": "2026-11-23T18:50:18Z",
+      "comment_count": 0
+    },
+    {
+      "id": "I_kwDORjrDLM8AAAABh2RQTA",
+      "repo": "OpenFactstore",
+      "number": 260,
+      "title": "Compliance frameworks: add ISO/IEC 27001:2022, SOC 2 and EU DORA packs (docs claim ISO 27001/SOC 2 exist)",
+      "url": "https://github.com/MaximumTrainer/OpenFactstore/issues/260",
+      "labels": [
+        {
+          "name": "documentation",
+          "color": "0075ca"
+        },
+        {
+          "name": "compliance",
+          "color": "0e8a16"
+        },
+        {
+          "name": "priority: high",
+          "color": "d93f0b"
+        },
+        {
+          "name": "feature-gap",
+          "color": "5319e7"
+        }
+      ],
+      "assignees": [],
+      "created_at": "2026-11-23T18:49:54Z",
+      "updated_at": "2026-11-23T18:50:15Z",
+      "comment_count": 0
+    },
     {
       "id": "I_kwDOUJnj1s8AAAABgszx4g",
       "repo": "chorus",
